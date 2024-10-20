@@ -365,7 +365,6 @@ Then create language override for the constant J2STORE_MYCUSTOM_PAYMENTOPTION_TI
 
 {% embed url="https://youtu.be/LYh1JBhCsTg" %}
 
-\*\*\*\*
 
 ## Hiding Product Options And Cart Button In Category View <a id="hiding-product-options-and-cart-button-in-category-view"></a>
 
