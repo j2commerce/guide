@@ -329,7 +329,7 @@ and go to Step 1.
 If you are using a RocketTheme template with the RokBox plugin, then you might have experienced a javascript conflict at the checkout steps.  
 
 
-One of our users Joe from [  click here  ](https://docs.j2store.org/troubleshooting-guide/Jgpproductions.com) found the solution:  
+One of our users Joe from [click here](https://docs.j2store.org/troubleshooting-guide/Jgpproductions.com) found the solution:  
 
 
 The rokbox has a new version RokBox2 and there is an option to use “backward compatibility” that can be found in the plug in settings  
@@ -337,7 +337,7 @@ The rokbox has a new version RokBox2 and there is an option to use “backward c
 
 > If users take the steps to upgrade RokBox2 “correctly” and then turn off the “backward” option then J2store checkout steps will work good.
 
-You can find the details to update rokBox here[  click here  ](http://www.rockettheme.com/extensions-joomla/rokbox) click on the DOCUMENTATION link on the right to get all the details on how to correct rokBox in older templates  
+You can find the details to update rokBox here [click here](http://www.rockettheme.com/extensions-joomla/rokbox) click on the DOCUMENTATION link on the right to get all the details on how to correct rokBox in older templates  
 
 
 > NOTE: If you are upgrading from RokBox1 and you are using the old RokBox syntax, such as {rokbox} or &lt; rel=“rokbox”&gt;.., you can enable the Backward Compatibility from both the System and Content plug-in. You will also have to enable Backward Compatibility if you are using the Login or Module Popup Feature in any of our templates prior to Alerion. Those templates will be updated over time to be compatible with RokBox2 over time.  
@@ -509,7 +509,7 @@ RewriteRule \(.\*\) [https://%{HTTP\_HOST}%{REQUEST\_URI}](https://%25%7BHTTP_HO
 **SSL for selected pages**  
 
 
-You would have to use a plugin to enable SSL for selected pages. There is a couple of plugins that makes the job easy for you. Yireo SSL Redirection plugin is one of them. You get the plugin from [ here ](http://extensions.joomla.org/extensions/extension/site-management/url-redirection/yireo-ssl-redirection)  
+You would have to use a plugin to enable SSL for selected pages. There is a couple of plugins that makes the job easy for you. Yireo SSL Redirection plugin is one of them. You get the plugin from [here](http://extensions.joomla.org/extensions/extension/site-management/url-redirection/yireo-ssl-redirection)  
 
 
 Before experimenting with SSL, please keep in mind that it may affect your site loading speed. Because, serving HTTPS traffic costs more in resources than HTTP requests.  
@@ -518,7 +518,7 @@ Before experimenting with SSL, please keep in mind that it may affect your site 
 NOTE: If you are using the Yiero plugin, then you should include the J2Store component for SSL. Otherwise you might face issues.  
 
 
-The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [ Read it ](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)  
+The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [Read it](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)  
 
 
 ## How to solve the product link in search results
