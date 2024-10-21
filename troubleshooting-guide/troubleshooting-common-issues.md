@@ -531,3 +531,86 @@ NOTE: If you are using the Yiero plugin, then you should include the J2Store com
 
 The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [Read it](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)\
 
+## How to solve the product link in search results
+
+When you are searching product using joomla search, clicking on product name in the search results will not take you to the J2Store product view.\
+
+
+SOLUTION:
+
+By default, J2Store has Search plugin included in the package so go to Extensions -> Plugins and choose type Search.\
+
+
+You can find the plugin Search - J2Store.\
+
+
+![searchj2store1](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search\_j2store\_01.png)
+
+Enable / open the plugin and setup the configurations as like in the below screenshot.\
+
+
+![searchj2store2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search\_j2store\_02.png)
+
+## \[HOW TO]Fix product you are trying to access is disabled
+
+There 3 reasons behind this warning message.\
+
+
+1. If the product you are trying to access is the variable product and you have not yet generated the variants for that product, this kind of warning message will be shown.
+2. You might be having same alias name for the two products.
+3. Alias name of the product might be in number.
+
+\
+
+
+## Is your digital product showing NEVER in expiry column?
+
+When you change the order status to confirmed manually, you will have to do the below,\
+
+
+Go to J2Store > Sales > Orders. Open the order. On the left side of order history page, check the checkbox Reset download access expiry date and save.\
+
+
+![downloadexpiery](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/download\_expiry.gif)
+
+## \[HOW TO]Solve terms and conditions popup box freeze
+
+Sometimes, the terms and conditions pop up modal box gets freezed and it does not allow you to do anything with that.\
+
+
+This issue is due to choosing of wrong layout for checkout pages. Following the solutions given below\
+
+
+**Solution**\
+
+
+Go to J2Store > Configuration > Basic settings tabChoose Bootstrap 3.x to Cart and checkout pages should use CSS classes. Save.\
+
+
+If it is already set to bootstrap 3.x, change to bootstrap 2.x and check.\
+
+
+## How to add your business logo to the invoice and email template ?
+
+Many of you tried adding image in your invoice and email template text editor, but it fails to show it in order invoice and email.\
+
+
+While inserting image, you should have to give a full url for the image source path in toggle editor. For example,\
+
+
+Edit your invoice or email templateTurn on your toggle editorGive full url for your image source pathSave and close without toggle back to text editor.\
+
+
+NOTE: Please use JCE editor as you default editor. TinyMCE editor changes the full url when saving changes and the logo not appears.\
+
+
+## How to create additional order statuses ?
+
+Do you want to create additional order statuses like shipped, delivered, paid, etc. ?\
+
+
+Go to J2Store >Localisation > Order statuses
+
+Click New. Enter your status name and label class name
+
+Choose Enable. Save.
