@@ -150,3 +150,69 @@ All the files uploaded to this folder is now protected.
 
 ![product down files2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/product\_down\_files\_2.png)
 
+## Solving the missing currency symbol in your store
+
+When you install, J2Store sets USD as the default currency. When store owners change the currency code, they often forgot to update their default currency in their store profile.
+
+When you see the currency symbol missing, it is an indication that:
+
+1. You have either changed the currency code or deleted the USD and then created a new currency for your country.
+2. You forgot to reflect these changes in the Store profile.
+
+SolutionGo to J2Store admin -> Set up - > -> configuration -> Store
+
+Choose your Default Currency.
+
+**IMPORTANT:**Hit the Save button. Even if you see your currency is selected by default, it may not be saved in the store profile database. Since it is the only currency available (you deleted the USD or any other currency), the dropdown list shows the first currency available.
+
+So CLICK the SAVE button. Still not seeing the Currency symbol, open your store again and click SAVE again.
+
+## Joom SEF configuration for J2Store
+
+If you are using JoomSEF along with J2Store, you will need to make simple change in the configuration. Go to JoomSEF configuration -> Advanced Configuration. Change the Set Page base href value to Yes - always use only base URL.
+
+## How to Remove + and - Prefix in Product Option Price
+
+Store owners sometimes want to hide the + (PLUS) and the - (MINUS) prefix that is shown along with the product options. In J2Store Version 3, you turn off the price prefix with a switch.
+
+**Default Joomla article layouts (like Category blog layout):**
+
+1. Go to J2StoreConfigurationProduct tab.
+2. Set Product option price prefix to HIDE
+3. Save
+
+![priceprefix1](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/priceprefix\_1.png)
+
+**Product list layout:**
+
+If you use the J2Store’s product list layout, then you will find a similar switch in the menu parameters.
+
+* Open the menu that links your product list layout and go to Common Options.
+* Set Product option price prefix to HIDE
+* Save
+
+![priceprefix2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/priceprefix\_2.png)
+
+## HOW To Translate the Address Field Labels
+
+If you wanted to translate the Address field labels, you can enter your translation in the respective fields.Go to Joomla admin -> J2Store -> Set up -> Custom Fields
+
+Open the field, the label of which you want to change, and enter your translation in the label field.
+
+**Multi-lingual sites**
+
+if you are running multi-lingual site, you can enter a language constant in the label field.Example: J2STORE_MY_FIELD\_NAME
+
+* Then you can go to Language manager and create an Override. IMPORTANT: Set the Filter to Administrator before you create an override.
+* Click New
+* Language Constant: J2STORE_MY_FIELD\_NAME
+* Text: Your translation
+* Check the For Both locations
+* Save.
+
+![language override](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/translation\_addres\_fields.png)
+
+You can repeat this steps for your second, third, and other languages.
+
+You can use language strings in all the fields including Custom Error message, Option Titles (if field type is select, radio, checkbox).
+
