@@ -80,3 +80,36 @@ Save.
 Logout. Clear browser cache and test.
 
 This should fix the issue.
+
+## Writing template override for the frontend order view and print layouts
+
+This tutorial applies to J2store 3.x versions. You will nedd to use your hosting CPanel file manager or an FTP client like filezilla to carry out the following tasks.
+
+The following file control the display of order details in frontend. orderitems.php = This controls the display the order details in email and invoice template(frontend order view)
+
+Let us see how to override the orderitems.php
+
+Copy /components/com\_j2store/views/myprofile/tmpl/orderitems.php
+
+to  /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
+
+Edit the file /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
+
+Make your changes on overrides. Save. You need to do the same if you want to override.
+
+## HOW TO make checkout address field labels language friendly
+
+In a multi-lingual Joomla site, the checkout step doesn’t convert to other language and seems to still show in english. How to make it appear in your own language ?Simple, just rename the custom field labels as follows and it will quickly consider picking the language strings from your local language pack.
+
+Still if you do not see the translation, please check your language pack for the following strings and translate them in your language.
+
+language file location /administrator/language/en-GB/en-GB.com\_j2store.ini
+
+**J2STORE\_ADDRESS\_TYPE="Address type" J2STORE\_BILLING\_ADDRESS="Billing Address" J2STORE\_SHIPPING\_ADDRESS="Shipping Address" J2STORE\_ADDRESS\_DETAILS="Address Details" J2STORE\_ADDRESS\_FIRSTNAME="First name" J2STORE\_FIRST\_NAME="First Name" J2STORE\_ADDRESS\_LASTNAME="Last name" J2STORE\_LAST\_NAME="Last Name" J2STORE\_ADDRESS\_USER\_ID="User ID" J2STORE\_ADDRESS\_USERNAME="Username" J2STORE\_ADDRESS\_LINE1="Address Line 1" J2STORE\_ADDRESS1="Address Line 1" J2STORE\_ADDRESS\_LINE2="Address Line 2" J2STORE\_ADDRESS2="Address Line 2" J2STORE\_ADDRESS\_CITY="City"**&#x20;
+
+**J2STORE\_CITY="City"**&#x20;
+
+**J2STORE\_ADDRESS\_ZIP="Zip / Postal code" J2STORE\_ADDRESS\_STATE="State" J2STORE\_ADDRESS\_COUNTRY="Country" J2STORE\_ADDRESS\_PHONE="Phone" J2STORE\_ADDRESS\_MOBILE="Mobile"**&#x20;
+
+**J2STORE\_ADDRESS\_FAX="Fax" J2STORE\_ADDRESS\_COMPANY\_NAME="Company" J2STORE\_ADDRESS\_TAX\_NUMBER="Tax Number" J2STORE\_ADDRESS\_ZONE="Zone / Region" J2STORE\_TELEPHONE="Telephone" J2STORE\_ADDRESS\_EDIT="View/Edit Address" J2STORE\_SHOPPER\_ADDRESSES="Shopper Addresses"**
+
