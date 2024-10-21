@@ -511,11 +511,11 @@ var $live_site = https://www.your-site.com” target=”_blank” rel=“noopene
 
 Then go to your .htaccess file and add these lines to the end of the file:\
 
-
+```
 RewriteEngine On\
 RewriteCond %{HTTPS} off\
 RewriteRule (.\*) [https://%{HTTP\_HOST}%{REQUEST\_URI}](https://app.gitbook.com/s/-MD\_87z2o5YW7DAu7iav/troubleshooting-guide/%%7BHTTP\_HOST%7D%%7BREQUEST\_URI%7D)\
-
+```
 
 **SSL for selected pages**\
 
