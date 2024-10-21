@@ -423,4 +423,57 @@ Replace this with
 
 * If you choose default as sub-template then you have to go with default folder.
 
+## Frontpage product listing files
+
+Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default_(for example, default\__simple.php, default\__images.php, etc). Those files controls all the features displaying in the category listing page.\
+
+
+OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/\
+
+
+**Product view**\
+
+
+Open your sub-template folder where you can find the files with name started with view_(for example, view\__simple.php, view\__images.php, view\__options.php, view\_notabs.php, etc). Those files controlled all the features displaying in the Product view page.\
+
+
+![product guide](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/template\_guide\_product\_view.png)
+
+&#x20;OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
+
+\
+File location of filter:\
+&#x20;Following files controls filter section,\
+&#x20;/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default\__filters.php\
+
+
+&#x20;/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default\__sortfilter.php\
+
+
+&#x20;OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/\
+
+
+**Cart page**\
+
+
+Cart page is controlled by the files located in the follwing path /components/com\_j2store/views/carts/tmpl\
+
+
+![guidecart](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/template\_guide\_cart.png)
+
+OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/carts/\
+
+
+**Checkout page**\
+Checkout is controlled by the files located in the follwing path /components/com\_j2store/views/checkout/tmpl\
+
+
+OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/checkout/\
+
+
+**Order history page**\
+Order history page is controlled by the files located in the following path/components/com\_j2store/views/myprofile/tmpl\
+
+
+OVERRIDE PATH: /templates/YOUR-TEMPLATE/html/com\_j2store/myprofile/\
 
