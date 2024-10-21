@@ -216,3 +216,61 @@ You can repeat this steps for your second, third, and other languages.
 
 You can use language strings in all the fields including Custom Error message, Option Titles (if field type is select, radio, checkbox).
 
+## HOW TO change the colour of add to cart buttons
+
+A majority of those who wanted to change the colour of the buttons are using template with a template that does not support the Twitter bootstrap framework, which helps you make your site responsive.
+
+We have added a name-spaced bootstrap css in the J2Store package. So if your template does not support bootstrap, J2Store will use the bootstrap CSS included in the package. If your template supports bootstrap, then J2Store will inherit your template style, without you changing any CSS.
+
+The following is a guide to those who want to change the button colours
+
+Open your template’s css file located in /templates/YOUR\_TEMPLATE/css folder.
+
+At the end of the file, add the following CSS. Save the file. Clean your browser cache and joomla cache. Refresh.
+
+**Add to cart button**
+
+.j2store .btn-primary {background: #FF0000 !important; /\*this will change your button colour to red. You can change the hex colour code based on your choice \*/
+
+```
+color: #FFFFFF !important; /*this will change your text on the button to white. You can change the hex colour code based on your choice */
+
+}
+
+**View cart button**
+
+.j2store .btn-success {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+
+.j2store .btn-success:hover {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+
+**Update button**
+
+.j2store .btn-warning {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+
+.j2store .btn-warning:hover {
+
+background: #FF0000 !important;
+
+color: #FFFFFF !important;
+
+}
+```
+
