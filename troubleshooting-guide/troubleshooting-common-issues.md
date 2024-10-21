@@ -477,3 +477,57 @@ Order history page is controlled by the files located in the following path/comp
 
 OVERRIDE PATH: /templates/YOUR-TEMPLATE/html/com\_j2store/myprofile/\
 
+## HOW TO set up and enable SSL in Joomla?
+
+Most of the Joomla web shop owners want their site to be secure. By installing and enabling SSL in Joomla,\
+
+
+you can protect your site and your customers from some exploits. When you are running an e-commerce site, you will be getting customer information that has to be kept confidential.\
+
+
+Adding an SSL certificate and enabling it on your Joomla! site will allow customers to log in with the secure “https” protocol instead of the standard “http” prefix. You can turn SSL on for Administrators only, for the whole site (recommended) or selected pages.\
+
+
+IMPORTANT: You should request your Web Hosting Provider to install and enable the SSL certificate before you follow the steps mentioned below.\
+
+
+**Method 1: Enabling SSL for the entire site**\
+
+
+Navigate to Global Configuration -> Server -> Force SSL : Entire site. Click Apply/Save. This will force SSL for your entire website, both Administrator and front end.If you don’t have SSL enabled for your domain name, you will immediately get an error upon saving.\
+
+
+Please note!: The Joomla! global configuration allows you to configure SSL, but if a visitor enters a Joomla! page through non-HTTPS (I mean “old” URLs), this visitor is not automatically redirected.\
+
+
+Using a text editor open the configuration.php file from your site and find this line,var $live\_site =”;\
+
+
+Replace it with:\
+
+
+var $live_site = https://www.your-site.com” target=”_blank” rel=“noopener”>click here\
+
+
+Then go to your .htaccess file and add these lines to the end of the file:\
+
+
+RewriteEngine On\
+RewriteCond %{HTTPS} off\
+RewriteRule (.\*) [https://%{HTTP\_HOST}%{REQUEST\_URI}](https://app.gitbook.com/s/-MD\_87z2o5YW7DAu7iav/troubleshooting-guide/%%7BHTTP\_HOST%7D%%7BREQUEST\_URI%7D)\
+
+
+**SSL for selected pages**\
+
+
+You would have to use a plugin to enable SSL for selected pages. There is a couple of plugins that makes the job easy for you. Yireo SSL Redirection plugin is one of them. You get the plugin from [here](http://extensions.joomla.org/extensions/extension/site-management/url-redirection/yireo-ssl-redirection)\
+
+
+Before experimenting with SSL, please keep in mind that it may affect your site loading speed. Because, serving HTTPS traffic costs more in resources than HTTP requests.\
+
+
+NOTE: If you are using the Yiero plugin, then you should include the J2Store component for SSL. Otherwise you might face issues.\
+
+
+The following article published in the Joomla Magazine throws light on the advantages and disadvantages of SSL. Read it before you implement SSL in your website. [Read it](http://magazine.joomla.org/issues/issue-jan-2013/item/1023-how-ssl-can-secure-and-add-features-to-your-joomla-site)\
+
