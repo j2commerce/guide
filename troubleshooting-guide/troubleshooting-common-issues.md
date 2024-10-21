@@ -274,3 +274,60 @@ color: #FFFFFF !important;
 }
 ```
 
+## Writing a Layout override for Joomla article manager - An intro image
+
+Layout overrides is a feature introduced in Joomla 3. They provide more modularity for templates across views and avoid duplication of code for a same design. Consider a situation In Joomla caregory blog layout, you have to make a Joomla Article intro image a hyperlink with the read more button link. If you are using prostar template you can use this below.
+
+**Step 1: Write a layout override**
+
+You can use a file manager in your Hosting Control panel or an FTP client like FileZilla for doing the following tasks.
+
+Copy
+
+JOOMLA-ROOT/layouts/joomla/content/intro\_image.php
+
+to
+
+JOOMLA-ROOT/templates/TEMPLATE>/html/layouts/joomla/content/introimage.php
+
+**Step 2: Edit the override layout**
+
+Find below code
+
+```
+$params = $displayData->params; ?> images); ?> image_intro) && !empty($images->image_intro)) : ?> float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>image_intro_caption): echo 'class="caption"' . ' title="' . htmlspecialchars($images->image_intro_caption) . '"'; endif; ?> src="/image_intro); ?>" alt="image_intro_alt); ?>" itemprop="thumbnailUrl"/> 
+
+```
+
+Replace above code with following code\
+
+
+```
+$params  = $displayData->params;
+if ($params->get('access-view')) :
+$link = JRoute::_(ContentHelperRoute::getArticleRoute($displayData->slug, $displayData->catid));
+else :
+$menu = JFactory::getApplication()->getMenu();
+$active = $menu->getActive();
+$itemId = $active->id;
+$link1 = JRoute::_('index.php?option=com_users&view=login&Itemid=' . $itemId);
+$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($displayData->item->slug, $displayData->item->catid));
+$link = new JUri($link1);
+$link->setVar('return', base64_encode($returnURL));
+endif;
+?>
+images); ?>
+image_intro) && !empty($images->image_intro)) : ?>
+float_intro)) ? $params->get('float_intro') : $images->float_intro; ?>
+
+```
+
+Once you have finished editing, save the changes. Now you are done.\
+
+
+**NOTE:** If something went wrong, just delete.\
+
+
+JOOMLA-ROOT/templates/TEMPLATE>/html/layouts/joomla/content/introimage.php\
+and go to Step 1.\
+
