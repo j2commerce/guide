@@ -331,3 +331,96 @@ Once you have finished editing, save the changes. Now you are done.\
 JOOMLA-ROOT/templates/TEMPLATE>/html/layouts/joomla/content/introimage.php\
 and go to Step 1.\
 
+## HOWTO solve javascript conflict between some of RocketTheme templates and J2Store
+
+If you are using a RocketTheme template with the RokBox plugin, then you might have experienced a javascript conflict at the checkout steps.\
+
+
+One of our users Joe from [click here](https://docs.j2store.org/troubleshooting-guide/Jgpproductions.com) found the solution:\
+
+
+The rokbox has a new version RokBox2 and there is an option to use “backward compatibility” that can be found in the plug in settings\
+
+
+> If users take the steps to upgrade RokBox2 “correctly” and then turn off the “backward” option then J2store checkout steps will work good.\
+>
+
+You can find the details to update rokBox here[click here](http://www.rockettheme.com/extensions-joomla/rokbox) click on the DOCUMENTATION link on the right to get all the details on how to correct rokBox in older templates\
+
+
+> NOTE: If you are upgrading from RokBox1 and you are using the old RokBox syntax, such as {rokbox} or < rel=“rokbox”>.., you can enable the Backward Compatibility from both the System and Content plug-in. You will also have to enable Backward Compatibility if you are using the Login or Module Popup Feature in any of our templates prior to Alerion. Those templates will be updated over time to be compatible with RokBox2 over time.\
+> Be aware that the Backward compatibility can dramatically slow down the loading of your site. It is highly suggested to convert the old syntax into the new one.\
+>
+
+## \[HOW TO]Fix enter your valid Address information Error
+
+Are you using the USPS plugin ? If yes, open the USPS plugin and set the Address validation to No.Save.\
+If the address provided is not in the USPS API’s database, then it would throw this error. (Even if an extra space or typo in the address with throw the error.)\
+
+
+## How to translate payment option title
+
+It is possible and very easy to translate the payment option title for multilingual site.\
+Open your payment method and enter the language constant as a payment option title.\
+
+
+```
+For example, J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE
+
+Then create language override for the constant J2STORE_MYCUSTOM_PAYMENTOPTION_TITLE and enter your language specific value.
+```
+
+**Video Tutorial:**
+
+
+
+
+
+## Hiding Product Options And Cart Button In Category View
+
+**Do a Template Override**\
+
+
+Copy the following files:
+
+/components/com\__j2store/templates/default/default\__simple.php
+
+/components/com\__j2store/templates/default/default\__variable.php
+
+/components/com\__j2store/templates/default/default\__configurable.php
+
+/components/com\__j2store/templates/default/default\__downloadable.php\
+
+
+to\
+
+
+/templates/YOUR-TEMPLATE/html/com\_j2store/templates/default/\
+
+
+Find the below line in all the files\
+
+
+```
+	<?php echo $this->loadTemplate('options'); ?>
+	<?php echo $this->loadTemplate('cart'); ?>
+
+
+Replace this with
+
+	<?php //echo $this->loadTemplate('options'); ?>
+	<?php //echo $this->loadTemplate('cart'); ?>
+
+```
+
+**Override Product Layout**\
+**Layout file location**\
+
+
+* Go to /components/com\_j2store/templates which contains two folders named bootstrap3 and default(bootstrap2).\
+
+* If you choose bootstrap3 as sub-template then you have to go with bootstrap3 folder.\
+
+* If you choose default as sub-template then you have to go with default folder.
+
+
