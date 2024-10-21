@@ -113,3 +113,40 @@ language file location /administrator/language/en-GB/en-GB.com\_j2store.ini
 
 **J2STORE\_ADDRESS\_FAX="Fax" J2STORE\_ADDRESS\_COMPANY\_NAME="Company" J2STORE\_ADDRESS\_TAX\_NUMBER="Tax Number" J2STORE\_ADDRESS\_ZONE="Zone / Region" J2STORE\_TELEPHONE="Telephone" J2STORE\_ADDRESS\_EDIT="View/Edit Address" J2STORE\_SHOPPER\_ADDRESSES="Shopper Addresses"**
 
+## Selling Digital Goods Online with J2Store
+
+Selling ebooks, PDF, images and files online is easy with the J2Store Joomla shopping cart. Here is a step-by-step guide to set up your digital downloads.
+
+**Step 1: Let us create a folder on your site to upload the files**
+
+You can use your Hosting Providers CPanel File manager or an FTP client like FileZilla to access your web root (public\_html / www / httpdocs ) Once you are in the web root, create a folder. Let us name it as: myfiles
+
+**Step 2: Protect the folder from outside access**
+
+We do not want people to access this folder using their browser and download files. So let us protect this folder using a .htaccess file.
+
+* Create a file called htaccess.txt in your computer and open it with your favorite text editorAdd the following lines to it
+* order deny, allow or deny form all
+* Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles
+
+> IMPORTANT: Rename it as .htaccess
+
+All the files uploaded to this folder is now protected.
+
+**Step 3: Point J2Store to use the files in this folder.**
+
+1. Go to Joomla adminj2storeConfigurationBasic settings.
+2. In Folder path for digital goods, enter the name of the folder that contains your files. In our example, it is: myfiles
+3. Save the configuration.
+
+**Step 4: Creating your first digital product**
+
+1. J2Store uses Joomla articles as products. So head to Joomla admin -> Article Manager and create an article.
+2. Fill in the title, description, add an image and set all other fields and Save.
+3. Go to J2Store cart tab and set all the fields and Save.
+4. Now go to files tab in the navigation you can see Set product files button.
+
+![product down files](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/product\_down\_files\_1.png)
+
+![product down files2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/product\_down\_files\_2.png)
+
