@@ -1,6 +1,6 @@
 # Configuration
 
-There are several options available for your online store. Any mis-configuration here will affect your storefront’s behavior. So take your time and configure the store correctly.
+There are several options available for your online store. Any misconfiguration here will affect your storefront’s behavior. So take your time and configure the store correctly.
 
  The configuration page has several tabs. Each one is explained in detail. They are:
 
@@ -44,7 +44,7 @@ This option is same as the previous one. Here, there are four options available 
 
 **Load full bootstrap css** If the template is loaded with bootstrap, and if the user does not want it to be loaded, the user may choose NO, otherwise choose YES to load the default Bootstrap CSS packed with j2store.
 
-**Load minimal bootstrap css** If your template does not support the bootstrap, you can consider setting this to YES to load a minimal bootsrap support. So that your cart, checkout and order history pages looks good.
+**Load minimal bootstrap css** If your template does not support the bootstrap, you can consider setting this to YES to load a minimal bootstrap support. So that your cart, checkout and order history pages looks good.
 
 **Who can see ‘add to cart’** This is an option for the user to add his/her product of choice to the cart to proceed for billing. This can be set to be viewed by ‘everyone’ or for ‘registered users only’.
 
@@ -200,7 +200,7 @@ Cart and checkout settings for your store.
 
 **Allow quick new user registration** Enabling this option would display a registration option at the checkout like this:
 
-![Configuration-cartsettings-guest-regsiter-form](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-cartsettings-registration-guest-login.png)
+![Configuration-cartsettings-guest-register-form](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-cartsettings-registration-guest-login.png)
 
 **Joomla password validation** If set to yes, Password will be validated based on Joomla User manager &gt; Options settings for password rules.
 
@@ -301,7 +301,7 @@ To avoid this, please choose **No. Do not use the default template to send a mai
 
 Misc. options for the store
 
-**Show Terms and Conditions during Checkout** If this option is set with a Yes, a checkbox with a link to the article that contains the Terms and Coditions will be shown.
+**Show Terms and Conditions during Checkout** If this option is set with a Yes, a checkbox with a link to the article that contains the Terms and Conditions will be shown.
 
 **Terms and Conditions Display Type** This is to decide how the Terms and Conditions link is to be displayed. By default, it will be a Link but if it is desired to be a check box, it is possible by selecting Checkbox.
 

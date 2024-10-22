@@ -187,7 +187,7 @@ Now you need to configure your product with necessary details. Begin with genera
 * If you select ‘Yes’ in the first option, your product will be displayed in the storefront
 * Select the brand or manufacturer of the product from the list
 * Select the vendor to order the product
-* Select the taxprofile that mathces the product profile
+* Select the taxprofile that matches the product profile
 
 Now switch to Images tab.
 

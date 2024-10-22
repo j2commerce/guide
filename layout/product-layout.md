@@ -202,7 +202,7 @@ Set **NO** to Enable Zoom effect in Item view tab.
 
 **Override view\_images.php**
 
-Once disbaled the zoom effect, follow the override procedure given below :
+Once disabled the zoom effect, follow the override procedure given below :
 
 Copy\*\* /components/com\_j2store/templates/default/view\_images.php\*\*
 

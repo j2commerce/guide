@@ -22,7 +22,7 @@ This app will add a product compare feature to your online store. It allows cust
 
 * Display inSelect where the Add to compare should display. You can select any one of the three options available\(Product view only, category view only, Both view\).
 * Maximum Products in CompareSelect how many products the customer should add into the compare list.
-* Image typeSelect image type here will be displayed in the frontend comparision view.
+* Image typeSelect image type here will be displayed in the frontend comparison view.
 * Image widthSet your image width in pixel. By default we have set to 120px.
 
 Please refer the below image. You can hide/show the following attributes.

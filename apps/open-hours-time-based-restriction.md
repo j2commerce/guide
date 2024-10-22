@@ -22,7 +22,7 @@ Make sure that you set the 24hr format for time configuration.
 
 This is the place to show error message when the customer places an order outside the store’s operational timing.
 
-Enter your custom error message here. You may also enter a language string and write a langugage override.
+Enter your custom error message here. You may also enter a language string and write a language override.
 
 For eg: Sorry ! Orders are accepted only after %s and Before %s.The first %s will be from time and second %s will be to time in the below configuration.
 

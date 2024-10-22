@@ -30,5 +30,5 @@ Check For both locations and save.
 
 ![plugin langoverride3](https://raw.githubusercontent.com/j2store/doc-images/master/translation/how-to-write-language-override-for-plugin-multilingual-site/plugin_lang_override_03.png)
 
-NOTE: For translating the plugin’s text in multilingual site, please dont’t put the language strings directy into your site’s language file. Please create a language override for the specific language.
+NOTE: For translating the plugin’s text in multilingual site, please dont’t put the language strings directly into your site’s language file. Please create a language override for the specific language.
 

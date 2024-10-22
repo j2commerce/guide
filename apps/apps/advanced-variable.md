@@ -59,7 +59,7 @@ This app extends the variable product type. With this app you can treat the opti
 
 
 
-Its no matter you are using options as variants or not. Whatever it is you must generate the varaints once. Otherwise the error will be notified.
+Its no matter you are using options as variants or not. Whatever it is you must generate the variants once. Otherwise the error will be notified.
 
 **How to use options as variants?**
 
@@ -103,7 +103,7 @@ If you would like not to use options as variants, do the instructions given belo
 
 * Go to article manager and move to J2Store cart tab.
 * Navigate to Variants tab
-* Uncheck the Use as variants checkbox \(Don’t delete the varaints\) and click save.
+* Uncheck the Use as variants checkbox \(Don’t delete the variants\) and click save.
 * After saving, move to variants tab and click on Set option values to set the price prefix for option values. Refer the image below,
 
  

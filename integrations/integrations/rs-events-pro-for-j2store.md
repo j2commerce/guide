@@ -42,7 +42,7 @@ Before start creating Events, you must have to save the location and category. T
 
 Now select categories from left pane and click NEW to create new category.  Enter the name for the category and set the status to Published and save.  Now select Events from the left pane and click NEW to create new event.
 
-Fill all the informations required for your event and navigate to the J2Store tab in left menu pane.  Choose YES to treat Event as Product and select the product type and save.
+Fill all the information required for your event and navigate to the J2Store tab in left menu pane.  Choose YES to treat Event as Product and select the product type and save.
 
  Once saved, now you can able to set product price, images, options, etc.
 

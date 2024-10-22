@@ -31,8 +31,8 @@ Before proceeding with with setup for the app, make sure you defined a local fol
 **Key features**
 
 * Sell any file stored in Dropbox
-* Enables you to retrive the files from the Dropbox remotely.
-* Generates a temproary url for the downlodable files, which expires within minutes
+* Enables you to retrieve the files from the Dropbox remotely.
+* Generates a temporary url for the downlodable files, which expires within minutes
 * Allows you to control the expiry of the url from settings
 
 **Known Limitations**
@@ -59,7 +59,7 @@ Before proceeding with with setup for the app, make sure you defined a local fol
 
 **How to Generate access token, key and secret key?**
 
-**Step-1:** Go to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps) and login using your dropbox account. After logging in, you wil be having the page with Create app. Click on the Create app button. 
+**Step-1:** Go to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps) and login using your dropbox account. After logging in, you will be having the page with Create app. Click on the Create app button. 
 
 ![db03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_03.png)
 

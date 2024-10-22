@@ -46,7 +46,7 @@ Still have doubts? Lets watch the video here:
 
 Allow your customer to choose either monthly or yearly basis subscription service. This is possible by creating product with type variable subscription product.
 
-For example, now we are going to create a varaible subscription product “Love and care book crate”. The customer can subscribe for this service either on monthly or yearly basis. Follow the instructions given below to setup the renewal subscription product:
+For example, now we are going to create a variable subscription product “Love and care book crate”. The customer can subscribe for this service either on monthly or yearly basis. Follow the instructions given below to setup the renewal subscription product:
 
 * Go to J2Store > Catalog > Options
 * Create a new option named “Subscription period” and add option values 6-months and 1-year.

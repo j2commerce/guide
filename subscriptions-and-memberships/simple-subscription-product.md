@@ -52,9 +52,9 @@ Let’s see the below steps to implement above scenario.
 
 **Step-1:** Create a new product with type Simple subscription
 
-**Step-2:** On general tab, set YES to visisble in storefront and move to Pricing tab
+**Step-2:** On general tab, set YES to visible in storefront and move to Pricing tab
 
-**Step-3:** In the pricing tab, enter 9.99 in the subscriptin price text box. After mentioning the price, choose every from the dropdown list next to the price text box and then select Month from the second dropdown list.
+**Step-3:** In the pricing tab, enter 9.99 in the subscriptions price text box. After mentioning the price, choose every from the dropdown list next to the price text box and then select Month from the second dropdown list.
 
 **Step-4:** Then, select the duration of your subscription plan. In our scenario, the subscription duration is 6 months so select 6 Months from the subscription length dropdown.
 

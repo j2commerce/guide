@@ -12,7 +12,7 @@ You can install the plugin through the standard Joomla installer.
 
 There are two aspects you have to configure at your GestPay Backoffice
 
-**Authentication configuration** You will have to authendicate the IP address of your site.
+**Authentication configuration** You will have to authenticate the IP address of your site.
 
 * Login to your GestPay Backoffice.
 * Go to Configuration → IP addresses.

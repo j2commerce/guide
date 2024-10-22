@@ -14,7 +14,7 @@ To do so,follow the steps given below:
 
 ### Relevant Screenshot <a id="relevant-screenshot"></a>
 
-![partial payment paln](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/setting-up-plans-for-partial-payments/app_partialpaymentplan.png)
+![partial payment plan](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/setting-up-plans-for-partial-payments/app_partialpaymentplan.png)
 
 ### Creating plans- an example: <a id="creating-plans--an-example"></a>
 

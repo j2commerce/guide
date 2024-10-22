@@ -24,7 +24,7 @@ If you wants to completely replace the recipients list, then choose the **Replac
 
 ![an02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Advanced_notify/adv-notify-02.png)
 
-**Relevent Screenshot**
+**Relevant Screenshot**
 
 ![an03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Advanced_notify/adv-notify-03.png)
 

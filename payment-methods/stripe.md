@@ -2,7 +2,7 @@
 
 This plugin integrates the Stripe Payment gateway with J2Store. It works and compatible with the latest Stripe API : 2014-01-31 (latest)
 
-> NOTE: If you are using Stripe’s in built form, Please make sure that you have enabled SSL. If not, this might cause issues in the Stripe’s Javasript from loading on the site, thus blocking the checkout process.
+> NOTE: If you are using Stripe’s in built form, Please make sure that you have enabled SSL. If not, this might cause issues in the Stripe’s Javascript from loading on the site, thus blocking the checkout process.
 
 With the purchase of Stripe integration, you would get access to two packages namely, **Stripe direct(The default checkout) and Stirpe checkout(Hosted).**
 

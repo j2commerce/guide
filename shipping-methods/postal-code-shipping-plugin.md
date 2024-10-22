@@ -135,7 +135,7 @@ The below three columns are the mandatory for the csv file.
 
 **j2store**_**shipping**_**postcode**_**rate**_**id** - Leave this column empty. Rate ID will be updated automatically.
 
-**shipping**_**postcode**_**method\_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be trigerred.
+**shipping**_**postcode**_**method\_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be triggered.
 
 ![methodid](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-methodid.png) 
 

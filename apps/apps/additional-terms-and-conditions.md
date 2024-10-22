@@ -47,7 +47,7 @@ This is the textbox for the validation error message that will pop up when the c
 
 Click save to finish configuration.
 
-**Relavent screenshot:**
+**Relevant screenshot:**
 
 ![atac01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Additional%20Terms%20and%20Conditions/atac01.png)
 

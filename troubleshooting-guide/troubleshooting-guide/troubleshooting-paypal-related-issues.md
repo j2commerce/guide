@@ -146,7 +146,7 @@ You will find a switch:
 
 Allow payments sent to me in a currency I do not hold:Set this to: Yes, accept and convert them to US Dollars. Additional charges apply.
 
-Otherwise, your PayPal account requires you to manually accept each transaction \(by logging in to your Paypal Acount\)
+Otherwise, your PayPal account requires you to manually accept each transaction \(by logging in to your Paypal Account\)
 
 If PayPal sends the payment status as Completed, J2Store will automatically mark the transaction as Confirmed.
 

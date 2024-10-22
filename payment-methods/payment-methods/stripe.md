@@ -2,7 +2,7 @@
 
 This plugin integrates the Stripe Payment gateway with J2Store. It works and compatible with the latest Stripe API : 2014-01-31 \(latest\)
 
-> NOTE: If you are using Stripe’s in built form, Please make sure that you have enabled SSL. If not, this might cause issues in the Stripe’s Javasript from loading on the site, thus blocking the checkout process.
+> NOTE: If you are using Stripe’s in built form, Please make sure that you have enabled SSL. If not, this might cause issues in the Stripe’s Javascript from loading on the site, thus blocking the checkout process.
 
 With the purchase of Stripe integration, you would get access to two packages namely, **Stripe direct\(The default checkout\) and Stirpe checkout\(Hosted\).**
 
@@ -195,7 +195,7 @@ Stripe Hosted checkout uses almost the same parameters as the Stripe direct paym
 
 As mentioned above, with Stripe Hosted checkout, all the transactions occur in the Stripe window, so the merchant site has to be informed of the changes that occur with the transaction. Only then the corresponding orders can be updated on the merchant site. Webhooks are for this purpose. They are similar to IPN callbacks that are used as a communication between the Payment gateway and your ecommerce store.
 
-**Update/ Create webhook** This option in the Stripe checkout wouldn’t have any values initially when you have just installed the plugin. However, after you enter the API keys in the plugin and save, a value would apear.
+**Update/ Create webhook** This option in the Stripe checkout wouldn’t have any values initially when you have just installed the plugin. However, after you enter the API keys in the plugin and save, a value would appear.
 
  
 

@@ -31,13 +31,13 @@ Before proceeding with with setup for the app, make sure you defined a local fol
 **Key features**
 
 * Sell any file stored in Dropbox
-* Enables you to retrive the files from the Dropbox remotely.
-* Generates a temproary url for the downlodable files, which expires within minutes
+* Enables you to retrieve the files from the Dropbox remotely.
+* Generates a temporary url for the downlodable files, which expires within minutes
 * Allows you to control the expiry of the url from settings
 
 **Known Limitations**
 
-* When you are using Dropbox for selling digital files, do set Download limit and Download expire days. 
+* When you are using Dropbox for selling digital files, do set Download limit and Download expire days.
 
 **Requirements**
 
@@ -53,19 +53,19 @@ Before proceeding with with setup for the app, make sure you defined a local fol
 
 ![db01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_01.png)
 
-4.\)Once app is enabled, click open to setup the Basic settings of the app.  
+4.\)Once app is enabled, click open to setup the Basic settings of the app.
 
 ![db02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_02.png)
 
 **How to Generate access token, key and secret key?**
 
-**Step-1:** Go to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps) and login using your dropbox account. After logging in, you wil be having the page with Create app. Click on the Create app button. 
+**Step-1:** Go to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps) and login using your dropbox account. After logging in, you will be having the page with Create app. Click on the Create app button.
 
 ![db03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_03.png)
 
 Step-2: Clicking on Create app button will ask you complete the several steps to create the app.
 
-* Choose Dropbox API as API in your first step of creating app 
+* Choose Dropbox API as API in your first step of creating app
 
 ![db04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_04.png)
 
@@ -84,7 +84,7 @@ Step-3: Now the app page will be displayed which contains your \*\*App key \*\*a
 
 Step-4: Click on Generate button to generate access token for your app.
 
-  
+
 
 ![db07](https://raw.githubusercontent.com/j2store/doc-images/master/apps/drop-box/dropbox_07.png)
 

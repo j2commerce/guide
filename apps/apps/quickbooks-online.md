@@ -100,7 +100,7 @@ Click the Select APIs button.
 
 ![qb08](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Quick%20books/qb_08.png)
 
-Popup window will be dispayed. Select one or both of the QuickBooks Online APIs: Accounting and/or Payments and click Create app button.
+Popup window will be displayed. Select one or both of the QuickBooks Online APIs: Accounting and/or Payments and click Create app button.
 
  
 
@@ -108,7 +108,7 @@ Popup window will be dispayed. Select one or both of the QuickBooks Online APIs:
 
 Your new app opens to its Dashboard tab.
 
-Click the Keys tab on either Developement tab or Producttion tab.
+Click the Keys tab on either Development tab or Producttion tab.
 
 Development keys—use only in the sandbox environment.
 
@@ -128,11 +128,11 @@ Quickbooks offers sandbox feature for testing purpose. If you would like to use 
 
 If you want to change payment status to PAID, set this option to YES. If you are accepting credit card payments, the app could mark the invoices as paid immediately after they were created.
 
-\*\*Syncronize Order total is zero ? \*\*
+\*\*Synchronize Order total is zero ? \*\*
 
 Our quickbooks allows to auto synchronize your zero price order with Quickbooks online. Choose YES, if you want to synchronize order total zero.
 
-**Syncronize order status list**
+**Synchronize order status list**
 
 Orders with status selected here are synchronized to Quickbook. For example, choose Confirmed. So the app will synchronize the order whose order has status confirmed.
 
@@ -206,7 +206,7 @@ Enter access token secret key associated with your Quickbook’s live account.
 
 **Synchronize**
 
-**Customer Syncronization**
+**Customer Synchronization**
 
 Click on button named “Customer” to synchronize J2Store customer to Quickbook customer.
 

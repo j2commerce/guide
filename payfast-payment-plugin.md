@@ -12,7 +12,7 @@ This plugin integrates PayFast payment gateway with J2Store.
 
 **Merchant Key** The Merchant Key provided by PayFast
 
-**Pass Phrase \(Md5 Secret\)** The secret word set up in your Payfast Merchant Account. To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
+**Pass Phrase \(Md5 Secret\)** The secret word set up in your Payfast Merchant Account. To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Phrase.
 
 **Surcharge percentage** This is an optional field. Use this field if you require. Otherwise leave it empty. If you want to charge a percentage of Total Order Value as additional fee to the customers who choose this payment method, then you can enter the fee here. Enter only a numeric value. DO NOT enter % or any other symbols.
 

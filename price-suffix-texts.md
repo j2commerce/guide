@@ -8,7 +8,7 @@ This plugin enables you to add prefix and suffix text to the product’s price. 
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-**Installtion**
+**Installation**
 
 1. Use the Joomla installer to install the app.
 2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.

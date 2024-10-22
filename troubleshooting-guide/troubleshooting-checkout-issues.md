@@ -111,7 +111,7 @@ It is because the permission you have given at Joomla global configuration might
 
 Go to Joomla global configuration. Move to Permissions tab. Under Public, choose Not Set to Site Login.Under Registered tab, choose Allowed to Site Login.Save.
 
-If you are using the content component K2, then please make sure the K2 user profile has been disabled in confgiuration.
+If you are using the content component K2, then please make sure the K2 user profile has been disabled in configuration.
 
 * Go to Components &gt; K2
 * Click Parameters on top right of the page

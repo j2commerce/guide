@@ -34,7 +34,7 @@ The following parameters for technical information in your ePDQ account should b
 
 **Checks for E-Commerce \(Tab: Data and origin verification\)** URL of the merchant page containing the payment form that will call the page: orderstandard.asp - This should be set to [click here](http://www.yourdomain.com/)
 
-Also enter a SHA-IN pass pharse here. The same should be entered in the plugin as well.
+Also enter a SHA-IN pass phrase here. The same should be entered in the plugin as well.
 
 ![verification](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/barclays-payment-plugin/tech_info.png)
 

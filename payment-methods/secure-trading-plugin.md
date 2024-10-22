@@ -104,7 +104,7 @@ A security code will prevent malicious users from modifying sensitive payment in
 
 This feature can be enabled by following these steps:
 
-1. Head to the Securetrading plugin configuration \(‘Joomla Admin”Extensions Manager”Plugin Manager’ - ‘SecureTraing Payments’ - ‘Edit’\).
+1. Head to the Securetrading plugin configuration \(‘Joomla Admin”Extensions Manager”Plugin Manager’ - ‘SecureTraining Payments’ - ‘Edit’\).
 2. Enter a hard to guess combination of letters and numbers into the ‘Site Security Password’ field. This combination should be at least 8 characters long.
 3. Click ‘save’.
 4. You must now contact Support by emailing\[email protected\]”target = “\_blank” rel = “noopener”&gt; click here Inform them that you have “enabled the Site Security Password Hash”. When prompted for a list of “enabled fields”, you must tell themthe following, in this order:currencyiso3amainamountsitereferencesettlestatussettleduedatePASSWORD \*

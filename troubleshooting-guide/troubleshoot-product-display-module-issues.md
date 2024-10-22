@@ -30,7 +30,7 @@ You can use respective class name to write styles only for product module. For e
 
 ## \[HOW TO\]Remove Compare & Wishlist options from J2Store Products Module ? <a id="how-toremove-compare--wishlist-options-from-j2store-products-module-"></a>
 
-Below css will hide the compare and wishlist dislaying at J2Store Product Module.
+Below css will hide the compare and wishlist displaying at J2Store Product Module.
 
 ```text
 .mod_j2store_products .product-compare, .mod_j2store_products .product-wishlist {
@@ -48,7 +48,7 @@ Open your module settingsChoose Bootstrap 3 as your sub templateSave.
 
 If it is already set to Bootstrap 3, change to Default layout and check.
 
-Still no luck ? Make sure your template has full boostrap support. Another possible reason the css might be conflicting.
+Still no luck ? Make sure your template has full bootstrap support. Another possible reason the css might be conflicting.
 
 ## Do you want to display specific products in your site ? <a id="do-you-want-to-display-specific-products-in-your-site-"></a>
 

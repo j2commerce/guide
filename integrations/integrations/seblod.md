@@ -10,7 +10,7 @@ The plugin integrates Seblod content construction kit with J2Store, thus adding 
 * Joomla 3.x
 * J2Store 3 or above
 * Seblod 3.x
-* Plguin plg_cck_field\_j2store
+* Plugin plg_cck_field\_j2store
 
 #### Installation Instructions <a id="installation-instructions"></a>
 
@@ -43,7 +43,7 @@ In this section, you will see how to create a SEBLOD article in the backend and 
 
 ![Step 3](https://raw.githubusercontent.com/j2store/doc-images/master/integrations/seblod/step-5.png)
 
-4. Now we have to add j2store custom field to the **Article** content type, click on the ”+” \(button is placed at the right of the **Contruction** block\). A Form in window popup appears. 
+4. Now we have to add j2store custom field to the **Article** content type, click on the ”+” \(button is placed at the right of the **Construction** block\). A Form in window popup appears. 
 
 ![Step 4](https://raw.githubusercontent.com/j2store/doc-images/master/integrations/seblod/step-6.png)
 

@@ -400,7 +400,7 @@ $order->update_status($order_status_id, $notify_customer);
 $order_status_id = The status to which the order to be set.
 You can get the ID of the order status from J2Store -> Localisation -> Order statuses.
 
-$notify_customer = a Boolen value. Whether to notify the customer or not about the update to the order.
+$notify_customer = a Boolean value. Whether to notify the customer or not about the update to the order.
 ```
 
 **Next steps**

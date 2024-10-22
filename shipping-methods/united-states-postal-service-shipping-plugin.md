@@ -33,7 +33,7 @@ You can install this shipping plugin, using joomla installer.
 
 **2. Web Tools Password** Enter the web tools account password here.
 
-> Don’t know how to get API credentails ? Please register here:
+> Don’t know how to get API credentials ? Please register here:
 
 https://www.usps.com/business/web-tools-apis/welcome.htm”target = ¨\_blank”rel = ¨noopener¨&gt; click here
 

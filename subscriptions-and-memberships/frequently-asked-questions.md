@@ -24,7 +24,7 @@ Cancelling subscription can be done by both store admin as well as subscriber.
 
 On frontend order history page , move to subscription tab. You will see the Cancel button on last column \(named “Actions”\) of the table. Clicking on Cancel button will cancel the subscription.
 
-![cancle subs](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-3.png)
+![cancel subs](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-3.png)
 
 Cancelling subscription by store owner in two ways:
 
@@ -35,7 +35,7 @@ Cancelling subscription by store owner in two ways:
 * You will see the subscription table. Click on Subscripiton id to cancel the subscripiton.
 * After clicking on subscription id, you will be getting subscription page. On this page, you will see the option to update status. Choose Canceled from dropdown list and click on Update status button. The subscription will be cancelled.
 
-![cancle susbs first way](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-1.png)
+![cancel susbs first way](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-1.png)
 
 ### Second way: <a id="second-way"></a>
 
@@ -43,5 +43,5 @@ Cancelling subscription by store owner in two ways:
 * On top of the page, Click on Subscriptions button.
 * You will see the subscriptions list in a table. On the last column \(Actions\) of the table, choose the status Canceled and click on Update button. The subscription will be cancelled.
 
-![cancle subs second way](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-2.png)
+![cancel subs second way](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/frequently-asked-questions/cancel-subsc-2.png)
 

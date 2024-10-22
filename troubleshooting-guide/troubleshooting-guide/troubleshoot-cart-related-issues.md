@@ -18,7 +18,7 @@ In the plugin settings, make sure the Joomla session cookie is allowed.J2Store s
 
 ## Cart cleared during registration <a id="cart-cleared-during-registration"></a>
 
-It is beacuse the default Registered group and Guest group chosen might be wrong.
+It is because the default Registered group and Guest group chosen might be wrong.
 
 Please go to User manager -&gt; OptionsMake sure the Default Registered Group is set to: RegisteredDefault guest user group is set to : Guest
 
@@ -38,7 +38,7 @@ to
 
 /templates/TEMPLATE&gt;/html/comj2store/templates/YOUR-SUB-TEMPLATE/default\_cart.php
 
-> IMPORTANT: If you are using bootsrap 3 as a sub-template, replace the default with bootstrap3\(/components/com\_j2store/templates/bootstrap/..\)
+> IMPORTANT: If you are using bootstrap 3 as a sub-template, replace the default with bootstrap3\(/components/com\_j2store/templates/bootstrap/..\)
 
 To change the Add to cart block and style in item view
 
@@ -99,7 +99,7 @@ J2Store’s Mini Cart is a very handy tool for your customers when they shop. Th
 
 Go to Joomla admin - Global configuration - System tab.
 
-Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site \(untill the cahce is refreshed again\).
+Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site \(until the cache is refreshed again\).
 
 Since the cart module handles dynamic data, it should be excluded from caching. In order to exclude the module from caching, your Global cache setting should be set either to Conservative Caching or Disabled. Check the screenshot below.
 

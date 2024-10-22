@@ -19,7 +19,7 @@ Note:When you download the Sobipro Plugin,you will have the package named “j2s
 **Installing System Plugin**
 
 1. Use the Joomla Extension manager to install the plugin the system plugin “plg_system_spj2store”.
-2. Enable the the plugin.To enable the Plugin Go to Menu -&gt; Extension Manager-&gt;Plugin Manager-&gt; select tje system spj2store plugin and enable it.
+2. Enable the the plugin.To enable the Plugin Go to Menu -&gt; Extension Manager-&gt;Plugin Manager-&gt; select the system spj2store plugin and enable it.
 
 **Installing J2Store Application**
 

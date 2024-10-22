@@ -29,7 +29,7 @@ Paysera payment plugin for j2store. It integrates with the Paysera Payment gatew
 
 **Surcharge percentage:** You can specify a percentage here. Surcharge will be calculated based on the percentage of the total order and the cost will be added to the order.
 
-**Surcharge fixed value:** You can spcify a value here. The fixed value will be added to the order total.
+**Surcharge fixed value:** You can specify a value here. The fixed value will be added to the order total.
 
 **Test Mode:** This option allows you to test the Paysera gateway using  Paysera server instead of live one. Use this option to test the plugin.
 

@@ -34,7 +34,7 @@ Simply remove this and leave the text area empty. Save and check.
 
 ## Checkout steps not working ? <a id="checkout-steps-not-working-"></a>
 
-The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordin style.
+The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an according style.
 
 If your checkout steps are not working, then follow the checklist here to troubleshoot
 
@@ -103,7 +103,7 @@ It is because the permission you have given at Joomla global configuration might
 
 Go to Joomla global configurationMove to Permissions tabUnder Public, choose Not Set to Site Login.Under Registered tab, choose Allowed to Site Login.Save.
 
-If you are using the content component K2, then please make sure the K2 user profile has been disabled in confgiuration.
+If you are using the content component K2, then please make sure the K2 user profile has been disabled in configuration.
 
 * Go to Components &gt; K2
 * Click Parameters on top right of the page

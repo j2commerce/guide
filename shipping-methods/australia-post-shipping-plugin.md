@@ -49,7 +49,7 @@ If you want to show the Date/Time of delivery in checkout page, you can set this
 
 **Minimum Subtotal required**
 
-If a minium quantity is required to avail this shipping method, you can set it here.
+If a minimum quantity is required to avail this shipping method, you can set it here.
 
 **Maximum Subtotal required**
 

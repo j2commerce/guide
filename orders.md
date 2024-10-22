@@ -81,7 +81,7 @@ Choose your payment method and shipping charge under Payment & Shipping method t
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Orders/order_07.png)
 
-At last, the order summary will be displayed. At the bottom of the page, you will see calculate tax button. On clicking this button will cacluate the text for this order.
+At last, the order summary will be displayed. At the bottom of the page, you will see calculate tax button. On clicking this button will calculate the text for this order.
 
 If you would like to apply extra charge to customers, use Add fee feature at the order summary tab. Enter the fee name, fee amount and choose the tax profile \(if you wants to charge extra fee taxable\) and then Finally click on save order.
 

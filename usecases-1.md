@@ -110,7 +110,7 @@ Maximum bookings per block = 25 All dates are = not available by default
 
 Add time range for boat ride by referring to the below picture
 
-![booking availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/usecases/usecase3-booking-availability.png)
+![booking availability](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/usecases/usecase3-booking-availability.png)
 
 **Frontend**
 

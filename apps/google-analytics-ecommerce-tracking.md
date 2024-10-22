@@ -17,7 +17,7 @@ You need to enable Ecommerce reporting in the view in which you want to see the 
 * Optional: Turn ON Enhanced Ecommerce.
 * Click Submit.
 
-**Seting up the Application**
+**Setting up the Application**
 
 Go to Joomla administrator - J2Store - AppsEnable the Google Analytics ECommerce AppOpen it to configure it
 

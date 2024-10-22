@@ -54,7 +54,7 @@ Select the view of the Ask Quote form.
 
 POP-UP: Select this to display the ask quote form in a separate pop-up window.
 
-Accordion: Select this to display the ask quote form in an accordian view
+Accordion: Select this to display the ask quote form in an accordion view
 
 * **Display position**&#x20;
 
