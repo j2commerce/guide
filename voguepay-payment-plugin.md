@@ -23,7 +23,7 @@ Now you can see the Voguepay Payments as an option during the Check out process.
 This is your original Voguepay Merchant id, can be found on the top right hand side after you login in the Voguepay Site.To get site id and secure site code
 
 1. Login into your Voguepay Account, If you don’t have an account then create an account.Go to the link:https://Voguepay.com”target = ¨\_blank”rel = ¨noopener¨&gt; click here
-2. After Successfull login you will get Merchant ID \( Parameter: Voguepay Merchant ID\).Use Voguepay Test ModeVoguepay offers a test environment. Before going live, you can test your store using the Voguepay’s test environment.By setting this Test mode ON , your merchand ID will be set as demo.
+2. After Successful login you will get Merchant ID \( Parameter: Voguepay Merchant ID\).Use Voguepay Test ModeVoguepay offers a test environment. Before going live, you can test your store using the Voguepay’s test environment.By setting this Test mode ON , your merchand ID will be set as demo.
 
 > IN LIVE SITE, THIS SHOULD BE SET TO NO.
 

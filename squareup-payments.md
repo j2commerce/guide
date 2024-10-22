@@ -40,11 +40,11 @@ The plugin ONLY implements the payments API of Square. That means it does not sy
 
 **Image or logo** Add logo image for your payment option here. Image added here will be displayed at checkout payment methods section.
 
-**Applicaton ID** Enter the Applicaton ID associated with your Squareup payment account.
+**Application ID** Enter the Application ID associated with your Squareup payment account.
 
-**Access Token** Enter the Access token associated with your Squareup payment account. Once entered Applicaton ID and Access Token, save. After saving, the Location parameter will show the list of locations available.
+**Access Token** Enter the Access token associated with your Squareup payment account. Once entered Application ID and Access Token, save. After saving, the Location parameter will show the list of locations available.
 
-**Locations** Choose your desired location from the availble list and save.
+**Locations** Choose your desired location from the available list and save.
 
 ![square1](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/square-01.png)
 

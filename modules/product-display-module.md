@@ -30,7 +30,7 @@ You can sort out the arrangement of product by using this option. For example, i
 
 **Product source**
 
-There are three sources from where you could fetch and dislay the products. For example, if you would like to display the products from categories, then choose Categories as your product source.
+There are three sources from where you could fetch and display the products. For example, if you would like to display the products from categories, then choose Categories as your product source.
 
 Select based on Product Tags
 

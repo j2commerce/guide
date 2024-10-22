@@ -2,7 +2,7 @@
 
 ## Introduction <a id="introduction"></a>
 
-Version 3 is re-written from scratch using the FOF Framework for Joomla. It comes with loads of new features and follows a different table structure \(schema\). So a migration is required if you want to update your store from 2.x to Version 3.
+Version 3 is re-written from scratch using the FOR Framework for Joomla. It comes with loads of new features and follows a different table structure \(schema\). So a migration is required if you want to update your store from 2.x to Version 3.
 
 We have created a tool, which simplifies the migration of your 2.x store to the latest 3.x version.
 
@@ -83,7 +83,7 @@ Click the Start Migration button and wait. The tool will migrate the data, remov
 
 If the migration is successful, you can will see a success message. If there is an error, it will display the error.
 
-**5.1 What should i do if an error occured**
+**5.1 What should i do if an error occurred**
 
 Please post the error at the forum: [click here](http://j2store.org/forum/j2store-version-3-feedback.html)
 
@@ -104,7 +104,7 @@ Then Go to Joomla administrator -&gt; Components -&gt; J2Store
 * Go to Catalog - Products - Open a product
 * Check if everything is right and save it.
 
-**No check on email-adress with guest checkout.Why?**
+**No check on email-address with guest checkout.Why?**
 
  Once finished the migration, Please go to J2Store - Configuration -Checkout layout. Click Re-populate checkout layout. Save. While migrating, the email field was set to not validate on guest checkout. Re-setting the checkout layout and also setting the email field to YES in the J2Store - Set up custom fields solves the issue.
 
@@ -122,7 +122,7 @@ VERY IMPORTANT: Apply the following steps only if you migrated from 2.8.x to 3.x
 
 You will see
 
-a. Tables with the follwing prefix:
+a. Tables with the following prefix:
 
 _v2_j2store\_ = These are your 2.x tables backed up by the migration tool
 

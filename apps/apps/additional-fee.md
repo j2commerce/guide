@@ -37,7 +37,7 @@ Here you can define whether the order total after applying additional fee should
 
 **Auto apply additional fee in checkout ?**
 
-Set **YES** will apply the additional fee at the checkout automatically. Set **NO** will hide the additonal fee displaying in cart page and checkout and it will display the checkbox at the payment step allowing customers to choose the fees.
+Set **YES** will apply the additional fee at the checkout automatically. Set **NO** will hide the additional fee displaying in cart page and checkout and it will display the checkbox at the payment step allowing customers to choose the fees.
 
 **Display a checkbox in the following checkout step**
 

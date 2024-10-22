@@ -11,7 +11,7 @@ This topic is split into the following sections to make it easier for you to und
 
 ## Introduction <a id="introduction"></a>
 
-Integrating J2Store with your extension is pretty straightforward. Since Version 3, we implement a flexible Plugin API and the entire J2Store core is re-written from scratch using the Framework on Framework \(FOF\).
+Integrating J2Store with your extension is pretty straightforward. Since Version 3, we implement a flexible Plugin API and the entire J2Store core is re-written from scratch using the Framework on Framework \(FOR\).
 
 So all you have to do is create an integration plugin for your component \(using your component’s events\). It can be a system plugin or a plugin specific to your component.
 

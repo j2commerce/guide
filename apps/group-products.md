@@ -10,7 +10,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 **Installation**
 
-1. Use the joomla installer ot install the app.
+1. Use the joomla installer or install the app.
 2. Go to J2Store &gt; Apps, find the Group Products app and click enable to activate the app.
 3. Once enabled, you dont need to configure anything in the app. Just go to article manager and click new article.
 

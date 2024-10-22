@@ -202,7 +202,7 @@ Please refer the below image which shows the name of the filters.
 
 **To hide Product filter:** Set HIDE to Product filter.
 
-**To hide all filters(price filter, category filter, manufacturer filter, product filter):** Set HIDE to Sidebar filters. You can change the positon of sidebar filter by changing the position of sidebar filters to Right and Left.
+**To hide all filters(price filter, category filter, manufacturer filter, product filter):** Set HIDE to Sidebar filters. You can change the position of sidebar filter by changing the position of sidebar filters to Right and Left.
 
 #### **Re-order checkout fields**
 

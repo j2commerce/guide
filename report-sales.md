@@ -24,7 +24,7 @@ Save and close.
 
 With this plugin, you can use filter to sort the orders. For example, choosing any one of the payment methods will display the orders which have been placed using the payment method you have chosen in the filter.
 
-Follwing pictures will explain you
+Following pictures will explain you
 
    
 

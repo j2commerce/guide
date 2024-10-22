@@ -34,7 +34,7 @@ The Article given will be displayed after the payment is processed and it can in
 
 \*\*Enable show save cart button
 
-**Set \*\*YES** will display the Save cart button\(which is used for un-registerd users\) in cart page. Clicking on this button will redirect the customer to register. After registering and loggin in, the cart items remains in the basket.
+**Set \*\*YES** will display the Save cart button\(which is used for un-registered users\) in cart page. Clicking on this button will redirect the customer to register. After registering and logging in, the cart items remains in the basket.
 
 ![Email basket frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-frontend.png)
 

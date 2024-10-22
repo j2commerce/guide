@@ -1,6 +1,6 @@
 # DIBS Payment Window Plugin
 
-The plugin integrates with the DIBS Payment Window method. Refer this page for more information.http://www.dibspayment.com/dibs-payment-window” traget = “\_blank”rel =“noopener”&gt; click here
+The plugin integrates with the DIBS Payment Window method. Refer this page for more information.http://www.dibspayment.com/dibs-payment-window” target = “\_blank”rel =“noopener”&gt; click here
 
 ## Requirements <a id="requirements"></a>
 

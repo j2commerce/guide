@@ -36,7 +36,7 @@ Use eWay Sandbox Turn this on to use the Test system provided by eWay. IMPORTANT
 
 Configuration - eWay Direct Old method. Not recommended by eWay. Consider using the eWay Rapid
 
-IMPORTANT: eWay Direct can only handle the Australian Dollor. So you should first set your default Currency is AUD.
+IMPORTANT: eWay Direct can only handle the Australian Dollar. So you should first set your default Currency is AUD.
 
 **Customer ID:** Enter the customer ID provided by the eWay.
 

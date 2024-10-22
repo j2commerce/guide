@@ -79,7 +79,7 @@ Save.Logout. Clear browser cache and test.This should fix the issue.
 
 ## Writing template override for the frontend order view and print layouts
 
-This tutorial applies to J2store 3.x versions. You will nedd to use your hosting CPanel file manager or an FTP client like filezilla to carry out the following tasks.
+This tutorial applies to J2store 3.x versions. You will need to use your hosting CPanel file manager or an FTP client like filezilla to carry out the following tasks.
 
 The following file control the display of order details in frontend. orderitems.php = This controls the display the order details in email and invoice template\(frontend order view\)
 
@@ -444,7 +444,7 @@ File location of filter
 **Cart page**  
 
 
-Cart page is controlled by the files located in the follwing path /components/com\_j2store/views/carts/tmpl  
+Cart page is controlled by the files located in the following path /components/com\_j2store/views/carts/tmpl  
 
 
 ![guidecart](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/template_guide_cart.png)
@@ -453,7 +453,7 @@ OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/carts/
 
 
 **Checkout page**  
-Checkout is controlled by the files located in the follwing path /components/com\_j2store/views/checkout/tmpl  
+Checkout is controlled by the files located in the following path /components/com\_j2store/views/checkout/tmpl  
 
 
 OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/checkout/  

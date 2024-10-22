@@ -4,7 +4,7 @@
 
 Perhaps, you might wish to collect the payment from the users based on plans,then you could choose this as the option in the partial payment type.
 
-If you choose this type you shoould set up a plan first.For example if you are going to receive the payment in 3 segments, create a plan called three installments:
+If you choose this type you should set up a plan first.For example if you are going to receive the payment in 3 segments, create a plan called three installments:
 
 ![instances1](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/instances/app_partialpaymentplantypeback.png) Then this is how the users will be provided payment options when a plan is chosen as the partial payment type.
 
