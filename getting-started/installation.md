@@ -1,6 +1,6 @@
 # Installation
 
-To install J2Store, you need j2store archive downloaded or purchased from [click here](http://www.j2store.org/download.html).
+To install J2Store, you need j2store archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
 
 ## J2Store Versions <a id="j2store-versions"></a>
 
