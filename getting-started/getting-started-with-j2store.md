@@ -8,13 +8,11 @@ J2Store turns your native Joomla articles into products beautifully. Just create
 
 ![Gettingstarted](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-configenterdetails.png)
 
-* Watch our [quick start video tutorials](https://www.j2store.org/support/video-tutorials/content/quick-start.html)
-*  [Checkout the use cases](https://www.j2store.org/resources/usecases.html) . We have 100+ of them covering almost all popular online store requirements.
-* Learn from our complete [user guide.](https://www.j2store.org/support/user-guide.html)
-* Building a store in your language?[ Download translations](https://www.j2store.org/translations.html).
-* Check all available [payment gateways ](https://www.j2store.org/extensions/payment-plugins.html)for your store.
-* Looking to extend your store? Here are [the apps](https://www.j2store.org/extensions/apps.html) to help.
-* Need priority support and PRO features?[ Purchase PRO plan.](https://www.j2store.org/get-j2store.html)
+* Watch our quick start video tutorials [Coming soon]
+* [Checkout the reviews](https://www.j2commerce.com).
+* Learn from our complete user guide. You are in!
+* Building a store in your language? [Coming soon].
+* Check all available [payment gateways](https://www.j2commerce.com/extensions/payment-plugins) for your store.
+* Looking to extend your store? Here are [the apps](https://www.j2commerce.com/extensions) to help.
 
 Still need assistance ? Contact our support team.
-
