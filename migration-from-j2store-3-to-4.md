@@ -36,7 +36,7 @@ Take a FULL BACKUP so that in case of issues, you can always restore your site f
 
 We have created a simple migration helper that check for potential conflicts with the plugins and lets you disable them before the migration.
 
-1. Download the utility from here: [https://github.com/J2Store4/j2store\_migration\_checker/releases](https://github.com/J2Store4/j2store\_migration\_checker/releases)&#x20;
+1. Download the utility from here: [github.com/j2commerce/j2store_migration_checker/releases](https://github.com/j2commerce/j2store_migration_checker/releases)&#x20;
 2. Install it by logging into your Joomla 3 administrator -> extensions -> Install
 3. Once installed, go to Components -> J2Migration checker&#x20;
 
@@ -60,7 +60,7 @@ We’ll not be able to support any custom developed extensions / plugins / add-o
 
 Once you have disabled all the J2Store related extensions, you can proceed to download the J2Store 4 from our official J2Store Github repository at:&#x20;
 
-[https://github.com/J2Store4/j2store4/releases](https://github.com/J2Store4/j2store4/releases)
+[github.com/j2commerce/j2cart/releases](https://github.com/j2commerce/j2cart/releases)
 
 Download the latest version of J2Store 4 and install it.
 
