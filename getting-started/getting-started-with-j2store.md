@@ -6,7 +6,9 @@ description: Quick links to initial steps.
 
 J2Store turns your native Joomla articles into products beautifully. Just create articles, treat them as products and launch your online store. It is really that simple. We have put together a list of resources to get you started with your store quickly:
 
-![Gettingstarted](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-configenterdetails.png)
+![Gettingstarted](https://github.com/user-attachments/assets/aeb852c3-57b8-4823-8f33-463f293bf9c7)
+
+Select `Save and Proceed` to enter the store's dashboard.
 
 * Watch our quick start video tutorials [Coming soon]
 * [Checkout the reviews](https://www.j2commerce.com).
