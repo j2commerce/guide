@@ -13,7 +13,7 @@ Download the **J2store Pro Package**.
 Once you downloaded, now go to Joomla installer and install the J2store Pro Package over it.
 
 ```text
- **Note** : By installing the J2store Pro version over the Free version, your content will not be lost```
+ **Note** : By installing the J2store Pro version over the Free version, your content will not be lost.
 ```
 
 
