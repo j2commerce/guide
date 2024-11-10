@@ -6,7 +6,7 @@ You can check which version of J2store you are using. Just Go to J2store &gt; Da
 
 ## How to upgrade the J2store Free version to Pro version ? <a id="how-to-upgrade-the-j2store-free-version-to-pro-version-"></a>
 
-If you have login and you are in the subscribers list, please go to this link: [click here](http://j2store.org/my-downloads.html)
+If you have login and you are in the subscribers list, please go to this link: [click here](https://www.j2commerce.com/my-account)
 
 Download the **J2store Pro Package**.
 
