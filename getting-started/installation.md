@@ -17,7 +17,7 @@ Have a look at the image below:
 
 **Basic** plan is free and gives you access to download J2Store Core version from
 
-To install J2Store, you need j2store archive downloaded or purchased from [click here](http://www.j2store.org/download.html).
+To install J2Store, you need j2store archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
 
 Remaining are for-a-fee plans which gives access to J2Store PRO version. You can choose any of the four and get a copy of the extension.
 
