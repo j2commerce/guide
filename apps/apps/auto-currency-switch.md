@@ -2,7 +2,7 @@
 
 This App automatically sets the store front’s default currency based on the Country of the customer.
 
-When a store user from canada visits the store you may show the store price in CAD \(Cannadian dollers\) and when a US customer visits the store, show the rate in USD. Configure any number of currencies and countries in the app settings.
+When a store user from canada visits the store you may show the store price in CAD \(Cannadian dollars\) and when a US customer visits the store, show the rate in USD. Configure any number of currencies and countries in the app settings.
 
 **Requirements**
 

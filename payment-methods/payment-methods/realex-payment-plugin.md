@@ -32,7 +32,7 @@ The plugin has the following parameters need to be addressed.
 
 **Merchant Id** This is your merchant ID associated with RealEx payment.
 
-**Account Id** Account ID entered here should be assoicated with RealEx payment.
+**Account Id** Account ID entered here should be associated with RealEx payment.
 
 **Secret Key** Secret key entered here should be associated with your RealEx payment account.
 

@@ -11,7 +11,7 @@ Joomla 3.x J2Store 3.2.14 or higher PHP version 5.4 or higher
 **Installation**
 
 1. Download Pay later app from our site and install it using Joomla installer.
-2. After the installating, go to J2Store &gt; Apps and find Pay Later / Pay against Invoice app.
+2. After the installation, go to J2Store &gt; Apps and find Pay Later / Pay against Invoice app.
 3. Click Enable to activate Pay Later / Pay against Invoice app.
 
 ![plpa01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa01.png)

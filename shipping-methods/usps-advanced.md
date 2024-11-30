@@ -46,7 +46,7 @@ Refer the below image
 
 **Handling cost** If you need to charge a handling cost for the shipping, you can enter here.
 
-**Length unit** Select the desired unit in which you want to measure the dimension, like, inch, milimeter and centi metre. Preferred unit Inch.
+**Length unit** Select the desired unit in which you want to measure the dimension, like, inch, millimeter and centi metre. Preferred unit Inch.
 
 **Weight unit** Select the desired unit in which you want to measure the weight, like, kilograms, pounds etc. Preferred unit Pound.
 
@@ -155,7 +155,7 @@ Refer the below images
 
 ![ex1](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/Express1.png)
 
-**Advanced package handling** This type of handling method applies to Box packing type and Flat rate services. For scenario, consider you are having only two boxes \(Box 1, Box 2\) and 7 items needs to be packed. Pack the first three items into Box 1 and second three items into Box 2. To pack the item 7, you need one more box \(Box 3\). So you need multiple boxes to pack the items. In this case, you can decide the cost for additonal box should be applied or not.
+**Advanced package handling** This type of handling method applies to Box packing type and Flat rate services. For scenario, consider you are having only two boxes \(Box 1, Box 2\) and 7 items needs to be packed. Pack the first three items into Box 1 and second three items into Box 2. To pack the item 7, you need one more box \(Box 3\). So you need multiple boxes to pack the items. In this case, you can decide the cost for additional box should be applied or not.
 
 By this Advance Package handling method you can use the following options to charge and un-charge the unpacked item.
 

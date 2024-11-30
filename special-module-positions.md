@@ -65,7 +65,7 @@ J2store offers special module positions to place the Joomla’s custom HTML modu
 
  
 
-![Checkout postions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_checkout.png)
+![Checkout positions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_checkout.png)
 
 ![Frontend checkout special module positions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_checkout-front.png)
 

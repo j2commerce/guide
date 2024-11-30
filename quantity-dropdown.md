@@ -25,7 +25,7 @@ Set this option to **YES** will enable the dropdown quantity box for all product
 
 Choose the type of quantity box to be displayed. There are two types of quantity box offered by this app: Dropdown and Default. The Dropdown type would display the quantity box in a dropdown format and the Default type would display quantity box in a J2Store’s normal quantity field format.
 
-**Pre-defined quantity \(in a comma seperated format\)**
+**Pre-defined quantity \(in a comma separated format\)**
 
 The quantity dropdown would render the quantity values entered here. You could enter the values in a comma \(,\) separated format. For example: 10,20,30,40,50
 
@@ -75,7 +75,7 @@ Choose Quantity box display type from the options\(Dropbox, Default\) available.
 
 Dropbox : Choosing this option will display quantity box in dropdown type. Default : Choosing this option will display default quantity box.
 
-**Pre-defined quantity \(in a comma seperated format\)** The quantity dropdown would render the quantity values entered here. You could enter the values in a comma \(,\) separated format. For example: 10,20,30,40,50
+**Pre-defined quantity \(in a comma separated format\)** The quantity dropdown would render the quantity values entered here. You could enter the values in a comma \(,\) separated format. For example: 10,20,30,40,50
 
 **Restrict the display of the dropdown to selected user groups?**
 
