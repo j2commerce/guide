@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction to J2Store](README.md)
+* [Welcome to J2Commerce](README.md)
 * [Getting Started](getting-started/README.md)
   * [Introduction to J2Store](getting-started/introduction.md)
   * [Getting started with J2store](getting-started/getting-started-with-j2store.md)
