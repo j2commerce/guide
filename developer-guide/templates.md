@@ -113,18 +113,18 @@ Following files controls filter section,
 
 **Cart page**
 
-Cart page is controlled by the files located in the follwing path /components/com\_j2store/views/carts/tmpl
+Cart page is controlled by the files located in the following path /components/com\_j2store/views/carts/tmpl
 
 **OVERRIDE PATH** templates/YOUR-TEMPLATE/html/com\_j2store/carts/
 
 **Checkout page**
 
-Checkout is controlled by the files located in the follwing path /components/com\_j2store/views/checkout/tmpl
+Checkout is controlled by the files located in the following path /components/com\_j2store/views/checkout/tmpl
 
 **OVERRIDE PATH** templates/YOUR-TEMPLATE/html/com\_j2store/checkout/
 
 **Order history page**
 
-Order history page is controlled by the files located in the follwing path/components/com\_j2store/views/myprofile/tmpl
+Order history page is controlled by the files located in the following path/components/com\_j2store/views/myprofile/tmpl
 
 **OVERRIDE PATH** templates/YOUR-TEMPLATE/html/com\_j2store/myprofile/

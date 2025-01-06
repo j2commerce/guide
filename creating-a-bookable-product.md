@@ -123,7 +123,7 @@ This tab controls the availability of blocks \(i.e.\) what blocks can be booked.
 
 **Minimum block bookable and maximum block bookable :** If today is March 1 and you set minimum block bookable to 1 day into the future, then the first date a customer could book would be March 2. The same applies to the maximum date bookable. If you set maximum block bookable to 2 day into the future, then blocks avalaiable for booking are March 2, March 3.
 
-**All dates are :** This option allows you to define specific date range to be availble or not available by default. The date range can be defined based on following time frames Months, Days, Hours, Minutes.
+**All dates are :** This option allows you to define specific date range to be available or not available by default. The date range can be defined based on following time frames Months, Days, Hours, Minutes.
 
 **Add date range**
 
@@ -174,7 +174,7 @@ Min persons = 1 Max persons = 5
 
 ![car rent persons](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/car-rent-persons.png)
 
-**Availablity** The car would be rented on a daily basis. The parameters should be set as follows:
+**Availability** The car would be rented on a daily basis. The parameters should be set as follows:
 
 Max bookings per block = 4
 
@@ -184,7 +184,7 @@ To restrict the availability of the hall only to week days and block the availab
 
 Range type = Range of days Range = Saturday to Sunday Bookable = No
 
-![car rent availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/car-rent-availability.png)
+![car rent availability](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/car-rent-availability.png)
 
 Following is the screenshot of frontend:
 
@@ -230,7 +230,7 @@ Set pricing for car renting and move to next tab. There is no restriction for th
 
 Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future Maximum block bookable= 11 month\(s\) into the future
 
-![house rent availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/house-rent-availability.png)
+![house rent availability](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/house-rent-availability.png)
 
 **Screenshot of frontend**
 
@@ -268,7 +268,7 @@ Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future 
 
 **Availability tab** Max bookings per block = 10 Minimum block bookable = 0 days into the future Maximum block bookable = 1 month into the future Range type = Time range\(all weeks\) Range = 12:00 AM to 09:00 PM Bookable = Yes
 
-![sports helemt availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/sports-helmet-availability.png)
+![sports helemt availability](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/sports-helmet-availability.png)
 
 **Frontend screenshot**
 
@@ -307,7 +307,7 @@ Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future 
 
  
 
-![booking minutes availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes_availability.png)
+![booking minutes availability](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes_availability.png)
 
 **Frontend:**
 

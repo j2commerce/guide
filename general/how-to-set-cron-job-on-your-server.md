@@ -36,7 +36,7 @@ This security key can be used for execution of cron jobs required by apps and pl
 wget -O /dev/null "http://www.example.com/index.php?option=com_j2store&view=cron&command=appsubscriptionproduct&cron_secret=XXXXX" > /dev/null
 ```
 
-Where XXXXX is your cron secret key. Replace www.example.com with your domain nam\*\*\*
+Where XXXXX is your cron secret key. Replace www.example.com with your domain name\*\*\*
 
 * Click Add New Cron Job. \*\*You can also use one of the following commands depending on your server:
 

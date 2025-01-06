@@ -6,7 +6,7 @@ Shipstation is a multi-channel, multi-carrier shipping solution that simplifies 
 
 Now conduct your business with more fluidity and transparency with the easy interfacing of shipstation.
 
-NOTE: Shipstation will not send any Webhook notifications when you manually mark an order as Shipped in your ShipStation console. It is treated as externally fullfilled orders. Tracking numbers for those orders should be entered manually in your ShipStation and also in J2Store.
+NOTE: Shipstation will not send any Webhook notifications when you manually mark an order as Shipped in your ShipStation console. It is treated as externally fulfilled orders. Tracking numbers for those orders should be entered manually in your ShipStation and also in J2Store.
 
 **Installation**
 

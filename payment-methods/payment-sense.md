@@ -30,7 +30,7 @@ description: Payment Sense payment gateway is integrated with J2Store using this
 
 **PreShareKey:** Please enter the PreShareKey associated with your Payamentsense account
 
-**Encription Method:** Choose your Encription Method here from the available options.
+**Encryption Method:** Choose your Encryption Method here from the available options.
 
 **PaymentSense Communication:** You may select the payment response method here from the provided options.
 

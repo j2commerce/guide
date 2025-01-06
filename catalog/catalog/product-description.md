@@ -22,7 +22,7 @@ In J2store, you can enable and disable the display of short description and long
 
 Sometimes “short description” is enabled in the setting with “long description” disabled but the list layout shows both text plus read-more text.
 
-The above issue seems to be occuring while triggering the content plugins.
+The above issue seems to be occurring while triggering the content plugins.
 
 Old content plugins process the $item-text as $item-&gt;introtext
 

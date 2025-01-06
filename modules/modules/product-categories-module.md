@@ -1,6 +1,6 @@
 # Product categories module
 
-With the product categories module, you could display an overview of the categories and sub-categories available in your site, on any place you wish. It is possible to display the number of articles, category descriptions present in a particular category, using this module. You could also redirect users to the products present in the categories thorugh this module.
+With the product categories module, you could display an overview of the categories and sub-categories available in your site, on any place you wish. It is possible to display the number of articles, category descriptions present in a particular category, using this module. You could also redirect users to the products present in the categories through this module.
 
 **Installation**
 

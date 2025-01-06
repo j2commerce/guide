@@ -2,13 +2,13 @@
 
 Sell your files stored in Amazon S3 drive with J2Store Joomla eCommerce platform. The app enables you to connect your Amazon S3 bucket and sell the files securely.
 
-Never worry about your files being shared in the vastness of Internet. The app generates a temproary url which will expire within minutes \(you can control its expiry from the app settings\), thus effectively preventing direct access to your files. The download url is also well masked. The app is suitable for those selling PDFs, Images, Audio and Videos, Extensions, Apps and more.
+Never worry about your files being shared in the vastness of Internet. The app generates a temporary url which will expire within minutes \(you can control its expiry from the app settings\), thus effectively preventing direct access to your files. The download url is also well masked. The app is suitable for those selling PDFs, Images, Audio and Videos, Extensions, Apps and more.
 
 **Key Features**
 
 * Sell any file stored in Amazon S3
-* Enables you to retrive the files from the Amazon S3 bucket remotely.
-* Generates a temproary url for the downlodable files, which expires within minutes
+* Enables you to retrieve the files from the Amazon S3 bucket remotely.
+* Generates a temporary url for the downlodable files, which expires within minutes
 * Allows you to control the expiry of the url from settings
 
 **Requirements**
@@ -63,7 +63,7 @@ Never worry about your files being shared in the vastness of Internet. The app g
 * **Get Bucket name options:**
 * \*\*Specify Bucket name - \*\* option allows you to enter the bucket name based on your desire.
 * **List bucket name option -** will display all the Bucket names in a list format and enables to choose one.
-* **Amazon Bucket name -** Displays the specified or choosen bucket name .
+* **Amazon Bucket name -** Displays the specified or chosen bucket name .
 * **Signature version** enables user to choose the Amazon web service version used by them. 
 * \*\*Region - \*\*Select the current region specified in your zone else the products wont be displayed.
 * **Expiry for temporary download URL-**Set the expiration time to download URL.
