@@ -3,7 +3,7 @@
 * [Welcome to J2Commerce](README.md)
 * [Getting Started](getting-started/README.md)
   * [Introduction to J2Commerce](getting-started/introduction.md)
-  * [Getting started with J2store](getting-started/getting-started-with-j2store.md)
+  * [Getting started with J2Commerce](getting-started/getting-started-with-j2store.md)
   * [Technical Requirements](getting-started/technical-requirements.md)
   * [Installation](getting-started/installation.md)
   * [Update](getting-started/update.md)
