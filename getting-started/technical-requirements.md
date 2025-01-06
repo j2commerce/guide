@@ -19,3 +19,5 @@ Technical requirements for J2Store 4/**Joomla5**:
 ## Joomla Requirements <a href="#joomla-requirements" id="joomla-requirements"></a>
 
 Make sure you check these [minimum requirements for Joomla](https://manual.joomla.org/docs/next/get-started/technical-requirements/)
+
+Joomla 4 or 5 - Compatibility Plugin Must Be **Published**
