@@ -1,3 +1,9 @@
+---
+description: >-
+  This page is outdated under J2Commerce for Joomla 4 - Please contact us for
+  information.
+---
+
 # Translate J2Store into your language
 
 Translating J2Store in your language is very easy. All the language files are managed in Transifex, an effective localization platform. This guide should help you get J2Store to work in your language with a few easy steps.
@@ -48,8 +54,6 @@ Once you choose J2Store you can see a list of the language resources. They are n
 
 Click a resource to start translating. For example click on the J2Store → admin\_com\_J2Store\_menu. This will open a pop up.
 
-&#x20;
-
 ![Transifex german resource](https://raw.githubusercontent.com/j2store/doc-images/master/translation/Translate-j2store-to-your-lang/translation-transifex-resource-germany.png)
 
 Click on the translate now. This will take you to the translations management window.
@@ -67,8 +71,6 @@ Translate all the language resources in the same fashion.
 **Video Tutorial:**
 
 {% embed url="https://youtu.be/lqwO0ANPURQ" %}
-
-
 
 Once you have translated, inform us. We will make an installable package and make it available for download at [click here](https://docs.j2store.org/translation/\[http://J2Store.org/translations.html]\(%3Chttp:/J2Store.org/translations.html%3E\)) immediately.
 
