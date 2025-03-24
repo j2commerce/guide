@@ -72,7 +72,7 @@ This feature sets Impression threshold for category page. It sends hit after the
 
 ![eega05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega05.png)
 
-4. After that, it is mandatory to create following checkout lables:
+4. After that, it is mandatory to create following checkout labels:
 
 a. Cart
 

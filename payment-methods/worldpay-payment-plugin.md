@@ -28,7 +28,7 @@ Replace “yourdomainname.com” with your domain name.
 
 **Payment response password** DO NOT fill anything here. Leave it empty.
 
-**MD5 Secret for transactions field** Enter a password / Key here. Remeber this as you have to enter this in the plugin setup as well.
+**MD5 Secret for transactions field** Enter a password / Key here. Remember this as you have to enter this in the plugin setup as well.
 
 **Signature Fields** Enter the following value to SignatureFields field in the Integration Setup in WorldPay: instId : cartId : amount : currency
 

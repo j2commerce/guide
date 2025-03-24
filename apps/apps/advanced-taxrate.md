@@ -9,7 +9,7 @@
 **Installation Instructions**
 
 1. Use the joomla installer to install the app.
-2. In tha backend, go to J2store Dashboard -&gt; Apps.
+2. In the backend, go to J2store Dashboard -&gt; Apps.
 3. Click enable in the Advanced tax rate app.
 
 ![atv01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Advanced%20tax%20rate/advancetax_01.png)
