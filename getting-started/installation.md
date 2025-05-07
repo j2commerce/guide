@@ -1,10 +1,10 @@
 # Installation
 
-To install J2Store, you need j2store archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
+To install J2Commerce, you need J2Commerce archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
 
-## J2Store Versions <a id="j2store-versions"></a>
+## J2Store Versions <a href="#j2store-versions" id="j2store-versions"></a>
 
-There are four plans available in j2store shopping cart extension.
+There are four plans available in J2Commerce shopping cart extension.
 
 * Basic
 * Standard
@@ -15,41 +15,36 @@ Have a look at the image below:
 
 ![Installation-planandproceed](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-Planandproceed.png)
 
-**Basic** plan is free and gives you access to download J2Store Core version from
+**Basic** plan is free and gives you access to download J2Commerce Core version from
 
-To install J2Store, you need j2store archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
+To install J2Commerce, you need J2Commerce archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
 
-Remaining are for-a-fee plans which gives access to J2Store PRO version. You can choose any of the four and get a copy of the extension.
+Remaining are for-a-fee plans which gives access to J2Commerce PRO version. You can choose any of the four and get a copy of the extension.
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
-In your Joomla control panel top menu, go to Extensions -&gt; Extension Manager, as illustrated below.
+In your Joomla control panel side menu, go to System > Install > Extension, as illustrated below.
 
-![Installation-extensionmanager](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-extensionmanager.png)
+![Installation-extensionmanager](../.gitbook/assets/install.webp)
 
 When you click here, you will be directed to the screen where you can select the downloaded/purchased packaged. See the image below:
 
-![Installation-browse](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-browse.png)
+![Installation-browse](../.gitbook/assets/extensions.webp)
 
 As illustrated, select the package file and click ‘Upload and Install’.
 
-![Installation-uploadinstall](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-uploadinstall.png)
+J2Commerce is now installed and you will get this success message, as illustrated below.
 
-J2Store is now installed and you will get this success message, as illustrated below.
+![Installation-success-message](../.gitbook/assets/successful.webp)
 
-![Installation-success-message](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-success.png)
+Now go to the side menu->components->J2Commerce, you will get the configuration screen as shown below: Enter the details for your online store and click save.
 
-Now go to the topmenu-&gt;components-&gt;j2store, you will get the configuration screen as shown below:
+![Installation-storeconfiguration](../.gitbook/assets/congratulations.webp)
 
-![Installation-storeconfiguration](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-Store-config.png)
 
-Enter the details for your online store as shown below.
 
-![Installation-configenterdetails](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-configenterdetails.png)
+And here is the J2Commerce Dashboard.
 
-And here is the J2Store Dashboard.
+![Installation-dashboard](<../.gitbook/assets/J2Commerce dashboard.webp>)
 
-![Installation-dashboard](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-dashboard.png)
-
-Now, you are powered with j2store. Build your online store, within minutes and happy selling!
-
+Now, you are powered with J2Commerce. Build your online store, within minutes and happy selling!

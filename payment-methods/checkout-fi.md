@@ -31,7 +31,7 @@ The plugin has the following parameters need to be addressed.
 
 **Sandbox Merchant Id** Use your Payment Checkout Finland’s Sandbox merchant ID.
 
-![checkout](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandone.png)
+![checkout](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandone.png)
 
 **Sandbox security key** Use your Payment Checkout Finland’s Sandbox security key.
 
@@ -41,7 +41,7 @@ The plugin has the following parameters need to be addressed.
 
 **Display text on selection** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -49,7 +49,7 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 
 **Display text on after payment** The text entered here will be displayed when customer completes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-![checkoutpayt](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandtwo.png)
+![checkoutpayt](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandtwo.png)
 
 **Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -58,9 +58,9 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 **Debug** Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
 **Payment button text** Text entered here will be added as the name of the payment button. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.\
-&#x20;
 
-![checkpay](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandthree.png)
+
+![checkpay](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandthree.png)
 
 **Support** Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 

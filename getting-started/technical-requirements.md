@@ -2,14 +2,14 @@
 
 ## Server Requirements <a href="#server-requirements" id="server-requirements"></a>
 
-Technical requirements for J2Store 4/**Joomla4**:
+Technical requirements for J2Commerce 4/**Joomla4**:
 
 * PHP 7.2.5 or greater - we recommend 8.2
 * MySQL 5.6 or greater - we recommend 8.0
 * Joomla 4
 * CURL and JSON modules enabled
 
-Technical requirements for J2Store 4/**Joomla5**:
+Technical requirements for J2Commerce 4/**Joomla5**:
 
 * PHP 8.1 or greater - we recommend 8.3
 * MySQL 8.0.13 or greater - we recommend 8.1
