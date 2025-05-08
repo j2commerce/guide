@@ -10,8 +10,8 @@ The Purpose of this app is to add the users to the user group for selected order
 
 ## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
-1. Use the joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
+1. Use the Joomla installer to install the app.
+2. In the backend, go to J2Commerce Dashboard -> Apps as shown in the image below.
 3. Click Enable in the Add to User Group app
 
 ![atug01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Add%20to%20user%20group/atug.png)
