@@ -4,7 +4,7 @@ These are created for additional details to be used in checkout processes that i
 
 There are two types of custom fields, namely, **Core custom fields** and **Non-Core custom fields**.
 
-Custom fields that are in J2Store by default are **Core** custom fields and that are created by users are **Non-Core** custom fields.
+Custom fields that are in J2Commerce by default are **Core** custom fields and that are created by users are **Non-Core** custom fields.
 
 Core custom fields can be edited as per users wish but it is not advisable to make changes to **Core** custom fields except changing the name and label of the fields.
 
@@ -29,22 +29,22 @@ Apart from these core custom fields, you can create your own custom fields accor
 
 For example, if you want to add a custom note for your reference, you can create it as a custom field and make it to be displayed in the billing or shipping process.
 
-Check the image for a list of custom fields: ![List of available core and non-core custom fields](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/custom-fields/custom_fields_list.png)
+Check the image for a list of custom fields: ![List of available core and non-core custom fields](<../.gitbook/assets/custom fields2.webp>)
 
 Let us see how to create a custom field.
 
 In the custom field list view, click the **New** button. You will the get a screen as shown in the image below.
 
-## Add a Custom Field <a id="add-a-custom-field"></a>
+## Add a Custom Field <a href="#add-a-custom-field" id="add-a-custom-field"></a>
 
-![Adding a new custom field](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/custom-fields/custom_field_addnew.png)
+![Adding a new custom field](../.gitbook/assets/custom_fields2.webp)
 
 To add a custom field, we need to enter the following details. They are given below on by one:
 
 * Label - Name of the custom field that is displayed in the layout
 * Table - The table where the custom field is created - this is default and you can not change it
 * Field Column Name - name of the column that is created in the table
-* Field Type - This is the type of the field you are about to create and there are 12 types available to choose from - they are:TextEmailTextareawysiwyg editor \(what you see is what you get\)RadioCheckboxSingle DropdownZone/Country ListDateTimeDateTimeCustom Text
+* Field Type - This is the type of the field you are about to create and there are 12 types available to choose from - they are:TextEmailTextareawysiwyg editor (what you see is what you get)RadioCheckboxSingle DropdownZone/Country ListDateTimeDateTimeCustom Text
 
 The remaining fields after the **Field Type** is selected, will be different based on the **Field Type** and the details have to fed as required by the changed fields
 
@@ -69,47 +69,46 @@ You can choose the layouts to display the field. You can select all the three la
 * Checkout Shipping Address Layout
 * Checkout Payment Method Layout
 
-## Add the custom field in the checkout layout <a id="add-the-custom-field-in-the-checkout-layout"></a>
+## Add the custom field in the checkout layout <a href="#add-the-custom-field-in-the-checkout-layout" id="add-the-custom-field-in-the-checkout-layout"></a>
 
 To add the custom field into the checkout field,
 
-Go to J2store &gt; setup &gt; configuration &gt; checkout layout
+Go to J2Commerce > setup > configuration > checkout layout
 
-You can find the three layouts \(billing address layout, shipping address layout, payment method layout\).
+You can find the three layouts (billing address layout, shipping address layout, payment method layout).
 
-Here you can edit the billing and shipping layouts by re-ordering the fields or by adding new fields\(custom fields\).
+Here you can edit the billing and shipping layouts by re-ordering the fields or by adding new fields (custom fields).
 
-For example, if you have created the field called custom\_address3 with the selection of billing address layout in custom field display settings and if you want to display it in the checkout layout, add it in the billing layout section in the J2store configuration checkout layout tab.
+For example, if you have created the field called custom\_address3 with the selection of billing address layout in custom field display settings and if you want to display it in the checkout layout, add it in the billing layout section in the J2Commerce configuration checkout layout tab.
 
-Field name should be enclosed with square brackets \(for example,**\[custom\_address3\]**\)
+Field name should be enclosed with square brackets (for example,**\[custom\_address3]**)
 
 Refer the below pictures.
 
-![Newly added custom field](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/custom-fields/customfield-newly-added.png)
+![Newly added custom field](<../.gitbook/assets/custom fields3.webp>)
 
-## Adding custom fields to the checkout layout <a id="adding-custom-fields-to-the-checkout-layout"></a>
+## Adding custom fields to the checkout layout <a href="#adding-custom-fields-to-the-checkout-layout" id="adding-custom-fields-to-the-checkout-layout"></a>
 
 Custom fields can be used to collect extra input from users. For example, if you wish to collect the desired delivery date from the users at the checkout page, this can be done by creating a date type custom field and adding it to the checkout layout as indicated below:
 
-![Adding custom fields to the checkout](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/custom-fields/add_custom_field_checkout.png)
+![Adding custom fields to the checkout](<../.gitbook/assets/custom field checkout2.webp>)
 
-Adding the custom field at the J2Store-&gt;Setup-&gt;Configuration-&gt;Checkout layout page in the desired layout would display the custom field in that particular layout, thereby allowing users to choose their desired input.
+Adding the custom field at the J2Commerce ->Setup->Configuration->Checkout layout page in the desired layout would display the custom field in that particular layout, thereby allowing users to choose their desired input.
 
 And if you wish to send the chosen custom fields in the email notifications, this can be done by adding the shortcode of the custom field in the email template.
 
-## How to add custom fields inside email template ? <a id="how-to-add-custom-fields-inside-email-template-"></a>
+## How to add custom fields inside email template ? <a href="#how-to-add-custom-fields-inside-email-template" id="how-to-add-custom-fields-inside-email-template"></a>
 
 Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
 
-\[CUSTOM\_BILLING\_FIELD:FIELDNAME\]
+\[CUSTOM\_BILLING\_FIELD:FIELDNAME]
 
 Keep in mind, the following, when you add a custom field to the editor:
 
-* The custom field should be enclosed in \[\]
+* The custom field should be enclosed in \[]
 * All the letters should be in CAPITAL letters
-* ‘CUSTOM’ is the first word inside the \[\]
+* ‘CUSTOM’ is the first word inside the \[]
 * Next, the section in which you have created the field, like, ‘BILLING\_FIELD’
 * And finally, the field name
 
-Refer the image below for more clear understanding. ![Adding custom field to emails](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/custom-fields/guide-to-add-custom-field-in-email-template.png)
-
+Refer the image below for more clear understanding. ![Adding custom field to emails](<../.gitbook/assets/custom field in email template2.webp>)

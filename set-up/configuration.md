@@ -56,7 +56,7 @@ This option is same as the previous one. Here, there are four options available 
 
 NOTE: The file path shouldn't start with a frontslash.
 
-![basic settings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-basicsettings.png)
+![basic settings](<../.gitbook/assets/basic settings-configuration (1).webp>)
 
 ## Store <a href="#store" id="store"></a>
 
@@ -78,7 +78,7 @@ Configure the address, administrator email and some defaults for your storefront
 
 **ZIP/Postal code** Enter a valid postal code for the store. This field can not be empty. Check the image below to understand how to enter emails, store name and address etc.
 
-![Configuration-storesettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-storesetttings.png)
+![Configuration-storesettings](<../.gitbook/assets/store (1).webp>)
 
 **Country Name** Name of the country in which the store exists. To be selected from the given list.
 
@@ -96,7 +96,7 @@ Configure the address, administrator email and some defaults for your storefront
 
 These are global parameters for product display. You can override some of these parameters if you are using the J2Commerce's product layout.
 
-![Configuration-productsettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-productsettings.png)
+![Configuration-productsettings](../.gitbook/assets/product2.webp)
 
 **Catalog Mode** Setting this option to ‘Yes’ will disable all the features of the cart except the ‘price’ of the product.
 
@@ -137,7 +137,7 @@ Example: In J2Store we can set the base price for the product and we can also of
 * **Max Sale Quantity** Global setting. By default, it is left empty. It can also be overwritten.
 * **Notify if stock goes below** The global setting for this field is empty and it can be overwritten for the user’s desired quantity. And when the stock goes beyond the preset level it will be notified. Check the image below for a clear understanding.
 
-![Configuration-inventorysettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-inventorysettings.png)
+![Configuration-inventorysettings](../.gitbook/assets/inventory2.webp)
 
 ## Tax <a href="#tax" id="tax"></a>
 
@@ -157,7 +157,7 @@ An important area. Please think twice before you configure. Read the description
 
 **Display prices during cart / checkout Excluding tax** Choose how do you want to display the prices(including tax or excluding tax) during the checkout. One of these options can be selected here. Check the image below for a visual aid:
 
-![Configuration-taxsettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-taxsettings.png)
+![Configuration-taxsettings](../.gitbook/assets/tax2.webp)
 
 ## Discount <a href="#discount" id="discount"></a>
 
@@ -167,7 +167,7 @@ An important area. Please think twice before you configure. Read the description
 
 **Enable Gift Vouchers** By enabling this option with a ‘Yes’, the customers can be offered gift vouchers with fixed value, say $ 25.00, which in turn, can be applied during the checkout.
 
-![Configuration-discount-settings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-discountsettings.png)
+![Configuration-discount-settings](../.gitbook/assets/discount2.webp)
 
 ## Cart <a href="#cart" id="cart"></a>
 
@@ -230,7 +230,7 @@ Cart and checkout settings for your store.
 * **Hide shipping costs until an address is entered** Setting this option to Yes would hide the shipping costs until the user chooses the address at the checkout.
 * **Clear Cart data Older than** The duration mentioned here would determine the number of days the cart is left uncleared. Options available or 1 week, 2 weeks, 1 month, 2 months, 3 months.
 
-![Configuration-cartsettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-cartsettings.png)
+![Configuration-cartsettings](../.gitbook/assets/cart2.webp)
 
 ## Checkout Layout <a href="#checkout-layout" id="checkout-layout"></a>
 
@@ -244,7 +244,7 @@ The layout of the checkout address fields.\*\* NOTE:\*\* Removing a field here w
 
 **Pre-populate / Restore** This is a button, that restores the default setting of all the three options given above, when clicked.
 
-![Configuration-](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-checkoutsetttings.png)
+![Configuration-](../.gitbook/assets/checkout2.webp)
 
 **Example to add a custom field** Assume that it would be better to add a **Title** field before the **First Name**. To achieve that, create a custom field with _title_ as its name, as shown in the image:
 
@@ -278,7 +278,7 @@ Now the system generated invoice number, say 1, will be appended with this prefi
 
 **Show Logout button in Myprofile** This option is used to show / hide logout button in myprofile.
 
-![Configuration-ordersettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-ordersettings.png)
+![Configuration-ordersettings](../.gitbook/assets/others2.webp)
 
 ## Update <a href="#update" id="update"></a>
 
@@ -286,7 +286,7 @@ _Applies only for J2Commerce PRO users_
 
 This tab has a text input to enter the **Download ID** provided by [**J2Commerce**](https://www.j2commerce.com/), which is a requirement for updating the j2commerce component’s PRO version. Without this ID, [<mark style="color:blue;">j2commerce</mark> PRO](https://www.j2commerce.com/my-account) cannot be downloaded. This ID will be available in the Invoice as well as in **My Download** of j2commerce.org
 
-![Configuration-updatesettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-updatesetting.png)
+![Configuration-updatesettings](../.gitbook/assets/update2.webp)
 
 ## Mail Template <a href="#mail-template" id="mail-template"></a>
 
@@ -294,7 +294,7 @@ This tab has an option to avoid sending default email template to customers and 
 
 To avoid this, please choose **No. Do not use the default template to send a mail when no template matches my email template conditions (Not recommended)**
 
-![Configuration-mailtemplatesettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-mailtemplatesettings.png)
+![Configuration-mailtemplatesettings](../.gitbook/assets/mail_template2.webp)
 
 ## Others <a href="#others" id="others"></a>
 
@@ -310,4 +310,4 @@ Misc. options for the store
 
 **Enable falang support** This option provides support for SEF URLs used in Falang translation component. Enable if you have installed Falang. Check the image below for a better idea.
 
-![Configuration-othersettings](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Configuration/configuration-othersettings.png)
+![Configuration-othersettings](<../.gitbook/assets/others2 (1).webp>)

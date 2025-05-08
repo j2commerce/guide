@@ -1,6 +1,6 @@
 # Currency
 
-J2Store allows you to sell in multiple currencies. You can create as many currencies as you like.You can either set the exchange value of the currency manually or allow J2Store to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)
+J2Commerce allows you to sell in multiple currencies. You can create as many currencies as you like. You can either set the exchange value of the currency manually or allow J2Commerce to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)
 
 **Creating a new currency**
 
@@ -36,23 +36,22 @@ A comma is the thousands separator worldwide. This separator is also referred fo
 
 * **Value**
 
-This option is used to set the default currency. If the value is set be 1.000000 for a particular currency, it will serve as the default currency. All other currencies will be in relation with this. For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro. In this way J2Store will calculate the prices for products based on currency transitions.
+This option is used to set the default currency. If the value is set be 1.000000 for a particular currency, it will serve as the default currency. All other currencies will be in relation with this. For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro. In this way J2Commerce will calculate the prices for products based on currency transitions.
 
 * **Status**
 
 This option sets the status of publication of the currency. If it is set to be Published, then it will be available for payment process. Otherwise, it will not be available for payments.
 
-![Adding a new currency](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/currency/Currency\_Add.png)
+![Adding a new currency](../.gitbook/assets/currency2.webp)
 
 The image above indicates how to add or edit a currency.
 
 **Display the prices with comma**
 
-Prices should also be entered with the . (DOT) as the decimal separator. In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma. ![Displaying prices with comma](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/currency/currency\_decimal\_separator.png)
+Prices should also be entered with the . (DOT) as the decimal separator. In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma. ![Displaying prices with comma](../.gitbook/assets/currency_decimal_separator2.webp)
 
 **Video tutorial**
 
 {% embed url="https://youtu.be/MXMywDaUErw" %}
 How to change decimal separator using currency settings
 {% endembed %}
-

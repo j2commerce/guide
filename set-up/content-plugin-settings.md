@@ -5,7 +5,7 @@ To control the display in the cart section, to show or hide the images, enabling
 **Procedures**
 
 * From the Joomla main menu, go to System > Manage > Plugin > Extensions -> Plugin Manager
-* From the resulting window, select Content from the Select Type filter on the left pane and click on Content - J2Store from the list, as illustrated in the image below
+* From the resulting window, select Content from the Select Type filter on the left pane and click on Content - J2Commerce from the list, as illustrated in the image below
 
 ![Contentplugin-contentfilter](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Content%20plugin%20settings/setup-contentplugin-contentfilter.png)
 

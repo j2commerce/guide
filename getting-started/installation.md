@@ -2,7 +2,7 @@
 
 To install J2Commerce, you need J2Commerce archive downloaded or purchased from [click here](https://www.j2commerce.com/download).
 
-## J2Store Versions <a href="#j2store-versions" id="j2store-versions"></a>
+## J2Commerce Versions <a href="#j2store-versions" id="j2store-versions"></a>
 
 There are four plans available in J2Commerce shopping cart extension.
 
