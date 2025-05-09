@@ -13,7 +13,7 @@ There are four plans available in J2Commerce shopping cart extension.
 
 Have a look at the image below:
 
-![Installation-planandproceed](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Installation/Installation-Planandproceed.png)
+![Installation-planandproceed](<../.gitbook/assets/payment2 (1).webp>)
 
 **Basic** plan is free and gives you access to download J2Commerce Core version from
 

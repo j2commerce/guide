@@ -4,10 +4,10 @@ To control the display in the cart section, to show or hide the images, enabling
 
 **Procedures**
 
-* From the Joomla main menu, go to System > Manage > Plugins&#x20;
-* From the resulting window, select Filter Options. Then select the dropdown menu, Select Type. Choose Content ->  Content - J2Store (or J2Commerce) from the list, as illustrated in the image below
+* From the Joomla main menu, go to System > Manage > Plugin. Select Filter Options.
+* &#x20;In the Select Type - dropdown menu select Content. Then select Content-J2Store (or Content-J2Commerce) from the list, as illustrated in the image below
 
-![Contentplugin-contentfilter](../.gitbook/assets/content2.webp)
+![Contentplugin-contentfilter](<../.gitbook/assets/content2 (1).webp>)
 
 * You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Commerce cart tab on the product articles on the frontend.
 
