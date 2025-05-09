@@ -10,17 +10,19 @@ First, you have to decide your primary or default currency for your store. The *
 
 For e.g., if US $ is been set the value 1, it will be the default currency and the corresponding value will be 0.81 for Euro. In this way J2Commerce will calculate the prices for products based on currency transitions.
 
-To make the currency value auto update, go to **J2Commerce > Configuration > Store tab** and choose **YES** to Auto Update Currency.
+To make the currency value auto update, go to **J2Commerce > Setup > Configuration > Store tab** and choose **YES** to Auto Update Currency.
 
 ![Autoupdate currency](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/set-up-multi-currency/multi-currency_autoupdatecurrency.png) Choose the Default Currency as **USD** in your store configuration.
 
-After choosing Auto update currency to YES, when you are going to create secondary currency, the value of the currency will be updated automatically. See the below picture, ![Value of available currencies](../.gitbook/assets/multi-currency_value2.webp)
+After choosing Auto update currency to YES, when you are going to create secondary currency, the value of the currency will be updated automatically. See  the below picture, ![Value of available currencies](../.gitbook/assets/multi-currency_value2.webp)
 
 ## J2Commerce Currency Switcher <a href="#j2store-currency-switcher" id="j2store-currency-switcher"></a>
 
-Go to Extension > Modules.
+Go to System > Manage > Extension.
 
-Find the J2Commerce currency module and enable it.
+Select Filter Options tab. Then in the dropdown menu for Select Type, click on Module.&#x20;
+
+Find the J2Store Currency (or J2Commerce currency) module and enable it.
 
 Open the module, set the module position to any one of your template’s positions.
 
