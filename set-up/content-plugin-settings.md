@@ -4,20 +4,20 @@ To control the display in the cart section, to show or hide the images, enabling
 
 **Procedures**
 
-* From the Joomla main menu, go to System > Manage > Plugin > Extensions -> Plugin Manager
-* From the resulting window, select Content from the Select Type filter on the left pane and click on Content - J2Commerce from the list, as illustrated in the image below
+* From the Joomla main menu, go to System > Manage > Plugins&#x20;
+* From the resulting window, select Filter Options. Then select the dropdown menu, Select Type. Choose Content ->  Content - J2Store (or J2Commerce) from the list, as illustrated in the image below
 
-![Contentplugin-contentfilter](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Content%20plugin%20settings/setup-contentplugin-contentfilter.png)
+![Contentplugin-contentfilter](../.gitbook/assets/content2.webp)
 
 * You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Commerce cart tab on the product articles on the frontend.
 
-![Contentplugin-frontendediting](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Content%20plugin%20settings/setup-contentplugin-frontendediting.png)
+![Contentplugin-frontendediting](<../.gitbook/assets/content plugin2.webp>)
 
 Next is the category view tab where you can find settings for controlling the behavior on the category view of products.
 
 * From the resulting window, select the Category View tab to set the values, as shown in the image below:
 
-![Contentplugin-categoryview](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Content%20plugin%20settings/setup-contentplugin-categoryview.png)
+![Contentplugin-categoryview](<../.gitbook/assets/content category2.webp>)
 
 * Follow the steps for the settings to be made:
 
@@ -55,7 +55,7 @@ Set the width of the image in pixels
 
 * Save the settings and go to Item View tab to set the values, as shown in the image below:
 
-![Setup-contentplugin-itemview](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/Content%20plugin%20settings/setup-contentplugin-itemview.png)
+![Setup-contentplugin-itemview](<../.gitbook/assets/content item view2.webp>)
 
 **Product block position**
 

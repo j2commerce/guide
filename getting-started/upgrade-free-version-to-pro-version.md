@@ -2,7 +2,7 @@
 
 You can check which version of J2Commerce you are using. Just Go to J2Commerce > Dashboard where you can find the version of J2Commerce. Please refer the image below.
 
-![Upgrade-dashboard](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Upgrade%20from%20Free%20to%20Pro/Upgrade-dashboard.png)
+![Upgrade-dashboard](../.gitbook/assets/dashboard2.webp)
 
 ## How to upgrade the J2Commerce Free version to Pro version ? <a href="#how-to-upgrade-the-j2store-free-version-to-pro-version" id="how-to-upgrade-the-j2store-free-version-to-pro-version"></a>
 
