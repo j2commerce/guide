@@ -10,7 +10,7 @@ Since adding / removing a single variant will be possible with this product type
 
 ## How to create FlexiVariable Product:
 
-## General <a id="general"></a>
+## General <a href="#general" id="general"></a>
 
 ![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)
 
@@ -34,7 +34,7 @@ Lets assume that a customer would like to purchase a car. Now, car images need t
 
 **NOTE: For the images set for the variants to appear on the frontend, the main image and thumbnail image has to be set. Only then when the variants are chosen on the frontend their corresponding images would come up.**
 
-## Variants <a id="variants"></a>
+## Variants <a href="#variants" id="variants"></a>
 
 Variants are products of same type and nature but with different attributes. For e.g., consider a T-shirt of a particular brand with certain attributes, say
 
@@ -67,8 +67,6 @@ And then choose the color option and add it to the variant options list in same 
 
 After adding size and color, your screen will look like below:
 
- 
-
 ![Options list](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-option-list.png)
 
 Now you will get options to add variants to the product. Choose size from the drop down “All size” and then choose the color and click on **Add variant** button.
@@ -93,30 +91,30 @@ Below is the screenshot of how flexivariable product shows in site’s frontend.
 
 ![Frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-frontend.png)
 
-## Filters <a id="filters"></a>
+## Filters <a href="#filters" id="filters"></a>
 
 Filters are certain attributes that help narrow the search of a particular product.
 
-For e.g., assume that a customer searches for purple t-shirts in the store. Now, the product filter is set as color &gt; Black, to narrow the search. See the image below:
+For e.g., assume that a customer searches for purple t-shirts in the store. Now, the product filter is set as color > Black, to narrow the search. See the image below:
 
 ![Filters and specifications](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-specs.png)
 
 Now the cart will display only the Black t-shirts.
 
-## Relations <a id="relations"></a>
+## Relations <a href="#relations" id="relations"></a>
 
 ![Relations](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-relations.png)
 
-* In this tab page, relations are set for Upsells and Cross sells
+* In this tab page, relations are set for Upsells and Cross-sells
 * An upsell is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.
 * A cross-sell is to get the customer to spend more money buy adding more products from other categories, additionally, along with the product intended for purchase.
-* Example:The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a Laptop with 2GB/500GB for $500.4GB/500GB-&gt; $550 - Upsell, same product family, more expensive4GB/1TB -&gt; $700 - Upsell, same product family, more expensiveLaptop Bag -&gt; $25 - Cross sell, related product, additional sell
+* Example: The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a Laptop with 2GB/500GB for $500.4GB/500GB-> $550 - Upsell, same product family, more expensive4GB/1TB -> $700 - Upsell, same product family, more expensiveLaptop Bag -> $25 - Cross sell, related product, additional sell
 
-## Apps <a id="apps"></a>
+## Apps <a href="#apps" id="apps"></a>
 
 Custom fields / settings from applications will be displayed in this tab.
 
-## Video Tutorial <a id="video-tutorial"></a>
+## Video Tutorial <a href="#video-tutorial" id="video-tutorial"></a>
 
 {% embed url="https://youtu.be/yu1JKOjPba8" %}
 
@@ -124,25 +122,25 @@ Custom fields / settings from applications will be displayed in this tab.
 
 The Flexi variable product comes with a set of limitations as follows:
 
-* The availability of a particular variant combination cannot be previously determined and the particular option cannot be hidden based on the option value chosen in the previous option. 
+* The availability of a particular variant combination cannot be previously determined and the particular option cannot be hidden based on the option value chosen in the previous option.
 
 **Example:** That is if you have options like Color and Size, and if the size S is unavailable for Black color, then it is not possible to hide the option value S when the user chooses Black color.
 
-Instead, when the user chooses black color and S size\(which is unavailable\), then there would be a message indicating that the particular variant is unavailable as shown below:
+Instead, when the user chooses black color and S size(which is unavailable), then there would be a message indicating that the particular variant is unavailable as shown below:
 
 ![](../.gitbook/assets/screenshot-localhost-2020.08.19-12_25_44.png)
 
 ## **How to set One variant with multiple variants:**
 
-With the Flexivariable product type you can sell a product of a particular variant that has the price and stock varying based on the another variant.       
+With the Flexivariable product type you can sell a product of a particular variant that has the price and stock varying based on the another variant.
 
- **For Example:** Let us consider you are selling a T-shirt of Color "Red" and that the Red color T-shirt has multiple sizes like Small, Medium and Large . So you would want the customer who choose the Red color T-shirt to select the sizes from the frontend.
+**For Example:** Let us consider you are selling a T-shirt of Color "Red" and that the Red color T-shirt has multiple sizes like Small, Medium and Large . So you would want the customer who choose the Red color T-shirt to select the sizes from the frontend.
 
 You can achieve this requirement with the Flexivariable product type by following the below steps:
 
 #### Step:1
 
-Create an Article under Content-Articles-&gt;New.
+Create an Article under Content-Articles->New.
 
 ![Flexivariable Product Image](../.gitbook/assets/flexivariableproduct-image.png)
 
@@ -157,7 +155,7 @@ Your product is successfully created and a message will be displayed like this.
 
 ![Success message for creating Flexivariable product](../.gitbook/assets/article.png)
 
-## General <a id="general"></a>
+## General <a href="#general" id="general"></a>
 
 ![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)
 
@@ -193,7 +191,7 @@ After adding color and size, your screen will look like below:
 
 ![Options List](../.gitbook/assets/options-list.png)
 
- Now you will get options to add variants to the product. Choose Color from the drop down “Red” and then choose the Size as "Any Size" and click on **Add variant** button.
+Now you will get options to add variants to the product. Choose Color from the drop down “Red” and then choose the Size as "Any Size" and click on **Add variant** button.
 
 ![Adding variants](../.gitbook/assets/adding-variants.png)
 
@@ -205,5 +203,4 @@ Below is the screenshot of how flexivariable product with one Color and various 
 
 ![Frontend](../.gitbook/assets/frontend-flexivariablecase1.png)
 
-##  <a id="filters"></a>
-
+## &#x20;<a href="#filters" id="filters"></a>
