@@ -22,13 +22,15 @@ Use the Joomla installer to install the J2Commerce package.
 
 ### Configuration <a href="#configuration" id="configuration"></a>
 
-Once installed, you will get J2Commerce in the Joomla component list and also separate J2Commerce tab in Joomla backend.
+Once installed, you will get J2Commerce in the Joomla component list and also separate J2Commerce tab in Joomla backend. Now, Go to J2Commerce > Dashboard.
 
-![Quickstart-Configuration](.gitbook/assets/Quickstart-J2Store-component2.webp) Now, Go to J2Commerce > Dashboard.
+<figure><img src=".gitbook/assets/Quickstart-J2Store-component2 (1).webp" alt=""><figcaption></figcaption></figure>
 
-![Quickstart-basic-settings](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-basic-setttings.png) Fill all the fields in the basic settings and click Save & Proceed.
+Fill all the fields in the basic settings and click Save & Close.
 
-### Creating Product <a href="#creating-product" id="creating-product"></a>
+<figure><img src=".gitbook/assets/store2.webp" alt=""><figcaption></figcaption></figure>
+
+&#x20;Creating Product
 
 Since J2Commerce uses the default Joomla articles as its products, it lets you use native content as product.
 
@@ -44,19 +46,19 @@ Now, go to J2Commerce Cart tab, choose YES to Treat as a product then choose you
 
 After saving, again go to J2Commerce cart tab. Now you can see the options to add image for product, set prices, add filters / Tax / Shipping.
 
-![Quickstart-product-settings](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-product-setting.png)
+![Quickstart-product-settings](<.gitbook/assets/simple j2-general2 (3).webp>)
 
 ### Display Product <a href="#display-product" id="display-product"></a>
 
 It is very easy and flexible to display the product in frontend via menu. Please follow the procedure given below.
 
-Go to Menu manager -> Main menu and create a new menu item.
+Go to Menu manager -> Main menu and create a new menu item. Click Select for Menu Item Type. In the dropdown menu select J2Commerce > Product List View.
 
-Give the menu title and choose the menu type as J2Commerce > Product List View ![Quickstart-product-layout](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-product-layout.png)
+<figure><img src=".gitbook/assets/menu type2 (1).webp" alt=""><figcaption></figcaption></figure>
 
 Choose the Category which have chosen when creating product. The category added in the product and the category added in the menu should be same.
 
-![Quickstart-j2store-menu](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-j2store-menu.png)
+![Quickstart-j2store-menu](<.gitbook/assets/menu category2.webp>)
 
 In the menu you can see these three tabs common options, Item view options in category listings, Item view options.
 
