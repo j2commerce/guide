@@ -40,7 +40,7 @@ Give the title of the product, add your description about the product in the con
 
 Now, go to J2Commerce Cart tab, choose YES to Treat as a product then choose your Product Type from the list (Simple, Variable, Configurable, Downloadable) and then click Save and Continue.
 
-![Quickbook-product-type](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-product-type.png)
+![Quickbook-product-type](<.gitbook/assets/Quickstart-new product2.webp>)
 
 After saving, again go to J2Commerce cart tab. Now you can see the options to add image for product, set prices, add filters / Tax / Shipping.
 
