@@ -26,22 +26,22 @@ Products like Coffee mugs should be available under two categories- Kitchen appl
 * Create two tags: Gifts, Kitchen appliances.
 * Create a product named coffee mugs.
 * Assign both the tags to the product article.
-* Create menu items of the type Product tag view: Kitchen appliances associating the tag kitchen appliancesGifts associating the tag Gifts.
+* Create menu items of the type Product tag view: Kitchen appliances associating the tag kitchen appliances and Gifts associating the tag Gifts.
 * Now the product coffee mugs will be available in both Kitchen appliances and Gifts.
 
 Likewise, we can assign products to as many categories as we wish.
 
 Relevant Screenshots:
 
-![usecase1](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecase1.png)
+![usecase1](<../.gitbook/assets/adding more tags2.png>)
 
-![usecase2](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecase2.png)
+![usecase2](<../.gitbook/assets/adding multiple tags2.png>)
 
-The front end view is like this:
+The front-end view is like this:
 
-![useacse3](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecase3.png)
+![useacse3](<../.gitbook/assets/kitchen tag2.webp>)
 
-![usecase4](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecase4.png)
+![usecase4](<../.gitbook/assets/gifts tag2.webp>)
 
 ![usecase5](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecase5.png)
 
@@ -49,15 +49,15 @@ The front end view is like this:
 
 ## Displaying products brand-wise <a href="#displaying-products-brand-wise" id="displaying-products-brand-wise"></a>
 
-If you own a multi-brand store, then this feature might help you the most.You could display your products brand-wise. All you have to do is this:
+If you own a multi-brand store, then this feature might help you the most. You could display your products brand-wise. All you have to do is this:
 
 * Create tags with the brand name.
-* Create products and link them to their corresponding brands(tags).
+* Create products and link them to their corresponding brands (tags).
 * Create menu items of the type Tag view and associate the tags with them accordingly.
 
 ### Scenario <a href="#scenario-1" id="scenario-1"></a>
 
-Our goal is to list the shirts in the store according to their brand.We have following brands:
+Our goal is to list the shirts in the store according to their brand. We have the following brands:
 
 * Huetrap
 * Roadster
@@ -71,13 +71,13 @@ Our goal is to list the shirts in the store according to their brand.We have fol
 
 **Relevant Screenshots**
 
-![producttag1](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecasetwo1.png)
+![producttag1](<../.gitbook/assets/tags for men3 (1).webp>)
 
-![producttag2](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecasetwo2a.png)
+![producttag2](<../.gitbook/assets/shoes for men2.webp>)
 
-![producttag3](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecasetwo2b.png)
+![producttag3](<../.gitbook/assets/shop articles2.webp>)
 
-![usecasetwo3](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecasetwo3.png)
+![usecasetwo3](<../.gitbook/assets/tags for men2.webp>)
 
 ![usecasetwo4](https://raw.githubusercontent.com/j2store/doc-images/master/layout/usecases/producttagusecasetwo4.png)
 
