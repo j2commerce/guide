@@ -56,7 +56,7 @@ You can display any number of products as you like in the shop. Enter the no of 
 
 Also, select all other options as per your choice. Refer the next image.
 
-![Layout-item-view-in-category-listings-image-cart](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-cat-list-second.png)
+![Layout-item-view-in-category-listings-image-cart](<../.gitbook/assets/layout-item-view-cat-list-second (1).webp>)
 
 From the image you can see that there are many options available to set the price, image, size of the image and many more attributes.
 
@@ -64,9 +64,9 @@ CAUTION: SKU Show/Hide setting can be done in two places, i.e., in configuration
 
 Next image shows the filters.
 
-![Layout-item-view-in-category-list-filters](../.gitbook/assets/layout-item-view-cat-list-filters-%20second.webp)
+![Layout-item-view-in-category-list-filters](../.gitbook/assets/layout-item-view-cat-filter1.png)
 
-![Layout-item-view-category-listing-filters-second](../.gitbook/assets/layout-common-options-tab-second.png)
+![Layout-item-view-category-listing-filters-second](../.gitbook/assets/layout-item-view-cat-filter1a.webp)
 
 Filters help narrow the search for a particular product. There are many filters available for the search.
 
@@ -132,7 +132,7 @@ Let us see how images are added in the backend and how they are displayed in fro
 
 ![Layout-adding-product-images](<../.gitbook/assets/variable product-image-tab2 (2).webp>)
 
-In the image, you can see Main and Additional images added to the product configuration. When you configure your product, you will add images of the product for its view in the cart. You add main image of the product for the main view supported with additional images. Let us now check how it is viewed in the front end.
+In the image, you can see Main and Additional images added to the product configuration. When you configure your product, you will add images of the product for its view in the cart. You add the main image of the product for the main view supported with additional images. Let us now check how it is viewed in the front end.
 
 Check the image below:
 
