@@ -18,7 +18,7 @@ Use the Joomla installer to install the J2Commerce package.
 2. Choose and select your file.
 3. Click Upload & Install.
 
-![Quickstart-J2Store-install](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-j2store-install.png)
+![Quickstart-J2Store-install](<.gitbook/assets/install (1).webp>)
 
 ### Configuration <a href="#configuration" id="configuration"></a>
 
