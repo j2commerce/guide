@@ -1,4 +1,4 @@
-# Product tag layout
+# Products Tag View
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 
@@ -26,14 +26,16 @@ To create a tag, the steps given below have to be followed:
 
 * Navigate to Components->Tags.
 * Click New to create a new tag.
-* Enter the title of the tag, give a description to the tag and choose the parent tag(if any) as per the requirements.
+* Enter the title of the tag, give a description to the tag and choose the parent tag (if any) as per the requirements.
 * You can also add a note to the tag, refrain the user groups and choose the language for which the tag has to be applied.
 
 The following screenshot is an example for a tag:
 
-<figure><img src="../.gitbook/assets/creating a tag2 (1).webp" alt=""><figcaption><p>Creating your first tag</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/creating a tag2 (1) (1).webp" alt=""><figcaption><p>Creating your first tag</p></figcaption></figure>
 
-![Creating your first tag](<../.gitbook/assets/new tag2 (1).webp>)
+<figure><img src="../.gitbook/assets/creating a tag2.webp" alt=""><figcaption><p>Creating your first tag</p></figcaption></figure>
+
+![Creating a tag](<../.gitbook/assets/new tag2.webp>)
 
 ## Adding a tag to the product <a href="#adding-a-tag-to-the-product" id="adding-a-tag-to-the-product"></a>
 
@@ -47,7 +49,7 @@ Once a tag has been created, the next step will be to add it to the product. Tha
 Post creating the tag and adding it to the product’s article, the next step will be to Create a menu item of the type Product Tags. Following are the steps that have to be done:
 
 * Click on Menus->Menu Items->New.
-* The menu title has to be given and the menu item type should be “J2Commerce products tag view”.
+* The menu title has to be given and the menu item type should be “J2Commerce > products tag view”.
 * The next option will require you to select the tag for the menu item. Choose the tag that has to be associated with the menu item.
 * Additional Step: Click on the Common options tab and choose the Sub-template to tag\_bootstrap5. This is the sub-template that should be chosen to display the tags on the layout unlike the default one.
 * You can also choose the level of sub tag until which the products have to be displayed under the “Item view in Category listings” tab in the option “Sub Tag level”.
@@ -62,7 +64,7 @@ These are the other options that can be chosen when it comes to Product Tag layo
 
 You can choose the sub-tag level in case you have tags that contain parents in the following way:
 
-![Subtag level](<../.gitbook/assets/sub tag category2.webp>)
+![Subtag level](<../.gitbook/assets/sub tag category2 (1).webp>)
 
 The frontend display of the tag layout will be as below:
 

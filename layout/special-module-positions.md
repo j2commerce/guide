@@ -1,6 +1,6 @@
 # Special module positions
 
-J2Commerce offers special module positions to place the Joomla’s custom HTML module or any other modules (for example, cart module) in-store pages.
+J2Commerce offers special module positions to place the Joomla’s custom HTML module or any other modules (for example, cart module) in store pages.
 
 * Go to Content -> Site Modules > New.
 * Select any module in the list.&#x20;
@@ -80,13 +80,13 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 ![Checkout results frontend](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_check-res-front.png)
 
-## Special Module Positions for J2Store Dashboard <a href="#special-module-positions-for-j2store-dashboard" id="special-module-positions-for-j2store-dashboard"></a>
+## Special Module Positions for J2Commerce Dashboard <a href="#special-module-positions-for-j2store-dashboard" id="special-module-positions-for-j2store-dashboard"></a>
 
-There is also special module positions available for customizing J2Store Cpanel(Dashboard).
+There is also special module positions available for customizing J2Commerce Cpanel (Dashboard).
 
 **j2store-module-position-1 j2store-module-position-3 j2store-module-position-4 j2store-module-position-5**
 
-Go to Extensions > ModulesChoose **Administrator** sectionClick New and choose custom moduleEnter the name of the module and set the position to one of J2Store backend special module positions(given above). See the screenshots below,
+Go to Extensions > Modules Choose **Administrator** section Click New and choose custom module Enter the name of the module and set the position to one of J2Commerce backend special module positions (given above). See the screenshots below,
 
 ![Creating a new module](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_create-new-mod.png)
 
