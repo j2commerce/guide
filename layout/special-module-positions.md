@@ -2,9 +2,10 @@
 
 J2Commerce offers special module positions to place the Joomla’s custom HTML module or any other modules (for example, cart module) in-store pages.
 
-* Go to Content -> Site Modules and create new custom module.
-* Select any module in the list. Enter the title and set the status to Published.
-* Simple copy the module position from the list given below and paste it in the position search box and press Enter.
+* Go to Content -> Site Modules > New.
+* Select any module in the list.&#x20;
+* Enter the title and set the status to Published.
+* Simply copy the module position from the list given below and paste it in the "position" search box on the right and press Enter.
 * Assign the module to the menu and save.
 
 **Following are the custom module positions :**
@@ -15,7 +16,7 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 **j2store-product-list-bottom** - Bottom of product category listing page
 
-![Category listing position](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl-mod-cat-list-pos.png)
+![Category listing position](<../.gitbook/assets/new_modules (1).webp>)
 
 ![Category list frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl-mod-cat-front.png)
 
@@ -25,9 +26,11 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 **j2store-single-product-bottom** - Bottom of product view layout
 
-![Item view position](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl-mod-item-pos.png) ![Item view front](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl-mod-item-front.png)
+<figure><img src="../.gitbook/assets/new_modules1.webp" alt=""><figcaption><p>Creating a module position</p></figcaption></figure>
 
-![Module](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_module.png) ![Available module positions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_avail-mod-positions.png)
+![Module](../.gitbook/assets/modules_list.webp)
+
+<figure><img src="../.gitbook/assets/module-positions.png" alt=""><figcaption></figcaption></figure>
 
 ## Filter Section <a href="#filter-section" id="filter-section"></a>
 
@@ -39,7 +42,7 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 **j2store-filter-right-bottom** - Bottom of right filter
 
-![Filters positions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos-filters.png)
+![Filters positions](../.gitbook/assets/filter_module.webp)
 
 ![Frontend view of filters](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_filters_front.png)
 
@@ -49,7 +52,9 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 **j2store-cart-bottom** - Bottom of cart page
 
-![Cart positions](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_cart.png) ![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_cart-front.png)
+![Cart positions](../.gitbook/assets/cart_module.webp)
+
+![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_cart-front.png)
 
 **Video Tutorial:**
 
