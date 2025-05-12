@@ -16,46 +16,44 @@ Tax rate: 10%
 
 Tax profile name: US-TAX
 
-**Steps:**&#x20;
+**Steps:**
 
-* Navigate to J2Store->Localisation->Geozones and create a new geozone.
+* Navigate to J2Commerce > Localisation > Geozones and create a new geozone.
 
-![Creating a new geozone](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/setting-up-tax-for-your-products/setting-tax-new-geozone.png)
+![Creating a new geozone](../.gitbook/assets/tax_geo_zone.webp)
 
 * Type in a name for the geozone, add the countries for which the tax has to be applied.
 * Case A: Apply tax only for few zones within USA.
 
-&#x20;&#x20;
-
-![Filling in details on the newly created geozone](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/setting-up-tax-for-your-products/setting-tax-geozone-details.png)
+![Filling in details on the newly created geozone](../.gitbook/assets/tax_geo_zone1.webp)
 
 2\. Case B: Apply tax for all zones within USA.
 
-![Adding country](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/setting-up-tax-for-your-products/setting-tax-adding-country.png)
+![Adding country](../.gitbook/assets/tax_geo_zone2.webp)
 
-Navigate to J2Store-> Localisation->Tax rates->Click new.
+Navigate to J2Commerce > Localisation > Tax rates > Click new.
 
-![](../.gitbook/assets/setting-tax-adding-tax-profile.png)
+![](../.gitbook/assets/tax_rate.webp)
 
 Fill in the name, tax percentage, geozone and publish the tax rate.
 
-![](../.gitbook/assets/setting-tax-rate-details.png)
+![](../.gitbook/assets/tax_rate1.webp)
 
-Navigate to J2Store->Localisation->Tax profile->New.
+Navigate to J2Commerce > Localisation > Tax profile > New.
 
-![](../.gitbook/assets/setting-tax-adding-tax-profile.png)
+![](../.gitbook/assets/tax_profile.webp)
 
 Fill in the profile name, set the status and map the tax rate on the profile, choose the associated address.
 
-![Adding details to tax profiles](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/setting-up-tax-for-your-products/setting-tax-tax-profile-details.png)
+![Adding details to tax profiles](../.gitbook/assets/tax_profile1.webp)
 
-Navigate to J2Store->Catalog->Products(Or Content->Articles).
+Navigate to J2Commerce > Catalog > Products (Or Content > Articles).
 
-![](../.gitbook/assets/setting-tax-nav-to-pro.png)
+![](../.gitbook/assets/product_list.webp)
 
 Edit the products for which you wish to collect tax. Navigate to the J2Store cart tab. Choose the tax profile and save.
 
-![](../.gitbook/assets/setting-tax-profile-in-pro.png)
+![](../.gitbook/assets/tax_rate2.webp)
 
 Frontend:
 
@@ -70,4 +68,3 @@ Thus tax would be levied on the product as per the configuration.
 Please refer the following list of troubleshooting steps:
 
 [click here](https://docs.j2store.org/catalog/setting-up-tax-for-your-products/\[http://docs.j2store.org/troubleshooting-guide/troubleshooting-tax-issues]\(%3Chttp:/docs.j2store.org/troubleshooting-guide/troubleshooting-tax-issues%3E\))
-

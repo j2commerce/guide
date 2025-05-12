@@ -37,7 +37,7 @@ J2Commerce is now installed and you will get this success message, as illustrate
 
 ![Installation-success-message](../.gitbook/assets/successful.webp)
 
-Now go to the side menu->components->J2Commerce, you will get the configuration screen as shown below: Enter the details for your online store and click save.
+Now go to the side menu->Components->J2Commerce, you will get the configuration screen as shown below: Enter the details for your online store and click save.
 
 ![Installation-storeconfiguration](../.gitbook/assets/congratulations.webp)
 

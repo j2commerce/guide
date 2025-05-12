@@ -1,24 +1,23 @@
-# Product description
+# Product Description
 
 By default the joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.
 
 Under that whatever text has entered that considered as Long Description.
 
-![Article readmore](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/product-description/article_readmore.png)
+![Article readmore](../.gitbook/assets/catalog_product-description_article_readmore.webp)
 
-![Short long description](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/product-description/short_long_description.png)
+![Short long description](../.gitbook/assets/catalog_product-description_article_readmore-long.webp)
 
-## According to J2store <a id="according-to-j2store"></a>
+## According to J2Commerce <a href="#according-to-j2store" id="according-to-j2store"></a>
 
-J2Store takes the introtext column as the short description and fulltext column as the long description.
+J2Commerce takes the intro text column as the short description and full text column as the long description.
 
-These two columns are in the joomla’s \_content \(article table\)
+These two columns are in the joomla’s \_content (article table)
 
-The Article manager divides the text \(content\) into two and saves it based on the readmore break.
+The Article manager divides the text (content) into two and saves it based on the readmore break.
 
-In J2store, you can enable and disable the display of short description and long description in both category view and product view.
+In J2Commerce, you can enable and disable the display of short description and long description in both category view and product view.
 
-### Support <a id="support"></a>
+### Support <a href="#support" id="support"></a>
 
 Still have questions? You can reach us via our support form or the priority ticket system.
-
