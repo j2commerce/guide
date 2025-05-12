@@ -1,4 +1,4 @@
-# Product layout
+# Products List View
 
 Product Layout is a powerful feature that enables the user to customize the display options and descriptions of the product. In this section, you’ll learn how to create and customize a product layout.
 
@@ -26,7 +26,7 @@ Here, you choose the **Menu Item Type** by clicking on the ‘Select’ button. 
 
 ![Layout-menu-type](../.gitbook/assets/layout-menu-type.webp)
 
-In this pop-up window, select **J2Store** and you will get a list to choose from. From the list, select **Products List View** and close the window. You will see your selection as shown in the below image.
+In this pop-up window, select **J2Commerce** and you will get a list to choose from. From the list, select **Products List View** and close the window. You will see your selection as shown in the below image.
 
 Your menu item is selected and the link is also created automatically. click on the **Choose a Category** text box to choose the product categories listed. You can add many categories in this box. Refer the image below.
 
@@ -40,11 +40,11 @@ Now, go to next tab, **Common Options**.
 
 This tab has the common settings for all items. If you want to show images for product options or if you want to add some custom CSS code, you can do that here. Otherwise, you can leave them as they are.
 
-Note: In Sub-Template option, you have to choose **bootstrap3** if your bootstrap version is 3x. Leave it as **--Default—** if bootstrap version is 2x
+Note: In Sub-Template option, you have to choose **bootstrap5** if your bootstrap version is 3x.&#x20;
 
 If you do not want to show product option price in front end, you can set the option to **Hide** as shown in the image below:&#x20;
 
-## Item View options in category listings <a href="#item-view-options-in-category-listings" id="item-view-options-in-category-listings"></a>
+## Category View Options Tab <a href="#item-view-options-in-category-listings" id="item-view-options-in-category-listings"></a>
 
 Check the image below:
 
@@ -80,7 +80,7 @@ Filters help narrow the search for a particular product. There are many filters 
 
 One or more filters can be applied as per the needs of the customer.
 
-## Item View Options Tab <a href="#item-view-options-tab" id="item-view-options-tab"></a>
+## Product View Options Tab <a href="#item-view-options-tab" id="item-view-options-tab"></a>
 
 In this tab, you will set the configuration for what to display with the product, like price, description, image etc.
 

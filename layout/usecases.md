@@ -35,6 +35,8 @@ Relevant Screenshots:
 
 ![usecase1](<../.gitbook/assets/adding more tags2.png>)
 
+<figure><img src="../.gitbook/assets/adding a tag tree2.webp" alt=""><figcaption><p>menu item tag tree</p></figcaption></figure>
+
 ![usecase2](<../.gitbook/assets/adding multiple tags2.png>)
 
 The front-end view is like this:
