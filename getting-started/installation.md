@@ -25,7 +25,7 @@ Remaining are for-a-fee plans which gives access to J2Commerce PRO version. You 
 
 In your Joomla control panel side menu, go to System > Install > Extension, as illustrated below.
 
-![Installation-extensionmanager](../.gitbook/assets/install.webp)
+![Installation-extensionmanager](<../.gitbook/assets/install (2).webp>)
 
 When you click here, you will be directed to the screen where you can select the downloaded/purchased packaged. See the image below:
 

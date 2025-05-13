@@ -1,8 +1,8 @@
-# Introduction to subscriptions and memberships in J2Store
+# Introduction to subscriptions and memberships in J2Commerce
 
 **Introduction**
 
-If you would like to sell subscription-based products, you could do just that with our [Subscriptions and Membership](https://www.j2store.org/product/subscriptions-and-memberships.html) app. This app allows you to sell products and services with recurring payments.
+If you would like to sell subscription-based products, you could do just that with our [Subscriptions and Membership](https://www.j2commerce.com/extensions/apps) app. This app allows you to sell products and services with recurring payments.
 
 **Important Note:** If you are using PayPal as your payment method for your subscription products, you should enable Reference Transaction on your paypal account.
 
@@ -14,7 +14,7 @@ Create any type of billing schedules. You can have memberships for days, weeks, 
 
 **2. Automatic renewals and payments**
 
-It is very convenient for the customers to have their membership auto-renewed with automatic payments \(Current supported in 3 payment gates : PayPal, Stripe, Mollie. More gateway support is coming up\)
+It is very convenient for the customers to have their membership auto-renewed with automatic payments (Current supported in 3 payment gates : PayPal, Stripe, Mollie. More gateway support is coming up)
 
 **3. Sign up Fees**
 
@@ -50,8 +50,8 @@ You could set up renewal discounts for the subscription products. If users apply
 
 **Supported Payment Gateways**
 
-1. Paypal Standard for J2Store \(Available on request\)
-2. Stripe \(Available on request\)
+1. Paypal Standard for J2Store (Available on request)
+2. Stripe (Available on request)
 3. Mollie payment plugin
 4. Authorize.net CIM
 5. BrainTree
@@ -61,4 +61,3 @@ You could set up renewal discounts for the subscription products. If users apply
 
 1. Subscription Products app does not support for guest checkout.
 2. Variable subscription product type allows you to add only one option with multiple values.
-

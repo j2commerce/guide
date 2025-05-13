@@ -1,6 +1,6 @@
 # Quickstart
 
-Recurring subscription is nothing but auto-renewal. J2Store’s Subscriptions and Memberships app allows you to create recurring subscription. If you create recurring subscription, the customers can auto renewal his subscription plan.
+Recurring subscription is nothing but auto-renewal. J2Commerce’s Subscriptions and Memberships app allows you to create recurring subscription. If you create recurring subscription, the customers can auto renewal his subscription plan.
 
 ## Example <a href="#example" id="example"></a>
 
@@ -13,6 +13,8 @@ The example given below, assumes you have a store and selling hosting service an
 * Select YES to Treat as product
 * Choose product type either Simple Subscription or Variable Subscription.
 
+<figure><img src="../.gitbook/assets/simple subscription.webp" alt=""><figcaption><p>Simple Subscription Product</p></figcaption></figure>
+
 ### Step-2 Setting up price based on recurring <a href="#step-2-setting-up-price-based-on-recurring" id="step-2-setting-up-price-based-on-recurring"></a>
 
 1. Now navigate to Pricing section
@@ -21,9 +23,7 @@ The example given below, assumes you have a store and selling hosting service an
 4. Set Never Expire to Subscription length.
 5. Choose your usergroups and save.
 
-![quick start](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/quick-start/recurring.png)
-
-
+![quick start](../.gitbook/assets/pricing.webp)
 
 ## How to create a non-recurring (one term) subscription plan? <a href="#how-to-create-a-non-recurring-one-term-subscription-plan" id="how-to-create-a-non-recurring-one-term-subscription-plan"></a>
 
@@ -46,15 +46,11 @@ Lets see an example for single term subscription. For example, consider you are 
 4. Set 1 Year to Subscription length.
 5. Choose your usergroups and save.
 
-&#x20;
-
-![non recurring](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/quick-start/non-recurring.png)
+![non recurring](../.gitbook/assets/pricing1.webp)
 
 Watch the video here:
 
 {% embed url="https://youtu.be/D7-7EOzovqM" %}
-
-
 
 ## Creating 3 months subscription plan <a href="#creating-3-months-subscription-plan" id="creating-3-months-subscription-plan"></a>
 
@@ -62,7 +58,7 @@ Refer below screen shots for setting non-recurring 3 months subscription plan
 
 Choosing duration
 
-![3 months duration](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/quick-start/3-months-subs-duration.png)
+![3 months duration](../.gitbook/assets/pricing2.webp)
 
 On Frontend
 
@@ -72,19 +68,16 @@ Watch the video:
 
 {% embed url="https://youtu.be/RtcGiQg6PG8" %}
 
-
-
 ## Creating 6 months subscription plan <a href="#creating-6-months-subscription-plan" id="creating-6-months-subscription-plan"></a>
 
 Refer below screen shots for setting non-recurring 6 months subscription plan
 
 Choosing duration
 
-![6monthsduration](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/quick-start/6-months-subs-duration.png)
+![6monthsduration](../.gitbook/assets/pricing3.webp)
 
 ![6monthsplan](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/quick-start/6-months-subs-plan.png)
 
 watch the video here:
 
 {% embed url="https://youtu.be/5BNGktLk_6k" %}
-

@@ -47,7 +47,7 @@
   * [Adding related products](catalog/adding-related-products.md)
   * [Ordering products on your storefront](catalog/ordering-products-on-your-storefront.md)
 * [Subscriptions and Memberships](subscriptions-and-memberships/README.md)
-  * [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
+  * [Introduction to subscriptions and memberships in J2Commerce](subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
   * [Quickstart](subscriptions-and-memberships/quickstart.md)
   * [Requirements and Installation](subscriptions-and-memberships/requirements-and-installation.md)
   * [Basic Settings](subscriptions-and-memberships/basic-settings-1.md)

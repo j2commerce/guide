@@ -1,10 +1,12 @@
 # Product Description
 
-By default the joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.
+By default the Joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.
 
 Under that whatever text has entered that considered as Long Description.
 
-![Article readmore](../.gitbook/assets/catalog_product-description_article_readmore.webp)
+If you don't see the Read More button then click on the CMS Content dropdown and then scroll to Read More.  Make sure your curser is in the location of where you want the read more section to be.
+
+![Article readmore](<../.gitbook/assets/read more.png>)
 
 ![Short long description](../.gitbook/assets/catalog_product-description_article_readmore-long.webp)
 
