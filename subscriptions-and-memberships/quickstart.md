@@ -13,7 +13,7 @@ The example given below, assumes you have a store and selling hosting service an
 * Select YES to Treat as product
 * Choose product type either Simple Subscription or Variable Subscription.
 
-<figure><img src="../.gitbook/assets/simple subscription.webp" alt=""><figcaption><p>Simple Subscription Product</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/simple subscription (1).webp" alt=""><figcaption><p>Simple Subscription Product</p></figcaption></figure>
 
 ### Step-2 Setting up price based on recurring <a href="#step-2-setting-up-price-based-on-recurring" id="step-2-setting-up-price-based-on-recurring"></a>
 
@@ -23,7 +23,7 @@ The example given below, assumes you have a store and selling hosting service an
 4. Set Never Expire to Subscription length.
 5. Choose your usergroups and save.
 
-![quick start](../.gitbook/assets/pricing.webp)
+![quick start](<../.gitbook/assets/pricing (1).webp>)
 
 ## How to create a non-recurring (one term) subscription plan? <a href="#how-to-create-a-non-recurring-one-term-subscription-plan" id="how-to-create-a-non-recurring-one-term-subscription-plan"></a>
 
