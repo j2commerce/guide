@@ -8,7 +8,7 @@ This plugin integrates J2Commerce with FedEx Shipping rate API.
 2. Joomla! 4.x/ Joomla! 5.x +
 3. J2Commerce / J2Store 4.x +
 
-Download:&#x20;
+**Download:**&#x20;
 
 **Step 1:** a) Download the app from our store by going to My Downloads (found under your profile drop-down in the top right corner) b) type in Fedex Shipping in the search bar. c) Click on the Fedex Basic or Advanced App
 

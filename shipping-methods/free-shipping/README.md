@@ -1,20 +1,22 @@
 # Free Shipping
 
-With J2Store you can let the customer choose for a Free shipping option in the shipping method selection area of your site. Here is how you can configure the Free shipping for the store.
+With J2Commerce you can let the customer choose a Free shipping option in the shipping method selection area of your site. Here is how you can configure the Free shipping for the store.
 
 ## Free Shipping Method: <a href="#methods" id="methods"></a>
 
-The Free shipping method is by default available with J2Store shipping methods.
+The Free shipping method is available by default with J2Commerce shipping methods.
 
 To set the Free shipping method for the store please Follow the below steps:
 
 **Step:1**
 
-Navigate to J2Store->Setup->Shipping method->Free shipping and click on Create/Edit/Link
+Navigate to Components > J2Commerce > Setup-> Shipping method-> Free shipping and click on the X to enable it.&#x20;
+
+<figure><img src="../../.gitbook/assets/free-shipping-enable.webp" alt=""><figcaption><p>enable free shipping</p></figcaption></figure>
 
 **Step:2**
 
-Configure the following prams:
+Click View and start to configure the following parameters:
 
 **Status:** Set the status to Enabled to keep the Free shipping method active
 
@@ -30,7 +32,7 @@ For Example: If you wish to apply the Free shipping charge to order of total abo
 
 For Example: If you wish to apply the Free shipping charge to order of total below $10 then you may enter the value here as 10. So that any order with value below $10 will only be able to avail the Free shipping method.
 
-**Require Free shipping Coupon:**  Setting this option to Yes will let the customer to view the Free shipping method only when the valid free shipping coupon is entered.
+**Require Free shipping Coupon:** Setting this option to Yes will let the customer to view the Free shipping method only when the valid free shipping coupon is entered.
 
 **Do not offer Free shipping if any of these methods are available to the customer:** You can select multiple methods here, so that if any of the selected methods are available, free shipping will not be offered to the customer.
 
@@ -38,7 +40,4 @@ For Example: If you wish to apply the Free shipping charge to order of total bel
 
 **Do not offer free shipping to members of these user groups:** The members of the selected user groups here will not be able to choose free shipping.
 
-![Free Shipping Parms](../../.gitbook/assets/freeshipping.png)
-
-## &#x20;<a href="#methods" id="methods"></a>
-
+![Free Shipping Parameters](../../.gitbook/assets/free-shipping1.webp)
