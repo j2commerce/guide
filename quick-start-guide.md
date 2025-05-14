@@ -26,7 +26,15 @@ Once installed, you will get J2Commerce in the Joomla component list and also se
 
 <figure><img src=".gitbook/assets/Quickstart-J2Store-component2 (1).webp" alt=""><figcaption></figcaption></figure>
 
-Fill all the fields in the basic settings and click Save & Close.
+![Quickstart-Configuration](.gitbook/assets/Quickstart-J2Store-component2.webp) Now, Go to J2Commerce > Dashboard.
+
+<figure><img src=".gitbook/assets/Quickstart-J2Store-component2 (2).webp" alt=""><figcaption></figcaption></figure>
+
+Fill all the fields in the basic settings and click Save & Proceed.
+
+
+
+![Quickstart-basic-settings](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-basic-setttings.png)&#x20;
 
 <figure><img src=".gitbook/assets/store2.webp" alt=""><figcaption></figcaption></figure>
 
