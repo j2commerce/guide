@@ -1,102 +1,129 @@
 # UPS Shipping
 
-This plugin integrates UPS Shipping Rate API with J2Store.
+This plugin integrates the UPS Shipping Rate API with J2Commerce.
 
 **Requirements**
 
 * PHP 5.3+
 * Joomla 2.5 / 3.x +
-* J2Store 2.6.8 +**‌**
+* J2Commerce 2.6.8 +**‌**
 
-**Configuration** Prior to configuring the plugin, you should have an active account with the UPS and received API keys. Contact UPS to register and get API keys.
+**Configuration** Prior to configuring the plugin, you should have an active account with UPS and have received API keys. Contact UPS to register and get API keys.
 
-**‌**Installation You can install this USP shipping plugin, using joomla installer. The following steps help you for successful installation.
+**‌**Installation: You can install this USP shipping plugin using joomla installer. The following steps help you with a successful installation.
 
 ‌
 
-**Step 1** In the Joomla admin, go to Extensions -&gt; Extension Manager -&gt;install
+**Step 1** In the Joomla admin, go to System > Install > Extensions
 
- **step 2** Click on the Browse button and select USPS Shipping \(type=j2store\) and click on Upload & Install
+<figure><img src="../.gitbook/assets/app install1 (1).webp" alt=""><figcaption><p>install extensions</p></figcaption></figure>
 
-![](../.gitbook/assets/install.png)
+**Step 2** Click on the Browse button and select the UPS Shipping zip file you saved when downloading it. You will receive a message of success once installed.
 
-![](../.gitbook/assets/install1.png)
+![app install](../.gitbook/assets/ups-download.webp)
 
- **step 3** Select J2store -&gt;setup -&gt; shipping methods
+**Step 3** Select J2Commerce ->setup -> shipping methods
 
-![](../.gitbook/assets/install2.png)
+![shipping method](<../.gitbook/assets/ups-setup-shipping (2).webp>)
 
 **Step 4**
 
-* Now, the USPS Advanced shipping for J2Store page will appear on the screen.
+* Now, the UPS shipping for J2Commerce page will appear on the screen.
 * Enable the plugin.
 * Configure the shipping plugin by entering the plugin parameters.
 
-‌
+<figure><img src="../.gitbook/assets/ups-perameters2.webp" alt=""><figcaption><p>perameters</p></figcaption></figure>
 
 ## Parameters:
 
-‌**Access Key:** Enter your Access key associated with your UPS Shipping account.
+**Client Key:** Client Key provided by the UPS Developer Portal (https://developer.ups.com/).
 
-**User Name:** Enter the username of your UPS services account.
+**Client Secret:** Client Secret provided by the UPS Developer Portal  (https://developer.ups.com/).
 
-**Password:** Enter the password of your UPS services account.
+‌**Shipper Number:** Enter the UPS account Shipper number
 
-‌**Shipper Number:** Enter the Shipper number provided by the UPS
-
-![UPS Shipping Parameters](https://lh3.googleusercontent.com/yFcnq_P2PATHozpTjD_QGGsSutJV045fJvTqvK6gePCwnQxXu2sQOo9l13Z4UohJSND7QZpu0o5-y-1K67kiQCoaAHbclIbLQLKamlCWENSODJfPH09eYDjDnAfePl9BtMN0gJJG)
-
-‌**Sandbox/Test Mode:** The option allows you to test the SquareUp gateway using SquareUp sandbox server instead of the live one. You may use this option to test the plugin if you don't have a SquareUp Account yet.
+<figure><img src="../.gitbook/assets/ups-perameters1 (1).webp" alt=""><figcaption></figcaption></figure>
 
 ‌**Parcel Packing Method:** You may select the parcel method for packing the products.
 
 ‌**UPS Packaging Box:** You may consider selecting the available UPS box.
 
-Note: If you choose Pack into boxes with weights and dimensions \(Recommended\) but have not chosen any UPS Packaging, nor defined any custom boxes \(as explained below\), the plugin displays the error message: “UPS is enabled, and Parcel Packing Method is set to ‘Pack into boxes’, but no UPS Packaging is selected and there are no custom boxes defined. Items will be packed individually.”
+Note: If you choose Pack into boxes with weights and dimensions (Recommended) but have not chosen any UPS Packaging, nor defined any custom boxes (as explained below), the plugin displays the error message: “UPS is enabled, and Parcel Packing Method is set to ‘Pack into boxes’, but no UPS Packaging is selected and there are no custom boxes defined. Items will be packed individually.”
 
-‌**Custom Box:** You may enter the dimensions here the items will be packed into these boxes based on item dimension and volume. Outer dimension will be passed to UPS, whereas inner dimension will be used for packing. Items not fitting into boxes will be packed individually.
+‌**Custom Box:** You may enter the dimensions here the items will be packed into these boxes based on item dimension and volume. Outer dimension will be passed to UPS, whereas the inner dimension will be used for packing. Items not fitting into boxes will be packed individually.
 
 This Custom Box is to be chosen only when “Box packing” is selected.
 
 ‌**Handling Cost:** Apply an additional fee to the shipping cost calculated.
 
-‌**Send product amount to UPS:** If you wish to sent the product price to the UPS then you may set it to as Yes.
+‌**Send Product Amount to UPS:** If you wish to send the product price to UPS, then you may set it to Yes.
 
-‌**From Residential Address:** If your store is in a residential place then consider setting this to Yes.
+‌‌**Enable Negotiated Rate:** Set this to Yes for negotiated rate.
 
-‌**Enable negotiated Rate:** Set this to Yes for negotiated rate.
-
-‌**Delivery Confirmation option:** You can confirm the delivery using signature in UPS.
+‌**Delivery Confirmation Option:** You can confirm the delivery using a signature with UPS.
 
 ‌**Services:** Select the UPS services to be offered.
 
-‌**Pickup type:** Choose the required  pickup type here.‌
+‌**Pickup Type:** Choose the required pickup type here.‌
 
-**Packaging:** Choose the required  packaging type here.
+‌**Weight Unit:**&#x53;elect if you want the weight to be set as grams, pounds, kilograms or ounces.
 
-‌IMPORTANT NOTE: Please set the Weight Unit as "Pound" and Length Unit as "Inch" for USA , others country set Weight unit as "Kilogram" and Length unit as "Centimeter".
+‌**Show Weight Total:** Set this to Yes to show the weight total along with the shipping service name.
 
-‌**Weight Unit:** If product have weight unit 5kg, In plugin weight unit Pound, then it will covert the 5kg to pound.
+**Show Delivery Date:** Set this to yes to show the delivery date next to the shipping service name. The delivery times are provided by the UPS API for shipping services that specify specific delivery days, such as Next Day Air, Second Day Air, etc.
 
-‌**Show weight total:** Set this to Yes to show the weight total along with the shipping service name.
+<figure><img src="../.gitbook/assets/ups-perameters4.webp" alt=""><figcaption><p>show delivery date</p></figcaption></figure>
 
-‌**Length unit:** If product have length unit 5 cm, In plugin length unit inch, then it will convert  5cm to Inch.
+<figure><img src="../.gitbook/assets/ups-perameters5 (2).webp" alt=""><figcaption><p>delivery date examples</p></figcaption></figure>
+
+‌**Length Unit:** If you have not set the length unit in the product, the value selected here will be used. Inch vs cm
 
 **Tax Class:** Here you can specify the Tax class to charge the Tax on shipping. Leave empty if you do not want to charge tax.
 
 ‌**Geozone:** If you choose a Geozone, then this shipping plugin will apply only to customers coming from the countries/zones added under the chosen Geozone. Leave empty to show the method to all Geozones.
 
-‌**Debug:** If you set this to Yes, the system will log the requests and responses, which will help you debug. The logs will be saved in the Cache folder. 
+**Shipping Origin Address Type:** If your origin shipping address is a home then change to residential.
 
-**Note:** In production environment, it must set NO.
+‌‌**Shipping Origin Address:** Enter the address from which you ship.
 
-‌**Shipping origin Address:** Enter the address from where you ship.
-
-‌**Shipping Origin City:** Enter the city from where you ship.
+‌**Shipping Origin City:** Enter the city from which you ship.
 
 ‌**Shipping Origin Zin/Postalcode:** Enter the Postcode from where you ship.
 
-‌**Country:** Select the Country from where you ship.
+‌**Country:** Select the Country from which you ship.
 
-**‌Zone:** Select the Zone from where you ship.
+**‌Zone:** Select the Zone/State from which you ship.
 
+**Debug:** If you set this to Yes, the system will log the requests and responses, which will help you debug. The logs will be saved in the Cache folder.
+
+**Note:** In production environment, it must set NO.
+
+## How to obtain UPS OAuth Credentials:
+
+The following instructions will help walk you through the process of obtaining your new UPS OAuth Client ID and Client Secret.&#x20;
+
+**Step 1:** Go to UPS.com and log in.
+
+**Step 2:** Click My Apps in the top right corner
+
+**Step 3:** Click Add Apps in the bottom left corner
+
+<figure><img src="../.gitbook/assets/ups-add-apps.webp" alt=""><figcaption><p>add apps</p></figcaption></figure>
+
+**Step 4:** Then I need API credentials because: I want to integrate UPS technology into my business.
+
+**Step 5:** On same page as #4: Select the client's UPS account you need to link it to
+
+<figure><img src="../.gitbook/assets/ups-add-account.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Complete the contact info
+
+**Step 7:** Then select the Rating, Tracking, and Time In Transit API's (I believe the Authorization(OAuth) is automatically added when you save)
+
+(Right now, we aren't using the Tracking API, but we do plan on incorporating that in later versions so better to add it now so you don't need to worry about adding it later...)
+
+<figure><img src="../.gitbook/assets/ups-api.webp" alt=""><figcaption><p>API's</p></figcaption></figure>
+
+**Step 8:** After saving, you should be able to see the Client ID and client Secret under the App Info/Credentials page
+
+<figure><img src="../.gitbook/assets/ups-approval.webp" alt=""><figcaption></figcaption></figure>
