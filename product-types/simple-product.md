@@ -20,15 +20,15 @@ Have a look at the image below:
 
 ![Simple-product-general tab](<../.gitbook/assets/simple j2-general2.webp>)
 
-* Visible in Storefront - IMPORTANT: Set this to YES if you want this product to be shown in the storefront.
-* SKU - Enter the SKU number of the product
-* UPC/EAN/JAN/ISBN - Enter UPC/EAN/JAN/ISBN code for the product whichever is relevant. UPC - Universal Product Code (In US/North America) EAN - European Article Number (Outside North America/Europe) JAN - Japanese Article Number (Only in Japan)ISBN - International Standard Book Number (Globally)MPN - Manufacturer Part Number (Globally)
-* Brand or Manufacturer - Select the brand or manufacturer of the product from the available list
-* Vendor - Select the vendor from whom the product is available for purchase - Note: This feature is available in J2Commerce PRO version only
-* Tax Profile - Specify whether the product is taxable and if so, select the tax profile relevant to the product
-* Main Tag - The tag selected here will be used for canonical url. More details about canonical url could be found [here](http://docs.j2store.org/canonical-url-plugin)
-* Cart Button Text - Enter the text to be displayed in the cart button
-* Product css class - Use this option add unique css class to each product.
+* Visible in Storefront: **IMPORTANT**: Set this to YES if you want this product to be shown in the storefront.
+* SKU: Enter the SKU number of the product
+* UPC/EAN/JAN/ISBN: Enter UPC/EAN/JAN/ISBN code for the product, whichever is relevant. UPC - Universal Product Code (In US/North America) EAN - European Article Number (Outside North America/Europe) JAN - Japanese Article Number (Only in Japan)ISBN - International Standard Book Number (Globally) MPN - Manufacturer Part Number (Globally)
+* Brand or Manufacturer: Select the brand or manufacturer of the product from the available list
+* Vendor: Select the vendor from whom the product is available for purchase. Note: This feature is available in J2Commerce PRO version only
+* Tax Profile: Specify whether the product is taxable, and if so, select the tax profile relevant to the product
+* Main Tag: The tag selected here will be used for the canonical URL. More details about the canonical URL can be found [here](http://docs.j2store.org/canonical-url-plugin)
+* Cart Button Text: Enter the text to be displayed in the cart button
+* Product CSS class: Use this option to add a unique CSS class to each product.
 
 ### Pricing <a href="#pricing" id="pricing"></a>
 
@@ -44,8 +44,8 @@ Let us see how it happens. Check the image below:
 
 ![Advanced pricing](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-advanced-pricing.png)
 
-* Select the dates (optional), between which you wish to set the advanced price. This option is not mandatory. For instance, you can offer a special price throughout the year, for a bulk purchase.
-* Quantity range for this price to apply. This is also optional and if there is no minimum quantity required, just leave it as empty.
+* Select the dates (optional), between which you wish to set the advanced price. This option is not mandatory. For instance, you can offer a special price throughout the year for a bulk purchase.
+* The quantity range for this price to apply. This is also optional, and if there is no minimum quantity required, just leave it empty.
 * Select the customer group to which you offer this special price. Default: Public
 * Now enter the special price and click Create.
 
@@ -61,11 +61,11 @@ This tab has the configuration setup facility for inventory management. Here you
 
 ![Simple product inventory](<../.gitbook/assets/simple j2-inventory2.webp>)
 
-From the image you can understand the following:
+From the image, you can understand the following:
 
-* Manage Stock - To enable Stock Management - Select Yes
-* Stock Quantity - Enter the initial stock quantity
-* Allow Backorders - Choose from the options whether or not to allow backorders to customers, i.e., the customer can order a product even if there is no stock Allow but notify customers - The second option would allow customers to purchase a product even if it is not in stock. A message will appear (a notification) before the price stating that: This item can be backordered.
+* Manage Stock: To enable Stock Management, Select Yes
+* Stock Quantity: Enter the initial stock quantity
+* Allow Backorders: Choose from the options whether or not to allow backorders to customers, i.e., the customer can order a product even if there is No Stock Allow but notify customers. The second option would allow customers to purchase a product even if it is not in stock. A message will appear (a notification) before the price stating that: This item can be backordered.
 
 This comes from the language file. The constant is: J2COMMERCE\_BACKORDER\_NOTIFICATION
 
@@ -77,10 +77,10 @@ NOTE: This notification will display if:
 
 This option is for those who sell fast moving products. So even if a product stock reaches 0, the customers could still order.
 
-* Stock Status - Select stock status i.e., In stock or Out of stock
-* Notify if stock goes below - Set minimum stock level for low stock alert
-* Quantity Restriction - Choose whether purchase quantity is restricted and if Yes, set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
-* Use store configuration - If you select ‘Use store configuration’, you cannot enter max and min quantity fields, as they will be disabled
+* Stock Status: Select stock status i.e., In stock or Out of stock
+* Notify if stock goes below: Set minimum stock level for low stock alert
+* Quantity Restriction: Choose whether the purchase quantity is restricted, and if Yes, set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
+* Use store configuration: If you select ‘Use store configuration’, you cannot enter the max and min quantity fields, as they will be disabled
 
 ### Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 
@@ -88,7 +88,7 @@ This option is for those who sell fast moving products. So even if a product sto
 
 ### Images <a href="#images" id="images"></a>
 
-In this tab you can add images that can help the customer to understand more clearly, the product he wants to buy. Images help the prospect to imagine how the product intended to purchase will look like.
+In this tab, you can add images that can help the customer to understand more clearly the product he wants to buy. Images help the prospect to imagine how the product they intend to purchase will look.
 
 See the image below:
 
@@ -96,17 +96,17 @@ See the image below:
 
 Let us understand this with an example.
 
-Lets assume that a customer would like to purchase a car. Now, car images need to be loaded in this tab.
+Let's assume that a customer would like to purchase a car. Now, car images need to be loaded in this tab.
 
-* Main Image - The main image will be a general photo image of the car, that has to be uploaded by clicking on the ‘Select an image’ button and select the appropriate image from the files.
-* Thumbnail Image - The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, that will be shown up in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the car.
-* Additional Images - Additional images help the customer to know more details about the car, which will be showing the car view in many angles, and the customer will understand it clearly how it looks like, what the technical details of the car, the color, and so on.
+* Main Image: The main image will be a general photo image of the car, which has to be uploaded by clicking on the ‘Select an image’ button and selecting the appropriate image from the files.
+* Thumbnail Image: The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, which will be shown in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the car.
+* Additional Images: Additional images help the customer to know more details about the car, which will show the car view in many angles, and the customer will understand it clearly how it looks, what the technical details of the car are, the color, and so on.
 
 {% embed url="https://youtu.be/maTqM-vA2zU" %}
 
 ### Shipping <a href="#shipping" id="shipping"></a>
 
-This tab has the configuration setting for shipping. Any product that has been purchased, has to be shipped to the customer, if the product is physically deliverable.
+This tab has the configuration settings for shipping. Any product that has been purchased has to be shipped to the customer if the product is physically deliverable.
 
 Consider the image below:
 
@@ -122,19 +122,19 @@ As shown in the image, you need to do the following activities to configure ship
 
 ### Options <a href="#options" id="options"></a>
 
-In this tab, you can set your preferred options for a particular product like, color of the product, size of the product, weight of product, mass of the product etc.
+In this tab, you can set your preferred options for a particular product like, color of the product, size of the product, weight of the product, mass of the product etc.
 
 See the image on how to set the option for a product.
 
 ![Options](<../.gitbook/assets/simple j2-options2.webp>)
 
-Once you select the option from the dropdown list, it will be added as you can see in the image below.
+Once you select the option from the dropdown list, it will be added, as you can see in the image below.
 
 ![Adding options to product](<../.gitbook/assets/simple j2-options3.webp>)
 
-In the image, you have a text field to enter the option name like color, size etc. Just enter that in the text field. It will be set as preferred option.
+In the image, you have a text field to enter the option name, like color, size etc. Just enter that in the text field. It will be set as the preferred option.
 
-If an option is created and set already, you can also import it here rather create a new option. Click the button and it will direct you to the predefined options, if any.
+If an option is created and set already, you can also import it here rather than create a new option. Click the button and it will direct you to the predefined options, if any.
 
 ### Filters <a href="#filters" id="filters"></a>
 
@@ -148,13 +148,13 @@ Now the cart will display only the purple t-shirts.
 
 ### Relations <a href="#relations" id="relations"></a>
 
-Relations are used to promote sales by suggesting the customer with higher value products than the one being looked and additional products to be bought with a particular product.
+Relations are used to promote sales by suggesting to the customer higher value products than the one being looked at and additional products to be bought with a particular product.
 
 ![Relations](<../.gitbook/assets/simple j2-relations2.webp>)
 
 * In this tab page, relations are set for Upsells and Cross-sells
 * An upsell is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.
-* A cross-sell is to get the customer to spend more money buy adding more products from other categories, additionally, along with the product intended for purchase.
+* A cross-sell is to get the customer to spend more money by adding more products from other categories, additionally, along with the product intended for purchase.
 * Example: The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a Laptop with 2GB/500GB for $500.
 
 You can suggest the customer with some options, so that the customer may be convinced to buy one of your options, thus promoting a higher sale for you.
@@ -169,11 +169,11 @@ Your suggestions could be like this:
 
 Custom fields / settings from applications will be displayed in this tab.
 
-### A step-by-step guide to create a simple product <a href="#a-step-by-step-guide-to-create-a-simple-product" id="a-step-by-step-guide-to-create-a-simple-product"></a>
+### A step-by-step guide to creating a simple product <a href="#a-step-by-step-guide-to-create-a-simple-product" id="a-step-by-step-guide-to-create-a-simple-product"></a>
 
-**J2Store** implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is to create an article.
+**J2Store** implements an innovative concept in creating products. It uses the Joomla articles as products. To create a product is to create an article.
 
-So, lets create an article a.k.a a simple product
+So, let's create an article a.k.a a simple product
 
 Creating an article / product
 
@@ -195,7 +195,7 @@ Your product will be saved, and it will continue to configure the product. See t
 
 ![Adding a content](<../.gitbook/assets/simple content2 (1).webp>)
 
-Now, add a description to your product in the editor. Lets add the other primary details of the product. See the image below.
+Now, add a description to your product in the editor. Let's add the other primary details of the product. See the image below.
 
 ![General tab](<../.gitbook/assets/simple j2-general2 (1).webp>)
 
@@ -229,11 +229,11 @@ Enter the options with details according to your needs to enable shipping, the d
 
 ![Options configuration](<../.gitbook/assets/simple options2.webp>)
 
-You can add options for your product, as illustrated in the image. If you have already set an option for some other product, and wish to import the same option to this product, you can do so by clicking the import product options button, which will bring out a popup window, like this.
+You can add options for your product, as illustrated in the image. If you have already set an option for some other product and wish to import the same option to this product, you can do so by clicking the import product options button, which will bring out a popup window, like this.
 
 ![Importing options on a simple product](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-options-import.png)
 
-Next comes filters. You can filter the products, with their name or type to narrow the search. For e.g., if give ‘Electronics’ as filter, only electronics goods will be searched for your product, thus saving time. You can set filters as shown in the image.
+Next comes filters. You can filter the products by their name or type to narrow the search. For e.g., if you give ‘Electronics’ as a filter, only electronics goods will be searched for your product, thus saving time. You can set filters as shown in the image.
 
 ![Adding filters to simple products](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-adding-filters.png)
 
@@ -247,9 +247,9 @@ Also, you can add some other products to convince the customer to buy theses pro
 
 ![Apps section](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-apps.png)
 
-In this tab, you can add third party tools or plugins, that are available, to enhance the J2Commerce functionality, like adding additional fields, applications, functions or features.
+In this tab, you can add third-party tools or plugins that are available to enhance the J2Commerce functionality, like adding additional fields, applications, functions, or features.
 
-Now, lets have a look on how your product is viewed in your online store. Check the image below:
+Now, let's have a look at how your product is viewed in your online store. Check the image below:
 
 ![Simple product on frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simpl-epro-frontend.png)
 

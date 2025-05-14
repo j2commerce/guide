@@ -48,7 +48,9 @@ The image above indicates how to add or edit a currency.
 
 **Display the prices with comma**
 
-Prices should also be entered with the . (DOT) as the decimal separator. In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma. ![Displaying prices with comma](../.gitbook/assets/currency_decimal_separator2.webp)
+Prices should also be entered with the . (DOT) as the decimal separator. In the currency settings screen, as mentioned in the below picture, you can change the formatting option. This will automatically display the prices with comma.&#x20;
+
+<figure><img src="../.gitbook/assets/currency_decimal_separator2 (1).webp" alt=""><figcaption></figcaption></figure>
 
 **Video tutorial**
 

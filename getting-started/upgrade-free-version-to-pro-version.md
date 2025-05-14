@@ -6,12 +6,12 @@ You can check which version of J2Commerce you are using. Just Go to J2Commerce >
 
 ## How to upgrade the J2Commerce Free version to Pro version ? <a href="#how-to-upgrade-the-j2store-free-version-to-pro-version" id="how-to-upgrade-the-j2store-free-version-to-pro-version"></a>
 
-If you have login and you are in the subscribers list, please go to this link: [click here](https://www.j2commerce.com/my-account)
+If you have a login and you are in the subscribers list, please go to this link: [click here](https://www.j2commerce.com/my-account)
 
 Download the **J2Commerce Pro Package**.
 
-Once you downloaded, now go to Joomla installer and install the J2Commerce Pro Package over it.
+Once you have downloaded, go to Joomla installer and install the J2Commerce Pro Package over it.
 
 ```
- **Note** : By installing the J2Commerce Pro version over the Free version, your content will not be lost.
+ **Note**: By installing the J2Commerce Pro version over the Free version, your content will not be lost.
 ```

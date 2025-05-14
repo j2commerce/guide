@@ -2,15 +2,15 @@
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 
-Variable is a complex product type. It lets you define variations of a product where each variant may have a different attributes, e.g. SKU, price and stock level.
+Variable is a complex product type. It lets you define variations of a product where each variant may have different attributes, e.g. SKU, price and stock level.
 
 ```
 Since this is a complex product type, it might take some time (quite some time) to create it. You will need a lot of patience and also require quite some work. So be prepared.
 ```
 
-A perfect example for a variable product is: T-Shirts. T-Shirts always come with the size and colour combination. Example: Small-Blue, Small-Red, Small-Green.
+A perfect example for a variable product is: T-shirts. T-shirts always come with a size and colour combination. Example: Small-Blue, Small-Red, Small-Green.
 
-You will be adding a price, sku and stock PER combination.
+You will be adding a price, SKU and stock PER combination.
 
 **NOTE:** If your product does not require a combination or stock / price management for each variation, then a simple product will suit your requirements.
 
@@ -59,11 +59,11 @@ As the name suggests, it is very flexible and is based on the cartesian set algo
 
 ![General tab](<../.gitbook/assets/variable product-general-tab2.webp>)
 
-* Visible in Storefront - First select whether the product is to be displayed in front of the store. If it is, set the option to ‘Yes’
-* Brand or Manufacturer - Select the brand or manufacturer of the product from the available list
-* Vendor - Select the vendor from whom the product is available for purchase - This is J2Commerce PRO feature
-* Tax Profile - Specify whether the product is taxable and if it is, select the tax profile relevant to the product
-* Cart button text - The unique text for cart button could be mentioned here.
+* Visible in Storefront: First, select whether the product is to be displayed in front of the store. If it is, set the option to ‘Yes’
+* Brand or Manufacturer: Select the brand or manufacturer of the product from the available list
+* Vendor: Select the vendor from whom the product is available for purchase - This is J2Commerce PRO feature
+* Tax Profile: Specify whether the product is taxable, and if it is, select the tax profile relevant to the product
+* Cart button text: The unique text for the cart button could be mentioned here.
 
 ### Images <a href="#images" id="images"></a>
 
@@ -71,17 +71,17 @@ As the name suggests, it is very flexible and is based on the cartesian set algo
 
 This feature is available for native Joomla articles and in J2Commerce Product Layouts
 
-To display the thumbnail, main and additional images in Joomla articles, you should first configure the Content - J2Commerce plugin in Plugin Manager. Otherwise, you wont see these images in your products.
+To display the thumbnail, main and additional images in Joomla articles, you should first configure the Content - J2Commerce plugin in Plugin Manager. Otherwise, you won't see these images in your products.
 
-Lets assume that a customer would like to purchase a car. Now, car images need to be loaded in this tab.
+Let's assume that a customer would like to purchase a car. Now, car images need to be loaded in this tab.
 
-* Main Image - The main image will be a general photo image of the car, that has to be uploaded by clicking on the ‘Select an image’ button and select the appropriate image from the files.
-* Thumbnail Image - The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, that will be shown up in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the car.
-* Additional Images - Additional images help the customer to know more details about the car, which will be showing the car view in many angles, and the customer will understand it clearly how it looks like, what the technical details of the car, the colour, and so on.
+* Main Image: The main image will be a general photo image of the car, which has to be uploaded by clicking on the ‘Select an image’ button and selecting the appropriate image from the files.
+* Thumbnail Image: The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, which will be shown in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the car.
+* Additional Images: Additional images help the customer to know more details about the car, which will show the car view from many angles, and the customer will understand it clearly how it looks, what the technical details of the car are, the colour, and so on.
 
 ### Variants <a href="#variants" id="variants"></a>
 
-Variants are products of same type and nature but with different attributes. For e.g., consider a Laptop of a particular brand with certain attributes, say
+Variants are products of the same type and nature but with different attributes. For e.g., consider a Laptop of a particular brand with certain attributes, say
 
 * Colour - Metallic Grey
 * Screen - 15.6 inches
@@ -89,7 +89,7 @@ Variants are products of same type and nature but with different attributes. For
 * HDD - 500 GB
 * SKU - MTG8620
 
-and so on. This is a variant of the particular brand. Now, the same product with same brand, will be another variant with some attributes changed, like
+and so on. This is a variant of the particular brand. Now, the same product with the same brand will be another variant with some attributes changed, like
 
 * Colour - Black
 * Screen - 15.6 inches
@@ -97,12 +97,12 @@ and so on. This is a variant of the particular brand. Now, the same product with
 * HDD - 500 GB
 * SKU - BLK8640
 
-For both the items, brand and model name may be same, but the attributes like colour and SKU differs. These are two variants of a particular laptop brand.
+For both the items, the brand and model name may be the same, but the attributes like colour and SKU differ. These are two variants of a particular laptop brand.
 
-* A variant defines how this product differs from other products of same type
-* It may be SKU no, price, stock level or color
+* A variant defines how this product differs from other products of the same type
+* It may be SKU no, price, stock level or colour
 
-Lets discuss it with some image illustrations:
+Let's discuss it with some image illustrations:
 
 ![Adding variants](<../.gitbook/assets/variable product-adding-variants2.webp>)
 
@@ -110,7 +110,7 @@ If you select ‘Size’ from the list, your screen will look like this:
 
 ![Saving variants](<../.gitbook/assets/variable product-adding-variants-size.webp>)
 
-You can see the option you have selected from the list added down there. Now, SAVE the form to proceed.
+You can see the option you have selected from the list added below. Now, SAVE the form to proceed.
 
 ![Click on set option values](<../.gitbook/assets/variable product-variant-options2.webp>)
 
@@ -118,17 +118,17 @@ You can see ’**Set Values**’ near the option name **Size** and click it. You
 
 ![Setting option values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/var-pro-set-opt-val.png)
 
-Once you are done, save changes and close the pop-up window to get back to the main window. Now you have set the values for the variants to be generated. Why wait, just go and generate the variants like this:
+Once you are done, save changes and close the pop-up window to get back to the main window. Now you have set the values for the variants to be generated. Why wait? Just go and generate the variants like this:
 
 <figure><img src="../.gitbook/assets/variable product-generating-variants2.webp" alt=""><figcaption></figcaption></figure>
 
-The button you have clicked for variant generation will adjust itself to show you a message, ‘Generating variants… Please wait’.
+The button you have clicked for variant generation will adjust itself to show you a message, ‘Generating variants… " Please wait.
 
 And that’s it. You have your variants generated! Wonder how? Just check the image below for a surprise…
 
 ![List of variants](<../.gitbook/assets/variable product-generating-variants3.webp>)
 
-If you want to edit the properties of the variants, click the open all button and you will get the screen like below:
+If you want to edit the properties of the variants, click the open all button, and you will get a screen like below:
 
 ![Open all variants](<../.gitbook/assets/variable product-generating-variants4.webp>)
 
@@ -150,16 +150,16 @@ Now the cart will display only the purple t-shirts.
 
 * In this tab page, relations are set for Upsells and Cross-sells
 * An upsell is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.
-* A cross-sell is to get the customer to spend more money buy adding more products from other categories, additionally, along with the product intended for purchase.
-* Example:The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a Laptop with 2GB/500GB for $500.4GB/500GB-> $550 - Upsell, same product family, more expensive4GB/1TB -> $700 - Upsell, same product family, more expensiveLaptop Bag -> $25 - Cross sell, related product, additional sell
+* A cross-sell is to get the customer to spend more money by adding more products from other categories, additionally, along with the product intended for purchase.
+* Example: The terms cross-sell and upsell are often used interchangeably because, let’s face it, this gets confusing. Say the customer is viewing a Laptop with 2GB/500GB for $500.4GB/500GB-> $550 - Upsell, same product family, more expensive4GB/1TB -> $700 - Upsell, same product family, more expensive. Laptop Bag -> $25 - Cross-sell, related product, additional sell
 
 Custom fields / settings from applications will be displayed in this tab.
 
-## A step-by-step guide to create a variable product <a href="#a-step-by-step-guide-to-create-a-variable-product" id="a-step-by-step-guide-to-create-a-variable-product"></a>
+## A step-by-step guide to creating a variable product <a href="#a-step-by-step-guide-to-create-a-variable-product" id="a-step-by-step-guide-to-create-a-variable-product"></a>
 
-**J2Commerce** implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is to create an article.
+**J2Commerce** implements an innovative concept in creating products. It uses the Joomla articles as products. So, to create a product is to create an article.
 
-So, lets create an article.
+So, let's create an article.
 
 ### Creating an Article <a href="#creating-an-article" id="creating-an-article"></a>
 
@@ -171,18 +171,18 @@ As given in the above illustration, click in the top menu or in the left pane of
 
 ![Choosing product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/var-pro-choose-pro-type.png)
 
-* Enter the name for your product.
-* Since you are creating article, you need to tell that the article be treated as product. So, select ‘Yes’.
-* Select the type of the product, i.e., ‘Variable’.
+* Enter the name of your product.
+* Since you are creating an article, you need to tell that the article should be treated as a product. So, select ‘Yes’.
+* Select the type of product, i.e., ‘Variable’.
 * Now, click the ‘Save and Continue’ button.
 
-Your product is successfully created and a message will be displayed like this.
+Your product is successfully created, and a message will be displayed like this.
 
 ![success message for creating variable product](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/var-pro-create-success.png)
 
 ### General <a href="#general-1" id="general-1"></a>
 
-Now you need to configure your product with necessary details. Begin with general tab.
+Now you need to configure your product with the necessary details. Begin with the general tab.
 
 ![General tab](<../.gitbook/assets/variable product-general-tab2 (1).webp>)
 
@@ -191,17 +191,17 @@ Now you need to configure your product with necessary details. Begin with genera
 * Select the vendor to order the product
 * Select the tax profile that matches the product profile
 
-Now switch to Images tab.
+Now switch to the Images tab.
 
 ### Images <a href="#images-1" id="images-1"></a>
 
 ![Images](<../.gitbook/assets/variable product-image-tab2 (1).webp>)
 
-You can add main, thumbnail and additional images relevant to your product in this tab. Click the ‘select an image’ button to get a pop-up window to select the image.
+You can add main, thumbnail, and additional images relevant to your product in this tab. Click the ‘select an image’ button to get a pop-up window to select the image.
 
 ![Select images](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/create_variable_cart_images_select.png)
 
-Move on to variants tab.
+Move on to the variants tab.
 
 ### Variants <a href="#variants-1" id="variants-1"></a>
 
@@ -215,7 +215,7 @@ In the image, as you can see, you have added the option size. Now, save the conf
 
 ![Variants creation](<../.gitbook/assets/variable product-color-variants2.webp>)
 
-You can see the blue link, ‘Set Values’ adjacent to the option ‘Color’. Click this link to set some values for the option ‘Color’. Then only you can generate variants. Go ahead with setting values and see what happens…
+You can see the blue link, ‘Set Values’, adjacent to the option ‘Color’. Click this link to set some values for the option ‘Color’. Then only you can generate variants. Go ahead with setting values and see what happens…
 
 ![Set values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/create_variable_cart_variants_setvalues.png)
 
@@ -231,19 +231,19 @@ Now, as shown in the image, click on the ‘Generate Variants’, a green colore
 
 ![Generating variants](../.gitbook/assets/variable_cart_genrating_variants.webp)
 
-As you click the buttons to generate variants, the buttons adjusts itself to display the message ‘Generating variants… please wait’. Now its done. See the variants listed below, as shown in the image.
+As you click the buttons to generate variants, the buttons adjust themselves to display the message ‘Generating variants… please wait’. Now it's done. See the variants listed below, as shown in the image.
 
 ![Generated variants list](../.gitbook/assets/variable_cart_variants_generated.webp)
 
-Once the variants are generated, you can edit the variants and add necessary details to the variant. When you edit a variant, you will have all the tabs in cart except variant tab. Fill in the required details for each product variant. Don't forget to save your changes.
+Once the variants are generated, you can edit the variants and add necessary details to them. When you edit a variant, you will have all the tabs in cart except the variant tab. Fill in the required details for each product variant. Don't forget to save your changes.
 
 ![Editing variants](<../.gitbook/assets/variable product-generating-variants4 (1).webp>)
 
-Having completed variants tab, now move on to filter tab.
+Having completed the variants tab, now move on to the filter tab.
 
 ### Filters <a href="#filters-1" id="filters-1"></a>
 
-Here, you can set the filters to narrow product search. When you set filter value as ‘Mens’, all mens T-Shirts will be displayed. Likewise, women and kids. See the illustration below:
+Here, you can set the filters to narrow product search. When you set the filter value as ‘Mens’, all men's T-Shirts will be displayed. Likewise, women and kids. See the illustration below:
 
 ![Filters](<../.gitbook/assets/variable product-filters-variants (2).webp>)
 
@@ -253,19 +253,19 @@ Here, you can set the filters to narrow product search. When you set filter valu
 
 The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
 
-Also, you can add some other products to convince the customer to buy theses products additionally. This is cross-sell.
+Also, you can add some other products to convince the customer to buy these products additionally. This is cross-selling.
 
 <figure><img src="../.gitbook/assets/variable product-relations-variants (1).webp" alt=""><figcaption></figcaption></figure>
 
-For more detailed explanation, refer to the **Relations** section of the **Variable Product**.
+For a more detailed explanation, refer to the **Relations** section of the **Variable Product**.
 
 ### Apps <a href="#apps" id="apps"></a>
 
 ![Apps section](<../.gitbook/assets/variable product-app-variants2.webp>)
 
-In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features.
+In this tab, you can add third-party tools or plugins that are available to enhance the J2Store functionality, like adding additional fields, applications, functions, or features.
 
-Now, lets have a look on how your product is viewed in your online store. Check the image below:
+Now, let's have a look at how your product is viewed in your online store. Check the image below:
 
 ![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/variable-product/poloshirt_on_cart.png)
 

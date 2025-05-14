@@ -1,13 +1,17 @@
 ---
-description: The guide helps you migrate your J2Commerce 3 to J2Commerce 4
+description: >-
+  This article is a guide to help you migrate your Joomla 3 / J2Store 3 website
+  to J2Store/J2Commerce 4 Joomla 4 and 5 versions.
 ---
 
-# Migration from J2Commerce 3 to 4
+# Migrating from J2Store 3 to 4 3 to 4
 
-This article is a guide for those looking to migrate from J2Commerce 3 to J2Commerce 4 so that they can upgrade their Joomla version to the latest Joomla 4.
+This article is a guide to help you migrate from J2Store 3 to J2Store / J2Commerce 4. to the latest Joomla 4 or 5.
+
+**IMPORTANT: J2Commerce is simply a rebranding of the original J2Store component, so any J2Store/J2Commerce 4 updates will work with your newly migrated J2Store 4/J2Commerce 4 sites.**
 
 {% hint style="warning" %}
-<mark style="color:red;">**The following instructions apply ONLY IF you have a Joomla 3 website with J2Commerce 3.**</mark>
+<mark style="color:red;">**The following instructions apply ONLY IF you have a Joomla 3 website with J2Store 3.**</mark>
 {% endhint %}
 
 {% hint style="warning" %}
@@ -19,7 +23,7 @@ This article is a guide for those looking to migrate from J2Commerce 3 to J2Comm
 {% hint style="danger" %}
 **CAUTION:**
 
-While we are committed to ensuring a smooth transition, please note that unforeseen circumstances may arise during the migration process. Example: You might have an incompatible plugin, a third-party extension that conflicts with J2Commerce and so on.
+While we are committed to ensuring a smooth transition, please note that unforeseen circumstances may arise during the migration process. Example: You might have an incompatible plugin, a third-party extension that conflicts with J2Commerce, and so on.
 
 Though we'll make every effort to assist, we cannot be held accountable for potential issues that may occur as a result. Proceed with caution.
 {% endhint %}
@@ -32,15 +36,15 @@ Take a FULL BACKUP so that in case of issues, you can always restore your site f
 
 ### Step 2: Install the migration helper utility
 
-We have created a simple migration helper that check for potential conflicts with the plugins and lets you disable them before the migration.
+We have created a simple migration helper that checks for potential conflicts with the plugins and lets you disable them before the migration.
 
 1. Download the utility from here: [github.com/j2commerce/j2store\_migration\_checker/releases](https://github.com/j2commerce/j2store_migration_checker/releases)
-2. Install it by logging into your Joomla 3 administrator -> extensions -> Install
-3. Once installed, go to Components -> J2Migration checker
+2. Install it by logging into your Joomla 3 administrator > System > Install > Extensions
+3. Once installed, go to Components > J2Migration checker
 
-### Step 3: Disable the Plugins / modules and apps of J2Commerce
+### Step 3: Disable the Plugins / Modules and apps of J2Store
 
-The migration helper will list all the J2Commerce plugins, apps, modules, extensions that needs to be disabled before you can proceed with it.
+The migration helper will list all the J2Store / J2Commerce plugins, apps, modules, extensions that needs to be disabled before you can proceed with it.
 
 Once you have disabled them, you will see a “green light” for proceeding with the migration.
 
@@ -73,7 +77,7 @@ We will be publishing the Joomla 4 compatible J2Commerce plugins / extensions so
 ### Step 6: Ensure all the plugins / extensions in your site are Joomla 4 compatible.
 
 \
-If you have other extensions / plugins / modules from third party developers, you need to check their Joomla 4 compatibility before upgrading to Joomla 4.
+If you have other extensions / plugins / modules from third-party developers, you need to check their Joomla 4 compatibility before upgrading to Joomla 4.
 
 Just upgrading J2Commerce 3 to J2Commerce 4 will not ensure compatibility for Joomla 4. All the extensions and plugins that you use in your site should be Joomla 4 compatible before you upgrade.
 

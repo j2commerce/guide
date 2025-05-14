@@ -14,7 +14,7 @@ Download your J2Commerce Component Package from our J2Commerce official website.
 
 Use the Joomla installer to install the J2Commerce package.
 
-1. Go to Joomla System > Install> Extension
+1. Go to Joomla System > Install > Extension
 2. Choose and select your file.
 3. Click Upload & Install.
 
@@ -22,23 +22,21 @@ Use the Joomla installer to install the J2Commerce package.
 
 ### Configuration <a href="#configuration" id="configuration"></a>
 
-Once installed, you will get J2Commerce in the Joomla component list and also separate J2Commerce tab in Joomla backend. Now, Go to J2Commerce > Dashboard.
+Once installed, you will get J2Commerce in the Joomla component list and also a separate J2Commerce tab in the Joomla backend. Now, Go to J2Commerce > Dashboard.
 
 <figure><img src=".gitbook/assets/Quickstart-J2Store-component2 (1).webp" alt=""><figcaption></figcaption></figure>
 
-![Quickstart-Configuration](.gitbook/assets/Quickstart-J2Store-component2.webp) Now, Go to J2Commerce > Dashboard.
+Now, Go to J2Commerce > Dashboard.
 
 <figure><img src=".gitbook/assets/Quickstart-J2Store-component2 (2).webp" alt=""><figcaption></figcaption></figure>
 
 Fill all the fields in the basic settings and click Save & Proceed.
 
-
-
-![Quickstart-basic-settings](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-basic-setttings.png)&#x20;
+<figure><img src=".gitbook/assets/Quickstart-basic-setttings.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/store2.webp" alt=""><figcaption></figcaption></figure>
 
-&#x20;Creating Product
+&#x20;**Creating a Product:**
 
 Since J2Commerce uses the default Joomla articles as its products, it lets you use native content as product.
 
@@ -48,11 +46,11 @@ Give the title of the product, add your description about the product in the con
 
 ![Quickstart-creating-a-product](<.gitbook/assets/simple content2.webp>)
 
-Now, go to J2Commerce Cart tab, choose YES to Treat as a product then choose your Product Type from the list (Simple, Variable, Configurable, Downloadable) and then click Save and Continue.
+Now, go to J2Store Cart tab, choose YES to Treat as a product, then choose your Product Type from the list (Simple, Variable, Configurable, Downloadable), and then click Save and Continue.
 
 ![Quickbook-product-type](<.gitbook/assets/Quickstart-new product2.webp>)
 
-After saving, again go to J2Commerce cart tab. Now you can see the options to add image for product, set prices, add filters / Tax / Shipping.
+After saving, again go to J2Store cart tab. Now you can see the options to add an image for the product, set prices, add filters / Tax / Shipping.
 
 ![Quickstart-product-settings](<.gitbook/assets/simple j2-general2 (3).webp>)
 
@@ -60,23 +58,25 @@ After saving, again go to J2Commerce cart tab. Now you can see the options to ad
 
 It is very easy and flexible to display the product in frontend via menu. Please follow the procedure given below.
 
-Go to Menu manager -> Main menu and create a new menu item. Click Select for Menu Item Type. In the dropdown menu select J2Commerce > Product List View.
+Go to Menu manager > Main menu and create a new menu item. Click Select for Menu Item Type. In the dropdown menu select J2Commerce > Product List View.
 
 <figure><img src=".gitbook/assets/menu type2 (1).webp" alt=""><figcaption></figcaption></figure>
 
-Choose the Category which have chosen when creating product. The category added in the product and the category added in the menu should be same.
+Choose the Category that you have chosen when creating a product. The category added in the product and the category added in the menu should be the same.
 
 ![Quickstart-j2store-menu](<.gitbook/assets/menu category2.webp>)
 
-In the menu you can see these three tabs common options, Item view options in category listings, Item view options.
+In the menu, you can see these three tabs: common options, Item view options in category listings, and Item view options.
 
 * **Common Options:** Here you can choose the layout (bootstrap 2, bootstrap 3).
 * **Item view options in category listings:** Here you can choose which are things should be displayed in product pages. For example, you hide / show price, images, filters, etc..
-* **Item view options:** Here you can choose which are the things should be displayed in product view page.
+* **Item view options:** Here you can choose which are the things should be displayed in the product view page.
 
 ### Frontend <a href="#frontend" id="frontend"></a>
 
-Now Go to frontend of your site and check. ![Quickstart-frontend](https://raw.githubusercontent.com/j2store/doc-images/master/quick-start/Quickstart-guide/Quickstart-guide.png)
+Now Go to frontend of your site and check.&#x20;
+
+<figure><img src=".gitbook/assets/Quickstart-guide.png" alt=""><figcaption></figcaption></figure>
 
 ### Video tutorials <a href="#video-tutorials" id="video-tutorials"></a>
 

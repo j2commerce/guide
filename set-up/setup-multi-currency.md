@@ -12,25 +12,31 @@ For e.g., if US $ is been set the value 1, it will be the default currency and t
 
 To make the currency value auto update, go to **J2Commerce > Setup > Configuration > Store tab** and choose **YES** to Auto Update Currency.
 
-![Autoupdate currency](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/set-up-multi-currency/multi-currency_autoupdatecurrency.png) Choose the Default Currency as **USD** in your store configuration.
+![Autoupdate currency](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/set-up-multi-currency/multi-currency_autoupdatecurrency.png)&#x20;
 
-After choosing Auto update currency to YES, when you are going to create secondary currency, the value of the currency will be updated automatically. See  the below picture, ![Value of available currencies](../.gitbook/assets/multi-currency_value2.webp)
+Choose the Default Currency as **USD** in your store configuration.
+
+After choosing Auto update currency to YES, when you are going to create a secondary currency, the value of the currency will be updated automatically. See the picture below.&#x20;
+
+<figure><img src="../.gitbook/assets/multi-currency_value2 (1).webp" alt=""><figcaption></figcaption></figure>
 
 ## J2Commerce Currency Switcher <a href="#j2store-currency-switcher" id="j2store-currency-switcher"></a>
 
 Go to System > Manage > Extension.
 
-Select Filter Options tab. Then in the dropdown menu for Select Type, click on Module.&#x20;
+Select the Filter Options tab. Then, in the dropdown menu for Select Type, click on Module.&#x20;
 
 Find the J2Store Currency (or J2Commerce currency) module and enable it.
 
 Open the module, set the module position to any one of your template’s positions.
 
-Assign it to the All pages or to the particular menu and Save it.
+Assign it to the All pages or to a particular menu, and save it.
 
 ![Currency setup](../.gitbook/assets/multi-currency-setup2.webp)
 
-**Frontend** ![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/set-up/set-up-multi-currency/multi-currency_frontend.png)
+**Frontend**&#x20;
+
+<figure><img src="../.gitbook/assets/multi-currency_frontend.png" alt=""><figcaption></figcaption></figure>
 
 **Video Tutorial:** Here is a video that would assist you on setting up multi-currency on your site:
 

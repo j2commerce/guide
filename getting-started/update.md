@@ -10,13 +10,13 @@ In our website’s My Downloads section. Click on your profile on the top right 
 
 <figure><img src="../.gitbook/assets/download id.webp" alt=""><figcaption></figcaption></figure>
 
-You should copy the Download ID and paste it in J2Commerce - Set up - Configuration - Update tab.
+You should copy the Download ID and paste it in J2Commerce - Setup - Configuration - Update tab.
 
-**NOTE:** If you have re-set your password in our site, then a new download ID will be issued (due to security reasons and prevent unauthorized access.) Please make sure that the Download ID is correct.
+**NOTE:** If you have reset your password on our site, then a new download ID will be issued (due to security reasons and to prevent unauthorized access.) Please make sure that the Download ID is correct.
 
 ## Update <a href="#update" id="update"></a>
 
-**Very Very Important** Take a **FULL BACKUP** of your site before you update. We recommend using the **Akeeba Backup** (free backup extension for Joomla) to take a backup. DO NOT proceed to update without taking a backup.
+**Very Very Important:** Take a **FULL BACKUP** of your site before you update. We recommend using the **Akeeba Backup** (free backup extension for Joomla) to take a backup. DO NOT proceed to update without taking a backup.
 
 Updating to the latest version J2Commerce can be updated with two different methods: installing the new version on top of the old one or using the Joomla Extensions Update feature.
 
@@ -34,26 +34,26 @@ J2Commerce integrates nicely with the Extension Manager’s update feature. When
 
 ## Updating from FREE to PRO version <a href="#updating-from-free-to-pro-version" id="updating-from-free-to-pro-version"></a>
 
-There are chances that you have used the FREE version to set up your store first. And you have subscribed to a plan to get the PRO version. In this case, you should download the PRO version from our My Downloads section and install it over the free version.
+There is a chance that you have used the FREE version to set up your store first. And you have subscribed to a plan to get the PRO version. In this case, you should download the PRO version from our My Downloads section and install it over the free version.
 
 DO NOT **uninstall** the free version. Just install the PRO over the free version.
 
-Updating from free version to PRO version will **NOT affect you store settings and data.**
+Updating from the free version to the PRO version will **NOT affect your store settings and data.**
 
-J2Commerce uses the Joomla Extension Manager for providing updates to both the free and pro users. On a few occasions, you may not be able to access the updates via the Extensions Manager. You may get a 403 access denied when you try to update in your site. It might be due to several reasons. We have listed a few that might cause this problem.
+J2Commerce uses the Joomla Extension Manager to provide updates to both the free and pro users. On a few occasions, you may not be able to access the updates via the Extensions Manager. You may get a 403 Access Denied when you try to update your site. It might be due to several reasons. We have listed a few that might cause this problem.
 
 Make sure that the **Download ID** you have entered is correct.
 
 ## Firewall <a href="#firewall" id="firewall"></a>
 
-If you make repeated attempts or requests, then our firewall might block the access for a temporary period (usually 10 minutes).
+If you make repeated attempts or requests, then our firewall might block access for a temporary period (usually 10 minutes).
 
-In this case, please try after 10 minutes.
+In this case, please try again after 10 minutes.
 
-If still you get the error, you can always download the latest version from our [My Downloads section](https://www.j2commerce.com/my-account) and install it via the Extensions manager.
+If you still get the error, you can always download the latest version from our [My Downloads section](https://www.j2commerce.com/my-account) and install it via the Extensions manager.
 
 ## Timeout <a href="#timeout" id="timeout"></a>
 
-J2Commerce uses the Joomla Extension Update tool. A time-out will occur if your connection is slow or if our server responds slower (which can sometimes occur if there are a huge number of download requests)
+J2Commerce uses the Joomla Extension Update tool. A time-out will occur if your connection is slow or if our server responds more slowly (which can sometimes occur if there are a huge number of download requests)
 
 In this case, just try again after a few minutes. You will usually get through.

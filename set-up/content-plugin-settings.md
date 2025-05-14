@@ -9,11 +9,11 @@ To control the display in the cart section, to show or hide the images, enabling
 
 ![Contentplugin-contentfilter](../.gitbook/assets/content2.webp)
 
-* You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Commerce cart tab on the product articles on the frontend.
+* You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Store cart tab on the product articles on the frontend.
 
 ![Contentplugin-frontendediting](<../.gitbook/assets/content plugin2.webp>)
 
-Next is the category view tab where you can find settings for controlling the behavior on the category view of products.
+Next is the category view tab, where you can find settings for controlling the behavior on the category view of products.
 
 * From the resulting window, select the Category View tab to set the values, as shown in the image below:
 
@@ -25,58 +25,48 @@ Next is the category view tab where you can find settings for controlling the be
 
 **Display the options and cart**- This would display the options and the cart button on the list view page itself.
 
-**Display Choose options button only if product has options. If no options are there, display the cart**- This would display the view details button if there are options in the product. If no options are available, add to cart button would be shown in the list view page.
+**Display choose options button only if the product has options. If no options are there, display the cart**- This would display the view details button if there are options in the product. If no options are available, the add to cart button would be shown in the list view page.
 
-**Do not display. Always take customer to detail view**- This would display the view details button regardless of product having options or not.
+**Do not display. Always take the customer to the detail view**- This would display the view details button regardless of the product having options or not.
 
 **Product block position**
 
-**Top** This would display the add to cart, price, options above the description or other content of the product article.
+**Top:** This would display the add to cart, price, options above the description or other content of the product article.
 
-**Bottom** This would display the add to cart, price, options below the description or any other content of the product article.
+**Bottom:** This would display the add to cart, price, options below the description, or any other content of the product article.
 
-**AfterdisplayContent** This would display the product block in the place where the Afterdisplaycontent event is used.
+**AfterDisplayContent:** This would display the product block in the place where the AfterDisplayContent event is used.
 
-**Display image** To display the image, select Yes
+**Display image:** To display the image, select Yes
 
-**Image type** Select from the three options : Thumbnail, Main, Both Main and additional images
+**Image type:** Select from the three options : Thumbnail, Main, Both Main and additional images
 
 **Link image to product**
 
 Choose Yes if the image is to be linked with the product
 
-**Enable zoom effect**
+**Enable zoom effect:** Select Yes to enable the zoom effect
 
-Select Yes to enable zoom effect
+**Image width & Additional image width:** Set the width of the image in pixels
 
-**Image width & Additional image width**
-
-Set the width of the image in pixels
-
-* Save the settings and go to Item View tab to set the values, as shown in the image below:
+* Save the settings and go to the Item View tab to set the values, as shown in the image below:
 
 ![Setup-contentplugin-itemview](<../.gitbook/assets/content item view2.webp>)
 
 **Product block position**
 
-**Top**- This would display the add to cart, price, options above the description or other content of the product article.
+**Top**: This would display the add to cart, price, options above the description, or other content of the product article.
 
-**Bottom**- This would display the add to cart, price, options below the description or any other content of the product article.
+**Bottom**: This would display the add to cart, price, options below the description, or any other content of the product article.
 
-**AfterdisplayContent**- This would display the product block in the place where the Afterdisplaycontent event is used.
+**AfterDisplayContent**: This would display the product block in the place where the AfterDisplayContent event is used.
 
-**Display image** To display the image, select Yes
+**Display image:** To display the image, select Yes
 
-**Image type** Select from the three options : Thumbnail, Main, Both Main and additional images
+**Image type:** Select from the three options: Thumbnail, Main, Both Main and additional images
 
-**Link image to product**
+**Link image to product:** Choose Yes if the image is to be linked with the product
 
-Choose Yes if the image is to be linked with the product
+**Enable zoom effect:** Select Yes to enable the zoom effect
 
-**Enable zoom effect**
-
-Select Yes to enable zoom effect
-
-**Image width & Additional image width**
-
-Set the width of the image in pixels
+**Image width & Additional image width:** Set the width of the image in pixels
