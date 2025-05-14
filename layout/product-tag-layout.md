@@ -2,7 +2,7 @@
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 
-Starting from the J2Commerce version 3.2.25, we have presented a new menu item type for creating tags for products.
+Starting from the J2Store version 3.2.25, we have presented a new menu item type for creating tags for products.
 
 Normally, with the Product list view we were displaying the products based on categories. With this new feature, we will be able to display products based on the tags.
 
@@ -18,13 +18,13 @@ Tags in Joomla! provide a flexible way of organizing content. Once an item is ta
 * Create an article and add the tag to it.
 * Create the menu item of the type Product tags and choose the tag that will act as the filter to display the products (More like the category).
 
-Since there are no categories involved here, there is no option to filter the products based on categories. Hence that parameter has been removed.
+Since there are no categories involved here, there is no option to filter the products based on categories. Hence, that parameter has been removed.
 
 ## Creating a tag <a href="#creating-a-tag" id="creating-a-tag"></a>
 
 To create a tag, the steps given below have to be followed:
 
-* Navigate to Components->Tags.
+* Navigate to Components > Tags.
 * Click New to create a new tag.
 * Enter the title of the tag, give a description to the tag and choose the parent tag (if any) as per the requirements.
 * You can also add a note to the tag, refrain the user groups and choose the language for which the tag has to be applied.
@@ -39,22 +39,22 @@ The following screenshot is an example for a tag:
 
 ## Adding a tag to the product <a href="#adding-a-tag-to-the-product" id="adding-a-tag-to-the-product"></a>
 
-Once a tag has been created, the next step will be to add it to the product. That can be done as simple as this:
+Once a tag has been created, the next step will be to add it to the product. That can be done as simply as this:
 
 * Navigate to Content-> Product article.
 * In the Content tab, the tag can be added in the Tags column.
 
 ![Adding a tag to a product](<../.gitbook/assets/adding a tag2.webp>)
 
-Post creating the tag and adding it to the product’s article, the next step will be to Create a menu item of the type Product Tags. Following are the steps that have to be done:
+Post creating the tag and adding it to the product’s article, the next step will be to create a menu item of the type Product Tags. The following are the steps that have to be done:
 
-* Click on Menus->Menu Items->New.
-* The menu title has to be given and the menu item type should be “J2Commerce > products tag view”.
+* Click on Menus > Menu Items > New.
+* The menu title has to be given, and the menu item type should be “J2Commerce > products tag view”.
 * The next option will require you to select the tag for the menu item. Choose the tag that has to be associated with the menu item.
-* Additional Step: Click on the Common options tab and choose the Sub-template to tag\_bootstrap5. This is the sub-template that should be chosen to display the tags on the layout unlike the default one.
-* You can also choose the level of sub tag until which the products have to be displayed under the “Item view in Category listings” tab in the option “Sub Tag level”.
+* Additional Step: Click on the Common options tab and choose the Sub-template to tag\_bootstrap5. This is the sub-template that should be chosen to display the tags on the layout, unlike the default one.
+* You can also choose the level of subtag until which the products have to be displayed under the “Item view in Category listings” tab in the option “Sub-Tag level”.
 
-The below images show how a menu item of the type “Product tag” is created.
+The following images show how a menu item of the type “Product tag” is created.
 
 ![Menu of tag view type](<../.gitbook/assets/adding a tag3.webp>)
 
@@ -72,6 +72,6 @@ The frontend display of the tag layout will be as below:
 
 ## Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 
-Still have doubts? Here is a direct link to the video that depicts creating and adding of the product tag layout:
+Still have doubts? Here is a direct link to the video that depicts creating and adding the product tag layout:
 
 {% embed url="https://youtu.be/W9rXbCrKeEg" %}

@@ -72,7 +72,7 @@
   * [Usecases](booking-and-reservations/usecases.md)
 * [Localisation](localisation.md)
 * [Translation](translation/README.md)
-  * [Translate J2Store into your language](translation/translate-j2store-into-your-language.md)
+  * [Translate J2Commerce into your language](translation/translate-j2store-into-your-language.md)
   * [Setting up the store in your Language](translation/setting-up-the-store-in-your-language.md)
   * [How to write language override for plugin in multilingual site](translation/how-to-write-language-override-for-plugin-in-multilingual-site.md)
   * [Language overrides in Joomla with examples](translation/language-overrides-in-joomla-with-examples.md)

@@ -16,7 +16,7 @@ This plugin integrates the UPS Shipping Rate API with J2Commerce.
 
 **Step 1** In the Joomla admin, go to System > Install > Extensions
 
-<figure><img src="../.gitbook/assets/app install1 (1).webp" alt=""><figcaption><p>install extensions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/app install1 (1) (1).webp" alt=""><figcaption><p>install extensions</p></figcaption></figure>
 
 **Step 2** Click on the Browse button and select the UPS Shipping zip file you saved when downloading it. You will receive a message of success once installed.
 

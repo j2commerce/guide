@@ -27,7 +27,7 @@
 1. After downloading the app, go to the backend of your site and go to System > Install > Extensions.
 2. Drag and drop your zip folder or click on Browse Your File. Don't unzip the folder
 
-<figure><img src="../.gitbook/assets/app install1.webp" alt=""><figcaption><p>Install the app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/app install1 (1).webp" alt=""><figcaption><p>Install the app</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/install.webp" alt=""><figcaption><p>Install the app</p></figcaption></figure>
 

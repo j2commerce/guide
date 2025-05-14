@@ -30,9 +30,9 @@ From the resulting page, click on **New** in the top left corner.
 
 ![Creating a new template using new button](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/Email-template-new-button.png)
 
-## How to create email template? <a href="#how-to-create-email-template" id="how-to-create-email-template"></a>
+## How to create an email template? <a href="#how-to-create-email-template" id="how-to-create-email-template"></a>
 
-You will get two settings tabs to be filled up for creating an email template. They are
+You will get two settings tabs to fill up for creating an email template. They are
 
 * Basic
 * Advanced
@@ -43,19 +43,19 @@ The fundamental requirements of a template. Let us see one by one.
 
 **Receiver**
 
-Choose the mail receiver to whom the mail should send. Sometimes you may want to send a mail to only customer or both admin and customer or to send store admin only. In this case, you can use this option to choose the mail receiver.
+Choose the mail receiver to whom the mail should be sent. Sometimes you may want to send a mail to only the customer or both the admin and customer, or to send the store admin only. In this case, you can use this option to choose the mail receiver.
 
 **Language**
 
-The languages for which the template is compliant, is set here. You can select **All** for all languages.
+The languages for which the template is compliant are set here. You can select **All** for all languages.
 
 **Order Status**
 
-A specific order status can be selected for emailing the necessary intimation to be sent. It can be any one of all the options listed. If email has to be sent for multiple options, then multiple templates has to be created.
+A specific order status can be selected for emailing the necessary intimation to be sent. It can be any one of the options listed. If email has to be sent for multiple options, then multiple templates have to be created.
 
 **Groups**
 
-Here the user group from which the email can be sent is selected.
+Here, the user group from which the email can be sent is selected.
 
 **Payment Methods**
 
@@ -67,7 +67,7 @@ It has to be enabled first to send email.
 
 **Subject**
 
-A short one line info about the content of the email.
+A short one-line info about the content of the email.
 
 **Template Body Source**
 
@@ -76,53 +76,53 @@ The source used to design the email template is selected here. There are two opt
 1. **Simple Editor**
 2. **Template List**
 
-After you select an option from the list, you have to **Save** once. Then only you can set the advanced tab.
+After you select an option from the list, you have to **Save** it once. Then, only you can set the advanced tab.
 
-In **Simple Editor**, the content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor that helps formatting the content. The facilities that are available in the editor:
+In **Simple Editor**, the content of the email body can be designed here. There are so many options available to customize the content. There is a rich text editor that helps format the content. The facilities that are available in the editor:
 
 * Cut, Copy, Paste
 * Insert links or images
-* Formatting the text in the body like, bold, italicize, line spacing, underlining, and much more
+* Formatting the text in the body like bold, italicize, line spacing, underlining, and much more
 * Insert tables
-* Insert source code etc
+* Insert source code, etc.
 
-Full articles can also be added to the content, from other external sources.
+Full articles can also be added to the content from other external sources.
 
-In **Template List**, you can have a list of templates in the form of .php files. You can select from the available one in the advanced tab.
+In the **Template List**, you can have a list of templates in the form of .php files. You can select from the available ones in the advanced tab.
 
 **Advanced**
 
-If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced Tab** will look like the below image.
+If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced Tab** will look like the image below.
 
 ![Advanced settings adding shortcodes](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/email-template-advanced-settings.png)
 
-There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
+There are a number of tags listed on the extreme right of the editor from where they can be added to the editor content.
 
-## How to add custom fields inside email template ? <a href="#how-to-add-custom-fields-inside-email-template" id="how-to-add-custom-fields-inside-email-template"></a>
+## How to add custom fields inside the email template? <a href="#how-to-add-custom-fields-inside-email-template" id="how-to-add-custom-fields-inside-email-template"></a>
 
 Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
 
 \[CUSTOM\_BILLING\_FIELD:FIELDNAME]
 
-Keep in mind, the following, when you add a custom field to the editor:
+Keep in mind the following when you add a custom field to the editor:
 
 * The custom field should be enclosed in \[]
 * All the letters should be in CAPITAL letters
 * ‘CUSTOM’ is the first word inside the \[]
-* Next, the section in which you have created the field, like, ‘BILLING\_FIELD’
+* Next, the section in which you have created the field, like ‘BILLING\_FIELD’
 * And finally, the field name
 
-Refer the image below for more clear understanding.
+Refer to the image below for more clearer understanding.
 
 ![Supported shortcodes for custom fields](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/email-template-shortcodes-for-custom-fields.png)
 
-## How to create template override for items table showing in the order email ? <a href="#how-to-create-template-override-for-items-table-showing-in-the-order-email" id="how-to-create-template-override-for-items-table-showing-in-the-order-email"></a>
+## How to create a template override for the items table showing in the order email? <a href="#how-to-create-template-override-for-items-table-showing-in-the-order-email" id="how-to-create-template-override-for-items-table-showing-in-the-order-email"></a>
 
-If you would like to customize the order item table showing in order email notification, that could be possible by creating template override. Carrying out customizations through template override will not overwrite the changes if you update it in future.
+If you would like to customize the order item table shown in an order email notification, that could be possible by creating a template override. Carrying out customizations through template override will not overwrite the changes if you update it in the future.
 
 Here are the instructions to be followed:
 
-The files that controls items table is located at
+The file that controls the items table is located at
 
 /components/com\_j2store/views/myprofile/tmpl/orderitems.php
 
@@ -136,7 +136,7 @@ Edit
 
 Make your changes and save.
 
-## How to add logo in your Email Template ? <a href="#how-to-add-logo-in-your-email-template" id="how-to-add-logo-in-your-email-template"></a>
+## How to add the logo to your Email Template? <a href="#how-to-add-logo-in-your-email-template" id="how-to-add-logo-in-your-email-template"></a>
 
 ![Adding a logo in email templates](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/Email-template-logo-for-emails.gif)
 
@@ -194,4 +194,3 @@ Make your changes and save.
 {% embed url="https://youtu.be/XHq91Cea3TE" %}
 
 {% embed url="https://youtu.be/CQhtxomct4c" %}
-

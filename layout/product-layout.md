@@ -165,7 +165,7 @@ J2Commerce offers special module positions to place the Joomla’s custom HTML m
 
 To avoid the zomm effect and to bring the image in pop up, first thing you have to do is disable the zoom effect in admin backend.\\
 
-**Disable zoom in J2store product layout**
+**Disable zoom in J2store / J2Commerce product layout**
 
 Go to menu manager and open the menu which links to J2store product layout.
 
@@ -207,17 +207,17 @@ Change this with
 
 ## Common Problems <a href="#common-problems" id="common-problems"></a>
 
-**Grid layout not working/columns.Why?**
+**Grid layout not working/columns. Why?**
 
 The issue seems to be the wrong sub-template.
 
-Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3.
+Open your product list layout menu. In the Common options tab -> set the sub-template as Bootstrap3.
 
 Save
 
 This should solve the issue. If it is already set to Bootstrap 3, then try to set it as Default.
 
-**Preview addictional image after click**
+**Preview additional image after clicking**
 
 copy the file /components/com\_j2store/templates/default/view\_images.php
 
@@ -229,8 +229,8 @@ edit the file and remove the highlighted line fully.
 
 **How to add Category description in list view**
 
-* Create custom module and assign it to the menu which links to J2store product layout.
-* Set the module position to j2store-product-list-top.
+* Create custom module and assign it to the menu that links to the J2Commerce product layout.
+* Set the module position to j2Commerce-product-list-top.
 * Save.
 
 Now the custom module will display the description only in list view.
