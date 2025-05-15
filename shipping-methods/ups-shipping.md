@@ -4,9 +4,9 @@ This plugin integrates the UPS Shipping Rate API with J2Commerce.
 
 **Requirements**
 
-* PHP 5.3+
-* Joomla 2.5 / 3.x +
-* J2Commerce 2.6.8 +**‌**
+* with PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +**‌**
 
 **Configuration** Prior to configuring the plugin, you should have an active account with UPS and have received API keys. Contact UPS to register and get API keys.
 
@@ -34,7 +34,7 @@ This plugin integrates the UPS Shipping Rate API with J2Commerce.
 
 <figure><img src="../.gitbook/assets/ups-perameters2.webp" alt=""><figcaption><p>perameters</p></figcaption></figure>
 
-## Parameters:
+## Plugin Settings:
 
 **Client Key:** Client Key provided by the UPS Developer Portal (https://developer.ups.com/).
 
@@ -56,7 +56,7 @@ This Custom Box is to be chosen only when “Box packing” is selected.
 
 ‌**Handling Cost:** Apply an additional fee to the shipping cost calculated.
 
-‌**Send Product Amount to UPS:** If you wish to send the product price to UPS, then you may set it to Yes.
+‌**Send Product Amount to UPS:** Select Yes to send the product price to UPS.
 
 ‌‌**Enable Negotiated Rate:** Set this to Yes for negotiated rate.
 
@@ -66,9 +66,9 @@ This Custom Box is to be chosen only when “Box packing” is selected.
 
 ‌**Pickup Type:** Choose the required pickup type here.‌
 
-‌**Weight Unit:**&#x53;elect if you want the weight to be set as grams, pounds, kilograms or ounces.
+‌**Weight Unit:** Select if you want the weight set as grams, pounds, kilograms, or ounces.
 
-‌**Show Weight Total:** Set this to Yes to show the weight total along with the shipping service name.
+‌**Show Weight Total:** Set this to Yes to show the weight total next to the shipping service name.
 
 **Show Delivery Date:** Set this to yes to show the delivery date next to the shipping service name. The delivery times are provided by the UPS API for shipping services that specify specific delivery days, such as Next Day Air, Second Day Air, etc.
 
@@ -78,11 +78,11 @@ This Custom Box is to be chosen only when “Box packing” is selected.
 
 ‌**Length Unit:** If you have not set the length unit in the product, the value selected here will be used. Inch vs cm
 
-**Tax Class:** Here you can specify the Tax class to charge the Tax on shipping. Leave empty if you do not want to charge tax.
+**Tax Class:** Here, you can specify the Tax class to charge the Tax on shipping. Leave empty if you do not want to charge tax.
 
 ‌**Geozone:** If you choose a Geozone, then this shipping plugin will apply only to customers coming from the countries/zones added under the chosen Geozone. Leave empty to show the method to all Geozones.
 
-**Shipping Origin Address Type:** If your origin shipping address is a home then change to residential.
+**Shipping Origin Address Type:** If your origin shipping address is a home, then change to residential.
 
 ‌‌**Shipping Origin Address:** Enter the address from which you ship.
 
@@ -96,7 +96,7 @@ This Custom Box is to be chosen only when “Box packing” is selected.
 
 **Debug:** If you set this to Yes, the system will log the requests and responses, which will help you debug. The logs will be saved in the Cache folder.
 
-**Note:** In production environment, it must set NO.
+**Note:** In the production environment, it must be set to NO.
 
 ## How to obtain UPS OAuth Credentials:
 
@@ -110,9 +110,9 @@ The following instructions will help walk you through the process of obtaining y
 
 <figure><img src="../.gitbook/assets/ups-add-apps.webp" alt=""><figcaption><p>add apps</p></figcaption></figure>
 
-**Step 4:** Then I need API credentials because: I want to integrate UPS technology into my business.
+**Step 4:** Then, I need API credentials because I want to integrate UPS technology into my business.
 
-**Step 5:** On same page as #4: Select the client's UPS account you need to link it to
+**Step 5:** On the same page as #4: Select the client's UPS account you need to link it to
 
 <figure><img src="../.gitbook/assets/ups-add-account.webp" alt=""><figcaption></figcaption></figure>
 
@@ -120,7 +120,7 @@ The following instructions will help walk you through the process of obtaining y
 
 **Step 7:** Then select the Rating, Tracking, and Time In Transit API's (I believe the Authorization(OAuth) is automatically added when you save)
 
-(Right now, we aren't using the Tracking API, but we do plan on incorporating that in later versions so better to add it now so you don't need to worry about adding it later...)
+(Right now, we aren't using the Tracking API, but we do plan on incorporating that in later versions, so better to add it now so you don't need to worry about adding it later...)
 
 <figure><img src="../.gitbook/assets/ups-api.webp" alt=""><figcaption><p>API's</p></figcaption></figure>
 
