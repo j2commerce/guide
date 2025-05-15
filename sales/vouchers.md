@@ -2,20 +2,23 @@
 
 Vouchers are also like coupons, intended to promote sales. Vouchers are sent to customers by email with offers.
 
-Vouchers contain Basic and advanced information entries.
+Step 1: Go to Components > J2Commerce > Sales > Vouchers > New
+
+<figure><img src="../.gitbook/assets/vouchers.webp" alt=""><figcaption></figcaption></figure>
+
+Vouchers contain Basic and Advanced information entries.
+
+<figure><img src="../.gitbook/assets/vouchers1.webp" alt=""><figcaption></figcaption></figure>
 
 **Basic**
 
-* Voucher CodeEnter a unique voucher code.
-* To emailthe email address of the customer to whom the voucher is been sent
-* Valuethe maximum value of the voucher that can be utilized for purchase
-* Typetype of voucher like gift card, etc.
-* Enabledoption to activate the voucher
-* Message Subjectmessage briefing the voucher benefits
+* **Voucher Code:** Enter a unique voucher code.
+* **To email:** The email address of the customer to whom the voucher is been sent
+* **Value:** The maximum value of the voucher that can be utilized for purchase
+* **Type:** Type of voucher, like gift card, etc.
+* **Enabled:** Option to activate the voucher
+* **Message Subject:** Message briefing the voucher benefits
 
 **Advanced**
 
-* Voucher email body - the text body of the email sent along with voucher to the customer. A rich text editor is available to add the text with necessary formatting.
-
-![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Voucher/voucher_01.png)
-
+* Voucher email body - the text body of the email sent along with the voucher to the customer. A rich text editor is available to add the text with the necessary formatting.

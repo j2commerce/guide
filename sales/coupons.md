@@ -10,43 +10,43 @@ Coupons preloaded with specific values enable customers to shop online with no s
 
 <figure><img src="../.gitbook/assets/coupons1.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Click New, and now you can create a coupon and add the details of the coupon, such as Coupon Name, Coupon Code, Published, Value, Valid from, and Valid up to etc.
+**Step 2:** Click New, and now in the Basic Settings Tab you can create a coupon and add the details of the coupon, such as Coupon Name, Coupon Code, Published, Value, Valid from, and Valid up to etc.
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Coupons/coupon_01.png)
+![](../.gitbook/assets/coupons.webp)
 
-The above image shows how to create a coupon and add the details for a coupon. See the images below for a complete information on creating a coupon.
+The above image shows how to create a coupon and add the details for a coupon. **Step 3:** See the images below for the complete information on creating the Advanced Settings Tab.
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Coupons/coupon_02.png)
+![](<../.gitbook/assets/coupons-advanced (1).webp>)
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Coupons/coupon_03.png)
+**Step 4:** See the image below to complete the Usage Limits Tab
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Coupons/coupon_04.png)
+![](../.gitbook/assets/coupons-usage-limits.webp)
 
 Coupons hold the following information required for a successful process of purchase.
 
 **Basic Settings**
 
-* Coupon Name -Name of the coupon you wish to offer
-* Coupon Code -Unique code assigned to the coupon for the customers to make use of the coupon
-* Published - Set this to ‘Yes’ to make the coupon available to customers
-* Free ShippingSet this to ‘Yes’ to make shipping free of cost
-* ValueValue of the coupon
-* Value TypeValue of the coupon is fixed amount or a specific percentage of the order value
-* Valid from and Valid uptoSet the coupon validation here. Choose the dates between which the coupon is valid.
+* **Coupon Name:** Name of the coupon you wish to offer
+* **Coupon Code:** A Unique code assigned to the coupon for the customers to make use of the coupon
+* **Published:** Set this to ‘Yes’ to make the coupon available to customers
+* **Free Shipping:** Set this to ‘Yes’ to make shipping free of cost
+* **Value:** Value of the coupon
+* **Value Type:** Value of the coupon is a fixed amount or a specific percentage of the order value
+* **Valid from and Valid from/to:** Set the coupon validation here. Choose the dates between which the coupon is valid.
 
 **Advanced Settings**
 
-* Product CategoriesChoose the categories to which the coupon must applied.
-* ProductsCoupon usage applicable to the products added here.
-* Brand or ManufacturerCoupon usage applicable to the brands or manufacturer added here.
-* Customer GroupsCoupon usage will be restricted to the user groups selected here.
-* UsersIDs of users for whom the coupon should apply, empty for all customers
-* Minimum spendingminimum value required to avail the coupon privilege.
+* **Product Categories:** Choose the categories to which the coupon must be applied.
+* **Products:** Coupon usage is applicable to the products added here.
+* **Brand or Manufacturer:** Coupon usage applicable to the brands or manufacturers added here.
+* **Customer Groups:** Coupon usage will be restricted to the user groups selected here.
+* **Users:** IDs of users for whom the coupon should apply, empty for all customers
+* **Minimum spending:** minimum value required to avail the coupon privilege.
 
 **Usage limits**
 
-* Uses per couponlimit of using the coupon for privileges by any user, empty value is for unlimited use
-* Uses per customerlimit of using the coupon for privileges by one customer, empty value for unlimited use
+* **Uses per coupon:** limit of using the coupon for privileges by any user, empty value is for unlimited use
+* **Uses per customer:** limit of using the coupon for privileges by one customer, empty value for unlimited use
 
 Free shipping after coupon applied !
 
@@ -54,6 +54,6 @@ Free shipping after coupon applied !
 
 For any coupon to be displayed on the add to cart page, it must be enabled in the following places:
 
-* Under J2Store->Settings->Configuration->Discount tab->Enable Coupons.
-* Under the main Coupon’s page in J2Store->Sales->Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
-* In the coupon’s basic settings under J2Store->Sales->Coupons and choose the coupon which you want to enable or disable.
+* Under Components > J2Commerce > Settings > Configuration > Discount tab > Enable Coupons.
+* Under Components > J2Commerce > Sales > Coupons. Click on the Checkbox under the field Enabled to enable/disable individual coupon.
+* Under Components > J2Commerce > Sales > Coupons and choose the coupon which you want to enable or disable.
