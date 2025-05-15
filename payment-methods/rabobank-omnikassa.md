@@ -4,7 +4,7 @@ This plugin allows you to integrate J2Store with Rabobank's Omnikassa payment ga
 
 Rabo OmniKassa is popular payment service provided by the Rabobank, one of the trusted and widely used banks in Netherlands. It allows you to accept dutch and international payment methods in your online store.
 
-It is the secure and easy way to offer a wide range of payment options to  your customers with a single contract. The plugin offers following payment options provided by Rabo Omnikassa:
+It is the secure and easy way to offer a wide range of payment options to your customers with a single contract. The plugin offers following payment options provided by Rabo Omnikassa:
 
 1. iDEAL
 2. Visa, Mastercard, Maestro
@@ -25,9 +25,9 @@ It is the secure and easy way to offer a wide range of payment options to  your 
 
 ## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
-* PHP 5.4 or greater
-* Joomla 3.x
-* J2Store 3.2.x or greater
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 ## Installation Instructions
 
@@ -47,7 +47,7 @@ Once approved, you will get the Merchant ID and the Key.
 
 **Plugin Display Image** This image will be displayed while payment options are listed in the checkout page.
 
-**Surcharge Percentage:** You can specify a percentage here.  Surcharge will be calculated based on the percentage of the total order and the cost will be added to the order.
+**Surcharge Percentage:** You can specify a percentage here. Surcharge will be calculated based on the percentage of the total order and the cost will be added to the order.
 
 **Surcharge fixed value:** You can specify a value here. The fixed value will be added to the total.
 
@@ -57,7 +57,7 @@ Once approved, you will get the Merchant ID and the Key.
 
 ![RabobankOmnikassa Image1](../.gitbook/assets/rabobankomnikassa-image1.png)
 
-**Use Sandbox/Testmode:** The option allows you to test the OmniKassa  gateway using the test Omnikassa server instead of live one.
+**Use Sandbox/Testmode:** The option allows you to test the OmniKassa gateway using the test Omnikassa server instead of live one.
 
 **Sandbox Signin Key:** Enter your Test Signin Key associated with your Rabobank Omnikassa payment account
 
@@ -78,7 +78,7 @@ Once approved, you will get the Merchant ID and the Key.
 
 **Display text on selection** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -98,8 +98,7 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 
 ![RabobankOmnikassa Image3](../.gitbook/assets/rabobankomnikassa-image3.png)
 
-\
+\\
 
-
 \
-\
+\\

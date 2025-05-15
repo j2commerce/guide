@@ -4,23 +4,23 @@ PayPal Payments Advanced is a PCI-compliant solution. Even customers without a P
 
 PayPal Payments Advanced is available only for merchants in US and Canada.
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
-1. PHP 5.3 or higher
-2. Joomla 2.5.x
-3. J2Store 2.0.2 or above
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
 Use the Joomla installer to install the plugin like you do for other extensions
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Step 1: Configure Your PayPal Account** Before you begin, you must configure your PayPal Payments Advanced account on the PayPal website.
 
 Log in to your PayPal Advanced account at click here
 
-Go to Service Settings -&gt; Hosted Checkout Pages -&gt; Set Up, and make the following settings:
+Go to Service Settings -> Hosted Checkout Pages -> Set Up, and make the following settings:
 
 1 - Set Transaction Process mode to TEST or LIVE depending on your requirement.
 
@@ -37,15 +37,11 @@ See the picture below
 
 3 - Under the Payment Confirmation, set Show confirmation page: On my website
 
-Return URL Method: POST \(This is very IMPORTANT\)
-
- 
+Return URL Method: POST (This is very IMPORTANT)
 
 ![paymentconfirm](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-advanced-payment-plugin/payment_confirmation_paypal_advanced.png)
 
 4 - Under Security options, set
-
- 
 
 ![securityoptions](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-advanced-payment-plugin/security_options_paypal_advanced.png)
 
@@ -53,7 +49,7 @@ Return URL Method: POST \(This is very IMPORTANT\)
 
 Save the settings.
 
-**Step 2: Customise the Layout** In J2Store Paypal advanced plugin settings, you can choose the Payment window type. If you chose, Payment window type as: Your Website \(Using iFrame\): In Paypal manager, go to Service Settings &gt; Hosted Checkout Pages&gt; Customize. Choose the Layout C.
+**Step 2: Customise the Layout** In J2Store Paypal advanced plugin settings, you can choose the Payment window type. If you chose, Payment window type as: Your Website (Using iFrame): In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Choose the Layout C.
 
 See the screenshot below
 
@@ -61,15 +57,13 @@ See the screenshot below
 
 If you chose, payment window type as Redirect :
 
-In Paypal manager, go to Service Settings &gt; Hosted Checkout Pages&gt; Customize. Choose the Layout B
-
- 
+In Paypal manager, go to Service Settings > Hosted Checkout Pages> Customize. Choose the Layout B
 
 ![custom](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-advanced-payment-plugin/custom_layout_b_paypal_advanced.png)
 
 Click Save and publish.
 
-**Step 3 \(Optional\): Create a user** PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
+**Step 3 (Optional): Create a user** PayPal recommends that you set up an additional user on your account. To set up an additional user, do the following:
 
 1. Go to manager.paypal.com and log in to your account.
 2. Follow the instructions to set up an additional user.
@@ -92,7 +86,7 @@ Click Save and publish.
 
 **Transaction Type:** The type of transaction. If you choose SALE, then the payment will be captured immediately after a customer makes the payment. If you choose Authorization, then Payment will not be captured. You will have to capture it manually by going to Paypal Manager. Default value: Sale
 
-**Test mode:** Set this to YES, only if you have set the Transaction Process Mode to TEST in the Service Settings-&gt;Hosted Checkout pages → Set up.
+**Test mode:** Set this to YES, only if you have set the Transaction Process Mode to TEST in the Service Settings->Hosted Checkout pages → Set up.
 
 IN LIVE SITE, THIS SHOULD BE SET TO NO.
 
@@ -106,7 +100,7 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION. Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION. Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -114,9 +108,9 @@ J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION. Now you can go to Joomla admin-&gt; Langu
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Payment Button Text** The text of the payment button. The button will be displayed at the final checkout step Testing the plugin When you first start testing you will most likely keep getting response code 126 \(at least if you’re testing with a credit card\) meaning your transaction triggered a fraud filter.
+**Payment Button Text** The text of the payment button. The button will be displayed at the final checkout step Testing the plugin When you first start testing you will most likely keep getting response code 126 (at least if you’re testing with a credit card) meaning your transaction triggered a fraud filter.
 
 This will cause orders to be saved in J2Store as FAILED. This happens because PayPal Manager has AVS fraud protection turned on by default and it will always fail since you’re using test credit card numbers. If you want to pass the AVS check and see orders saving as Approved / Confirmed in J2Store, you’ll have to temporarily disable AVS fraud filters. To do that click on Service Settings inside your PayPal Manager account. Then click Fraud Protection. When the page load, click on Test Setup. Go to Edit Standard Filters. Uncheck all the checkboxes and hit Deploy at the bottom.
 
@@ -131,4 +125,3 @@ This will cause orders to be saved in J2Store as FAILED. This happens because Pa
 **Support** Still have questions? You can post your questions in our support forum: [click here](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

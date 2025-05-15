@@ -1,23 +1,23 @@
 # Skrill Payment Plugin
 
-## Introduction <a id="introduction"></a>
+## Introduction <a href="#introduction" id="introduction"></a>
 
 The Skrill Payment Plugin for J2store to pay online transaction amount for a product.
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
-1. PHP 5.2 or higher
-2. Joomla 2.5 or above
-3. J2Store 2.7.3 or above
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Use Joomla installer to install the plugin
-2. At the backend, go to Extension -&gt; Plugin Manager and open the Skrill\(type=j2store\)
+2. At the backend, go to Extension -> Plugin Manager and open the Skrill(type=j2store)
 3. Enable plugin
 4. Enable plugin params
 
-## Parameters <a id="parameters"></a>
+## Parameters <a href="#parameters" id="parameters"></a>
 
 **1. Payment Option Title:** If required, enter Option Title. This text will be displayed while listing the payment option.
 
@@ -45,7 +45,7 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION. Now, you can go to Joomla Admin -&gt; Language Manager -&gt; Overrides and create overrides for the language constant in all languages.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION. Now, you can go to Joomla Admin -> Language Manager -> Overrides and create overrides for the language constant in all languages.
 
 **12. Display Text before payment:** The text entered here is displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 
@@ -58,4 +58,3 @@ J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION. Now, you can go to Joomla Admin -&gt; Lan
 **Support** Still have questions? You can reach us in [click here](https://docs.j2store.org/payment-methods/support@j2store.org)
 
 Thank you for using our extension.
-

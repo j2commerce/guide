@@ -1,8 +1,16 @@
 # Coupons
 
-This is J2Store PRO exclusive feature
+This is J2Commerce PRO exclusive feature
 
 Coupons are vouchers preloaded with specific values and discount credentials that enable customers to shop online with extra privileges.
+
+Coupons preloaded with specific values enable customers to shop online with no shipping cost.
+
+**Step 1:** Go to Components > J2Commerce > Sales > Coupons
+
+<figure><img src="../.gitbook/assets/coupons1.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 2:** Click New, and now you can create a coupon and add the details of the coupon, such as Coupon Name, Coupon Code, Published, Value, Valid from, and Valid up to etc.
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/sales/Coupons/coupon_01.png)
 
@@ -46,7 +54,6 @@ Free shipping after coupon applied !
 
 For any coupon to be displayed on the add to cart page, it must be enabled in the following places:
 
-* Under J2Store-&gt;Settings-&gt;Configuration-&gt;Discount tab-&gt;Enable Coupons.
-* Under the main Coupon’s page in J2Store-&gt;Sales-&gt;Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
-* In the coupon’s basic settings under J2Store-&gt;Sales-&gt;Coupons and choose the coupon which you want to enable or disable.
-
+* Under J2Store->Settings->Configuration->Discount tab->Enable Coupons.
+* Under the main Coupon’s page in J2Store->Sales->Coupons.Click on the Checkbox under the field Enabled to enable/disable individual coupon.
+* In the coupon’s basic settings under J2Store->Sales->Coupons and choose the coupon which you want to enable or disable.

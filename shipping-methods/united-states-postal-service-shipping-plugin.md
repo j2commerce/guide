@@ -4,16 +4,16 @@ This plugin integrates J2Store with USPS Shipping rate API.
 
 **Requirements**
 
-* PHP 5.2 or higher
-* Joomla 2.5 or above
-* J2Store 2.7.3 or above
+* PHP 8.1.0 +r
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 **Installation**
 
 You can install this shipping plugin, using joomla installer.
 
-* In the J2Store admin, go to Extensions -&gt; Extension Manager
-* Click on the Browse button and select USPS Shipping \(type=j2store\) and click on Upload & Install
+* In the J2Store admin, go to Extensions -> Extension Manager
+* Click on the Browse button and select USPS Shipping (type=j2store) and click on Upload & Install
 * Enable the plugin
 * Configure the shipping plugin by entering the plugin parameters
 
@@ -35,7 +35,7 @@ You can install this shipping plugin, using joomla installer.
 
 > Don’t know how to get API credentails ? Please register here:
 
-https://www.usps.com/business/web-tools-apis/welcome.htm”target = ¨\_blank”rel = ¨noopener¨&gt; click here
+https://www.usps.com/business/web-tools-apis/welcome.htm”target = ¨\_blank”rel = ¨noopener¨> click here
 
 As soon as you register, USPS will send you an email with the API keys. You need to enter them in the plugin parameters. And make sure the Test mode field is set to NO in the plugin parameters.
 
@@ -51,11 +51,11 @@ As soon as you register, USPS will send you an email with the API keys. You need
 
 **8. Machinable** Select Yes or No
 
-**9.Length** The length of the package or box, in the given units \(mm, cm or inches\).
+**9.Length** The length of the package or box, in the given units (mm, cm or inches).
 
-**10. Width** The width of the package or box, in the given units \(mm, cm or inches\).
+**10. Width** The width of the package or box, in the given units (mm, cm or inches).
 
-**11. Height** The height of the package or box, in the given units \(mm, cm or inches\).
+**11. Height** The height of the package or box, in the given units (mm, cm or inches).
 
 **12. Display Delivery Time** If you want to display the delivery time, select Yes in this option.
 
@@ -76,6 +76,3 @@ As soon as you register, USPS will send you an email with the API keys. You need
 **Video Tutorial:**
 
 {% embed url="https://www.youtube.com/watch?v=HwnsutfFxgw&feature=youtu.be" %}
-
-
-

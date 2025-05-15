@@ -4,7 +4,7 @@ This is J2Commerce PRO exclusive feature
 
 Coupons preloaded with specific values enable customers to shop online with no shipping cost.
 
-Step 1: Go to Components > J2Commerce > Sales > Coupons
+**Step 1:** Go to Components > J2Commerce > Sales > Coupons
 
 <figure><img src="../../.gitbook/assets/coupons1.webp" alt=""><figcaption></figcaption></figure>
 

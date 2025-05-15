@@ -6,14 +6,14 @@ description: Payment Sense payment gateway is integrated with J2Store using this
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
 1. Download PaymentSense plugin package from our site’s extensions section and install it using Joomla installer.
-2.  After installing plugin, go to J2Store > Setup > Payment methods and enable PaymentSense&#x20;
+2.  After installing plugin, go to J2Store > Setup > Payment methods and enable PaymentSense
 
     for J2Store.
 3. Once enabled, open / edit the plugin and configure the basic settings of the app.
@@ -42,7 +42,7 @@ description: Payment Sense payment gateway is integrated with J2Store using this
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -63,6 +63,3 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Paymentsense on your store.
 
 ![Paymentsense Configuration- Image2](../.gitbook/assets/paymentsense-configuration-image2.png)
-
-
-

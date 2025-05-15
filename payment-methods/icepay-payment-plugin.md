@@ -2,12 +2,12 @@
 
 This plugin integrates the IcePay Payment gateway with J2Store shopping cart.
 
-## System Requirements <a id="system-requirements"></a>
+## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
-* Joomla 2.5 / Joomla 3.x
-* J2Store 2.6.7 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 Go to Joomla admin – Extensions manager to install the plugin.
 
@@ -20,7 +20,7 @@ Go to Joomla admin – Extensions manager to install the plugin.
 * Choose the methods that you want to offer to your customers. You can choose all of them as well.
 * Save
 
-## Configuring IcePay <a id="configuring-icepay"></a>
+## Configuring IcePay <a href="#configuring-icepay" id="configuring-icepay"></a>
 
 Login to your IcePay dashboard.
 
@@ -30,7 +30,7 @@ Copy paste the following url in Thank you page, Error URL and PostBack Url field
 
 NOTE: replace with your domain name.
 
-## Plugin Parameters <a id="plugin-parameters"></a>
+## Plugin Parameters <a href="#plugin-parameters" id="plugin-parameters"></a>
 
 **Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
@@ -50,9 +50,9 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment**
 
@@ -64,7 +64,7 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Payment Button Text** The text of the payment button. The button will be displayed at the final checkout step.
 
@@ -73,4 +73,3 @@ You can enter a language constant as a value here if you are using a multi-lingu
 Still have questions? You can post in our supportforum: [click here](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

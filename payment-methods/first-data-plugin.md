@@ -4,20 +4,19 @@ The plugin integrates First Data Global Gateway e4℠ Hosted Payment Pages with 
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Download First Data payment plugin package from our site’s extensions section and install it using Joomla installer.
-2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable First Data
+2.  After installing plugin, go to J2Store > Setup > Payment methods and enable First Data
 
-   for J2Store.
-
+    for J2Store.
 3. Once enabled, open / edit the plugin and configure the basic settings of the app.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Payment option title:** You may enter the title of the payment method you wish to display at the frontend in checkout here. If left blank, the default payment text will be displayed.
 
@@ -53,9 +52,9 @@ The plugin integrates First Data Global Gateway e4℠ Hosted Payment Pages with 
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 ![FirstData payment plugin Configuration-Image2](../.gitbook/assets/firstdata-configuration-img2.png)
 
@@ -70,10 +69,3 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Paymate on your store.
 
 ![FirstData payment plugin Configuration-Image3](../.gitbook/assets/firstdata-configuration-img3.png)
-
-
-
-
-
- 
-

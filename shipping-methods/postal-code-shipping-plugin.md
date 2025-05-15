@@ -4,14 +4,14 @@ The plugin integrates a postal code based shipping method for J2Store. It will c
 
 **Requirements**
 
-1. PHP 5.3+
-2. Joomla 2.5 / 3.x +
-3. J2Store 2.6.8 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 **Installation**
 
 * Download Postal code shipping plugin from our site and install it using standard Joomla installer.
-* Once installed, go to J2Store &gt; Setup &gt; Shipping method and enable Postal code based shipping plugin.
+* Once installed, go to J2Store > Setup > Shipping method and enable Postal code based shipping plugin.
 
 ![enable](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-enable.png)
 
@@ -20,8 +20,6 @@ The plugin integrates a postal code based shipping method for J2Store. It will c
 ![open](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-open.png)
 
 **Creating Shipping method** Open the plugin and click NEW to create new shipping method.
-
- 
 
 ![open](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-new.png)
 
@@ -51,15 +49,11 @@ Quite a few commonwealth countries including UK, follow a different post code sy
 
 If you are not sure about post code, do not select any format here.
 
- 
-
 ![method](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-creating_method.png)
 
-Now, Save&Close the method.
+Now, Save\&Close the method.
 
 **Set Rates** To Set Rates click on the link “set rates” of the postcode Shipping method
-
- 
 
 ![setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-setrates.png)
 
@@ -71,15 +65,15 @@ Now, Save&Close the method.
 
 **Weight End** Ending range. Leave it empty or enter 0 if you are not using weight range.
 
-**Quantity From** Starting quantity range \(Based on total quantities in the order\). Leave it empty or enter 0 if you dont want to use Quantity range.
+**Quantity From** Starting quantity range (Based on total quantities in the order). Leave it empty or enter 0 if you dont want to use Quantity range.
 
 **Quantity To** Ending Range. Leave it empty or enter 0 if you dont want to use the Quantity range.
 
 **Cost** Enter your shipping cost here.
 
-**Per Item \(Cost / number of Item\)** It is bit tricky. Leave this as 1 if you do not understand.
+**Per Item (Cost / number of Item)** It is bit tricky. Leave this as 1 if you do not understand.
 
-The cost entered per item can be 1. If the cost is for 2 items \(2 nos \) , you can enter 2 here. The cost will be divided by two.
+The cost entered per item can be 1. If the cost is for 2 items (2 nos ) , you can enter 2 here. The cost will be divided by two.
 
 > Example: Shipping cost is 50 USD for 2 items. 50 / 2 = 25
 
@@ -89,7 +83,7 @@ The cost entered per item can be 1. If the cost is for 2 items \(2 nos \) , you 
 
 **Example 1 :** Suppose within the United States, you want to charge $3.00 for postcodes starting with 902, $5.00 for other postcodes starting with 9, weight range is 1 to 10 and qty range is 1 to 100
 
-**Rate \#1 Geo Zones: United States Cost Brackets:**
+**Rate #1 Geo Zones: United States Cost Brackets:**
 
 * Postcode From: 902, To: 90299, Charge: 3.00
 * Postcode From: 9, To: 99999, Charge: 5.00
@@ -98,7 +92,7 @@ The cost entered per item can be 1. If the cost is for 2 items \(2 nos \) , you 
 
 **Example 2:** Suppose you are based in London, and only ship to London postal districts. You charge $2.00 per item for shipping for a weight range of 1 to 10 and qty range of 1 to 100, then you would enter:
 
-**Rate \#1 Geo Zones: United Kingdom Cost Brackets:**
+**Rate #1 Geo Zones: United Kingdom Cost Brackets:**
 
 * From: E1, To: E21, Charge: 2.00, Per: 1
 * From: EC1, To: EC5, Charge: 2.00, Per: 1
@@ -115,11 +109,11 @@ The cost entered per item can be 1. If the cost is for 2 items \(2 nos \) , you 
 
 Then you would enter:
 
-**Rate \#1** **Cost Brackets:**
+**Rate #1** **Cost Brackets:**
 
 * From: AB, To: ABZZZZ, Charge: 1
 * From: CX, To: CXZZZZ, Charge: 2
-* From: \(blank\), To: \(blank\), Charge: 4
+* From: (blank), To: (blank), Charge: 4
 * Weight Start: 0.000 To : 0 .000,
 * Qty From: 0 To:0
 
@@ -137,7 +131,7 @@ The below three columns are the mandatory for the csv file.
 
 **shipping**_**postcode**_**method\_id** - It is nothing but Shipping method ID. You must enter shipping method ID otherwise the rates will not be imported correctly into the corresponding shipping method and errors will be trigerred.
 
-![methodid](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-methodid.png) 
+![methodid](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-methodid.png)
 
 **shipping**_**postcode**_**from and shipping**_**postcode**_**to** - Enter the postcode range between which the shipping charge should apply.
 
@@ -145,19 +139,15 @@ Then, enter the weigh trange, quantity range, price range and shipping cost as y
 
 For example, the above image has the shipping method named “Shipping cost”. Already this shipping method has one rate with postal range 90001 to 90005.
 
-!\[rates1\]\([https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-rates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-rates) \(1\).png\)
+!\[rates1]\([https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-rates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-rates) (1).png)
 
 Now if you would like to add two more rates using csv file, import the csv file like below image
 
 ![csv](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-csv.png)
 
- 
-
 ![import](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-import.png)
 
 Now the resulting rates are
-
- 
 
 ![results](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/postal-code-shipping-plugin/postal-plugin-import-results.png)
 
@@ -166,4 +156,3 @@ Now the resulting rates are
 Set this to NO in Live websites.
 
 **Support** You can contact support@j2store.org if you have any questions.
-

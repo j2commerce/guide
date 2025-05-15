@@ -6,15 +6,15 @@ description: The plugin integrates POLi payments with J2Store Joomla shopping Ca
 
 POLi Payments (formerly known as Centricom) is one of the leading online payment system that is used by merchants and consumers in Australia and New Zealand.
 
-Your customers no longer need to have a credit or debit card when shopping online at your store or paying a bill.  POLi allows them to make a payment for purchases, or pay a bill using money straight from their bank account. A benefit is that the merchant receives an instant receipt allowing them to provide the goods or services to the customer immediately. Consumers do not have to register to use POLi.
+Your customers no longer need to have a credit or debit card when shopping online at your store or paying a bill. POLi allows them to make a payment for purchases, or pay a bill using money straight from their bank account. A benefit is that the merchant receives an instant receipt allowing them to provide the goods or services to the customer immediately. Consumers do not have to register to use POLi.
 
 The plugin implements the new REST API of the POLi to ensure smooth and secure payments for your goods and services. More information about POLi Payments can be obtained from their [website](http://www.polipay.co.nz/)
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
@@ -48,7 +48,7 @@ The plugin implements the new REST API of the POLi to ensure smooth and secure p
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -70,6 +70,4 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![POLi Payment Configuration-Image2](../.gitbook/assets/poli-payment-configuration-img2.png)
 
-
-
-\
+\\

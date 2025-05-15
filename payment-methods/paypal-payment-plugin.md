@@ -10,7 +10,11 @@ Paypal standard plugin for J2Store allows you to accept payments via Paypal Paym
 
 ## Requirements <a href="#requirements" id="requirements"></a>
 
-&#x20;PHP 5.2 or higher Joomla 2.5.x J2Store 2.0 or above
+PHP 8.1.0 +&#x20;
+
+Joomla! 4.x/ Joomla! 5.x +&#x20;
+
+J2Commerce / J2Store 4.x +
 
 ## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
@@ -36,9 +40,7 @@ Now you can see the Paypal Payments as an option during the Check out process.
 
 **API Signature** Enter the API signature associated with your PayPal live account.
 
-Not sure where to find your API signature? Read the documentation below: [Click here](https://www.jotform.com/help/284-how-to-obtain-paypal-api-credentials/)&#x20;
-
-
+Not sure where to find your API signature? Read the documentation below: [Click here](https://www.jotform.com/help/284-how-to-obtain-paypal-api-credentials/)
 
 NOTE: The API username, password and the signature are optional fields. These fields are required only when you use the subscription app or when you have an issue with receiving the IPN callbacks from Paypal. If you are using a personal account, then you can just fill in your PayPal Merchant Email (of your personal account) and start using the plugin. It is not necessary to fill-in the API Keys.
 
@@ -50,9 +52,9 @@ Choose the callback url to be used for IPN notifications
 
 The URL selected here will be set as dynamic IPN url instead of the URL which you have configured in your PayPal account.
 
-* Default url : The default url is the normal query string url used for IPN Notifications. This will work for 99% of the users. If it does not work in some cases, you could try any one of the following alternative urls.http(s)://www.example.com/index.php?option=com\__j2store\&view=checkout\&task=confirmPayment\&orderpayment_type=payment\_paypal\&paction=process
-* Alternative - 1 : It is the alternative callback url that uses the callback view.http(s)://www.example.com/index.php?option=com\__j2store\&view=callback\&method=payment_paypal\&paction=process
-* Alternative - 2 : It is the Proxy of default url. Sometimes, the PayPal IPN server truncates the query strings. It happens very rarely and you can check the IPN history in your PayPal account to see if PayPal is truncating. Login to your PayPal account and then go to: to view the IPN history. If it does truncates the query strings, you can use this url http(s)://www.example.com/plugins/j2store/payment_paypal/payment_paypal/tmpl/notify.php
+* Default url : The default url is the normal query string url used for IPN Notifications. This will work for 99% of the users. If it does not work in some cases, you could try any one of the following alternative urls.http(s)://www.example.com/index.php?option=com\_\_j2store\&view=checkout\&task=confirmPayment\&orderpayment\_type=payment\_paypal\&paction=process
+* Alternative - 1 : It is the alternative callback url that uses the callback view.http(s)://www.example.com/index.php?option=com\_\_j2store\&view=callback\&method=payment\_paypal\&paction=process
+* Alternative - 2 : It is the Proxy of default url. Sometimes, the PayPal IPN server truncates the query strings. It happens very rarely and you can check the IPN history in your PayPal account to see if PayPal is truncating. Login to your PayPal account and then go to: to view the IPN history. If it does truncates the query strings, you can use this url http(s)://www.example.com/plugins/j2store/payment\_paypal/payment\_paypal/tmpl/notify.php
 
 If you are using any firewall like Admin Tools PRO, you might have to add exception to IPN url you have selected to use. PayPal does a server-to-server remote post. Most firewalls will block remote post requests.
 
@@ -150,7 +152,7 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 

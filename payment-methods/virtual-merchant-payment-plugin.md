@@ -6,14 +6,14 @@ This plugin integrates J2Store with Virtual Merchant payment gateway, thus facil
 
 **Requirements**
 
-1. PHP 5.2 or higher
-2. Joomla 2.5 or above
-3. J2Store 2.7.3 or above
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 **Installation**
 
 1. Use Joomla installer to install the plugin.
-2. At the backend, joomla control panel, go to Extension -&gt; Plugin Manager and open the Virtual Merchant \(type = j2store\).
+2. At the backend, joomla control panel, go to Extension -> Plugin Manager and open the Virtual Merchant (type = j2store).
 3. Enable the plugin.
 4. Enter the plugin parameters.
 
@@ -38,16 +38,15 @@ You can configure the payment plugin with the help of the images below:
 4. Thankyou Page Article ID -If you want to display thankyou message, you need to enter the article id here. The message will be displayed after payment completion page.
 5. Display Text on Selection -The text entered here is displayed when a customer selects this payment method. You can enter a language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the tips below:
 
-> Tip -ONLY FOR MULTI-LINGUAL SITES -For example, enter a language constant :J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.Now you can go to Joomla admin -&gt; Language Manager -&gt; Overrides and create overrides for the language constant in all languages.
+> Tip -ONLY FOR MULTI-LINGUAL SITES -For example, enter a language constant :J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.Now you can go to Joomla admin -> Language Manager -> Overrides and create overrides for the language constant in all languages.
 
 1. Display text before payment -The text entered here is displayed to the customer at the order summary screen, before the customer makes the payment.You can enter language constant as a value here, if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 2. Display text on after payment -The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 3. Display text on error in payment -The text entered here is displayed to the customer when there is an error in the payment process.You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
-4. Display text if customers cancels payment -The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\).You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
+4. Display text if customers cancels payment -The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site).You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection param.
 5. Payment button text -The text of the payment button. The button will be displayed at the final checkout step.
 6. Debug -This option is used to enable/disable log file.
 
 **Support** Still have questions? You can reach us in support@j2store.org
 
 Thankyou for using our extension.
-

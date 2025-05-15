@@ -2,20 +2,20 @@
 
 This plugin implements Interac online web re-director which offers you privacy and security.
 
-## System Requirements <a id="system-requirements"></a>
+## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
-* PHP 5.4 or greater
-* Joomla 3.x
-* J2Store 3.2.x or greater
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
 1. Use the Joomla installer to install the plugin.
-2. In the backend, go to J2store Dashboard Setup -&gt; Payment methods and enable InterPay Web Redirect for J2Store plugin.
-3. Open the plugin and enter the parameters \(read the explanation about each parameter given below\)
+2. In the backend, go to J2store Dashboard Setup -> Payment methods and enable InterPay Web Redirect for J2Store plugin.
+3. Open the plugin and enter the parameters (read the explanation about each parameter given below)
 4. Save and close it.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
@@ -39,9 +39,9 @@ This plugin implements Interac online web re-director which offers you privacy a
 
 **Display text on selection** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 ![itrpy](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/interpay/interpay-02.png)
 
@@ -60,4 +60,3 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 **Support** Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

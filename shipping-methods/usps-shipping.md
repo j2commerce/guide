@@ -4,25 +4,25 @@ This plugin integrates UPS Shipping Rate API with J2Store.
 
 **Requirements**
 
-* PHP 5.3+
-* Joomla 2.5 / 3.x +
-* J2Store 2.6.8 +
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 **Configuration** Prior to configuring the plugin, you should have an active account with the UPS and received API keys. Contact UPS to register and get API keys.
 
-Not sure where to find your Access key ? Read the documentation below &lt;link-text url = ¨[https://help.extensionworks.com/hc/en-us/articles/200366638-Where-do-I-find-my-UPS-license-key-or-Access-Key-”target](https://help.extensionworks.com/hc/en-us/articles/200366638-Where-do-I-find-my-UPS-license-key-or-Access-Key-%22target) = ¨\_blank”rel = ¨noopener¨&gt; click here
+Not sure where to find your Access key ? Read the documentation below \<link-text url = ¨[https://help.extensionworks.com/hc/en-us/articles/200366638-Where-do-I-find-my-UPS-license-key-or-Access-Key-”target](https://help.extensionworks.com/hc/en-us/articles/200366638-Where-do-I-find-my-UPS-license-key-or-Access-Key-%22target) = ¨\_blank”rel = ¨noopener¨> click here
 
 **Installation** You can install this USPS shipping plugin, using joomla installer.The following steps help you for successful installation.
 
-**Step 1** In the Joomla admin, go to Extensions -&gt; Extension Manager -&gt;install
+**Step 1** In the Joomla admin, go to Extensions -> Extension Manager ->install
 
- **step 2** Click on the Browse button and select USPS Shipping \(type=j2store\) and click on Upload & Install
+**step 2** Click on the Browse button and select USPS Shipping (type=j2store) and click on Upload & Install
 
 ![](../.gitbook/assets/install.png)
 
 ![](../.gitbook/assets/install1.png)
 
- **step 3** Select J2store -&gt;setup -&gt; shipping methods
+**step 3** Select J2store ->setup -> shipping methods
 
 ![](../.gitbook/assets/install2.png)
 
@@ -81,4 +81,3 @@ Refer the below image
 **Use Test Server** USPS Shipping offers a testing suite called test server. Before going live, you can test your store using USPS test server feature.
 
 ![](../.gitbook/assets/parameter3.png)
-

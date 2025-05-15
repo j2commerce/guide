@@ -2,24 +2,24 @@
 
 This feature saves your customer the trouble of entering billing and shipping information again and again. This is how it works.Once the customer saved his API credentials in plugin’s configuration, the paypal express checkout button will be added in the cart pageAfter the adding to cart process two options are presented to him.
 
-## Confirm Order <a id="confirm-order"></a>
+## Confirm Order <a href="#confirm-order" id="confirm-order"></a>
 
-Proceed to checkout \(default option and you can hide this in plugin’s param setting\) When the first option is selected \(Confirm Order option\), the customer can directly checkout without having to enter his billing/shipping details. Paypal can directly access customer information that has already been saved.
+Proceed to checkout (default option and you can hide this in plugin’s param setting) When the first option is selected (Confirm Order option), the customer can directly checkout without having to enter his billing/shipping details. Paypal can directly access customer information that has already been saved.
 
-## System Requirements <a id="system-requirements"></a>
+## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
-1. PHP 5.4 or greater
-2. Joomla 3.x
-3. J2Store 3.2.x or greater
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
 * Use the Joomla installer to install the plugin.
-* In the backend, go to J2store Dashboard -&gt; Payment methods and enable plugin.
-* Open the plugin and enter the parameters \(read the explanation about each parameter given below\)
+* In the backend, go to J2store Dashboard -> Payment methods and enable plugin.
+* Open the plugin and enter the parameters (read the explanation about each parameter given below)
 * Save and close it.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Payment option title** The value entered here will be used as the title for the payment. Customer will see this value when he checks out.
 
@@ -44,7 +44,7 @@ Set this option to YES will hide the Paypal Express Checkout button in cart page
 
 Choosing YES will force the customer to select the shipping method if the customer not chosen the shipping method when placing order.
 
-> List Paypal Express Checkout as one of the payment options in the normal checkout steps \(Payment selection step\)
+> List Paypal Express Checkout as one of the payment options in the normal checkout steps (Payment selection step)
 
 Set this option to YES will list Paypal Express Checkout as one of the payment methods in the checkout steps.
 
@@ -70,7 +70,7 @@ By selecting a geozone here, you can restrict this payment method to only custom
 
 **Display text on after payment** The text entered here will be displayed when customer completes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -84,7 +84,7 @@ By selecting a geozone here, you can restrict this payment method to only custom
 
 ![frontend](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-express-checkout/frontend.png)
 
-## How to get API access credentials from paypal <a id="how-to-get-api-access-credentials-from-paypal"></a>
+## How to get API access credentials from paypal <a href="#how-to-get-api-access-credentials-from-paypal" id="how-to-get-api-access-credentials-from-paypal"></a>
 
 1. Log in to your PayPal Business account.
 2. Click the My Account tab.
@@ -106,4 +106,3 @@ By selecting a geozone here, you can restrict this payment method to only custom
 ![pp5](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-express-checkout/pp5.png)
 
 ![pp6](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-express-checkout/pp6.png)
-

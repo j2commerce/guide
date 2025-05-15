@@ -6,9 +6,9 @@ Process secure iDEAL, credit card, bank transfer, SOFORT payments, paysafecard, 
 
 ## Requirements <a href="#requirements" id="requirements"></a>
 
-1. PHP version 5.4 or higher
-2. Joomla 4.0.0 or the latest version.
-3. J2Store4 4.0.2-PRO
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
@@ -31,7 +31,7 @@ Process secure iDEAL, credit card, bank transfer, SOFORT payments, paysafecard, 
 
 ## Configuration <a href="#configuration" id="configuration"></a>
 
-**Licence key**&#x20;
+**Licence key**
 
 Enter your license key here to receive upcoming updates for the plugin.\
 \
@@ -65,17 +65,17 @@ Do you want to apply a additional fee for choosing mollie as payment ? If yes, e
 
 **Percentage**
 
-&#x20;If you would like to apply surcharge in percentage (for example, 5%), enter your charge(5) in this text box.
+If you would like to apply surcharge in percentage (for example, 5%), enter your charge(5) in this text box.
 
 **Fixed value**
 
-&#x20;If you would like to apply surcharge as fixed value (for examplem $5), enter your charge(5)in this text box.
+If you would like to apply surcharge as fixed value (for examplem $5), enter your charge(5)in this text box.
 
 **Display text on selection**
 
 The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 

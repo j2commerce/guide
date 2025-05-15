@@ -18,14 +18,14 @@ The AliPay Payment Gateway plugin for J2Store allows **Chinese** buyers to enjoy
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
 1. Download AliPay payment plugin package from our site’s extensions section and install it using Joomla installer.
-2.  After installing plugin, go to J2Store > Setup > Payment methods and enable AliPay&#x20;
+2.  After installing plugin, go to J2Store > Setup > Payment methods and enable AliPay
 
     for J2Store.
 3. Once enabled, open / edit the plugin and configure the basic settings of the app.
@@ -42,7 +42,7 @@ The AliPay Payment Gateway plugin for J2Store allows **Chinese** buyers to enjoy
 
 **Use AliPay Sandbox:** This option allows you to test the Alipay gateway using the AliPay sandbox server instead of the live one. Use this option to test the plugin if you do not have a Alipay account yet.
 
-**Alipay Sandbox partner:**  Enter the sandbox partner value associated with your Alipay account.
+**Alipay Sandbox partner:** Enter the sandbox partner value associated with your Alipay account.
 
 **Alipay Sandbox MD5 key:** Enter sandbox MD5 key value associated with y our Alipay account.
 
@@ -58,7 +58,7 @@ The AliPay Payment Gateway plugin for J2Store allows **Chinese** buyers to enjoy
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -78,8 +78,4 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![AliPay Payment Img2](<../.gitbook/assets/alipay-paymnet-img2 (1).png>)
 
-
-
-
-
-\
+\\

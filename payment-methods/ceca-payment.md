@@ -4,24 +4,24 @@ This plugin integrates CECA payment gateway with J2Store Joomla eCommerce soluti
 
 **Note:**
 
-Euro\(EUR\) Currency Must be available in your store’s currency list.
+Euro(EUR) Currency Must be available in your store’s currency list.
 
-Must set IPN url \(URL online OK:\) in CECA payment dashboard.
+Must set IPN url (URL online OK:) in CECA payment dashboard.
 
-Online communication ok:\(Comunicación on-line OK:\) set to Yes \(SI\)
+Online communication ok:(Comunicación on-line OK:) set to Yes (SI)
 
-Answer required ok:\(Respuesta requerida OK:\) set to Yes \(SI\)
+Answer required ok:(Respuesta requerida OK:) set to Yes (SI)
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
-* PHP version 5.4 +
-* Joomla 3.x +
-* J2Store 3.x +
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Download CECA Payment plugin from our site and install it using Joomla installer.
-2. After installing the plugin, go to J2Store &gt; Setup &gt; Payment methods.
+2. After installing the plugin, go to J2Store > Setup > Payment methods.
 3. Enable CECA payment gateway for J2Store.
 4. Now open the plugin and configure the basic settings of the app.
 
@@ -29,7 +29,7 @@ Answer required ok:\(Respuesta requerida OK:\) set to Yes \(SI\)
 
 1. Log into your account through the address [click here](https://comercios.ceca.es/)
 2. Enter your User number and password, you get the following screen
-3. You can switch between real and testing environment on top left box. If you would like to use testing environment, click on Cambiar a datos de pruebas \(change to test data\) and the page will change from a blue to red which indicates that we are in a test environment.
+3. You can switch between real and testing environment on top left box. If you would like to use testing environment, click on Cambiar a datos de pruebas (change to test data) and the page will change from a blue to red which indicates that we are in a test environment.
 
 ![ceca](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/ceca-payment/ceca-switch-envi.png)
 
@@ -45,11 +45,11 @@ Answer required ok:\(Respuesta requerida OK:\) set to Yes \(SI\)
 
 ![ceca data](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/ceca-payment/ceca-req-data.png)
 
-1. Now you must enter the following data in the configuration.Must set IPN url \(URL online OK:\) in CECA payment dashboard.Online communication ok:\(Comunicación on-line OK:\) set to Yes \(SI\)Answer required ok:\(Respuesta requerida OK:\) set to Yes \(SI\)
+1. Now you must enter the following data in the configuration.Must set IPN url (URL online OK:) in CECA payment dashboard.Online communication ok:(Comunicación on-line OK:) set to Yes (SI)Answer required ok:(Respuesta requerida OK:) set to Yes (SI)
 
 **Comunicación on-line OK: SI**
 
-\(you can check this url in our plugin’s settings page\)
+(you can check this url in our plugin’s settings page)
 
 **Respuesta requerida OK: SI**
 
@@ -59,9 +59,9 @@ Answer required ok:\(Respuesta requerida OK:\) set to Yes \(SI\)
 
 **Use below test card details for testing purpose**
 
-Test Card Number: 5020080001000006 Expiration date: \(December of current year\) CVV2: 989
+Test Card Number: 5020080001000006 Expiration date: (December of current year) CVV2: 989
 
-## Payment plugin Configuration <a id="payment-plugin-configuration"></a>
+## Payment plugin Configuration <a href="#payment-plugin-configuration" id="payment-plugin-configuration"></a>
 
 **Payment option title** The value entered here will be used as the title for the payment. Customer will see this value when he checks out.
 
@@ -97,9 +97,9 @@ Test Card Number: 5020080001000006 Expiration date: \(December of current year\)
 
 **Display text on selection** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -107,15 +107,12 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Payment button text** Text entered here will be added as the name of the payment button. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
 
 **Debug** Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
- 
-
 ![payment](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/ceca-payment/ceca-payment-01.png)
 
 ![pay](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/ceca-payment/ceca-payment-02.png)
-

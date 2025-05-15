@@ -2,14 +2,13 @@
 
 QuickPay enables you to accept a wide range of payment methods, including credit card and bank transfer securely. QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council. You can feel safe with us and your customers safe with you. More information can be found at the [QuickPay](https://quickpay.net/) website.
 
-The plugin uses the Payment Window method. Customers will be redirected to QuickPay where they will enter their card details or initiate a wire transfer. This ensures a highest level of security as QuickPay handles the credit card information and other sensitive data in its website. You do not need an SSL certificate to use the QuickPay plugin.\
-
+The plugin uses the Payment Window method. Customers will be redirected to QuickPay where they will enter their card details or initiate a wire transfer. This ensures a highest level of security as QuickPay handles the credit card information and other sensitive data in its website. You do not need an SSL certificate to use the QuickPay plugin.\\
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
@@ -27,7 +26,7 @@ The plugin uses the Payment Window method. Customers will be redirected to Quick
 
 **Quick API user API key:** Enter the API key associated with your QuickPay account.
 
-**Payment Type:** Select the payment type for your payment here.                                                                                  **Authorization only (you have to capture manually in stripe terminal):** If the user amount do not transfer to merchant account, But then the User allows amount transfer. Merchant have to accept amount transfer in payment account, to achieve this requirement you have to set payment type as Authorize.                                                                                                                                                               **Capture:** If you wish the User amount to immediately be transferred to merchant account.
+**Payment Type:** Select the payment type for your payment here. **Authorization only (you have to capture manually in stripe terminal):** If the user amount do not transfer to merchant account, But then the User allows amount transfer. Merchant have to accept amount transfer in payment account, to achieve this requirement you have to set payment type as Authorize. **Capture:** If you wish the User amount to immediately be transferred to merchant account.
 
 **J2 Item ID for thankyou message:** This article is displayed after the payment is processed. It can include anything (including the plugins) and should at the very least tell your customer what to do next.
 
@@ -37,7 +36,7 @@ The plugin uses the Payment Window method. Customers will be redirected to Quick
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 

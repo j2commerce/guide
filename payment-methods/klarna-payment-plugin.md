@@ -4,13 +4,13 @@ The plugin integrates the Klarna checkout with J2Store joomla shopping cart. The
 
 Klarna Checkout is available in Sweden, Norway, Finland and Germany at the moment. To get started with Klarna Checkout you will need a separate EID and Shared secret. **Your credentials from using Klarna Invoice/Account will NOT work**.
 
-So make sure that you have obtained the correct EID and Shared Secret from Klarna and enter them in the plugin params.&#x20;
+So make sure that you have obtained the correct EID and Shared Secret from Klarna and enter them in the plugin params.
 
 ## Requirements
 
-1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 
@@ -28,11 +28,11 @@ So make sure that you have obtained the correct EID and Shared Secret from Klarn
 
 **Enable B2B:** If you wish the company to pay then enable it as Yes, but then please ensure that the option B2B is enabled only post the same is enabled in your Klrana account
 
-**Payment type for KC03:** You may select the Authorize option if you&#x20;
+**Payment type for KC03:** You may select the Authorize option if you
 
 **Klarna account type:** When you set the mode as Authorize, the orders would be marked as Acknowledged in Klarna dashboard.
 
-**Hide the J2Store's normal checkout button. Only allow Klarna Express checkout:** Setting this to Yes will disable J2Store's checkout process. If you do not charge shipping or do not need any additional information from customer, then you can disabled J2Store checkout.                                                              On the other hand if you do wish to charge for shipping or any other fee then please set it as No.
+**Hide the J2Store's normal checkout button. Only allow Klarna Express checkout:** Setting this to Yes will disable J2Store's checkout process. If you do not charge shipping or do not need any additional information from customer, then you can disabled J2Store checkout. On the other hand if you do wish to charge for shipping or any other fee then please set it as No.
 
 **Hide Klarna Express checkout in cart? :** This option is used to hide Klarna express checkout option in the cart page at the store frontend.
 
@@ -44,13 +44,13 @@ So make sure that you have obtained the correct EID and Shared Secret from Klarn
 
 **Klarna Live Merchant Id(KCO-2) / Api username (KCO-3):** Please enter Klrana Live Merchant ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 
-**Klarna Live shared Secret(KCO-2) / API(KCO-3):**  Please enter Klrana Live shared secret ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
+**Klarna Live shared Secret(KCO-2) / API(KCO-3):** Please enter Klrana Live shared secret ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 
 **Use Klarna Sandbox:** This option allows you to test the Klarna gateway using Klarna server instead of the live one. Use this option to test the plugin, if you do not have an Klarna account yet. If the option is set to Yes then please enter the Klarna Test Merchant ID and Secret key as mentioned below.
 
-**Klarna Test Merchant ID(KC0-2) / API username(KCO-3):**  Please enter Klrana Test Merchant ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
+**Klarna Test Merchant ID(KC0-2) / API username(KCO-3):** Please enter Klrana Test Merchant ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 
-**Klarna Test shared Secret(KCO-2) / API(KCO-3):**  Please enter Klrana Test shared secret ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
+**Klarna Test shared Secret(KCO-2) / API(KCO-3):** Please enter Klrana Test shared secret ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 
 **Language:** You may consider selecting the language similar to your J2Store language here.
 
@@ -66,7 +66,7 @@ Error Payment Article: You may enter the error page article ID here.
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -83,6 +83,3 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 **DEBUG :** This option is chosen in order to enable or disable the display of log file. This should be in disable for live sites.
 
 Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Klarna on your store.
-
-
-

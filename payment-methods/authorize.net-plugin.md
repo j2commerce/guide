@@ -4,9 +4,9 @@ This Plugin enables you to receive payments via Authorize.Net Payment Gateway. V
 
 ## Requirements <a href="#requirements" id="requirements"></a>
 
-* PHP 5.2 or higher
-* Joomla 4.0.0 or the latest version.
-* J2Store4 4.0.2-PRO
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 ## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
@@ -32,7 +32,7 @@ Now you can see the Authorize.net Payments as an option during the Checkout proc
 
 ## Parameters <a href="#parameters" id="parameters"></a>
 
-**License Key** \
+**License Key**\
 \
 Enter your license key here to receive upcoming updates for the plugin.
 
@@ -85,11 +85,11 @@ You can create a Joomla Article to say thanks to the users, who purchased in you
 
 **Display text on selection**
 
-The text entered here will be displayed to the customer at the order summary screen once he selects the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.&#x20;
+The text entered here will be displayed to the customer at the order summary screen once he selects the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
 
 **Display text before payment**
 
-The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.&#x20;
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
 
 **Display text on after payment**
 
@@ -116,8 +116,6 @@ The text of the payment button. The button will be displayed at the final checko
 Enable this to log the responses and request of the payment plugin. Do not set this in live site.
 
 ![](../.gitbook/assets/an1.png)
-
-
 
 Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 
