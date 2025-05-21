@@ -8,7 +8,7 @@ This is an example setting for stores in Canada. For detailed information on tax
 
 Go to Components > J2Commerce > Localisation -> Geozones -> New
 
-<figure><img src="../.gitbook/assets/geo-zone.webp" alt=""><figcaption><p>Geozone Canada</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/geo-zone (1).webp" alt=""><figcaption><p>Geozone Canada</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/geo-zone-canada.webp" alt=""><figcaption><p>Geozone Canada</p></figcaption></figure>
 
@@ -22,7 +22,7 @@ Zone : \*
 
 Go to Localisation -> Tax Rates -> New
 
-<figure><img src="../.gitbook/assets/tax-rate.webp" alt=""><figcaption><p>Tax Rate Canda</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tax-rate (1).webp" alt=""><figcaption><p>Tax Rate Canda</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/tax-rate-canada.webp" alt=""><figcaption><p>Tax Rate Canda</p></figcaption></figure>
 
@@ -52,7 +52,7 @@ Status : Published
 
 Go to Localization -> Tax Profiles -> New
 
-<figure><img src="../.gitbook/assets/tax-profile.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tax-profile (1).webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/tax-profile-canada.webp" alt=""><figcaption></figcaption></figure>
 
