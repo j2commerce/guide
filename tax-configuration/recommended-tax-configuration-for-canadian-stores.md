@@ -30,9 +30,9 @@ Name : Canada-GST
 
 Tax Percent : 5
 
-Geozone : Canada geozone
+Geo Zone : Canada geo zone
 
-Status : Published
+Enabled: Yes
 
 ## Step 3: Create another tax rate for Saskatchewan-PST <a href="#step-3-create-another-tax-rate-for-saskatchewan-pst" id="step-3-create-another-tax-rate-for-saskatchewan-pst"></a>
 
@@ -44,9 +44,9 @@ Name : Saskatchewan-PST
 
 Tax Percent : 5
 
-Geozone : Canada geozone
+Geo Zone : Canada geo zone
 
-Status : Published
+Enabled: Yes
 
 ## Step 4: Create a tax profile and rules <a href="#step-4-create-a-tax-profile-and-rules" id="step-4-create-a-tax-profile-and-rules"></a>
 

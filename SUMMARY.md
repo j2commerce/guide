@@ -86,7 +86,7 @@
   * [Recommended Tax configuration for Canadian Stores](tax-configuration/recommended-tax-configuration-for-canadian-stores.md)
   * [Recommended Tax Configuration for EU stores](tax-configuration/recommended-tax-configuration-for-eu-stores.md)
   * [Setting up European VAT Rules for selling Physical Goods with J2Commerce](tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
-  * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](tax-configuration/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
+  * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Commerce](tax-configuration/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
   * [How Tax is Calculated](tax-configuration/how-tax-is-calculated.md)
 * [Easy Checkout](easy-checkout/README.md)
   * [Easy checkout](easy-checkout/easy-checkout.md)

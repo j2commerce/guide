@@ -19,25 +19,29 @@ Let us assume that your company is located in : United Kingdom, Bristol, and you
 
 ### Store Profile <a href="#store-profile" id="store-profile"></a>
 
-Go to Joomla admin – J2Commerce – Set up – Configuration - > Store tab.
+Go to Joomla admin – J2Commerce – Setup – Configuration - > Store tab.
 
-Set the Default Country to United Kingdom
+Set the Country Name to United Kingdom
 
-Set your Default Zone to Bristol.
+Set your Zone Name to Bristol.
 
-### Geozone <a href="#geozone" id="geozone"></a>
+<figure><img src="../.gitbook/assets/vat-tax-1.webp" alt=""><figcaption></figcaption></figure>
 
-Go to Components > J2Commerce – Localization – Geozones – New
+### Geo Zone <a href="#geozone" id="geozone"></a>
 
-Geozone Name : VAT Zone ( It can be anything. It is used just as reference ) State : Published
+Go to Components > J2Commerce – Localization – Geo Zones – New
 
-Add country / Zone. Choose United Kingdom from the Dropdown list and add it
+Geo Zone Name : VAT Zone ( It can be anything. It is used just as reference )&#x20;
+
+Status: Enabled
+
+Add Country / Zone. Choose United Kingdom from the Dropdown list and add it
 
 \*\* IMPORTANT: According to the rule, EU residents & businesses with no valid VAT number has to be charged based on the home country’s rate. \*\*
 
-\*\* So it is advised that you add all the EU countries in this geozone itself. Choose EU Vat countries and add them. Refer this article to know all EU VAT countries.[http://en.wikipedia.org/wiki/European\_Union\_value\_added\_tax](http://en.wikipedia.org/wiki/European_Union_value_added_tax) \*\*
+\*\* So it is advised that you add all the EU countries in this Geo Zone itself. Choose EU Vat countries and add them. Refer this article to know all EU VAT countries.[http://en.wikipedia.org/wiki/European\_Union\_value\_added\_tax](http://en.wikipedia.org/wiki/European_Union_value_added_tax) \*\*
 
-(You can also add all other European countries. or create a separate geozone. But then you will have to create tax rate and map that in the tax profile. Kind of a double work!).
+(You can also add all other European countries. or create a separate Geo Zone. But then you will have to create tax rate and map that in the tax profile. Kind of a double work!).
 
 Save and close
 
@@ -49,23 +53,23 @@ Name : VAT Rate&#x20;
 
 Tax Percent : 21&#x20;
 
-Geozone : VAT Zone
+Geo Zone : VAT Zone
 
-Status : Published
+Status: Enabled
 
 ### Setting up the tax profile <a href="#setting-up-the-tax-profile" id="setting-up-the-tax-profile"></a>
 
 It is sufficient to set up ONE tax profile
 
-Go to Components > J2Commerce – Localization > Tax profiles > New
+Go to Components > J2Commerce – Localization > Tax Profiles > New
 
 Tax Profile Name: My Tax Profile&#x20;
 
-State : Published
+Enabled: Yes
 
-**Tax Rates Mapping**
+Choose VAT Rate 21 %&#x20;
 
-1. Choose VAT Rate 21 % and choose Billing Address as the Associated Address.
+Choose Billing Address as the Associated Address.
 
 Save.
 
@@ -75,9 +79,11 @@ J2Commerce uses native Joomla! articles as products. So go ahead and create a pr
 
 Go to Content – Articles – New or open your digital product.
 
-In J2Store Tab > Item Tax , Choose My Tax Profile.
+In J2Store Tab > Tax Profile, Choose My Tax Profile.
 
 Fill in other relevant fields for your product and save.
+
+<figure><img src="../.gitbook/assets/vat-tax-2.webp" alt=""><figcaption></figcaption></figure>
 
 ### Implementation <a href="#implementation" id="implementation"></a>
 
@@ -91,9 +97,9 @@ Set the Default Country to United Kingdom. Set your Default Zone to Bristol
 
 **2. Tax rule for Home Country**
 
-First, we should define the geozone and tax rates for the home country, that is the country in which your shop is located.
+First, we should define the Geo Zone and tax rates for the home country, that is the country in which your shop is located.
 
-* 2.1 Define Geozone
+* 2.1 Define Geo Zone
 
 \`
 
@@ -111,27 +117,27 @@ First, we should define the geozone and tax rates for the home country, that is 
 
 Let us take Germany for this example. Let us say, Germany’s VAT charge is: 25 %
 
-NOTE: A few countries might have same VAT rate for the digital goods. You can group them under one geozone. For this example, I am going to stick with one EU country, that is Germany.
+NOTE: A few countries might have same VAT rate for the digital goods. You can group them under one geo zone. For this example, I am going to stick with one EU country, that is Germany.
 
-* 3.1. Define Geozone\`
+* 3.1. Define Geo Zone\`
 
 ![](../.gitbook/assets/geo-zone-germany1.webp)
 
 * **3.2. Define Tax rate:**
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store/vat_03.png)
+![](../.gitbook/assets/vat-tax-3.webp)
 
-`Go to Joomla admin – J2Store – Localization – Geozones – New Geozone Name : Germany VAT Zone ( It can be anything. It is used just as reference ) State : Published Add country / Zone Choose Germany from the Dropdown list and add it NOTE: If some other EU countries also implement a 25 % VAT, then you can group them under this geozone itself Save and close`
+`Go to Joomla admin – J2Store – Localization – Geo Zones – New Geo Zones Name : Germany VAT Zone ( It can be anything. It is used just as reference ) State : Published Add country / Zone Choose Germany from the Dropdown list and add it NOTE: If some other EU countries also implement a 25 % VAT, then you can group them under this geo zone itself Save and close`
 
 **4. Setting up the tax profile**
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store/vat_04.png)
-
 It is sufficient to set up ONE tax profile for digital goods, in which we can associate many tax rates.
 
-\`Go to Joomla admin → J2Store – Localization → Tax profiles → New
+\`Go to Joomla admin > Components > J2Commerce > Localization > Tax profiles > New
 
-Tax Profile Name : Digital Goods Tax Profile State : Published
+Tax Profile Name : Digital Goods Tax Profile&#x20;
+
+Enabled: Yes
 
 Tax Rates Mapping\`
 
@@ -141,13 +147,15 @@ Tax Rates Mapping\`
 
 Save.
 
+<figure><img src="../.gitbook/assets/vat-tax-4 (1).webp" alt=""><figcaption></figcaption></figure>
+
 **5. Applying tax profile to a product**
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store/vat_05.png)
+![](../.gitbook/assets/vat-tax-5.webp)
 
-J2Store uses native Joomla articles as products. So go ahead and create a product.
+J2Commerce uses native Joomla! articles as products. So go ahead and create a product.
 
-Application of VAT rules with Examples:Now we have successfully configured the tax rules in J2Store. Let us see how they will get applied for different scenarios
+Application of VAT rules with Examples: Now we have successfully configured the tax rules in J2Store. Let us see how they will get applied for different scenarios
 
 Example 1:
 

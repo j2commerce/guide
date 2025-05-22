@@ -34,7 +34,7 @@ Tax Percent : 19
 
 Geozone : Base rates
 
-Status : Published
+Status: Enabled
 
 ## Step 3: Create a tax profile and rules <a href="#step-3-create-a-tax-profile-and-rules" id="step-3-create-a-tax-profile-and-rules"></a>
 

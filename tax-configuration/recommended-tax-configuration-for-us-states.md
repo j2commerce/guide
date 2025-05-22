@@ -36,7 +36,7 @@ Go to Localization -> Tax Rates -> New
 
 **Geozone :** Texas Zone
 
-**Status :** Published
+**Enabled:** Yes
 
 ## Step 3: Create a tax profile and rules <a href="#step-3-create-a-tax-profile-and-rules" id="step-3-create-a-tax-profile-and-rules"></a>
 
@@ -90,7 +90,7 @@ Product creation steps are explained under the topic **Products**.
 
 Here let us just see how to choose the tax profile
 
-Go to J2Store Cart tab -> General tab
+Go to J2Store Cart tab  > **General tab**
 
 **Tax Profile :** Default tax class
 
