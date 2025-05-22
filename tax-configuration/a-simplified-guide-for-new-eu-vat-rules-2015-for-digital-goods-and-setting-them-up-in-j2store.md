@@ -20,7 +20,13 @@ In simple terms, the new VAT rules are:
 
 We have created a VAT plugin that helps you implement the VAT rules automatically. Download and install the plugin from here: [http://j2store.org/extensions/general-plugins.html](http://j2store.org/extensions/general-plugins.html)
 
-Then go to System  > Plugin Manager and Enable the EU VAT plugin
+Then go to System  > Install > Extension > to upload the plugin
+
+Then go to System > Manage > Plugin and search for EU VAT and Enable the EU VAT plugin
+
+<figure><img src="../.gitbook/assets/vat-tax-6.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/vat-tax-7.webp" alt=""><figcaption></figcaption></figure>
 
 **Implementation**
 

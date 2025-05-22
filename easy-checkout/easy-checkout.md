@@ -1,8 +1,8 @@
 # Easy checkout
 
-With online shopping moving quickly, convenience is becoming a must for customers. Overcomplicating your check out process can result in lost sales and unsatisfied customers.One would think that fewer steps would make it easier for the customer to check out, but that is not always the case.
+With online shopping moving quickly, convenience is becoming a must for customers. Overcomplicating your check out process can result in lost sales and unsatisfied customers. One would think that fewer steps would make it easier for the customer to check out, but that is not always the case.
 
-Here we are coming up with **Easy checkout** for J2Store that makes the checkout process quiet easier.
+Here we are coming up with **Easy checkout** for J2Commerce that makes the checkout process easier.
 
 Easy checkout is nothing but an one-page checkout that displays all elements of a standard checkout including basket contents, billing and shipping address, shipping options, and payment information on one page. Originally, one-page checkouts were put into practice in an effort to simplify the check out process with fewer clicks and fewer pages.
 
@@ -10,23 +10,35 @@ It will be easier to complete as less steps can appeal to time-conscious custome
 
 **Requirements**
 
-1. Joomla version 3.4 +
-2. PHP version 5.6 +
-3. J2Store 3.3.0
+1. Joomla! 4.x/ Joomla! 5.x +
+2. PHP 8.1.0 +
+3. J2Commerce / J2Store 4.x +
 
 **Installation**
 
-1. Download and install our Easy checkout component using Joomla installer.
-2. After installing, go to Extensions &gt; Plugins and make sure that the plugin System - EasyCheckout has been enabled.
-3. Once you enabled the system plugin, the J2Store’s normal checkout will be replaced and the single step checkout will be activated.
+Download and install our Easy checkout component using Joomla! installer.
+
+After installing, go to Manage > Plugins and make sure that the plugin System - Easy Checkout has been enabled.
+
+<figure><img src="../.gitbook/assets/vat-tax-8 (1).webp" alt=""><figcaption></figcaption></figure>
+
+Once you enabled the system plugin, the J2Commerce’s normal checkout will be replaced and the single step checkout will be activated. Once enabled, Easy Checkout will appear in the side menu bar under Components.
+
+<figure><img src="../.gitbook/assets/easy-checkout1a.webp" alt=""><figcaption></figcaption></figure>
 
 Few points that has to be remembered
 
 1. **Guest checkout**
 
-The guest checkout form is must for all online stores for the customers who don’t want to have an account.
+The guest checkout form is a must for all online stores for the customers who don’t want to have an account.
 
-To enable the Guest checkout, go to J2Store &gt; Setup &gt; Configuration &gt; Cart tabSet **YES** to Allow guest checkoutSave. 
+To enable the Guest checkout, go to J2Commerce > Setup > Configuration > Cart tab
+
+Set **YES** to Allow guest checkout
+
+Save.
+
+<figure><img src="../.gitbook/assets/vat-tax-9.webp" alt=""><figcaption></figcaption></figure>
 
 ![Easy-checkout-guest-checkout](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easycheckout-guest.png)
 
@@ -34,13 +46,19 @@ To enable the Guest checkout, go to J2Store &gt; Setup &gt; Configuration &gt; C
 
 To enable the New account registration option in Easy checkout,
 
-Go to J2Store &gt; Setup &gt; Configuration &gt; Cart tabSet YES to Allow quick new user registrationSave.
+Go to J2Commerce > Setup > Configuration > Cart tab
+
+Set YES to Allow quick new user registration
+
+Save.
+
+<figure><img src="../.gitbook/assets/vat-tax-10 (1).webp" alt=""><figcaption></figcaption></figure>
 
 If new user registration option is enabled, you would see the small checkbox labelled **Create an account for later usage** in the checkbox.
 
 This checkbox will be checked automatically.
 
- If customers don’t want to register, they can uncheck the checkbox and proceed further as a guest \(Non-registered\).
+If customers don’t want to register, they can uncheck the checkbox and proceed further as a guest (Non-registered).
 
 ![Easy checkout-allowing new user registration](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easycheckout-allow-user-registration-frontend.png)
 
@@ -49,8 +67,6 @@ This checkbox will be checked automatically.
 **3. Existing customers**
 
 The existing customers can place the order by using the login form. You would see the login form by clicking on **Login**.
-
- 
 
 ![Easy checkout login](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easycheckout-login.png)
 
@@ -62,11 +78,19 @@ The SEF is the most important one for all the online stores. Similar to the Norm
 
 By using this menu type, you can have the SEF url for checkout page.
 
-Go to menu manager and create the menu item with type **Easy checkout &gt; Checkout**.
+Go to menus > manage and create the menu item under Main Menu.&#x20;
 
-![Easy checkout menu](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easycheckout-menu.png)
+![Easy checkout menu](../.gitbook/assets/easy-checkout3.webp)
 
-**Screenshots**  
+Name the menu Checkout.&#x20;
+
+**Select Easy checkout > Checkout**.
+
+<figure><img src="../.gitbook/assets/easy-checkout2b.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/easy-checkout2c.webp" alt=""><figcaption></figcaption></figure>
+
+**Screenshots**
 
 ![Easy checkout login form filled](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easycheckout-loginform-filled.png)
 
@@ -76,19 +100,14 @@ Go to menu manager and create the menu item with type **Easy checkout &gt; Check
 
 Even after installing, enabling and creating a menu for easy checkout, if it is not showing up on the storefront, then this might be a reason.
 
-Navigate to\*\* Components-&gt;Easy checkout-&gt;Options\*\*
+Navigate to\*\* Components > Easy checkout > Options\*\*
 
-![Associating menu with easy checkout](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easy-checkout-associate-menu.png)
+![Associating menu with easy checkout](<../.gitbook/assets/easy-checkout2 (1).webp>)
 
-\*\*Select the menu created for easy checkout at the Easy checkout menu option.
+\*\*Select the menu created for easy checkout at the Easy checkout menu option. If Checkout isn't listed in the dropdown menu then it's because you skipped the step above which is creating the menu.
 
-![Choose the menu created for easy checkout](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easy-checkout-choose-menu.png)
-
-  
-
-![Enabling coupons and vouchers in easy checkout](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easy-checkout-enabling-coupons-vouchers.png)
+![Choose the menu created for easy checkout](../.gitbook/assets/easy-checkout4.webp)
 
 ![Frontend with coupons and vouchers enabled](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easy-checkout-coupons-vouchers-frontend.png)
 
 ![Easy checkout coupons and vouchers form](https://raw.githubusercontent.com/j2store/doc-images/master/easy-checkout/easy-checkout/easy-checkout-coupons-vouchers-clicked.png)
-
