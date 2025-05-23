@@ -1,34 +1,40 @@
 # Ask question / quote
 
-This app allows customer to enquire a product or to ask quote for a product through mail.
+This app allows customer to enquire a product or to ask quote for a product through email.
 
 Using this app itself you can use your store as catalog mode since this app has an option to hide the add to cart button. Clicking on single button will enable the communication between store owner and customer.
 
 **Requirements**
 
-* PHP 5.4 or higher
-* Joomla 3.3 or above
-* J2Store 3.2.x or above
+* PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 **Switch off catalog mode:**
 
 **NOTE:** **If you are having the shop in catalog mode, the ask quote button wouldn’t come up on the storefront.**
 
-Alternatively, you could turn off the catalog mode and hide the add to cart buttons in the site using the **Hide add to cart button for all products?** in the basic settings of the Ask quote plugin.
+Alternatively, you could turn off the catalog mode and hide the add to cart buttons in the site using the **Hide add to cart button for all products?** in the basic settings of the Ask Quote plugin.
 
-**Installation**
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
-1. Use the Joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
-3. Click Enable in the Ask question / quote app.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
 
 ![Ask quote](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-dashboard.png)
 
-4\. Once the app is enabled, open the app to configure the settings.
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+**Step 5:** Go back to System > Manage > Extensions. &#x20;
+
+**Step 6:** Search for the app and enable it.
 
 **Global level:**
 
-In the global settings of the app, you can configure&#x20;
+In the global settings of the app, you can configure
 
 * How and where the ask quote app would appear at the storefront.
 * The look of the email that is triggered when a user submits the ask quote form.
@@ -56,7 +62,7 @@ POP-UP: Select this to display the ask quote form in a separate pop-up window.
 
 Accordion: Select this to display the ask quote form in an accordian view
 
-* **Display position**&#x20;
+* **Display position**
 
 Choose whether you wish to have the add to quote form before or after the cart.
 
@@ -78,7 +84,7 @@ Use the language constant PLG\_J2STORE\_PRODUCTQUOTE\_LINK\_TEXT to translate th
 
 #### Email Configuration
 
-&#x20;**Include label for custom fields:**&#x20;
+**Include label for custom fields:**
 
 If you wish that the label of the custom fields you use should be available on the email, then set this to Yes.
 
@@ -91,33 +97,32 @@ You could choose whether the user alone or admin alone or both should receive th
 Enter the body of the email here. You can use the below shortcodes in the text editor:
 
 \[SITENAME]\
-&#x20;\[FIRST\_NAME]\
-&#x20;\[LAST\_NAME]\
-&#x20;\[PHONE\_1]\
-&#x20;\[PHONE\_2]\
-&#x20;\[EMAIL]\
-&#x20;\[COMPANY]\
-&#x20;\[TAX\_NUMBER]\
-&#x20;\[ADDRESS\_1]\
-&#x20;\[ADDRESS\_2]\
-&#x20;\[CITY]\
-&#x20;\[ZIP]\
-&#x20;\[COUNTRY\_NAME]\
-&#x20;\[ZONE\_NAME]\
-&#x20;\[PRODUCT\_NAME]\
-&#x20;\[PRODUCT\_SKU]\
-&#x20;\[PRODUCT\_PRICE]\
-
+\[FIRST\_NAME]\
+\[LAST\_NAME]\
+\[PHONE\_1]\
+\[PHONE\_2]\
+\[EMAIL]\
+\[COMPANY]\
+\[TAX\_NUMBER]\
+\[ADDRESS\_1]\
+\[ADDRESS\_2]\
+\[CITY]\
+\[ZIP]\
+\[COUNTRY\_NAME]\
+\[ZONE\_NAME]\
+\[PRODUCT\_NAME]\
+\[PRODUCT\_SKU]\
+\[PRODUCT\_PRICE]\\
 
 **To Display the custom field data**
 
-To display the custom field information entered by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor.&#x20;
+To display the custom field information entered by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor.
 
 For example, if you are having text area as a custom field in your product quote form, then copy the field name(you can get it in custom field section J2Store > Setup > Custom fields) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message].
 
-&#x20;Refer the image below,
+Refer the image below,
 
-![](../.gitbook/assets/screenshot-localhost-2020.08.14-17\_37\_38.png)
+![](../.gitbook/assets/screenshot-localhost-2020.08.14-17_37_38.png)
 
 **Email subject**
 
@@ -139,8 +144,6 @@ Now, in form layout add the shortcodes of fields you want to display in product 
 
 To add the custom field shortcode, copy the field name in J2Store > Setup > Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, \[message].
 
-&#x20;&#x20;
-
 ![Ask quote custom field](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-custom-field.png)
 
 ![Ask quote custom field list](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-cust-fiel-list.png)
@@ -160,15 +163,11 @@ That's it! The data entered on this custom field at the ask quote form during qu
 
 **Ask quote enabled on a single product- At the product article**
 
-&#x20;&#x20;
-
 ![Ask quote frontend](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-frontend.png)
 
 #### Ask quote enabled on All products- on the global settings
 
 ![Ask quote enabled on all products](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-all-pro-front.png)
-
-
 
 **Support**
 
