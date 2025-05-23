@@ -22,11 +22,11 @@ This app allows store owner to notify customer regarding stock availability. If 
 
 **Step 4:** Go to System > Install > Extensions > Download the app
 
-<figure><img src="../.gitbook/assets/user-group-3 (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-3 (7).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Go back to System > Manage > Extensions.
 
-<figure><img src="../.gitbook/assets/user-group-5 (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-5 (7).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 6:** Search for the app and enable it.
 

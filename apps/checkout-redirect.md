@@ -2,11 +2,11 @@
 
 The app will redirect the customer directly to checkout when they add an item to cart, skipping the cart page.
 
-## Requirements:
+## Requirements <a href="#requirements" id="requirements"></a>
 
-* PHP 5.4 or higher
-* Joomla 3.3 or above
-* J2Store 3.1.1 or above
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 ## **Installation:**
 
@@ -20,8 +20,4 @@ The app will redirect the customer directly to checkout when they add an item to
 
 ![Cart Configuration - Checkout Redirect](../.gitbook/assets/cartconfiguration-redirect-checkout.png)
 
-
-
-
-
-\
+\\

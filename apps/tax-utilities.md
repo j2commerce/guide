@@ -14,7 +14,7 @@ The app provides a one-stop configuration for the tax set up. The tax utilities 
 
 ## Installation <a href="#installation" id="installation"></a>
 
-You could download the app from the My downloads section under the My account menu of the J2Store site and install it on your site using the Joomla default installer. Once installed, the app can be enabled and configured under J2Store->Apps.
+You could download the app from the My downloads section under the My account menu of the J2Commerce site and install it on your site using the Joomla default installer. Once installed, the app can be enabled and configured under J2Commerce >Apps.
 
 ## Configuration <a href="#configuration" id="configuration"></a>
 
@@ -68,13 +68,9 @@ The user groups chosen in this option would not have tax calculated on the cart 
 
 **J2store Configuration**
 
-&#x20;
-
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/tax-utilities/j2storeconfiguration.png)
 
 **For whole sale users**
-
-&#x20;
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/tax-utilities/wholesaleusers.png)
 
@@ -122,8 +118,6 @@ NOTE: This setting has to be turned on only when you wish that users have to be 
 
 **Tax setup:**
 
-&#x20;
-
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/tax-utilities/taxsetup.png)
 
 \*\*Store address: \*\*
@@ -136,7 +130,7 @@ NOTE: This setting has to be turned on only when you wish that users have to be 
 
 ## Certificate based tax exemption <a href="#certificate-based-tax-exemption" id="certificate-based-tax-exemption"></a>
 
-&#x20;Enabling this option would enable users to be exempted from tax once they upload a file(tax exemption certificate) at the checkout page during registration.
+Enabling this option would enable users to be exempted from tax once they upload a file(tax exemption certificate) at the checkout page during registration.
 
 **Provide certificate based tax exemption**
 
@@ -150,7 +144,7 @@ Enabling this option would display a checkbox asking users to upload a tax exemp
 
 ## Tax rate per user group <a href="#tax-rate-per-user-group" id="tax-rate-per-user-group"></a>
 
-&#x20;This tab has provisions to help you set up user group based tax rates.
+This tab has provisions to help you set up user group based tax rates.
 
 **User group based tax rates**
 
@@ -160,9 +154,6 @@ Enable this option to set up tax rates based on user groups. The available tax r
 
 **Working**
 
-&#x20;
-
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/tax-utilities/usergroupbasedtaxworking.png)
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/tax-utilities/usergroupbasedtax2.png)
-

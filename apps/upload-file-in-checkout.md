@@ -4,22 +4,22 @@ Allow customers to upload one or more files during the order. The app will come 
 
 The store owner can download it from the app’s backend and manage all the uploaded files for an order.
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
-* PHP 5.4 or higher
-* Joomla 3.3 or above
-* J2store 3.2.x or above
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Use the Joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.
+2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 3. Click Enable in the Upload file in checkout app.
 4. Once the app is enabled, open the app to configure the settings.
 
 ![fu01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/upload%20file%20in%20checkout/file_upload_01.png)
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **No of file field display**
 
@@ -49,10 +49,9 @@ By clicking Order File List button on top of the app’s settings page, you can 
 
 Below shortcodes helps you to notify customer that he / she has attached file in this order.
 
-1. \[ORDERFILE\_NOTIFY\]This shortcode will display just the message or information saying that order contains file attachment.
-2. \[ORDERFILE\_LIST\]This shortcode allows you to include download link in email. Use this shortcode in your email template so when customer receives order email, he/she can see the link to download the file that was uploaded.
+1. \[ORDERFILE\_NOTIFY]This shortcode will display just the message or information saying that order contains file attachment.
+2. \[ORDERFILE\_LIST]This shortcode allows you to include download link in email. Use this shortcode in your email template so when customer receives order email, he/she can see the link to download the file that was uploaded.
 
 **Frontend**
 
 ![fu04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/upload%20file%20in%20checkout/file_upload_04.png)
-

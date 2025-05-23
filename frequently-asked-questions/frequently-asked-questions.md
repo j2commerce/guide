@@ -2,11 +2,11 @@
 
 ## Product Options not working or displaying option <a href="#product-options-not-working-or-displaying-option" id="product-options-not-working-or-displaying-option"></a>
 
-This problem may happen due to Jquery.Check your j2store basic settings tab in Joomla admin->J2store->setup->configuration.
+This problem may happen due to Jquery. Check your j2store basic settings tab in Components > J2Commerce > setup > configuration.
 
 You might have set **Load jQuery UI to only frontend**.
 
-It should be always in Both frontend and backend.&#x20;
+It should be always in Both frontend and backend.
 
 {% embed url="https://youtu.be/AA9cLYTuXZE" %}
 
@@ -18,11 +18,11 @@ In the tax profile, it is set to apply billing address.
 
 For the tax rates to show up fine at the cart estimation and the checkout, the associated addresses at the Tax profile and the J2Store configuration tax tab should match.
 
-## Donation plugin is empty.Why? <a href="#donation-plugin-is-emptywhy" id="donation-plugin-is-emptywhy"></a>
+## Donation plugin is empty. Why? <a href="#donation-plugin-is-emptywhy" id="donation-plugin-is-emptywhy"></a>
 
-The donation app adds a Donation option type.&#x20;
+The donation app adds a Donation option type.
 
-* So go to j2store -> catalog ->options.&#x20;
+* So go to j2store -> catalog ->options.
 * Create a New option.
 * Choose the option type as donation
 * Save.
@@ -38,7 +38,7 @@ The donation app adds a Donation option type.&#x20;
 
 J2Store is a B2C solution where you can maintain only one store. It does not support multi-store system. As a result, when an order is placed, all the store administrators will be notified.
 
-If you just want the email notifications to be controlled and made dependent on the category,then a custom app could be developed that will send email for the party concerned.
+If you just want the email notifications to be controlled and made dependent on the category, then a custom app could be developed that will send email for the party concerned.
 
 ## New Line Characters (\r\n) in Checkout form <a href="#new-line-characters-rn-in-checkout-form" id="new-line-characters-rn-in-checkout-form"></a>
 
@@ -50,7 +50,7 @@ Make sure about two things
 
 1.Setting under J2Store > Configuration > Store > Weight Unit.
 
-![shipping](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/faq\_shipping.png)
+![shipping](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/faq_shipping.png)
 
 2\. Setting under Edit Product > shipping tab
 
@@ -79,21 +79,21 @@ This should solve the issue. If it is already set to Bootstrap 3, then try to se
 
 ## Preview additional image after click <a href="#preview-additional-image-after-click" id="preview-additional-image-after-click"></a>
 
-copy "/components/com_j2store/templates/default/view\__images.php"
+copy "/components/com\_j2store/templates/default/view\_\_images.php"
 
 to
 
-"/templates/YOUR_TEMPLATE/html/com_j2store/templates/default/view\_image.php"
+"/templates/YOUR\_TEMPLATE/html/com\_j2store/templates/default/view\_image.php"
 
 Edit the file and remove the highlighted line fully.
 
 ![preview image](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/previewimage.png)
 
-## Remove Thumbnail image on the Joomla layout  <a href="#remove-thumbnail-image" id="remove-thumbnail-image"></a>
+## Remove Thumbnail image on the Joomla layout <a href="#remove-thumbnail-image" id="remove-thumbnail-image"></a>
 
 * Go to Extensions -> Plugins -> select the type content.
-* &#x20;You can find Content\_J2Store plugin.
-* &#x20;Open the plugin and goto the Item view tab.&#x20;
+* You can find Content\_J2Store plugin.
+* Open the plugin and goto the Item view tab.
 * Set Display image to No.
 
 ## How to display the tax information(Incl. 19% tax) with follow text have to be linked to a several page? <a href="#how-to-display-the-tax-informationincl-19-tax-with-follow-text-have-to-be-linked-to-a-several-page" id="how-to-display-the-tax-informationincl-19-tax-with-follow-text-have-to-be-linked-to-a-several-page"></a>
@@ -102,9 +102,7 @@ Edit the file and remove the highlighted line fully.
 
 Go to J2Store -> Configuration - Tax settingsSet Display tax information below the prices (in product pages) to YES.See the screenshot below
 
-&#x20;
-
-![tax including](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax\_including\_text.png)
+![tax including](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_including_text.png)
 
 It would display a text like this: (Incl. XX% tax )
 
@@ -112,7 +110,7 @@ This might be in English.
 
 You can change this with a language override for below language constant.
 
-Language constant is: J2STORE\__PRICE\__INCLUDING\_TAX
+Language constant is: J2STORE\_\_PRICE\_\_INCLUDING\_TAX
 
 **Step-2 Creating language override**
 
@@ -120,7 +118,7 @@ Go to Extensions -> Language(s) -> select Overrides.
 
 Choose your language(For example, English(en-GB-Administrator)) in filter section and click new on top left.
 
-Add J2STORE\__PRICE\__INCLUDING\_TAX in Language constant text box.
+Add J2STORE\_\_PRICE\_\_INCLUDING\_TAX in Language constant text box.
 
 In Text box, add Inkl %s MwSt (add the link using html anchor tag). For example,
 
@@ -132,13 +130,11 @@ Save and close.
 
 Here is a screenshot showing the language override
 
-&#x20;
-
-![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax\_override.png)
+![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_override.png)
 
 Here is how it looks in the front end
 
-![front end](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/front\_end\_display.png)
+![front end](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/front_end_display.png)
 
 #### Remove image from orders and invoices while the image in cart remains based on the setting
 
@@ -177,7 +173,7 @@ Sometimes you might have added the image of your company logo in your invoice te
 **SOLUTION:**
 
 * It seems due to your cart settings in J2store > configuration.
-* You might have set YES to Prevent customer from checking out if shipping method was   not chosen option in J2store > configuration > cart.
+* You might have set YES to Prevent customer from checking out if shipping method was not chosen option in J2store > configuration > cart.
 * Please make sure before choosing YES to this option you must enable and configure shipping methods. Otherwise it will display the error as No shipping method was selected. Selection of a shipping method is mandatory and prevent customers from placing order.
 
 #### Show/Hide Filters
@@ -186,7 +182,7 @@ Go to menu manager and open the menu which links to J2store > Product List View.
 
 Please refer the below image which shows the name of the filters.
 
-<img src="../.gitbook/assets/faq_filter.png" alt="" data-size="original">&#x20;
+![](../.gitbook/assets/faq_filter.png)
 
 **To hide Top bar filter completely:** Set HIDE to Top bar filters.
 
@@ -233,4 +229,3 @@ The variable product offers variant-specific parameters while the configurable p
 Variable product and configurable products work based on different workflow.
 
 This makes it not possible to combine both the features.
-

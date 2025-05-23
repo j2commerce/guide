@@ -4,16 +4,18 @@ The GDRP Compliance plugin of J2Store makes it feasible for online merchants to 
 
 This plugin now provides users the privilege to have control over their information which they have used on the online store at the time of placing orders or purchasing products.
 
-**Requirements**
+## Requirements <a href="#requirements" id="requirements"></a>
 
-PHP 5.6 or higher J2Store 3.3.1
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 **Installation Instructions**
 
 1. Use the Joomla installer to install the app.
 2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
-![gdpr\_01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_01.png)
+![gdpr\_01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_01.png)
 
 3\. Click Enable in the GDPR app.
 
@@ -43,13 +45,13 @@ General Requirements
 
 This option would allow the display of a GDPR Request tab on the My Profile tab like this:
 
-![gdpr02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_02.png)
+![gdpr02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_02.png)
 
 Thus this paves way for the users to send a custom request to the store administrators.
 
 **GDPR terms and condition**When you switch this option to Yes, the customer would see a statement on the checkout page that would request for the customer’s consent for the GDPR terms and conditions like this:
 
-![gdpr03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_03.png)
+![gdpr03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_03.png)
 
 **Terms display type**
 
@@ -63,33 +65,33 @@ With this option you could associate the terms and conditions article for GDPR r
 
 If you wish to add a prefix to the terms and conditions label for GDPR. For example: If you specify “I agree to” here, then that would be displayed as the screenshot specified here:
 
-![gdpr04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_04.png)
+![gdpr04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_04.png)
 
-For a multi-lingual site, a language constant could be entered here and a [language override](http://docs.j2store.org/articles/2064496-language-overrides-in-joomla-with-examples-using-j2store) could be created.Instance: If you specify the language constant, J2STORE_GDPR_PREFIX here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
+For a multi-lingual site, a language constant could be entered here and a [language override](http://docs.j2store.org/articles/2064496-language-overrides-in-joomla-with-examples-using-j2store) could be created.Instance: If you specify the language constant, J2STORE\_GDPR\_PREFIX here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
 
 **Terms and condition label**
 
 Here you could mention the label of the terms and conditions statement.For example: If we have specified “GDPR”, then it would be displayed on the frontend like this:
 
-![gdpr05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_05.png)
+![gdpr05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_05.png)
 
-For a multi-lingual site, a language constant(apart from the one inserted here already) could be entered here and a language override could be created.Instance: If you specify the language constant, J2STORE_GDPR_TERMS\_LABEL here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
+For a multi-lingual site, a language constant(apart from the one inserted here already) could be entered here and a language override could be created.Instance: If you specify the language constant, J2STORE\_GDPR\_TERMS\_LABEL here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
 
 **Suffix**
 
 The text you specify here will be the one that is displayed on the terms and conditions consent statement at the end.For example: If you have set this text as “terms and conditions”, then it would be displayed as follows:
 
-![gdpr\_06](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_06.png)
+![gdpr\_06](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_06.png)
 
-For a multi-lingual site, a language constant could be entered here and a language override could be created.Instance: If you specify the language constant, J2STORE_GDPR_SUFFIX here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
+For a multi-lingual site, a language constant could be entered here and a language override could be created.Instance: If you specify the language constant, J2STORE\_GDPR\_SUFFIX here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
 
 **Validation message**
 
 You could enter the error message that has to be displayed if the user doesn’t agree to the terms and conditions for GDPR.
 
-![gdpr\_07](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_07.png)
+![gdpr\_07](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_07.png)
 
-For a multi-lingual site, a language constant could be entered here and a [language override](http://docs.j2store.org/articles/2064496-language-overrides-in-joomla-with-examples-using-j2store)could be created.Instance: If you specify the language constant, J2STORE_GDPR_VALIDATION here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
+For a multi-lingual site, a language constant could be entered here and a [language override](http://docs.j2store.org/articles/2064496-language-overrides-in-joomla-with-examples-using-j2store)could be created.Instance: If you specify the language constant, J2STORE\_GDPR\_VALIDATION here, then you could create override for the above constant. Or you could just create an override for the one that is already there.
 
 Buttons for customers
 
@@ -97,4 +99,4 @@ Buttons for customers
 
 This would display a button at the My Profile page allowing the users to delete all their addresses with a single click. The button would be displayed as follows:
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr\_08.png)
+![](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_08.png)

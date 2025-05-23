@@ -2,16 +2,43 @@
 
 The data validation app is especially useful in the checkout page. With the data validation app you can create rules so that only valid data from the customer is accepted into the various checkout fields. A checkout field that requires the phone number of the customer can be configured to accept only a number input from the customer. You can also set it to reject special characters and alphabets. This way the customer will be informed to only enter a valid phone number, address or any other details in the checkout field.
 
-**Requirements**
+## Requirements <a href="#requirements" id="requirements"></a>
 
-Joomla 3.x J2Store 3.2.5 or higher PHP version 5.4 or higher
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
-**Installation**
+## Installation <a href="#installation" id="installation"></a>
 
-* Download Data validation app from our site and install it using Joomla installer.
-* After installing, from Joomla backend go to J2Store &gt; Apps and find Data validation app.
-* Click on Enable to activate the app.
-* Click on Open to configure basic settings of the app.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
+
+<figure><img src="../.gitbook/assets/data-1.png" alt=""><figcaption></figcaption></figure>
+
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+<figure><img src="../.gitbook/assets/data-2.png" alt=""><figcaption></figcaption></figure>
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+<figure><img src="../.gitbook/assets/user-group-3 (3).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 5:** Go back to System > Manage > Extensions.
+
+<figure><img src="../.gitbook/assets/user-group-5 (3).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Search for the app and enable it.
+
+<figure><img src="../.gitbook/assets/data-3.png" alt=""><figcaption></figcaption></figure>
+
+## Settings <a href="#settings" id="settings"></a>
+
+Now it's time to open the app and configure the settings.&#x20;
+
+**Step 1:** Go to Components > J2Commerce > Apps
+
+<figure><img src="../.gitbook/assets/data-4.png" alt=""><figcaption></figcaption></figure>
 
 **Configuration**
 
@@ -23,11 +50,11 @@ Opening the app will show you 3 column table.
 
 **Custom Fields**
 
-All the custom field you have in J2Store custom fields section \(J2Store &gt; Setup &gt; Custom fields\) will be listed in this column.
+All the custom field you have in J2Commerce custom fields section (Components > J2Commerce > Setup > Custom fields) will be listed in this column.
 
 **Rules Apply for**
 
-You can choose at which section \(Billing, Shipping, Payment\) the rule should be applied. Choose Billing or shipping or payment or all the three.
+You can choose at which section (Billing, Shipping, Payment) the rule should be applied. Choose Billing or shipping or payment or all the three.
 
 **Rules**
 
@@ -35,9 +62,11 @@ Click on “Add Rules” button will display the dropdown lists six types of rul
 
 **Available rules are:**
 
-Max.length Min.length Numeric Alphabet Alphanumeric Phone
+Max. length, Min. length, Numeric, Alphabet, Alphanumeric, Phone
 
 You can add multiple rules to every individual field.
+
+<figure><img src="../.gitbook/assets/data-5.png" alt=""><figcaption></figcaption></figure>
 
 **Example**
 
@@ -49,7 +78,4 @@ Now move to the column “Rules” and click Add Rules button. Choose the rules 
 
 **Screenshots**
 
-![dv01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/data_validation/data-validation-01.png)
-
 ![dv02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/data_validation/data-validation-02.png)
-

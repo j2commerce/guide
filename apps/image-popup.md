@@ -1,22 +1,22 @@
 # Image Popup
 
-This app allows customer to view the product images \(main image and additional image\) in popup. The following features are possible with this app
+This app allows customer to view the product images (main image and additional image) in popup. The following features are possible with this app
 
 * Download the product image
 * Share and tweet in social media
 * Zoom in / Zoom out
 * Slideshow image
 
-**Requirements**
+## Requirements <a href="#requirements" id="requirements"></a>
 
-* PHP version 5.4 or higher
-* Joomla version 3.x
-* J2Store 3.2.15 or higher
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 **Installation**
 
 * Use the Joomla installer to install the Image Popup app.
-* In Joomla backend, go to J2Store &gt; Dashboard &gt; Apps
+* In Joomla backend, go to J2Store > Dashboard > Apps
 * Click Enable in the Image Popup app.
 * Click Open to configure the basic settings of the app.
 
@@ -30,9 +30,9 @@ This app allows customer to view the product images \(main image and additional 
 
 ![ip01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/image-pop-up/image_popup_01.png)
 
-**Popup image width** \(Photo Swipe\): Set the width of the image to be displayed in Photo swipe method.
+**Popup image width** (Photo Swipe): Set the width of the image to be displayed in Photo swipe method.
 
-**Popup image height** \(Photo Swipe\): Set the height of the image to displayed in Photo swipe method.
+**Popup image height** (Photo Swipe): Set the height of the image to displayed in Photo swipe method.
 
 ![ip02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/image-pop-up/image_popup_02.png)
 
@@ -43,4 +43,3 @@ This app allows customer to view the product images \(main image and additional 
 ![ip04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/image-pop-up/image_popup_04.png)
 
 ![ip05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/image-pop-up/image_popup_05.png)
-

@@ -4,9 +4,11 @@ Invoice your customers and allow them to pay for the order online at a later dat
 
 Invoice first, collect payment online Allow customers to re-try payment for unpaid orders
 
-**Requirements**
+## Requirements <a href="#requirements" id="requirements"></a>
 
-Joomla 3.x J2Store 3.2.14 or higher PHP version 5.4 or higher
+1. PHP 8.1.0 +
+2. Joomla! 4.x/ Joomla! 5.x +
+3. J2Commerce / J2Store 4.x +
 
 **Installation**
 
