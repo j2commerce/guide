@@ -26,11 +26,11 @@ You can create any number of tabs to display in the product page. You can enter 
 
 **Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
 
-<figure><img src="../.gitbook/assets/user-group-3 (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-3 (7).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Go back to System > Manage > Extensions.
 
-<figure><img src="../.gitbook/assets/user-group-5 (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-5 (7).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 6:** Search for the app and enable it.
 

@@ -30,11 +30,11 @@ When using the donation option type, avoid using another option with a price mod
 
 **Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
 
-<figure><img src="../.gitbook/assets/user-group-3 (4).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-3 (9).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Go back to System > Manage > Extensions.
 
-<figure><img src="../.gitbook/assets/user-group-5 (4).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-5 (9).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 6:** Search for the app and enable it.
 

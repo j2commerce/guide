@@ -1,6 +1,6 @@
 # GDPR compliance
 
-The GDRP Compliance plugin of J2Store makes it feasible for online merchants to comply with the recent GDPR regulations on your store developed with J2Store.
+The GDRP Compliance plugin of J2Commerce makes it feasible for online merchants to comply with the recent GDPR regulations on your store developed with J2Commerce.
 
 This plugin now provides users the privilege to have control over their information which they have used on the online store at the time of placing orders or purchasing products.
 
@@ -10,18 +10,43 @@ This plugin now provides users the privilege to have control over their informat
 2. Joomla! 4.x/ Joomla! 5.x +
 3. J2Commerce / J2Store 4.x +
 
-**Installation Instructions**
+## Installation <a href="#installation" id="installation"></a>
 
-1. Use the Joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
 
-![gdpr\_01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_01.png)
+![gdpr\_01](../.gitbook/assets/GDPR-1.webp)
 
-3\. Click Enable in the GDPR app.
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
 
-4\. Once the app is enabled, click on Open to set the configuration for the app.
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+<figure><img src="../.gitbook/assets/GDPR-2.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+<figure><img src="../.gitbook/assets/user-group-3 (1).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 5:** Go back to System > Manage > Extensions.
+
+<figure><img src="../.gitbook/assets/user-group-5 (1).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Search for the app and enable it.
+
+<figure><img src="../.gitbook/assets/GDPR-3.webp" alt=""><figcaption><p>Enable app</p></figcaption></figure>
+
+## Settings <a href="#settings" id="settings"></a>
+
+Now it's time to open the app and configure the settings.&#x20;
+
+**Step 1:** Go to Components > J2Commerce > Apps. Open App
+
+<figure><img src="../.gitbook/assets/GDPR-4.webp" alt=""><figcaption><p>open app</p></figcaption></figure>
+
+
 
 **Parameters**
+
+<figure><img src="../.gitbook/assets/GDPR-5.webp" alt=""><figcaption></figcaption></figure>
 
 **Notify store administrators about the changes made by the customer to their data??**
 
@@ -49,7 +74,7 @@ This option would allow the display of a GDPR Request tab on the My Profile tab 
 
 Thus this paves way for the users to send a custom request to the store administrators.
 
-**GDPR terms and condition**When you switch this option to Yes, the customer would see a statement on the checkout page that would request for the customer’s consent for the GDPR terms and conditions like this:
+**GDPR terms and condition** When you switch this option to Yes, the customer would see a statement on the checkout page that would request for the customer’s consent for the GDPR terms and conditions like this:
 
 ![gdpr03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gdpr-compliance/gdpr_03.png)
 

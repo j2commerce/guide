@@ -6,20 +6,44 @@ For example, customer adds products to the cart but does not complete the order,
 
 **Here is the reason for generating invoice number:**
 
-Quite a number of gateways including paypal require an invoice number be sent along with the payment request. Some gateways like Mollie require you to register the order with invoice number even before the payment is processed. So invoice number is kinda mandatory in those gateways.
+Quite a number of gateways including paypal require an invoice number be sent along with the payment request. Some gateways like Mollie require you to register the order with invoice number even before the payment is processed. So invoice number is kind of mandatory in those gateways.
 
 **Features**
 
 * Generate sequence invoice number for orders with status “CONFIRMED”.
-* The default invoice number \(used by j2store\) would be used for all orders with the NEW status. You can treat these numbers as temporary numbers.
+* The default invoice number (used by J2Store / J2Commerce) would be used for all orders with the NEW status. You can treat these numbers as temporary numbers.
 * The app also allows you to edit the invoice number and change it manually when required.
 * Allows to define number zeros to be displayed after the invoice number.
 
-**Installation**
+## Installation <a href="#installation" id="installation"></a>
 
-1. Download the Invoice Prefix app generator from our site and install it using Joomla installer.
-2. After installing the app, go to J2Store &gt; Apps and enable the app named Invoice Number Generator.
-3. Once activated, click on open to configure the basic settings of the app.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
+
+<figure><img src="../.gitbook/assets/invoice-gen-1.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+<figure><img src="../.gitbook/assets/invoice-gen-2.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+<figure><img src="../.gitbook/assets/user-group-3 (4).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 5:** Go back to System > Manage > Extensions.
+
+<figure><img src="../.gitbook/assets/user-group-5 (4).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Search for the app Invoice _Number_ Generator and enable it.
+
+<figure><img src="../.gitbook/assets/invoice-gen-3 (1).webp" alt=""><figcaption><p>enable invoice app</p></figcaption></figure>
+
+## Settings <a href="#settings" id="settings"></a>
+
+Now it's time to open the app and configure the settings.&#x20;
+
+**Step 1:** Go to Components > J2Commerce > Apps&#x20;
 
 **Configuration**
 
@@ -29,11 +53,15 @@ The prefix entered here will be used for the sequence invoice number generated.
 
 **Number of leading zeros**
 
-This option allows you to add zeros to be displayed after the invoice prefix and before the invoice number. If you have invoice prefix \(for example **INV-**\) and leading zeros as 4, then the invoice number would like **INV-0001, INV-2,…,INV-0010**. See the image below shows the leading zeros is set to 3 so the invoice numbers are **INVG-001, INVG-002**,..
+This option allows you to add zeros to be displayed after the invoice prefix and before the invoice number. If you have invoice prefix (for example **INV-**) and leading zeros as 4, then the invoice number would like **INV-0001, INV-2,…,INV-0010**. See the image below shows the leading zeros is set to 3 so the invoice numbers are **INVG-001, INVG-002**,..
 
-![ipg01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Invoice-prefix-generator/ipg01.png)
+![invoice settings](<../.gitbook/assets/invoice-gen-5 (2).webp>)
 
-![ipg02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Invoice-prefix-generator/ipg02.png)
+The example below shows no invoice prefix or zeros added before the invoice number.
+
+To view your sales orders go to Components > J2Commerce > Sales > Orders
+
+![ipg02](../.gitbook/assets/invoice-gen-6a.webp)
 
 **Automatically generate invoice number**
 
@@ -41,15 +69,14 @@ Choosing YES will generate the invoice number only when the order status matches
 
 **Generate an invoice number if the order has one of the selected statuses**
 
-The invoice number will be generated only for the orders with the statuses selected here. For example, if you choose the status “Confirmed”, then the invoice number will be generated only for **Confirmed** order status. See the image below
+The invoice number will be generated only for the orders with the statuses selected here. For example, if you choose the status “Confirmed” and "Pending", then the invoice number will be generated only for **Confirmed** and **Pending** order status. See the image below
 
-![ipg03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Invoice-prefix-generator/ipg03.png)
+![ipg03](../.gitbook/assets/invoice-gen-9.webp)
+
+<figure><img src="../.gitbook/assets/invoice-gen-9a.webp" alt=""><figcaption></figcaption></figure>
 
 **Allow editing invoice numbers manually**
 
-Choosing this option YES will allow store owner to edit the invoice number by going to J2Store &gt; Sales &gt; Orders &gt; Edit order. For example sometimes you may need to change the invoice number for particular order status. In this case, you can use this option to edit the invoice number manually. See the image below
+Choosing this option YES will allow store owner to edit the invoice number by going to Component > J2Commerce > Sales > Orders > Edit order. For example sometimes you may need to change the invoice number for particular order status. In this case, you can use this option to edit the invoice number manually. See the image below
 
- 
-
-![ipg04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Invoice-prefix-generator/ipg04.png)
-
+![ipg04](../.gitbook/assets/invoice-gen-8.webp)

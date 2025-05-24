@@ -8,22 +8,51 @@ This app allows store owner to combine the products and sell it as one group pro
 2. Joomla! 4.x/ Joomla! 5.x +
 3. J2Commerce / J2Store 4.x +
 
-**Installation**
+## Installation <a href="#installation" id="installation"></a>
 
-1. Use the joomla installer ot install the app.
-2. Go to J2Store > Apps, find the Group Products app and click enable to activate the app.
-3. Once enabled, you dont need to configure anything in the app. Just go to article manager and click new article.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
+
+<figure><img src="../.gitbook/assets/grouped-product-1.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+<figure><img src="../.gitbook/assets/grouped-product-2.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+<figure><img src="../.gitbook/assets/user-group-3 (3).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 5:** Go back to System > Manage > Extensions.
+
+<figure><img src="../.gitbook/assets/user-group-5 (3).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Search for the app and enable it.
+
+<figure><img src="../.gitbook/assets/grouped-product-3.webp" alt=""><figcaption><p>enable app</p></figcaption></figure>
+
+Once enabled, you don't need to configure anything in the app. Just create a new article by going to Content > Article > New and click new article.
 
 **Group Products**
 
-1. Once you enabled the app, you can see Group Products as one of the product types listed in the product type dropdown. Refer the picture below
-2. Select the product type Group Products and click save.
-3. Go to J2Store cart and scroll down where you can see the navigation menus (General, images,Relations,apps)
-4. In general tab, choose YES to visible in storefront and navigate to apps.
-5. Go to apps tab where you can see the search box to search for the products.
-6. Type two or three characters of your product.
-7. If the product you are searching for is not listed, the reason is that the product might have options. Since this app allows only the product without options, the product with options cannot be added into the group.
-8. Once the products are added, save article and check in the frontend.
+Once you enabled the app, you can see Group Products as one of the product types listed in the product type dropdown. Refer the picture below
+
+<figure><img src="../.gitbook/assets/grouped-product-4.webp" alt=""><figcaption><p>group product type</p></figcaption></figure>
+
+* Select the product type Group Products and click save.
+* Go to J2Store cart and scroll down where you can see the navigation menus (General, images, Relations, apps)
+* In general tab, choose YES to visible in storefront and navigate to apps.
+
+<figure><img src="../.gitbook/assets/grouped-product-4 (1).webp" alt=""><figcaption></figcaption></figure>
+
+* Go to apps tab where you can see the search box to search for the products.
+* Type two or three characters of your product. You can either type the name or SKU #.
+* If the product you are searching for is not listed, the reason is that the product might have /variants. Since this app allows only the product without options/variants, the product with options cannot be added into the group.
+
+<figure><img src="../.gitbook/assets/grouped-product-6.webp" alt=""><figcaption></figcaption></figure>
+
+* Once the products are added, save article and check in the frontend.
 
 ![gp05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/groupproduct_05.png)
 
@@ -31,7 +60,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 Let’s imagine the scenario, where you own a online book store and you wish to sell both the physical book and the digital copy of the book, then grouped products could be a boon to you.
 
-Grouped product comes handy especially when you don’t want the user to go searching for the physical book in two different places and when you wish to allow the buyer to choose whether to buy the physical product or the digital copy of the product.Now, let us get to know how to create a grouped product for the above scenario.
+Grouped product comes handy especially when you don’t want the user to go searching for the physical book in two different places and when you wish to allow the buyer to choose whether to buy the physical product or the digital copy of the product. Now, let us get to know how to create a grouped product for the above scenario.
 
 Procedure to be followed
 

@@ -13,12 +13,25 @@ This app allows customer to view the product images (main image and additional i
 2. Joomla! 4.x/ Joomla! 5.x +
 3. J2Commerce / J2Store 4.x +
 
-**Installation**
+## Installation <a href="#installation" id="installation"></a>
 
-* Use the Joomla installer to install the Image Popup app.
-* In Joomla backend, go to J2Store > Dashboard > Apps
-* Click Enable in the Image Popup app.
-* Click Open to configure the basic settings of the app.
+**Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
+
+**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+
+**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+
+**Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
+
+**Step 5:** Go back to System > Manage > Extensions.
+
+**Step 6:** Search for the app and enable it.
+
+## Settings <a href="#settings" id="settings"></a>
+
+Now it's time to open the app and configure the settings.&#x20;
+
+**Step 1:** Go to Components > J2Commerce > Apps&#x20;
 
 **Basic Settings**
 

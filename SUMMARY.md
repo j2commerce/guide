@@ -202,7 +202,7 @@
   * [Data validation](apps/data-validation.md)
   * [Donation](apps/donation.md)
   * [Drop-box](apps/drop-box.md)
-  * [Email basket Plugin](apps/email-basket-plugin/README.md)
+  * [Email Basket Plugin](apps/email-basket-plugin/README.md)
     * [Email basket issues](apps/email-basket-plugin/email-basket-issues.md)
   * [GDPR compliance](apps/gdpr-compliance.md)
   * [Google-analytics-ecommerce-tracking](apps/google-analytics-ecommerce-tracking.md)

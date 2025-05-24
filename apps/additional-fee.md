@@ -20,11 +20,11 @@
 
 **Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
 
-![Additional fee open](<../.gitbook/assets/user-group-3 (6).webp>)
+![Additional fee open](<../.gitbook/assets/user-group-3 (11).webp>)
 
 **Step 5:** Go back to System > Manage > Extensions.
 
-<figure><img src="../.gitbook/assets/user-group-5 (6).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-group-5 (11).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 6:** Search for the app and enable it.
 
