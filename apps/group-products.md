@@ -14,7 +14,7 @@ This app allows store owner to combine the products and sell it as one group pro
 
 <figure><img src="../.gitbook/assets/grouped-product-1.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Group Products App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

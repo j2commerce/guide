@@ -8,7 +8,7 @@ The apps allows you to track the sales, your customers and their behavior. This 
 
 <figure><img src="../.gitbook/assets/google-1.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Google Analytics eCommerce Tracking App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

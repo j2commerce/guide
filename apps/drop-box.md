@@ -53,7 +53,7 @@ You can use the app’s settings to choose whether to send a temporary URL or pe
 
 <figure><img src="../.gitbook/assets/dropbox-2.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Dropbox App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

@@ -14,7 +14,7 @@ This app enables change password feature in J2Commerce's My Profile page. It all
 
 <figure><img src="../.gitbook/assets/change-1.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Change Password App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

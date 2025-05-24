@@ -1,12 +1,12 @@
 # Invoice Prefix Generator
 
-This app allows you to generate a sequential invoice number for orders with **Confirmed** status using the prefix you have entered in the app.
+This app allows you to generate a sequential invoice number for orders with **Confirmed** status using the prefix you have entered in the app. You can also add it to All statuses, not just confirmed.&#x20;
 
 For example, customer adds products to the cart but does not complete the order, but there is still an invoice number generated.
 
 **Here is the reason for generating invoice number:**
 
-Quite a number of gateways including paypal require an invoice number be sent along with the payment request. Some gateways like Mollie require you to register the order with invoice number even before the payment is processed. So invoice number is kind of mandatory in those gateways.
+Quite a number of gateways including PayPal require an invoice number be sent along with the payment request. Some gateways like Mollie require you to register the order with invoice number even before the payment is processed. So an invoice number is kind of mandatory in those gateways.
 
 **Features**
 
@@ -21,7 +21,7 @@ Quite a number of gateways including paypal require an invoice number be sent al
 
 <figure><img src="../.gitbook/assets/invoice-gen-1.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Invoice Prefix Generator App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

@@ -17,7 +17,7 @@ This app allows customer to view the product images (main image and additional i
 
 **Step 1:** Go to our [J2Commerce website](https://www.j2commerce.com/) > Extensions > Apps
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Image Popup App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

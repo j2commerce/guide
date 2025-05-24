@@ -14,7 +14,7 @@ The data validation app is especially useful in the checkout page. With the data
 
 <figure><img src="../.gitbook/assets/data-1.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the Data Validation App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 

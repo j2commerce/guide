@@ -16,7 +16,7 @@ This plugin now provides users the privilege to have control over their informat
 
 ![gdpr\_01](../.gitbook/assets/GDPR-1.webp)
 
-**Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
+**Step 2:** Locate the GDPR App > click View Details > Add to cart > Checkout.&#x20;
 
 **Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 
