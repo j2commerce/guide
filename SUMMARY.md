@@ -18,7 +18,7 @@
 * [Quickstart guide](quick-start-guide.md)
 * [Product Types](product-types/README.md)
   * [Simple product](product-types/simple-product.md)
-  * [Variable product](product-types/variable-product.md)
+  * [Advanced Variable product](product-types/variable-product.md)
   * [Configurable product](product-types/configurable-product.md)
   * [Flexible variable product](product-types/flexible-variable-product.md)
   * [Downloadable product](product-types/downloadable-product.md)

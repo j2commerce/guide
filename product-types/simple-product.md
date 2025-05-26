@@ -231,11 +231,17 @@ Select ‘Yes’ if you want inventory management. Enter all the fields as requi
 
 ![Adding images](<../.gitbook/assets/simple-images-new (1).webp>)
 
-To add an image, click the green button, ‘Select', which will bring up a pop-up window, where you can select the product image. You need to load the image in the top window to select an image. To load an image, select the source by the browse button, upload it, and insert it.&#x20;
+To add an image, click the green button, ‘Select', which will bring up a pop-up window, where you can select the product image. The image below shows how to create a new image folder. Once you have created or located an existing folder, just double-click to open it. Once inside the folder, you can either upload a new image or select an existing image and click 'Select/ to add it to the product
 
 See the image below:
 
-![Image upload](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-image-upload.png)
+![Image upload](../.gitbook/assets/simple-image1-new.webp)
+
+<figure><img src="../.gitbook/assets/simple-image2-new.webp" alt=""><figcaption><p>image selection</p></figcaption></figure>
+
+Now the image has been added to your main product with an image description for the visually impaired shoppers
+
+<figure><img src="../.gitbook/assets/simple-image3-new.webp" alt=""><figcaption><p>images added</p></figcaption></figure>
 
 **Shipping:** Enter the options with details according to your needs to enable shipping, the dimensions and weight of the product, and classes for length and weight.&#x20;
 

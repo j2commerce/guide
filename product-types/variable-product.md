@@ -1,12 +1,10 @@
-# Variable product
+# Advanced Variable product
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 
 Variable is a complex product type. It lets you define variations of a product where each variant may have different attributes, e.g. SKU, price and stock level.
 
-```
-Since this is a complex product type, it might take some time (quite some time) to create it. You will need a lot of patience and also require quite some work. So be prepared.
-```
+_**Note: Since this is a complex product type, it might take some time (quite some time) to create it. You will need a lot of patience and also require quite some work. So be prepared.**_
 
 A perfect example for a variable product is: T-shirts. T-shirts always come with a size and colour combination. Example: Small-Blue, Small-Red, Small-Green.
 
