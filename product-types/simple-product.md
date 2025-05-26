@@ -4,7 +4,9 @@
 
 A most common product type. It suits the requirements of most of the store owners.
 
-You can create a simple product with or without product options. The inventory for this product type is managed for the primary product (Not for the options). All option types can be associated with the simple product.
+You can create a simple product with or without product options. The inventory for this product type is managed for the primary product (Not for the options). All option types can be associated with the simple product. A simple product is great for someone who only needs to keep track of inventory for the primary product, and there is only one SKU for all of the options the product offers, ie: size, color, etc.&#x20;
+
+**Note: If you have multiple SKUs and want to keep track of individual inventory, then you would want to set up your product as a Flexible or Advanced Product instead of a Simple Product.**
 
 ![Simple product dashboard](../.gitbook/assets/simple-menu-bar-new.webp)
 
@@ -77,10 +79,10 @@ NOTE: This notification will display if:
 
 This option is for those who sell fast-moving products. So even if a product stock reaches 0, the customers could still order.
 
-* **Stock Status:** Select stock status i.e., In stock or Out of stock
+* **Stock Status:** Select stock status, i.e, In stock or Out of stock
 * **Notify if stock goes below:** Set minimum stock level for low stock alert
 * **Quantity Restriction:** Choose whether the purchase quantity is restricted, and if 'Yes', set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
-* **Use store configuration:** If you select 'Use store configuration' you cannot enter the max and min quantity fields, as they will be disabled
+* **Use store configuration:** If you select 'Use store configuration', you cannot enter the max and min quantity fields, as they will be disabled
 
 ### Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 
@@ -255,7 +257,11 @@ Once you are finished adding the options, you can select if you want them to be 
 
 <figure><img src="../.gitbook/assets/simple-options-new (1).webp" alt=""><figcaption></figcaption></figure>
 
-Next you will want to show all of the attributes for each option. This can be done by clicking on 'Set Option Value'. For example, if the product offers different sizes, then click on each size that is offered. Repeat this for each size and then do the same thing for the next option that you set up. See image below
+Next, you will want to show all of the attributes for each option. This can be done by clicking on 'Set Option Value'. For example, if the product offers different sizes, then click on each size that is offered. Repeat this for each size and then do the same thing for the next option that you set up.&#x20;
+
+If the attributes are all the same pricing then leave the price section blank but if you want to charge more or less for a specific attribute then you can specify that in this section. for example. If the 30 ft option is $5 more than the primary product, you will want the Prefix set as '+' and the Price set as $5.00. And if the 10 ft option is offered at $2 less than the primary product, then set the Prefix as '-' and the Price as $2.00. See example below.
+
+See image below
 
 <figure><img src="../.gitbook/assets/simple-options-2.webp" alt=""><figcaption></figcaption></figure>
 
