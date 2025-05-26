@@ -271,6 +271,10 @@ See image below
 
 <figure><img src="../.gitbook/assets/simple-options-2.webp" alt=""><figcaption></figcaption></figure>
 
+The image below shows what your product will look like on the front end after adding your specific options and image.
+
+<figure><img src="../.gitbook/assets/simple-product.webp" alt=""><figcaption></figcaption></figure>
+
 **Filters:** You can filter the products by their name or type to narrow the search. Just like 'options', you need to set this up beforehand. Go to _**Components > J2Commerce > Catalog > Filter / Specifications > New.**_&#x20;
 
 For example, if you want ‘Electronics’ as a filter, only electronics goods will be searched for your product, thus saving time. You can set filters as shown in the image.
