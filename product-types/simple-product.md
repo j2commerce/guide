@@ -199,7 +199,7 @@ Have a look at the image below:
 * The next option is product type. From the available list, select ‘Simple’, as shown in the image.
 * Now click the button, ‘save and continue’.
 
-<figure><img src="../.gitbook/assets/creating-products-new.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/creating-products-new (1).webp" alt=""><figcaption></figcaption></figure>
 
 Your product will be saved, and it will continue to configure the product. Now, add a description to your product in the editor.&#x20;
 
