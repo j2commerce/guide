@@ -40,9 +40,11 @@ Now, check the image below:
 
 ![Pricing tab](../.gitbook/assets/simple-pricing-new.webp)
 
-As illustrated in the image, you can set the regular price by entering the value in the text box. If you want advanced pricing, click the ’**Set Prices**’ button, and it will open up a pop-up window to allow you to set an advanced price setting.
+As illustrated in the image, you can set the regular price by entering the value in the text box.  If you want advanced pricing, which is special pricing for certain groups ie: VIPs, Managers, Developers, Schools, etc., click the ’**Set Prices**’ button and it will open up a pop-up window to allow you to set an advanced price setting.
 
-Let us see how it happens. Check the image below:
+Leave the date range blank if you want that specific group to awlays receive the special pricing.
+
+Check the image below:
 
 ![Advanced pricing](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/simple-product/simple-pro-advanced-pricing.png)
 
@@ -59,7 +61,9 @@ If you want to remove that, you can do it by clicking the **Remove** button.
 
 * This is J2Commerce PRO exclusive feature \*
 
-This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory. Check the image below:
+This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory.&#x20;
+
+Check the image below:
 
 ![Simple product inventory](../.gitbook/assets/simple-inventory-new.webp)
 

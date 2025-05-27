@@ -6,33 +6,48 @@ As the name suggests, you can allow customers to configure before adding the pro
 
 Think of a visiting card. Customer will be asked first to select the type of paper first. Depending on his selection, subsequent options like colour will appear.
 
-![Choosing the product type](../.gitbook/assets/config-pro-choose-type.webp)
+Start by creating a 'New' Article. Go to Content > Article > New.
+
+Name your product and then go to the J2Commerce tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Configurable'
+
+See image below
+
+![Choosing the product type](../.gitbook/assets/config-create-new.webp)
 
 The settings for this product are exactly similar to that of simple product except in the options tab, where there is an additional field **Parent Option** is available to select a parent option. In the options listed, for all options, except first one, a parent option can be selected.
 
 ### General <a href="#general" id="general"></a>
 
-![General tab](<../.gitbook/assets/simple j2-general2 (5).webp>)
+The general tab has several fields, in which we need to enter the necessary and relevant details, attached with the product.
 
-* Visible in Storefront: First select whether the product is to be displayed in front of the store and this is a mandatory option to be selected
-* SKU: Enter the SKU number of the product
-* UPC/EAN/JAN/ISBN: Enter UPC/EAN/JAN/ISBN code for the product whichever is relevantUPC - Universal Product Code (In US/North America) EAN - European Article Number (Outside North America/Europe)JAN - Japanese Article Number (Only in Japan)ISBN - International Standard Book Number (Globally) MPN - Manufacturer Part Number (Globally)
-* Brand or Manufacturer: Select the brand or manufacturer of the product from the available list
-* Vendor: Select the vendor from whom the product is available for purchase - Note: This feature is available in J2Commerce PRO version only
-* Tax Profile: Specify whether the product is taxable, and if s,o select the tax profile relevant to the product
-* Main Tag: The tag selected here will be used for the canonical URL. More details about the canonical URL can be found here [click here](https://docs.j2store.org/catalog/\[http://docs.j2store.org/canonical-url-plugin]\(%3Chttp:/docs.j2store.org/canonical-url-plugin%3E\))
-* Cart Button Text - Enter the text to be displayed in the cart button.
-* Product CSS class - Use this option to add a unique CSS class to each product.
+Have a look at the image below:
+
+![General tab](../.gitbook/assets/config-general_new.webp)
+
+* t.
+* **Visible in Storefront:** \* **IMPORTANT**: Set this to YES if you want this product to be shown in the storefront.
+* **SKU:** Enter the SKU number of the product
+* **UPC/EAN/JAN/ISBN:** Enter UPC/EAN/JAN/ISBN code for the product, whichever is relevant. UPC - Universal Product Code (In US/North America) EAN - European Article Number (Outside North America/Europe) JAN - Japanese Article Number (Only in Japan) ISBN - International Standard Book Number (Globally) MPN - Manufacturer Part Number (Globally)
+* **Brand or Manufacturer:** Select the brand or manufacturer of the product from the available list
+* **Vendor:** Select the vendor from whom the product is available for purchase. Note: This feature is available in J2Commerce PRO version only
+* **Tax Profile:** Specify whether the product is taxable, and if so, select the tax profile relevant to the product
+* **Main Tag:** The tag selected here will be used for the canonical URL. More details about the canonical URL can be found [here](http://docs.j2store.org/canonical-url-plugin)
+* **Cart Button Text:** Enter the text to be displayed in the cart button
+* **Product CSS class:** Use this option to add a unique CSS class to each product.
 
 ### Pricing <a href="#pricing" id="pricing"></a>
 
-The pricing section will guide you to understand how to set regular pricing and advanced pricing for a product. Consider the image below:
+Add the price of your product. Depending on your requirements, you can also choose to configure an advanced pricing plan from here.
 
-![Pricing](../.gitbook/assets/config-pro-pricing2.webp)
+Now, check the image below:
 
-As illustrated in the image, you can set the regular price by entering the value in the text box. If you want advanced pricing, click the ’**Set Prices**’ button and it will open up a pop-up window to allow you to set an advanced price setting.
+![Pricing](../.gitbook/assets/config-pricing-new.webp)
 
-Let us see how it happens. Check the image below:
+As illustrated in the image, you can set the regular price by entering the value in the text box. If you want advanced pricing, which is special pricing for certain groups ie: VIPs, Managers, Developers, Schools, etc., click the ’**Set Prices**’ button and it will open up a pop-up window to allow you to set an advanced price setting.
+
+Leave the date range blank if you want that specific group to awlays receive the special pricing.&#x20;
+
+Check the image below:
 
 ![Advanced pricing](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-adv-pricing.png)
 
@@ -45,28 +60,36 @@ The price will be added and displayed below. You can edit that if you need, and 
 
 ### Inventory <a href="#inventory" id="inventory"></a>
 
-**This is J2Commerce PRO exclusive feature**
+* This is J2Commerce PRO exclusive feature \*
 
-![Inventory](../.gitbook/assets/config-pro-inventory2.webp)
+This tab has the configuration setup facility for inventory management. Here you can set the following details with respect to inventory.&#x20;
 
-* Manage Stock - To enable Stock Management, Select Yes
-* Stock Quantity - Enter the initial stock quantity
-* Allow Backorders - Choose from the options whether or not to allow backorders to customers, i.e., the customer can order a product even if there is No Stock Allow but notify customers - The second option would allow customers to purchase a product even if it is not in stock. A message will appear (a notification) before the price stating that: This item can be backordered
+Check the image below:
 
-This comes from the language file. The constant is: J2STORE\_BACKORDER\_NOTIFICATION
+![Inventory](../.gitbook/assets/config-inventory-new.webp)
 
-You can write a language override for this constant and display a customized message.
+*
 
-NOTE: This notification will display if:
+    From the image, you can understand the following:
 
-* Stock is 0
+    * **Manage Stock:** To enable Stock Management, select 'Yes'
+    * **Stock Quantity:** Enter the initial stock quantity
+    * **Allow Backorders:** Choose from the options whether or not to allow backorders to customers, i.e., the customer can order a product even if there is 'No stock allow but notify customers'. The second option would allow customers to purchase a product even if it is not in stock. A message will appear (a notification) before the price stating that: This item can be backordered.
 
-This option is for those who sell fast-moving products. So even if a product stock reaches 0, the customers could still order.
+    This comes from the language file. The constant is: J2COMMERCE\_BACKORDER\_NOTIFICATION
 
-* Stock Status - Select stock status i.e., In stock or Out of stock
-* Notify if stock goes below - Set minimum stock level for low stock alert
-* Quantity Restriction - Choose whether the purchase quantity is restricted, and if Yes, set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
-* Use store configuration - If you select ‘Use store configuration’, you cannot enter the max and min quantity fields, as they will be disabled
+    You can write a language override for this constant and display a customized message.
+
+    NOTE: This notification will display if:
+
+    * Stock is 0
+
+    This option is for those who sell fast-moving products. So even if a product stock reaches 0, the customers could still order.
+
+    * **Stock Status:** Select stock status, i.e, In stock or Out of stock
+    * **Notify if stock goes below:** Set minimum stock level for low stock alert
+    * **Quantity Restriction:** Choose whether the purchase quantity is restricted, and if 'Yes', set the limits for minimum and maximum quantity for a purchase by entering the quantities in the fields provided
+    * **Use store configuration:** If you select 'Use store configuration', you cannot enter the max and min quantity fields, as they will be disabled
 
 ### Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 
@@ -74,39 +97,43 @@ This option is for those who sell fast-moving products. So even if a product sto
 
 ### Images <a href="#images" id="images"></a>
 
-In this tab, you can add images that can help the customer in a clearer understanding of the product he wants to buy. Images help the prospect to imagine what the product intend to purchase will look like.
+In this tab, you can add images that can help the customer in a clearer understanding of the product he wants to buy. Images help the prospect to imagine what the product they intend to purchase will look like.
 
 See the image below:
 
-![Images](<../.gitbook/assets/config- j2-images2.webp>)
+![Images](../.gitbook/assets/config-image-new.webp)
 
 Let us understand this with an example.
 
 Let's assume that a customer would like to purchase a pizza. You need pizza images to be loaded in this tab.
 
-* Main Image: The main image will be a general photo image of the pizza, which has to be uploaded by clicking on the ‘Select an image’ button and selecting the appropriate image from the files.
-* Thumbnail Image: The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, which will be shown in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the pizza.
-* Additional Images: Additional images help the customer to know more details about the pizza, which will be showing the pizza view in many variations, with other add ons, and the customer will understand it clearly how it looks like, what are the add-ons available with the pizza, the prize, and so on.
+* **Main Image:** The main image will be a general photo image of the pizza, which has to be uploaded by clicking on the ‘Select an image’ button and selecting the appropriate image from the files.
+* **Thumbnail Image:** The thumbnail image would be something that represents the original product, but it would be a much smaller one to fit into a button, which will be shown in the cart. By seeing this, the customer will understand that his product is displayed on the button and will click the button to see more details about the pizza.
+* **Additional Images:** Additional images help the customer to know more details about the pizza, which will be showing the pizza view in many variations, with other add ons, and the customer will understand it clearly how it looks like, what are the add-ons available with the pizza, the prize, and so on.
 
 The button with the caption, **Add more images**, when clicked, inserts a new row below the **Additional images** to select another image of the product.
 
 ### Shipping <a href="#shipping" id="shipping"></a>
 
-![Shipping](../.gitbook/assets/config-pro-shipping2.webp)
+This tab has the configuration settings for shipping. Any product that has been purchased has to be shipped to the customer if the product is physically deliverable.
+
+Consider the image below:
+
+![Shipping](../.gitbook/assets/config-shipping-new.webp)
 
 As shown in the image, you need to do the following activities to configure shipping:
 
-* Enable Shipping: Select Yes to enable shipping
-* Dimensions: Enter the dimensions of the packed product in Length x Width x Height
-* Length Class: Choose a length class from the list e.g., cm, mm, inch, etc.
-* Weight: Enter the net weight of the product when packed in the field provided
-* Weight Class: Select the weight class from the list like Kg, grams, pounds, etc.
+* **Enable Shipping:** Select Yes to enable shipping
+* **Dimensions:** Enter the dimensions of the packed product in Length x Width x Height
+* **Length Class:** Choose a length class from the list e.g., cm, mm, inch, etc.
+* **Weight:** Enter the net weight of the product when packed in the field provided
+* **Weight Class:** Select the weight class from the list, like Kg, grams, pounds, etc.
 
 This configuration will be loaded when shipping is selected.
 
 ### Options <a href="#options" id="options"></a>
 
-Pay close attention when you add options. Because you can configure the parent-child relationship between the options.
+Pay close attention when you add options. Because you can configure the parent-child relationship between the options.&#x20;
 
 ![Adding options](../.gitbook/assets/config-pro-adding-options.webp)
 
@@ -114,7 +141,9 @@ Once you select the option from the dropdown list, it will be added, as you can 
 
 ![Setting option values](../.gitbook/assets/config-pro-option-value2.webp)
 
-Now, save the image and your option will be saved. Now, you will get a link ’**Set option values**’ near the option name. Click this link to get a pop-up window, where you can set values specific to the newly created options. Here is how it happens, as shown below:
+Now, save the image and your option will be saved. Now, you will get a link ’**Set option values**’ near the option name. Click this link to get a pop-up window, where you can set values specific to the newly created options. For example. If a red, yellow and gree hose is for sale and they come in different lengths but not all of them come in all of the same lengths, you can make it to where the options only work for the color/length that are available together.&#x20;
+
+Here is how it happens, as shown below:&#x20;
 
 ![Defining option values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-option-values-def.png)
 
