@@ -2,17 +2,17 @@
 
 In this page, the information to add new custom options are given
 
-## Unique Name <a id="unique-name"></a>
+## Unique Name <a href="#unique-name" id="unique-name"></a>
 
 A unique name should be given for every option since ambiguity should not arise out of that. Otherwise, if two options have same name, things would mess up.
 
-## Display / Presentation <a id="display--presentation"></a>
+## Display / Presentation <a href="#display--presentation" id="display--presentation"></a>
 
 What is given here will be displayed for that option.
 
-## Type <a id="type"></a>
+## Type <a href="#type" id="type"></a>
 
-There are 9 types of options available in J2Store. Of the 9, 3 options have multiple option values. Here is how it goes…
+There are 9 types of options available in J2Commerce/J2Store. Of the 9, 3 options have multiple option values. Here is how it goes…
 
 1. Dropdown
 2. Radio
@@ -45,25 +45,22 @@ Other available options are:
 
 For these options, setting up of option values is not possible.
 
-**Important Note:** Except _Dropdown_ and _Radio_, all other options are available only in **J2Store PRO** version.
+**Important Note:** Except _Dropdown_ and _Radio_, all other options are available only in **J2Commerce PRO** version.
 
 Also, the images set for the options would only be visible for radio type options and not others.
 
-## Limitations <a id="limitations"></a>
+## Limitations <a href="#limitations" id="limitations"></a>
 
- NOTE: The variable product type alone does NOT support Text, Textarea, File, Date, Datetime and time option types.
+NOTE: The variable product type alone does NOT support Text, Textarea, File, Date, Datetime and time option types.
 
 In other words variable product type supports only Radio and Dropdown option types.
 
-## Video Tutorials: <a id="video-tutorials"></a>
+## Video Tutorials: <a href="#video-tutorials" id="video-tutorials"></a>
 
- Here are videos that could help you create options and associate them with products:
+Here are videos that could help you create options and associate them with products:
 
 {% embed url="https://youtu.be/qCAg-auEoHg" %}
 
 {% embed url="https://youtu.be/12WWF5vU7s0" %}
 
 {% embed url="https://youtu.be/9bLm8obOcn0" %}
-
-
-

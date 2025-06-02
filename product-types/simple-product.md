@@ -6,6 +6,10 @@ A most common product type. It suits the requirements of most of the store owner
 
 You can create a simple product with or without product options. The inventory for this product type is managed for the primary product (Not for the options). All option types can be associated with the simple product. A simple product is great for someone who only needs to keep track of inventory for the primary product, and there is only one SKU for all of the options the product offers, ie: size, color, etc.&#x20;
 
+Start by creating a 'New' Article. Go to Content > Article > New.
+
+Name your product and then go to the J2Commerce (J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Simple'.
+
 **Note: If you have multiple SKUs and want to keep track of individual inventory, then you would want to set up your product as a Flexible or Advanced Product instead of a Simple Product.**
 
 ![Simple product dashboard](../.gitbook/assets/simple-menu-bar-new.webp)

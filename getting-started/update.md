@@ -10,7 +10,7 @@ In our website’s My Downloads section. Click on your profile on the top right 
 
 <figure><img src="../.gitbook/assets/download id.webp" alt=""><figcaption></figcaption></figure>
 
-You should copy the Download ID and paste it in J2Commerce - Setup - Configuration - Update tab.
+You should copy the Download ID and paste it in J2Commerce > Setup > Configuration > Update tab.
 
 **NOTE:** If you have reset your password on our site, then a new download ID will be issued (due to security reasons and to prevent unauthorized access.) Please make sure that the Download ID is correct.
 

@@ -35,10 +35,10 @@ If this option is enabled, J2Commerce loads the J2Commerce.css file for customiz
 
 This option is the same as the previous one. Here, there are four options available for selection.
 
-1. **No -> Do not load jQuery UI**
-2. **Only Frontend -> Load jQuery UI for frontend only**
-3. **Only Backend -> Load jQuery UI for backend only**
-4. **Both frontend and backend -> Load jQuery UI for frontend and backend**
+1. **No > Do not load jQuery UI**
+2. **Only Frontend > Load jQuery UI for frontend only**
+3. **Only Backend > Load jQuery UI for backend only**
+4. **Both frontend and backend > Load jQuery UI for frontend and backend**
 
 **Load jQuery UI Localisation for date picker:** The date picker will be translated in your language when you set this to YES.
 

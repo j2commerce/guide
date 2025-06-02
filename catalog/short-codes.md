@@ -2,11 +2,11 @@
 
 Shortcodes are for Joomla article layouts.
 
-The purpose of providing those short codes are because Joomla layouts are not under j2Commerce’s control. It is developed and maintained by Joomla.
+The purpose of providing those short codes are because Joomla! layouts are not under J2Commerce’s control. It is developed and maintained by Joomla.
 
 However product list layout / product pages are meant for displaying product and maintained by J2Commerce. It already has the code (PHP code) in its view files to display products and elements.
 
-However, article layouts / core joomla layouts dont. That is why the short code is processed. So the short codes are provided for Joomla layouts. They wont work in J2Commerce’s product layouts.
+However, article layouts / core Joomla! layouts dont. That is why the short code is processed. So the short codes are provided for Joomla layouts. They wont work in J2Commerce’s product layouts.
 
 ```
 Adding more short codes to j2commerce pages (which already processes the products) would result in force processing / invoking j2store again and again resulting in performance issues.
@@ -34,33 +34,33 @@ These additional short codes will work in all **Add to cart** placement modes. P
 
 List of shortcodes available and their description
 
-**cart** - Full cart with price, options and add to cart button{j2store}XX|cart{/j2store}
+**cart** - Full cart with price, options and add to cart button {j2store}XX|cart{/j2store}
 
-**Price** - This short code indicates both regular price and selling price{j2store}XX|price{/j2store}
+**Price** - This short code indicates both regular price and selling price {j2store}XX|price{/j2store}
 
 ![Price shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_price.png)
 
 ![Add to cart shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_cart.png)
 
-**Saleprice** - This code is for only the selling price{j2store}XX|saleprice{/j2store}
+**Saleprice** - This code is for only the selling price {j2store}XX|saleprice{/j2store}
 
 ![Sales price](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_sale_price.png)
 
-**Regularprice** - This denotes only the regular price{j2store}XX|regularprice{/j2store}
+**Regularprice** - This denotes only the regular price {j2store}XX|regularprice{/j2store}
 
 ![Regular price](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_regular_price.png)
 
-**Thumbnail** - This indicates a thumbnail is added via the j2store cart -> images tab{j2store}XX|thumbnail{/j2store} ![Thumbnail](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_thumb.png)
+**Thumbnail** - This indicates a thumbnail is added via the J2Commerce (J2Store Cart) tab > images tab {j2store}XX|thumbnail{/j2store} ![Thumbnail](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_thumb.png)
 
-**Mainimage** - This shortcode indicates a main image is added via j2store cart -> images tab{j2store}XX|mainimage{/j2store}
+**Mainimage** - This shortcode indicates a main image is added via J2Commerce (J2Store Cart) tab > images tab {j2store}XX|mainimage{/j2store}
 
 ![Main image](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_main.png)
 
-**Mainadditional** - This is an indication of both main and additional images are added via j2store cart -> images tab{j2store}XX|mainadditional{/j2store}
+**Mainadditional** - This is an indication of both main and additional images are added via J2Commerce (J2Store Cart) tab > images tab{j2store}XX|mainadditional{/j2store}
 
 ![Main additional](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_mainadditional.png)
 
-**Upsells** - This shows up-selling of products{j2store}XX|upsells{/j2store}
+**Upsells** - This shows up-selling of products {j2store}XX|upsells{/j2store}
 
 ![Upsells](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_upsells.png)
 

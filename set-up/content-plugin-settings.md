@@ -9,7 +9,7 @@ To control the display in the cart section, to show or hide the images, enabling
 
 ![Contentplugin-contentfilter](../.gitbook/assets/content2.webp)
 
-* You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Store cart tab on the product articles on the frontend.
+* You would see the following window where you could allow frontend article editing. When the option is set to Yes, the users with appropriate permissions would be able to view the J2Commerce (J2Store cart) tab on the product articles on the frontend.
 
 ![Contentplugin-frontendediting](<../.gitbook/assets/content plugin2.webp>)
 

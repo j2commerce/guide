@@ -51,7 +51,7 @@ Navigate to J2Commerce > Catalog > Products (Or Content > Articles).
 
 ![](../.gitbook/assets/product_list.webp)
 
-Edit the products for which you wish to collect tax. Navigate to the J2Store cart tab. Choose the tax profile and save.
+Edit the products for which you wish to collect tax. Navigate to the J2Commerce (J2Store Cart) tab. Choose the tax profile and save.
 
 ![](../.gitbook/assets/tax_rate2.webp)
 

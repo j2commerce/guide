@@ -8,7 +8,7 @@ Think of a visiting card. Customer will be asked first to select the type of pap
 
 Start by creating a 'New' Article. Go to Content > Article > New.
 
-Name your product and then go to the J2Commerce tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Configurable'
+Name your product and then go to the J2Commerce (J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Configurable'
 
 See image below
 

@@ -53,6 +53,10 @@ As the name suggests, it is very flexible and is based on the cartesian set algo
 
 ## Creating a variable product <a href="#creating-a-variable-product" id="creating-a-variable-product"></a>
 
+Start by creating a 'New' Article. Go to Content > Article > New.
+
+Name your product and then go to the J2Commerce (J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Advanced Variable'.
+
 ### General <a href="#general" id="general"></a>
 
 ![General tab](<../.gitbook/assets/variable product-general-tab2.webp>)

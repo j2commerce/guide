@@ -10,6 +10,10 @@ Since adding / removing a single variant will be possible with this product type
 
 ## How to create FlexiVariable Product:
 
+Start by creating a 'New' Article. Go to Content > Article > New.
+
+Name your product and then go to the J2Commerce (J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Flexible Variable'.
+
 ## General <a href="#general" id="general"></a>
 
 ![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)

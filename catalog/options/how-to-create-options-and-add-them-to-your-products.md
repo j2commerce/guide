@@ -1,57 +1,53 @@
 # How to create options and add them to your products
 
-Who doesn’t prefer choices when they wish to buy their favorite t-shirt ? Obviously, your users would love when the products have additional options. J2Store allows you to create [options of various types](http://docs.j2store.org/catalog/options)
+Who doesn’t prefer choices when they wish to buy their favorite t-shirt ? Obviously, your users would love when the products have additional options. J2Commerce allows you to create [options of various types](http://docs.j2store.org/catalog/options)
 
 Here is how you could create product options and add them to your products.
 
-## Instance: <a id="instance"></a>
+## Instance: <a href="#instance" id="instance"></a>
 
-Lets suppose you are trying to sell a customizable t-shirt. So this t-shirt has options called color, size and requests users to fill in the custom text that they will have to print on the t-shirt.
+Lets suppose you are trying to sell a customizable t-shirt. So this t-shirt has options called colour, size and requests users to fill in the custom text that they will have to print on the t-shirt.
 
 Now that we know the requirements, let us get into the process of setting the options up.
 
-### Creating the options <a id="creating-the-options"></a>
+### Creating the options <a href="#creating-the-options" id="creating-the-options"></a>
 
-* Navigate to **J2Store-&gt;Catalog-&gt;Options.** Click on the New option.
+* Navigate to **Components > J2Commerce > Catalog > Options.** Click on the 'New' option.
 
-![Adding new options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-new.png)
+![Adding new options](../../.gitbook/assets/creating-options.webp)
 
-* Enter the unique name, display or presentation\(in our case, let us create color of the type radio and size of the type checkbox first\).
+* Enter the unique name, display or presentation (in our case, let us create color of the type radio and size of the type checkbox first).
 * Choose the type and set the published status.
-* Add option values, images\(they would be displayed only if the option type is radio\) and specify the ordering\(the order in which they would be listed in the product part\).
+* Add option values, images (they would be displayed only if the option type is radio) and specify the ordering (the order in which they would be listed in the product part).
 
- 
+In the examples below, we are creating 3 different Options. Colour, Size, and Text
 
-![Adding new values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-option-values.png)
+![Adding new values](../../.gitbook/assets/creating-options1.webp)
 
-![Choosing option types](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-choose-option-type.png)
+![Choosing option types](../../.gitbook/assets/creating-options2.webp)
 
-* Create a text area type option for collecting the text to be displayed on the shirt. 
+* Create a text area type option for collecting the text to be displayed on the shirt.
 
-![Adding text type options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-text-type.png)
+![Adding text type options](../../.gitbook/assets/creating-options3.webp)
 
-### Adding the options to your product <a id="adding-the-options-to-your-product"></a>
+### Adding the options to your product <a href="#adding-the-options-to-your-product" id="adding-the-options-to-your-product"></a>
 
-Now, its time to add them to your product, the t-shirt.
+Now, it's time to add them to your product, the t-shirt.
 
-* Navigate to J2Store-&gt;Catalog-&gt;Products.
-*  Edit your product article, click on the J2Store cart tab.
-* Select the options tab at the left pane.
+* Navigate to Content > Articles.
+* Click on your product.&#x20;
+* Click on the J2Commerce (J2Store Cart) tab.
+* Select the options tab.
 
-![Adding options to products](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-opt-to-products.png)
+![Adding options to products](../../.gitbook/assets/creating-options4.webp)
 
-*  Add all the three options and save the article once.
+* Add all three options and save the article once.
 * Click on the Set option values next to the size and color options, one at a time.
-
- 
 
 ![Adding option values to products](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-option-val-inpro.png)
 
 ![Option ordering](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/option-ordering.png)
 
-* Save the product once again. 
-
-
+* Save the product once again.
 
 ![Options frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/option-frontend.png)
-

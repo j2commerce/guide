@@ -6,8 +6,8 @@ The following steps will guide you on how to set advanced pricing for your produ
 
 ## Set advanced pricing <a href="#set-advanced-pricing" id="set-advanced-pricing"></a>
 
-* After creating an article and product type under J2Store cart Tab, Select Save.
-* Navigate to the J2Store Cart Tab > Variants. If there are more than one variant then open each specific variant that will receive special advanced pricing. Enter the regular price that you want the public to see.
+* After creating an article and product type under J2Commerce (J2Store Cart) tab, Select Save.
+* Navigate to the J2Commerce (J2Store Cart) tab > Variants. If there are more than one variant then open each specific variant that will receive special advanced pricing. Enter the regular price that you want the public to see.
 
 ![Pricing tab](../.gitbook/assets/advanced_pricing.webp)
 
@@ -22,7 +22,7 @@ If you are trying to set up date range based discounts, you could do so by setti
 
 **Discount date range: 02-04-2019 to 16-04-2019 Regular price of the product: 20 Discounted price: 10**
 
-Navigate to your product article ->J2Store cart tab >variants > open variants > pricing > Set Prices > mention the date range in the Date range (optional) field, set the discounted rate and click create.
+Navigate to your product article > J2Commerce (J2Store Cart) tab > variants > open variants > pricing > Set Prices > mention the date range in the Date range (optional) field, set the discounted rate and click create.
 
 So when users buy this product, within the above mentioned date range, they would receive the discount mentioned.
 
