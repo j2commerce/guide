@@ -42,12 +42,23 @@ Now, it's time to add them to your product, the t-shirt.
 ![Adding options to products](../../.gitbook/assets/creating-options4.webp)
 
 * Add all three options and save the article once.
-* Click on the Set option values next to the size and color options, one at a time.
 
-![Adding option values to products](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-option-val-inpro.png)
+<figure><img src="../../.gitbook/assets/creating-options5 (1).webp" alt=""><figcaption></figcaption></figure>
 
-![Option ordering](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/option-ordering.png)
 
-* Save the product once again.
+
+* Click on the Set option values next to the size and color options, one at a time. See image below.
+
+<figure><img src="../../.gitbook/assets/creating-options5a.webp" alt=""><figcaption></figcaption></figure>
+
+The pop-up window will allow you to select each attribute that is offered for each option. Every time you add a new attribute, it auto-saves. Click the X in the top right corner when finished.
+
+![Adding option values to products](<../../.gitbook/assets/creating-options6 (1).webp>)
+
+You can also set special pricing for each attribute if different than the main product. In the example below, we have set the size Small to be offered for $3 more and the Mediumium to be $5 more than the rest. The Prefix section determines if it's going to be more or less (+/-) than the main product price.
+
+<figure><img src="../../.gitbook/assets/creating-options7a.webp" alt=""><figcaption></figcaption></figure>
+
+The example below shows what it looks like on the frontend
 
 ![Options frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/option-frontend.png)
