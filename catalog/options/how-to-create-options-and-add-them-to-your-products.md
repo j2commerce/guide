@@ -61,4 +61,4 @@ You can also set special pricing for each attribute if different than the main p
 
 The example below shows what it looks like on the frontend
 
-![Options frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/option-frontend.png)
+![Options frontend](../../.gitbook/assets/creating-options8.webp)
