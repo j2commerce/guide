@@ -2,38 +2,36 @@
 
 Let us suppose that you have already created filters in a particular language and you wish to translate the filters to another language. This is how you could do it.
 
-## INSTANCE: <a id="instance"></a>
+## INSTANCE: <a href="#instance" id="instance"></a>
 
 Languages available on the site: English, German. Filters have been created in language: English. Filters to be translated in language: German.
 
-### Example: <a id="example"></a>
+### Example: <a href="#example" id="example"></a>
 
-Let us assume that we have got the following filter and following values for the filter:
+Let us assume that we have got the following filter and the following values for the filter:
 
-Gender -filter title
+Filter Group: Gender
 
-Male -Filter value 1
+Filter value 1: Male
 
-Female -Filter value 2
+Filter value 2: Female
 
-### Steps to be done: <a id="steps-to-be-done"></a>
+### Steps to be done: <a href="#steps-to-be-done" id="steps-to-be-done"></a>
 
-* Please navigate to J2Store-&gt;Catalog-&gt;Filters/specifications
-* Edit your filter, in our instance, it is the Filter with the title “Gender”
-* Replace the title with the following language constant\(please note that this is custom- defined, you could use any constant on this. Just make sure that you have mentioned the constant in UPPERCASE letters. And make sure that you use the exact constant in the language overrides that we are going to create\): J2STORE\__FILTER\__GENDER
-* Now, replace the values of the filter with custom language constants like this: J2STORE\__GENDER\__MALE, J2STORE\__GENDER\__FEMALE
+* Please navigate to J2Commerce > Catalog > Filters/specifications
+* Edit your filter, in our instance, it is the Filter Group with the title “Gender”
+* Replace the title with the following language constant (please note that this is custom-defined, you could use any constant on this. Just make sure that you have mentioned the constant in UPPERCASE letters. And make sure that you use the exact constant in the language overrides that we are going to create ): J2STORE\_\_FILTER\_\_GENDER
+* Now, replace the values of the filter with custom language constants like this: J2STORE\_\_GENDER\_\_MALE, J2STORE\_\_GENDER\_\_FEMALE
 
-![filterslang](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/filters-lang-const.png)
+![filterslang](../../.gitbook/assets/filters4.webp)
 
 * Now that we have defined our constants, our next step is to create the language override
-* Navigate to Extensions-&gt;Languages-&gt;Overrides-&gt;Choose the language German
+* Navigate to Extensions > Language Overrides > Choose the language German
 
 ![lagchoose](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-fil-overr-choose-lang.png)
 
-* Click the new button and create a override for the constant: J2STORE\__FILTER\__GENDER
+* Click the new button and create an override for the constant: J2STORE\_\_FILTER\_\_GENDER
 * Create an override for the other two constants as well in the same language
-
-  
 
 ![langeditoverride](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-filt-override-german.png)
 
@@ -46,8 +44,6 @@ Female -Filter value 2
 ![chooseenglish](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-filt-choose-eng-lang.png)
 
 * Create language overrides for the three constants here as well and mention the text that has to be displayed on the English site for this filter and the values
-
- 
 
 ![overrideeng](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-filt-override-English-fil-title.png)
 
@@ -72,4 +68,3 @@ Female -Filter value 2
 **German Language:**
 
 ![germnafront](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-fil-Ger-front.png)
-
