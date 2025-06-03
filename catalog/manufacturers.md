@@ -64,7 +64,7 @@ Once you associate manufacturers with the appropriate products, you can also let
 * Post linking brands with the concerned products. Navigate to Menus > Manage.&#x20;
 * Open your product menu > Category View Options tab.
 
-<figure><img src="../.gitbook/assets/manufacturers7a.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/manufacturers7a (1).webp" alt=""><figcaption></figcaption></figure>
 
 * Scroll down to the Filters section. Set the option: **Manufacturer/brand filter** to Show.
 * Set the option **Manufacturer filter listing type** to **Show all filters.**
