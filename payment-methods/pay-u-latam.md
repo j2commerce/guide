@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Pay U Latam
 
 This payment plugin is a for PayU plugin for online payments in Argentina, Brazil, Chile, Colombia, Mexico, Panama, Peru.
@@ -6,7 +10,7 @@ This payment plugin is a for PayU plugin for online payments in Argentina, Brazi
 
 **Configuration** Post installation, the plugin settings can be configured by the following steps:
 
-* Go to Extensions-&gt;Extension manager-&gt;Plugins.
+* Go to Extensions->Extension manager->Plugins.
 * Choose PayU Latam for J2Store to configure.
 
 **Settings**
@@ -56,4 +60,3 @@ Click Save.
 Relevant Screenshot This Screenshot depicts the settings for the plugin:
 
 ![payu backend](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/pay-u-latam/payULatambackend.png)
-

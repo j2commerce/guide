@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Payseal Payment Plugin
 
 This plugin integrates the ICICI Payseal Payment gateway with J2Store.

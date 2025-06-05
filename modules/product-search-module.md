@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Product search module
 
 Having hundreds of products?

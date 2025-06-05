@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Custom Tabs
 
 Do you wish to Create beautiful tabbed-content for your product pages?

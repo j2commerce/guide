@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Squareup Payments
 
 This plugin integrates Square API with J2Store Joomla eCommerce solution. Our plugin accept all major credit cards with J2Store. The Square API provides a secure form for the customers to enter the card details. If you are already using Square POS for your offline store, then this plugin will help you use accept payments in your online store. Thus your payments are kept in one gateway.

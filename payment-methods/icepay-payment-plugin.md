@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Icepay Payment Plugin
 
 This plugin integrates the IcePay Payment gateway with J2Store shopping cart.

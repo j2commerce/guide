@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Secure Trading Plugin
 
 The J2Store SecureTrading Plugin (Payment Pages) requires:

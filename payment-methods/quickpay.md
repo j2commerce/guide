@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # QuickPay
 
 QuickPay enables you to accept a wide range of payment methods, including credit card and bank transfer securely. QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council. You can feel safe with us and your customers safe with you. More information can be found at the [QuickPay](https://quickpay.net/) website.

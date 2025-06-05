@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Creating a Bookable Product
 
 Once the global settings have been completed, we are all set to create a bookable product. To create a bookable product, go to Article Manager and create a new article.

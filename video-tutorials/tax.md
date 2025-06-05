@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Tax
 
 ## Geozone
@@ -35,4 +39,3 @@
 ## Canadian tax profile set up
 
 {% embed url="https://youtu.be/UlnJRsIQ4a0" %}
-

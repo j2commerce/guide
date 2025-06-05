@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Manufacturers
 
 This page contains information about the manufacturers of the products that are listed in J2Commerce.

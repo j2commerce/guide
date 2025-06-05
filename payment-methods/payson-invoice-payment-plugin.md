@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Payson Invoice Payment Plugin
 
 This plugin integrates the Payson’s Invoice Payment gateway with J2Store.
@@ -10,9 +14,9 @@ The plugin has following options:
 
 **Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
-**Agent ID \(API ID\)** The API User ID \(Agent ID\) provided by Payson.
+**Agent ID (API ID)** The API User ID (Agent ID) provided by Payson.
 
-**MD5 Secret \(API Key\)** MD5 Secret \(API Key\) Provided by the Payson.
+**MD5 Secret (API Key)** MD5 Secret (API Key) Provided by the Payson.
 
 **Receiver email** This is your email that you have registered with Payson while opening an account.
 
@@ -32,9 +36,9 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display Text before Payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -42,9 +46,8 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Display Text on Error in Payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display Text on Cancel Payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display Text on Cancel Payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Payment Button Text** The text of the payment button. The button will be displayed at the final checkout step.
 
 **Support** Still have questions? You can post your questions in our support forum: [click here](http://j2store.org/forum/index.html)
-

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Add to user group
 
 The Purpose of this app is to add the users to the user group for selected order status and product selected groups.

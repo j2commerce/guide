@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # FedEx shipping plugin
 
 This plugin integrates J2Commerce with FedEx Shipping rate API.

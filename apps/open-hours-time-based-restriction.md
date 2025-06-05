@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Open hours (time based restriction)
 
 Open hours app allows you to restrict orders from customers based on your store’s operational timings. You can configure your store’s opening and closing time for all days of the week. This means any orders coming in after closing hours will not be accepted.

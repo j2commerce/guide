@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Product Description
 
 By default the Joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.

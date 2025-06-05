@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Flexible variable product
 
 Flexible Variable is an another new product type that we came up with . It is similar to variable product type but it has quiet different feature when compare to variable product type.

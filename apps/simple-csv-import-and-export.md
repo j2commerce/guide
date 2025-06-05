@@ -1,6 +1,10 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Simple CSV import and export tool
 
-## Important instructions before using this app <a id="important-instructions-before-using-this-app"></a>
+## Important instructions before using this app <a href="#important-instructions-before-using-this-app" id="important-instructions-before-using-this-app"></a>
 
 1. Backup your site -Before you tend to use this app for import / export operations, you MUST be careful enough to take a full backup of your site. Use Akeeba backup to take the backup.
 2. Export once -Export your products into .csv format once, to see how the format looks like. Check for field names. They should match.
@@ -17,7 +21,7 @@ Please note that the Simple CSV app does not support exporting of the Variable p
 * Support for importing product options and / or product variants are not available.
 * It only supports the importing of the product data.
 
-## Parameters <a id="parameters"></a>
+## Parameters <a href="#parameters" id="parameters"></a>
 
 1. Choose Import Type -You can choose to upload a CSV file or point the app to locate the file in a path. Recommended setting is: Upload.
 2. Upload the CSV file -Click on the Browse button to select the CSV file for uploading.
@@ -108,7 +112,6 @@ It is NOT necessary to have all these fields in your CSV. The following fields a
 
 **TIPS**
 
-If you want to import more than one additional images \(in the additional\_images field\), you can use a pipe symbol \(\|\) to separate them.
+If you want to import more than one additional images (in the additional\_images field), you can use a pipe symbol (|) to separate them.
 
-**Example:** path/to/image1.jpg \| path/to/image2.jpg
-
+**Example:** path/to/image1.jpg | path/to/image2.jpg

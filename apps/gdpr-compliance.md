@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # GDPR compliance
 
 The GDRP Compliance plugin of J2Commerce makes it feasible for online merchants to comply with the recent GDPR regulations on your store developed with J2Commerce.

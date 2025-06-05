@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Ask question / quote
 
 This app allows customer to enquire a product or to ask quote for a product through email.

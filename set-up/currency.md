@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Currency
 
 J2Commerce allows you to sell in multiple currencies. You can create as many currencies as you like. You can either set the exchange value of the currency manually or allow J2Commerce to fetch in real-time from the Google Financial API. (In Store configuration, you should set the Auto update currency to YES)

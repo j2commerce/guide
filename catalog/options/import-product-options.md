@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Import product options
 
 If an option is created and set already for any one of your products, you can also import it here rather create again. Click the button and it will direct you to the predefined options, if any.

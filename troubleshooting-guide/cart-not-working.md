@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Cart not Working
 
 This is one among the most commonly reported issues. There might be a number of reasons why this happens and here are some of the prominent reasons. The following article might be of help to you in troubleshooting cart-related issues.

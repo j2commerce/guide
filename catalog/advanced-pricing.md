@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Advanced Pricing
 
 J2Commerce offers you to set advanced pricing for your product. This functionality enables you to have prices based on the quantity and date range.

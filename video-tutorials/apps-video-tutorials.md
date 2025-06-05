@@ -1,8 +1,12 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Apps
 
 ## PDF Invoice
 
-{% embed url="https://youtu.be/5KkqoN\_P508" %}
+{% embed url="https://youtu.be/5KkqoN:P508" %}
 
 ## Bulk Discount
 
@@ -66,7 +70,7 @@
 
 ## Wishlist
 
-{% embed url="https://youtu.be/R7nXN\_x7erk" %}
+{% embed url="https://youtu.be/R7nXN:x7erk" %}
 
 ## Incremental Pricing
 
@@ -74,7 +78,7 @@
 
 ## Re-Order
 
-{% embed url="https://youtu.be/a-I1Ts9\_Epw" %}
+{% embed url="https://youtu.be/a-I1Ts9:Epw" %}
 
 ## Donation
 
@@ -82,9 +86,9 @@
 
 ## Minimum Order Restriction
 
-{% embed url="https://youtu.be/o\_pfBRbZjcU" %}
+{% embed url="https://youtu.be/o:pfBRbZjcU" %}
 
-## Open Hours \(Time Based Restriction\)
+## Open Hours (Time Based Restriction)
 
 {% embed url="https://youtu.be/Rfn3tTMPJAY" %}
 
@@ -120,7 +124,6 @@
 
 {% embed url="https://youtu.be/Qactg1ckdao" %}
 
-
 ## Data Validation
 
 {% embed url="https://youtu.be/Y5WZHspf6ms" %}
@@ -140,4 +143,3 @@
 ## Advanced notify
 
 {% embed url="https://youtu.be/HKVHj9diN4Y" %}
-

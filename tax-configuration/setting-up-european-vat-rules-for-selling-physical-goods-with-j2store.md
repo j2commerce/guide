@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Setting up European VAT Rules for selling Physical Goods with J2Commerce
 
 Setting up the European VAT system in J2Commerce is relatively easy. We have created a plugin that automatically validates the VAT number and helps you apply the rules.

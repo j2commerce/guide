@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Post Finance
 
 The plugin integrates Post Finance payment with J2Store Joomla eCommerce solution.

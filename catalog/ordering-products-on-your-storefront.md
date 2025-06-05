@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Ordering products on your storefront
 
 Organizing your products is an important factor in increasing the user-friendliness of your store. The following article describes how your products could be organized.

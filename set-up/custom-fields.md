@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Custom fields
 
 These are created for additional details to be used in checkout processes that involves billing, payment, shipping etc. For instance, ‘last name’ of a customer is not required for billing but it is required for shipment. So, it is created as a custom field and made to be displayed in shipping address.

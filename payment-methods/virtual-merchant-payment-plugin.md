@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Elavon Coverage/Virtual Merchant Payment Plugin
 
 **Introduction**

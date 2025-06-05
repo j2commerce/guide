@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Free Shipping
 
 With J2Commerce you can let the customer choose a Free shipping option in the shipping method selection area of your site. Here is how you can configure the Free shipping for the store.

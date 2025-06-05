@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Nochex Payment Plugin
 
 This plugin integrates Nochex payment gateway with J2store.

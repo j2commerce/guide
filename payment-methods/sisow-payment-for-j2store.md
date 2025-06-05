@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Sisow Payment for J2Store
 
 The plugin integrates iDEAL gateway via the Sisow Payment Innovations.

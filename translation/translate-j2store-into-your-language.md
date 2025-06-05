@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page is outdated under J2Commerce for Joomla 4 - Please contact us for
-  information.
+  J2Commerce (formerly known as J2Store):  This page is outdated under
+  J2Commerce for Joomla 4 - Please contact us for information.
 ---
 
 # Translate J2Commerce into your language

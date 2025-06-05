@@ -1,5 +1,7 @@
 ---
-description: Payment Sense payment gateway is integrated with J2Store using this plugin.
+description: >-
+  J2Commerce (formerly known as J2Store):  Payment Sense payment gateway is
+  integrated with J2Store using this plugin.
 ---
 
 # Payment Sense

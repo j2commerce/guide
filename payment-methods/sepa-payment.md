@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Sepa Payment
 
 This plugin enables SEPA payment for J2Store. You can collect the account details from the customer and those information are displayed in the Orders. Then you can manually process the payments.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Booking and Reservation
 
 ## Booking a hall on daily basis
@@ -11,6 +15,3 @@
 ## Booking on minute basis
 
 {% embed url="https://youtu.be/AfEe46mVujI" %}
-
-
-

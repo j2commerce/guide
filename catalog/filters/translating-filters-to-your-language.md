@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Translating filters to your language
 
 Let us suppose that you have already created filters in a particular language and you wish to translate the filters to another language. This is how you could do it.

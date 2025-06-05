@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Checkout and Payment
 
 ## Easy checkout
@@ -43,4 +47,3 @@
 ## Accepting credit card payments in your online store
 
 {% embed url="https://youtu.be/v6pRKkg9Ldk" %}
-

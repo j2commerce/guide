@@ -1,12 +1,14 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # To add options to downloadable products
 
 Copy **/administrator/components/com**_**j2store/views/product/tmpl/form**_**downloadable.php** To **\*/administrator/templates/YOUR-DEFAULT-TEMPLATE/html/com**_**j2store/product/form**_**downloadable.php**
 
 Find the below line
 
-
-
-```text
+```
 <li>
 <a href="#imagesTab" data-toggle="tab"><i class="fa fa-file-image-o"></i>
 <?php echo JText::_('J2STORE_PRODUCT_TAB_IMAGES'); ?>
@@ -16,9 +18,7 @@ Find the below line
 
 Change with
 
-
-
-```text
+```
 <li>
 <a href="#imagesTab" data-toggle="tab"><i class="fa fa-file-image-o"></i> <?php echo JText::_('J2STORE_PRODUCT_TAB_IMAGES'); ?>
 </a>
@@ -32,9 +32,7 @@ Change with
 
 Find below line
 
-
-
-```text
+```
 <div class="tab-pane" id="imagesTab">
 <?php echo $this->loadTemplate('images');?>
 </div>
@@ -42,9 +40,7 @@ Find below line
 
 Change with
 
-
-
-```text
+```
 <div class="tab-pane" id="imagesTab">
 <?php echo $this->loadTemplate('images');?>
 </div>
@@ -55,26 +51,21 @@ Change with
 
 Save.
 
-Copy /components/com_j2store/templates/YOUR-SUB-LAYOUT/view_downloadable.php
+Copy /components/com\_j2store/templates/YOUR-SUB-LAYOUT/view\_downloadable.php
 
-to /templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-LAYOUT/view_downloadable.php
+to /templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-LAYOUT/view\_downloadable.php
 
 Edit the file and find below line
 
-
-
-```text
+```
 <?php echo $this->loadTemplate('cart'); ?>
 ```
 
 Change with
 
-
-
-```text
+```
 <?php echo $this->loadTemplate('options'); ?>
 <?php echo $this->loadTemplate('cart'); ?>
 ```
 
 Save. Now the downloadable products should have options tab at the back end and the options should be visible on the front end.
-

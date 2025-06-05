@@ -1,14 +1,16 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # To Display Both the main Image and the additional image in the product view page
 
 Please carry out the override as follows:
 
-Navigate to “/components/com_j2store/templates/default/view_images.php”.
+Navigate to “/components/com\_j2store/templates/default/view\_images.php”.
 
 Copy the above file and paste it under “/templates/your template/html/com\_j2store/your sub-template”.
 
 Now edit the file under the overridden path and around line 39, you would find this:
-
-
 
 ````
 <?php echo J2Store::product()->displayImage($this->product,array('type'=>'ViewMain','params' => $this->params)); ?>
@@ -17,9 +19,7 @@ Now edit the file under the overridden path and around line 39, you would find t
 <?php endif; ?>```
 ````
 
-&#x20;`Change it to:`&#x20;
-
-
+`Change it to:`
 
 ````
 ```    <?php elseif(!empty($this->product->main_image)):?>

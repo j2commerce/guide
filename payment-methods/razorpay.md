@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Razorpay
 
 This plugin integrates Razorpay payment gateway with J2Store Joomla eCommerce solution. It offers a fast, affordable and secure way for ecommerce to accept payments online.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Google-analytics-ecommerce-tracking
 
 The apps allows you to track the sales, your customers and their behavior. This helps you understand your customers and implement better marketing efforts.

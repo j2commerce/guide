@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Setting up the store in your Language
 
 There are high chances that you might want to set up your store in your own language. Lets suppose you are trying to set up your site in German Language.

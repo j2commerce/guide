@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Skrill Payment Plugin
 
 ## Introduction <a href="#introduction" id="introduction"></a>

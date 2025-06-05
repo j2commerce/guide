@@ -1,8 +1,14 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Requirements and Installation
 
-## Requirements <a href="#requirements" id="requirements"></a>
+**Requirements**
 
-Joomla 3.4.x and above J2Store 3.2.25 and above PHP 5.6.4 or higher.
+* with PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 ## Installation <a href="#installation" id="installation"></a>
 

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Coupons
 
 This is J2Commerce PRO exclusive feature

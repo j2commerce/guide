@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Localisation
 
 Under the localisation section of J2Commerce dashboard, the following options would be available:

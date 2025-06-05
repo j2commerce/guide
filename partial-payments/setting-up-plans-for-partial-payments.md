@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Setting up plans for Partial Payments
 
 ## Setting up plans for partial payments: <a href="#setting-up-plans-for-partial-payments" id="setting-up-plans-for-partial-payments"></a>

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Points and Rewards
 
 This app used to give rewards points to user.User can use that points for purchase.

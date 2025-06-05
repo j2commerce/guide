@@ -1,5 +1,7 @@
 ---
-description: This plugin integrates USAePay payments with J2Store.
+description: >-
+  J2Commerce (formerly known as J2Store):  This plugin integrates USAePay
+  payments with J2Store.
 ---
 
 # USAePay Payment Plugin

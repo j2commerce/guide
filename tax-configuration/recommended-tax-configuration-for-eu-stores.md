@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Recommended Tax Configuration for EU stores
 
 This guide will walk you through the configuration of tax in J2Commerce for EU stores. This is an example configuration for stores in Europe. For detailed information on tax, please consult an expert.

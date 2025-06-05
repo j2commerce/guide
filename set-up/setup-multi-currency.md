@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Set up multi-currency
 
 **J2Commerce Multi Currency**

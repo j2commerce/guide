@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Trouble shooting issues
 
 J2Commerce and Easy checkout shares most of the language strings.

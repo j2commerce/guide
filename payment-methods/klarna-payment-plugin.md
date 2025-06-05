@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Klarna Payment Plugin
 
 The plugin integrates the Klarna checkout with J2Store joomla shopping cart. The Klarna checkout is the newest offering by the Klarna gateway.

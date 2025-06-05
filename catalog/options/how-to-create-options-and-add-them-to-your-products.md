@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # How to create options and add them to your products
 
 Who doesn’t prefer choices when they wish to buy their favorite t-shirt ? Obviously, your users would love when the products have additional options. J2Commerce allows you to create [options of various types](http://docs.j2store.org/catalog/options)

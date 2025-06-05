@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Sales and Orders
 
 ## Creating order from backend
@@ -15,6 +19,3 @@
 ## Order notification in CORE version
 
 {% embed url="https://youtu.be/JcyypHRw25c" %}
-
-
-

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Voguepay Payment Plugin
 
 The Voguepay Plugin for J2Store enables you to receive payments via Voguepay Payment Gateway. This integrates the Voguepay’s Website Standard Payment API.

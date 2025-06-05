@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Rabobank Omnikassa
 
 This plugin allows you to integrate J2Store with Rabobank's Omnikassa payment gateway.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Quick Start
 
 ## Step-by-step store setup
@@ -33,4 +37,3 @@ The layout offers a number of params. The video just shows how you can simply ar
 ## Adding terms and conditions
 
 {% embed url="https://youtu.be/Lha1Ta_RHoQ" %}
-

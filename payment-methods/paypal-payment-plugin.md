@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paypal payment plugin
 
 The plugin integrates PayPal Website Payment Standard method with your J2Store shopping cart. You need either a PayPal account in order to take payments

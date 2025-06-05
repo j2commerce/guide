@@ -1,7 +1,7 @@
 ---
 description: >-
-  This plugin integrates Alipay payment API with J2Store Joomla eCommerce
-  solution.
+  J2Commerce (formerly known as J2Store):  This plugin integrates Alipay payment
+  API with J2Store Joomla eCommerce solution.
 ---
 
 # AliPay Payment Plugin

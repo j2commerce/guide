@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Configuration
 
 There are several options available for your online store. Any mis-configuration here will affect your storefront’s behavior. So take your time and configure the store correctly.

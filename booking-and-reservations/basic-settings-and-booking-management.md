@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Basic settings and Booking Management
 
 ## Basic Settings <a href="#basic-settings" id="basic-settings"></a>

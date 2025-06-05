@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Heartland Payment Plugin
 
 This plugin integrates J2Store with Heartland Payment Gateway enabling you to accept credit cards.

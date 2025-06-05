@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Templates
 
 **Introduction**
@@ -25,7 +29,7 @@ Only for template developers. Read further on only if you are a template develop
 3. Choose and select your file.
 4. Click Upload & Install.
 
-![Install](https://raw.githubusercontent.com/j2store/doc-images/master/developer-guide/design/j2store\_install1.png)
+![Install](https://raw.githubusercontent.com/j2store/doc-images/master/developer-guide/design/j2store_install1.png)
 
 **J2Store Configuration**
 
@@ -56,7 +60,7 @@ It is very easy and flexible to display the product in frontend using J2Store La
 
 1.Go to Menu manager -> Main menu and create a new menu item. 2.Give the menu title and choose the menu type as J2store > Product List View
 
-3.Choose the Category which have chosen when creating product. The category added in the product and the category added in the menu should be same.&#x20;
+3.Choose the Category which have chosen when creating product. The category added in the product and the category added in the menu should be same.
 
 4.In the menu you can see these three tabs common options, Item view options in category listings, Item view options.
 
@@ -91,13 +95,13 @@ If you choose default as sub-template then you have to go with default folder.
 
 **Frontpage product listing files**
 
-Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default_(for example, default_simple.php, default_images.php, etc). Those files controls all the features displaying in the category listing page.
+Open your sub-template folder(/components/com\_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default\_(for example, default\_simple.php, default\_images.php, etc). Those files controls all the features displaying in the category listing page.
 
 **OVERRIDE PATH**templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
 
 **Product view**
 
-Open your sub-template folder where you can find the files with name started with view_(for example, view_simple.php, view_images.php, view_options.php, view\_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
+Open your sub-template folder where you can find the files with name started with view\_(for example, view\_simple.php, view\_images.php, view\_options.php, view\_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
 
 **OVERRIDE PATH** templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
 
@@ -105,9 +109,9 @@ Open your sub-template folder where you can find the files with name started wit
 
 Following files controls filter section,
 
-/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_filters.php
+/components/com\_j2store/templates/YOUR-SUB-TEMPLATE/default\_filters.php
 
-/components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_sortfilter.php
+/components/com\_j2store/templates/YOUR-SUB-TEMPLATE/default\_sortfilter.php
 
 **OVERRIDE PATH** templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
 

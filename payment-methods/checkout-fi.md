@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Checkout fi¨
 
 This plugin integrates Checkout payment Finland with J2store.

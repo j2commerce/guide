@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # How to write language override for plugin in multilingual site
 
 Sometimes you need to translate some text (which is rendered from any apps or plugins) for your multilingual site. This guide will help you to translate them. Please keep following the instructions given below.

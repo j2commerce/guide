@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Commerce
 
 If you are a seller of digital goods and services, you would probably wondering about the new European VAT rules that came into effect from January 1, 2015.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Setting up tax for your products
 
 ## Requirement for the tax to take effect: <a href="#requirement-for-the-tax-to-take-effect" id="requirement-for-the-tax-to-take-effect"></a>

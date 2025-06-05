@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Report Sales
 
 Report Sales plugin allows store owner to prepare or present a document containing order information based on payment type, customer name, coupon code, manufacturer, vendor, order status, shipping method, post code and Tax number.

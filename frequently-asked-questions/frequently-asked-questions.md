@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Frequently Asked Questions
 
 ## Product Options not working or displaying option <a href="#product-options-not-working-or-displaying-option" id="product-options-not-working-or-displaying-option"></a>

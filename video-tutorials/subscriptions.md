@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Subscriptions
 
 ## Creating simple subscription product
@@ -43,4 +47,3 @@
 ## Selling one-time subscriptions with manual renewals
 
 {% embed url="https://youtu.be/D7-7EOzovqM" %}
-

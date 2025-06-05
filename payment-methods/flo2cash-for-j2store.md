@@ -1,5 +1,7 @@
 ---
-description: This plugin integrates Flo2Cash payment gateway with J2Store.
+description: >-
+  J2Commerce (formerly known as J2Store):  This plugin integrates Flo2Cash
+  payment gateway with J2Store.
 ---
 
 # Flo2Cash for J2Store

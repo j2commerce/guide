@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Basic Settings
 
 ## Enable partial payment <a href="#enable-partial-payment" id="enable-partial-payment"></a>

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Stripe
 
 This plugin integrates the Stripe Payment gateway with J2Store. It works and compatible with the latest Stripe API : 2014-01-31 (latest)
@@ -11,7 +15,7 @@ You could download both the packages from the My downloads section of the [J2Sto
 ## Stripe direct Vs Stripe Hosted checkout <a href="#stripe-direct-vs-stripe-hosted-checkout" id="stripe-direct-vs-stripe-hosted-checkout"></a>
 
 **Stripe direct** This is the standard version of Stripe plugin that most of you might have used until now. This integration offers three modes: 1. Normal form 2. Pop-up form 3. In-built form(Recommended)\
-&#x20;Among the above three modes, only the In-built form supports SCA regulations that are in effect since September, 2019. Following is a guide on how to install and configure the Stripe Direct payment plugin.
+Among the above three modes, only the In-built form supports SCA regulations that are in effect since September, 2019. Following is a guide on how to install and configure the Stripe Direct payment plugin.
 
 **Stripe Hosted checkout**
 
@@ -54,13 +58,13 @@ J2Store’s Stripe integration doesn’t support the following payments:
 
 Go to Joomla admin → Plugin Manager and open the Stripe plugin. Or you could access the plugin through J2Store->Setup->Payment methods->Stripe.
 
-The plugin has following options:&#x20;
+The plugin has following options:
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/stripe-direct-params.png)
 
 **License key**\
 \
-&#x20;Enter your license key here to receive upcoming updates for the plugin.\
+Enter your license key here to receive upcoming updates for the plugin.\
 \
 **Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. If you have a multi-lingual site and wish to translate the title in other languages of your site, you could mention a custom language constant like **J2STORE\_**_**PAYMENT\_**_**METHOD\_**_**STRIPE\_**_**TITLE** and create a [language override](https://docs.j2store.org/translation/language-overrides-in-joomla-with-examples-using-j2store/) to translate it into the other languages.
 
@@ -74,7 +78,7 @@ The plugin has following options:&#x20;
 
 **Live Publishable Key:** Enter your live stripe publishable key.
 
-&#x20;**Use Stripe in Test mode:** If you wish to test the stripe payment plugin then you can set this option which will change the stripe to test mode instead of live mode.
+**Use Stripe in Test mode:** If you wish to test the stripe payment plugin then you can set this option which will change the stripe to test mode instead of live mode.
 
 **Test Secret API Key:** Enter you test stripe account’s secret API key.
 
@@ -95,9 +99,9 @@ By choosing any of the listed option you select the payment form for stripe.
 
 **Disable Zip code in Stripe inbuilt form** If you set this to YES, a field would be displayed asking for the Zip code of the users while they fill in their card details at the checkout. This option is applicable only if you enable in-built form as the Credit card form display type.
 
-&#x20;**Enable payment intent(SCA Complaints) in Inbuilt form ?** If you set this option to YES and the Credit card form display type to In-built form, then the in-built form would support SCA regulations and you could collect payments from 3-D secure cards.
+**Enable payment intent(SCA Complaints) in Inbuilt form ?** If you set this option to YES and the Credit card form display type to In-built form, then the in-built form would support SCA regulations and you could collect payments from 3-D secure cards.
 
-&#x20;**Force URL to use latest SSL/TLS version available in the server** Enabling this option will force the URL to use the latest SSl or TLS version when multiple versions are available in your server.
+**Force URL to use latest SSL/TLS version available in the server** Enabling this option will force the URL to use the latest SSl or TLS version when multiple versions are available in your server.
 
 **Enable card holder name for stripe inbuilt form:** Setting this to yes will help to display a text box to enter the card holder name.
 
@@ -109,11 +113,11 @@ By choosing any of the listed option you select the payment form for stripe.
 
 **Enable remember me feature:** If you wish to establish a remember me option then set this to yes. This will ease the payment process for customer by saving their card details preventing them from entering again and again.
 
-&#x20;**Send customer address to Stripe** If you enable this the customer address will be sent to the stripe.
+**Send customer address to Stripe** If you enable this the customer address will be sent to the stripe.
 
-&#x20;**Enable Bitcoin:** If you wish to allow the customer to send payment via bitcoin then set this to yes.
+**Enable Bitcoin:** If you wish to allow the customer to send payment via bitcoin then set this to yes.
 
-&#x20;**Article ID for Thanks Msg:** You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment.
+**Article ID for Thanks Msg:** You can create an article with a thank you or instructions or information to the customer and enter its ID here. This will be displayed to the customer when he returns to the site after making payment.
 
 **Geozone:** You can restrict showing this payment method only to the customers who belong to the selected geozone. Choose All in order to display this payment option to all customers.
 
@@ -125,7 +129,7 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 For example, enter a language constant:
 
-J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
+J2STORE\_\_TEXT\_\_TO\_\_DISPLAY\_\_ON\_SELECTION
 
 Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
@@ -203,8 +207,6 @@ As mentioned above, with Stripe Hosted checkout, all the transactions occur in t
 
 Once you entered the credentials and saved the plugin, an **Update webhook** button would show up as follows:
 
-&#x20;
-
 ![Update webhook](<../.gitbook/assets/Screenshot from 2023-09-07 15-16-51.png>)
 
 **Where to find your site’s webhook in Stripe dashboard** Once you connect your store with Stripe by entering the API keys, there would be a webhook created in the Stripe dashboard. For the transactions to be updated in your J2Store orders, you will have to ensure that a webhook is created on your stripe dashboard.
@@ -248,7 +250,7 @@ After enabling Payment intent on your Stripe direct plugin settings, you could t
 
 1. Use the following cards:
 
-&#x20;4000 0025 0000 3155 4000 0027 6000 3184 4000 0082 6000 3178 4000 0000 0000 3055
+4000 0025 0000 3155 4000 0027 6000 3184 4000 0082 6000 3178 4000 0000 0000 3055
 
 ![3-d secure card](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/3-d-secure-card.png) NOTE: You will not be able to test SCA Compliance if you use normal test cards. SCA compliance can be tested only with 3-D secure test cards.
 
@@ -286,38 +288,38 @@ Following are the steps to be done to test if the Stripe hosted plugin works fin
 
 #### **Placing a test order**
 
-* Add  a subscription product to the cart.
+* Add a subscription product to the cart.
 * Proceed to checkout and choose Stripe Hosted as the payment method.
 * Once you click on the Place order button, you would be redirected to the Stripe page asking for the card details.
 * Here is the document where you would find the test cards to be used. Click [here](https://stripe.com/docs/testing#regulatory-cards).
 * Use one of the cards found in the above document and click on the Save card button at the popup. **First the card details entered would be saved and payment would not be processed.**
 
-![](../.gitbook/assets/selection\_086.png)
+![](../.gitbook/assets/selection_086.png)
 
 #### Authenticating the transaction
 
 * Once you click on Save card, you would see a popup asking for Authentication like this:
 
-![](../.gitbook/assets/selection\_087.png)
+![](../.gitbook/assets/selection_087.png)
 
 #### Completing the payment
 
 * Once the authentication is complete, you would be redirected to the Merchant site. Click on Go to order history button.
 * Or, you can login to the My profile page, where you would see a **Complete Payment** button.
 
-![](../.gitbook/assets/selection\_088.png)
+![](../.gitbook/assets/selection_088.png)
 
 * You would again be asked to authenticate. Click on the **Authenticate payment** button.
 
-![](../.gitbook/assets/selection\_089.png)
+![](../.gitbook/assets/selection_089.png)
 
 * An authentication popup would come up. Click on Authenticate payment.
 
-![](../.gitbook/assets/selection\_090.png)
+![](../.gitbook/assets/selection_090.png)
 
 * Now the payment would be completed and the order status should be confirmed.
 
-![](../.gitbook/assets/selection\_091.png)
+![](../.gitbook/assets/selection_091.png)
 
 This indicates that the Stripe checkout plugin works fine with the Subscription product. You can set the payment live.
 
@@ -327,7 +329,7 @@ Once the initial order for the Subscription is confirmed, a renewal order would 
 
 When the renewal due date approaches, if you have used a test card that requires authentication on all transactions(some cards mentioned[ here ](https://stripe.com/docs/testing#regulatory-cards)require authentication for all the payments as mentioned in the description), then you would receive a mail asking you to authenticate the payment.
 
-If you have used a  card that requires a one-time authentication, the initial authentication is good enough. No further authentication would be requested. Once the renewal due date approaches, the payment would go through automatically.
+If you have used a card that requires a one-time authentication, the initial authentication is good enough. No further authentication would be requested. Once the renewal due date approaches, the payment would go through automatically.
 
 **Still got questions?**
 

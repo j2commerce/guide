@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # J2Store CPanel
 
 ## Customizing J2Store Cpanel
@@ -7,6 +11,3 @@
 ## Displaying statistics in Joomla Cpanel
 
 {% embed url="https://youtu.be/qyU0TXx2otk" %}
-
-
-

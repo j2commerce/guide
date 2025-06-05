@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Limitation of the booking products type
 
 ## Limitations of the booking product type <a href="#limitations-of-the-booking-product-type" id="limitations-of-the-booking-product-type"></a>

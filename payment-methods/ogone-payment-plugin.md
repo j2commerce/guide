@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Ogone Payment plugin
 
 The Ogone Plugin enables you to receive payments via Ogone Payment Gateway. Getting a Ogone account is very easy. Look at more about Ogone herehttp://ogone.com”target = ¨\_blank”rel = ¨noopener¨> click here

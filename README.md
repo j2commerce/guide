@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Welcome to J2Commerce
 
 ![introduction](https://raw.githubusercontent.com/j2store/doc-images/master/getting-started/Introduction/Introduction.png)

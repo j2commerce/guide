@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # RealEx Payment Plugin
 
 The plugin integrates RealEx payment gateway with J2Store Joomla eCommerce solution. RealEx is a popular European payment service providing secure credit card payment processing solutions.

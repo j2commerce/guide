@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # UPS Shipping
 
 This plugin integrates the UPS Shipping Rate API with J2Commerce.

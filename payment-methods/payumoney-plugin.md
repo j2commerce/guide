@@ -1,4 +1,8 @@
-# PayUMoney plugin
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
+# PayUMoney Plugin
 
 It accepts payments via debit card, credit card and Net Banking with PayU Money, a leading payment gateway in India.
 

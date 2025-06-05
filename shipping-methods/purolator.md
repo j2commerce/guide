@@ -1,17 +1,21 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Purolator
 
 This plugin integrates Purolator shipping API with J2Store Joomla eCommerce solution.
 
 **Requirements**
 
-1. PHP 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.10 or higher
+* with PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 **Installation**
 
 * Download the Purolator shipping plugin from our site and install it using Joomla installer.
-* In Joomla backend, go to J2Store &gt; Setup &gt; Shipping methods
+* In Joomla backend, go to J2Store > Setup > Shipping methods
 * Enable and open the Purolator shipping plugin to configure the basic settings.
 
 ![purlt](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/purolator/purolator_04.png)
@@ -53,4 +57,3 @@ This plugin integrates Purolator shipping API with J2Store Joomla eCommerce solu
 ![purolator2](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/purolator/purolator_02.jpg)
 
 ![purolator3](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/purolator/purolator_03.jpg)
-

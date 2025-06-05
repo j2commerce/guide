@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # How Tax is Calculated
 
 ## How Tax is Calculated:

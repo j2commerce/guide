@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Drop-box
 
 ## Requirements <a href="#requirements" id="requirements"></a>

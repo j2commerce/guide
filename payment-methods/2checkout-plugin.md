@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # 2Checkout Plugin
 
 The plugin integrates 2Checkout payment gateway with J2Store.
@@ -27,4 +31,3 @@ NOTE: often 2checkout defaults to multi-step page, ignoring this setting.
 **Joomla Article ID for custom thank you message** You can create an Article ID with a message ‘Enter the article ID here’, to show it to the customer after completion of the purchase.
 
 **Support** You can post in [http://j2store.org/forum/index.html](http://j2store.org/forum/index.html) if you have any questions.
-

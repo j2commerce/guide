@@ -1,5 +1,5 @@
 ---
-description: Quick links to initial steps.
+description: J2Commerce (formerly known as J2Store)
 ---
 
 # Getting started with J2Commerce

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paysera Payment Plugin
 
 Paysera payment plugin for j2store. It integrates with the Paysera Payment gateway.

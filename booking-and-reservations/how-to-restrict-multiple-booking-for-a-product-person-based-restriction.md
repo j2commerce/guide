@@ -1,4 +1,8 @@
-# how to restrict multiple booking for a product person based restriction
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
+# How to restrict multiple bookings for a product person based restriction
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 

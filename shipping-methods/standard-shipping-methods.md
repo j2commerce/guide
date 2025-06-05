@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Standard shipping methods
 
 This is shipping plugin which is available in J2Store by default. It has seven shipping types. They are:
@@ -15,7 +19,7 @@ A fixed rate will be charged for every order. For e.g., if the shipping cost is 
 
 See the image below on how to configure this shipping type.
 
-![Flat rate per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat\_per\_order.png)
+![Flat rate per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat_per_order.png)
 
 You can give a meaningful name for the **Shipping Method** so that the customer understands it easily.
 
@@ -33,17 +37,13 @@ Finally, set the minimum and maximum subtotals that are required for availing th
 
 {% embed url="https://youtu.be/KwmTp3guAq0" %}
 
-
-
 ### Quantity based per order <a href="#quantity-based-per-order" id="quantity-based-per-order"></a>
 
 The total number of products that are to be shipped will determine the shipping cost. For e.g., the shipping cost will be $ 20.00 per order if the total number of products is up to 5 and $ 25.00 per order if the total number of products is from 6 upto 10.
 
 See the image below to configure this shipping type:
 
-&#x20;
-
-![Quantity based per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/qty\_per\_order.png)
+![Quantity based per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/qty_per_order.png)
 
 Settings are common for all the shipping types except the type to be set. For this shipping type you carefully need to select ‘Quantity based per order’ from the list as shown in the image.
 
@@ -53,15 +53,13 @@ And make sure to **Enable** this shipping type to be available for shipping sele
 
 {% embed url="https://youtu.be/7sm_nQjN3as" %}
 
-
-
 ### Weight based per order <a href="#weight-based-per-order" id="weight-based-per-order"></a>
 
 This type of shipping is calculating the cost based on the total weight of the order items. If a cost of $ 10.00 is charged for weights upto 50 Kilograms, and $ 20.00 is charged for total weights between 51 and 100 Kilograms, then an order having a total weight of 70 kilograms will attract a shipping cost of $ 20.00.
 
 Configure this shipping method as explained in the image below:
 
-![weight based per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight\_per\_order.png)
+![weight based per order](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight_per_order.png)
 
 As in the previous shipping methods, you need to give a **Shipping Method Name**, select a **Tax Profile**, **Enable** the method, and more importantly, select the type to be ’**Weight based per order**’. And if necessary you can select the **Override Shipping Address** option. Enter **Minimum** and **Maximum** subtotals required for shipping.
 
@@ -70,8 +68,6 @@ And that’s it.
 **Check the video here:**
 
 {% embed url="https://www.youtube.com/watch?v=kffd0TsempA&feature=emb_logo" %}
-
-
 
 ### Weight based per item <a href="#weight-based-per-item" id="weight-based-per-item"></a>
 
@@ -91,7 +87,7 @@ So, for the next 100 kg, $ 2.00 X 10 = $ 20.00. And $ 20.00 + $ 20.00 = $ 40.00 
 
 For configuration refer the image below.
 
-&#x20;![Weight per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight\_per\_item.png)
+![Weight per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight_per_item.png)
 
 Enter all the values necessary as in other shipping methods, as shown in the image.
 
@@ -101,8 +97,6 @@ Select the shipping type to be ’**Weight based per item**’ for this item to 
 
 {% embed url="https://www.youtube.com/watch?time_continue=1&v=YjpfXdXmVBs&feature=emb_logo" %}
 
-
-
 ### Price based per order <a href="#price-based-per-order" id="price-based-per-order"></a>
 
 The shipping cost in this type of method is calculated with price of the individual items. Some price range may be set for cost calculation and it will be followed.
@@ -111,9 +105,9 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 
 **Check the video here:**
 
-For configuration of this shipping method, refer the image below.&#x20;
+For configuration of this shipping method, refer the image below.
 
-![Price per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/price\_per\_item.png)
+![Price per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/price_per_item.png)
 
 ### Flat rate per item <a href="#flat-rate-per-item" id="flat-rate-per-item"></a>
 
@@ -123,7 +117,7 @@ N.B.: In this type, only one rate can be configured per geozone and weight will 
 
 Consider the image below:
 
-![Flat rate per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat\_per\_item.png)
+![Flat rate per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat_per_item.png)
 
 Enter the necessary details as in other shipping methods, and enable the method to be listed in shipping types.
 
@@ -139,34 +133,31 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 
 {% embed url="https://www.youtube.com/watch?v=JdcL-wbaE90&feature=emb_logo" %}
 
+For configuration of this shipping method, refer the image below.
 
-
-For configuration of this shipping method, refer the image below.&#x20;
-
-![price per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/price\_per\_item1.png)
+![price per item](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/price_per_item1.png)
 
 ### Helpful screen shots <a href="#helpful-screen-shots" id="helpful-screen-shots"></a>
 
 See the images below:
 
-![Standard ship](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std\_ship.png)
+![Standard ship](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std_ship.png)
 
 When you click on the shipping method name, you will be directed to this screen.
 
-![Standard ship](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std\_ship\_add1.png)
+![Standard ship](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std_ship_add1.png)
 
 When you click ‘set rates’, you will be presented with this view:
 
-![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set\_rate\_ship1.png)
+![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set_rate_ship1.png)
 
-After entering the data, click on the ‘Create’ button and you will get this:&#x20;
+After entering the data, click on the ‘Create’ button and you will get this:
 
-![set rate2](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set\_rate\_ship2.png)
+![set rate2](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set_rate_ship2.png)
 
 ### Standard Shipping Method examples <a href="#standard-shipping-method-examples" id="standard-shipping-method-examples"></a>
 
-Let us see some examples for creating Standard Shipping Methods.\
-
+Let us see some examples for creating Standard Shipping Methods.\\
 
 #### Flat rate per order - Example <a href="#flat-rate-per-order---example" id="flat-rate-per-order---example"></a>
 
@@ -176,47 +167,43 @@ Assume that you have a store in California, USA. You will get orders from all ov
 
 1. Go to J2Store Dashboard -> Setup -> Configuration and select the Store tab, as shown in the image. Enter the details and ensure that United States and California, are selected for country and zone, respectively.
 
-![Store details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/store\_details.png)
+![Store details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/store_details.png)
 
 2\. Go to J2Store Dashboard -> Localization -> Geozones and click on the New button in the top left corner to create new geozone, as shown in the image.
 
-&#x20;
-
-![Geozone](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/create\_geozone.png)
+![Geozone](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/create_geozone.png)
 
 Enter the name for the geozone as Default Geozone and select country and zone as United States and California respectively, as shown below. Click Save & Close.
 
-&#x20;
+![Geozone details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/geozone_creation.png)
 
-![Geozone details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/geozone\_creation.png)
-
-3\. Go to J2Store Dashboard -> Setup.&#x20;
+3\. Go to J2Store Dashboard -> Setup.
 
 4\. Select Set Up -> Shipping Methods.
 
-![Flat rate per order dashboard](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat\_rate\_per\_order\_dashboard.png)
+![Flat rate per order dashboard](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat_rate_per_order_dashboard.png)
 
-![Setup](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat\_rate\_per\_order\_dashboard\_setup.png)
+![Setup](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/flat_rate_per_order_dashboard_setup.png)
 
 5\. From the list, click on the Create / Edit / Link in the Standard Shipping Methods.
 
-6\. From the obtained window, click on the New button.&#x20;
+6\. From the obtained window, click on the New button.
 
-![Create](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std\_ship\_methods\_create.png)
+![Create](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std_ship_methods_create.png)
 
 7\. You will get the form to add a new shipping method
 
-![Add values](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/ship\_method\_add\_values.png)
+![Add values](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/ship_method_add_values.png)
 
 **IMPORTANT NOTE:** To apply flat rate shipping method, you should enable over-riding of shipping address with store address. If over-ride option is set to **No**, then customers in **California** only can avail this method and customers in rest of the country will not be charged with shipping cost.
 
 8\. Save & Close window. Now you can see the created shipping method in the list as show in the image below. Now, you need to set the rate for the shipping method. To do that, click on the link Set Rates.
 
-![list](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std\_ship\_mthds\_list.png)
+![list](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std_ship_mthds_list.png)
 
-9\. You will get a pop-up window to set the rates for the shipping method, as shown below.&#x20;
+9\. You will get a pop-up window to set the rates for the shipping method, as shown below.
 
-![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std\_ship\_method\_set\_rate.png)
+![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/std_ship_method_set_rate.png)
 
 Now all are set and your shipping method is ready for use.
 
@@ -228,9 +215,7 @@ Assume that you have a store in California, USA. You will get orders from all ov
 
 1. Go to J2Store Dashboard -> Setup -> Configuration and select the Store tab, as shown in the image. Enter the details and ensure that United States and California, are selected for country and zone, respectively.
 
-&#x20;
-
-![Store details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/store\_details1.png)
+![Store details](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/store_details1.png)
 
 2\. Go to J2Store Dashboard -> Localization -> Geozones and click on the New button in the top left corner to create new geozone. Enter the name for the geozone as Default Geozone and select country and zone as United States and California respectively, as shown below. Click Save & Close.
 
@@ -246,9 +231,9 @@ Assume that you have a store in California, USA. You will get orders from all ov
 
 8\. Save & Close window. Now you can see the created shipping method in the list as show in the image below. Now, you need to set the rate for the shipping method. To do that, click on the link Set Rates.
 
-9\. You will get a pop-up window to set the rates for the shipping method, as shown below.&#x20;
+9\. You will get a pop-up window to set the rates for the shipping method, as shown below.
 
-![Quantity set rates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set\_rate\_qty\_based-qty9.png)
+![Quantity set rates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/set_rate_qty_based-qty9.png)
 
 Now all are set and your shipping method is ready for use.
 
@@ -287,9 +272,9 @@ Now, we will see how to create a shipping method based on the weight of the orde
 6. From the window you get after you follow the previous step, click on the New button in the right side.
 7. You will get the form to create new shipping method. Fill in the details.
 8. Save & Close window. Now you can see the created shipping method in the list as show in the image below. Now, you need to set the rate for the shipping method. To do that, click on the link Set Rates.
-9. You will get a pop-up window to set the rates for the shipping method, as shown below.&#x20;
+9. You will get a pop-up window to set the rates for the shipping method, as shown below.
 
-![Setrate weight](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight\_ship\_set\_rate.png)
+![Setrate weight](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight_ship_set_rate.png)
 
 Now all are set and your shipping method is ready for use.
 
@@ -307,7 +292,7 @@ In USPS shipping plugin, if the shipping server is queried, the server will retu
 
 Well, this might sound trivial. But some of us often forget to turn on the _Enable Shipping Switch_ while creating the product. Make sure that Enable shipping is set to YES.
 
-![Enable](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/enable\_shipping.png)
+![Enable](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/enable_shipping.png)
 
 #### Weight and Dimensions <a href="#weight-and-dimensions" id="weight-and-dimensions"></a>
 
@@ -319,7 +304,7 @@ You should select the weight and the length measurement unit from the drop down 
 
 Also, make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
 
-![Weight](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight\_and\_dimensions.png)
+![Weight](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/weight_and_dimensions.png)
 
 #### API credentials <a href="#api-credentials" id="api-credentials"></a>
 
@@ -333,7 +318,7 @@ If you choose a geozone, then this shipping plugin will apply only to customers 
 
 During testing, make sure that this parameter is set to All geozones.
 
-![Settings](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping\_geozone\_setting.png)
+![Settings](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping_geozone_setting.png)
 
 #### Debug Mode <a href="#debug-mode" id="debug-mode"></a>
 
@@ -343,7 +328,7 @@ The log is stored in the /cache folder of your Joomla Root. You can use your Hos
 
 VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.
 
-![Debug](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/debug\_mode.png)
+![Debug](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/debug_mode.png)
 
 Still not working? Please create a private ticket or email us the log file. We will help you troubleshoot the plugin.
 
@@ -355,17 +340,17 @@ The standard methods - flat rate, weight based, quantity based and price based -
 
 This post aims to help the store owners to set up the shipping methods properly.
 
-#### 1. Enable shipping in the product parameters <a href="#1-enable-shipping-in-the-product-parameters" id="1-enable-shipping-in-the-product-parameters"></a>
+#### 1. Enable shipping in the product parameters <a href="#id-1-enable-shipping-in-the-product-parameters" id="id-1-enable-shipping-in-the-product-parameters"></a>
 
 While creating a product, the **Enable Shipping** param is by default set to _No_. Most store owners do not notice this. If the product requires shipping, make sure that you set this param to _Yes_.
 
-![Enable](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping\_method\_enable.jpg)
+![Enable](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping_method_enable.jpg)
 
-#### 2. Geozones <a href="#2-geozones" id="2-geozones"></a>
+#### 2. Geozones <a href="#id-2-geozones" id="id-2-geozones"></a>
 
 All the standard shipping methods in J2Store are bound by the Geozones. That is, you should always select a geozone while setting the rates. So, make sure that you have created the Geozones and added countries or zones inside them.
 
-![Geozone](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping\_geozone.jpg)
+![Geozone](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping_geozone.jpg)
 
 The concept of Geozone is very simple. Example: You have a store in the United States, Texas.
 
@@ -375,14 +360,12 @@ So, group the Oklahoma, Arkansas, and Louisiana states into one Geozone and give
 
 Refer the User guide for more examples.
 
-#### 3. Set shipping rates <a href="#3-set-shipping-rates" id="3-set-shipping-rates"></a>
+#### 3. Set shipping rates <a href="#id-3-set-shipping-rates" id="id-3-set-shipping-rates"></a>
 
 After creating a shipping method (by going to J2Store admin -> Set up -> Shipping methods -> Standard Shipping Methods), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
 
-![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping\_methods\_set\_rates.jpg)
+![Setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping_methods_set_rates.jpg)
 
 While Setting Rates, make sure that you select the Geozone. If you have two or more Geozones, then you should set rates for all.
 
-&#x20;
-
-![setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping\_setrates2.jpg)
+![setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/standard-shipping-methods/shipping_setrates2.jpg)

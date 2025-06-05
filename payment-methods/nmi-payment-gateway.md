@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # NMI Payment Gateway
 
 The plugin integrates J2Store Joomla shopping cart with Network Merchants Payment gateway. It allows you to accept credit card payments securely from your customers.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Update
 
 ## Adding license key <a href="#adding-license-key" id="adding-license-key"></a>

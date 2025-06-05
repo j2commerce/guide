@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Booking and Reservations
 
 Want to use your store as a ticket booking system?

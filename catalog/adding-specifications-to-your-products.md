@@ -1,4 +1,8 @@
-# Adding specifications to your products
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
+# Adding Specifications to your products
 
 ## Steps to be followed: <a href="#steps-to-be-followed" id="steps-to-be-followed"></a>
 

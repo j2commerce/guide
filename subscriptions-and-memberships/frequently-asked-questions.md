@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Frequently Asked Questions
 
 ## How to edit subscription from backend? <a href="#how-to-edit-subscription-from-backend" id="how-to-edit-subscription-from-backend"></a>

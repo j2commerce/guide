@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Instances
 
 ## Partial Payment type-Plan: <a href="#partial-payment-type-plan" id="partial-payment-type-plan"></a>

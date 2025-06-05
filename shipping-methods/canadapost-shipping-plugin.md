@@ -1,13 +1,18 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Canadapost shipping plugin
 
 **Requirements**
 
-1. PHP 5.3+
-2. Joomla 2.5 / 3.x +
-3. J2Store 2.6.8 +
-4. cURL
+* with PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
-**Installation** You can install the plugin through the standard Joomla installer.
+
+
+1. **cURL** **Installation:** You can install the plugin through the standard Joomla installer.
 
 How to Register with Canada Post ?Sign in or Sign up If you are lready registered with Canada Post, then Sign in to the Canada Post website using your registered Username and Password.
 
@@ -15,11 +20,11 @@ Don’t have an account yet ? Sign up now.
 
 **Join the Developer Program** Once you’ve signed in to our website, select Join Now on the main Developr program page. Read and accept the terms and conditions of the Program to become a member.
 
-**Get your API keys** You would see the API keys that are displayed on the main Developer Program page. These API keys are unique codes, used to access Canada Post web service and Postmen API. Note down the API keys \(one for development and one for production\).
+**Get your API keys** You would see the API keys that are displayed on the main Developer Program page. These API keys are unique codes, used to access Canada Post web service and Postmen API. Note down the API keys (one for development and one for production).
 
 **Configuration** Prior to configuring the plugin, you should have an active account with the CanadaPost and received API keys. Contact CanadaPost to register and get API keys.
 
-1. Make sure that you have set the Default Weight Class to Kilogram \(KG\) or Pound \(LB\) in the J2Store admin –&gt; Set up –&gt; Store Profiles –&gt; Your Store profile
+1. Make sure that you have set the Default Weight Class to Kilogram (KG) or Pound (LB) in the J2Store admin –> Set up –> Store Profiles –> Your Store profile
 2. Make sure that you entered your Postal Code/Zip correct in your Store Profile
 3. Make sure that you have set the Dimensions and Weight fields in your products correctly
 4. Make sure that you have set the Enable Shipping to YES in your products
@@ -35,13 +40,13 @@ Don’t have an account yet ? Sign up now.
 
 > NOTE: This is a mandatory option for version 3.2.24.Not selecting the service will make the shipping method unavailable.
 
-**Handling cost** You can enter an amount here \(without any symbols or letters\). It will be added as a handling cost in addition to the shipping cost.
+**Handling cost** You can enter an amount here (without any symbols or letters). It will be added as a handling cost in addition to the shipping cost.
 
 **Show delivery time** Set this to Yes, if you want to show the expected delivery time to the customers.
 
 **Test mode** If you would like to test the API, set this to Yes. Otherwise, you can set this to No.
 
-**Weight Unit** Valid Units are: Kilogram \(KG\), Pound \(LB\).
+**Weight Unit** Valid Units are: Kilogram (KG), Pound (LB).
 
 > IMPORTANTMake sure to set your default weight class to either KG or LB in your storeprofile. All your products should be using the same weight class
 
@@ -52,4 +57,3 @@ Don’t have an account yet ? Sign up now.
 **Geozone** You can select a geozone and restrict the availability of this shipping method to the countries/zones in that geozone. Leave empty/unselected for making this shipping method available to customers from all regions.
 
 **Debug** If you set this to Yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory.Set this to No in Live websites.
-

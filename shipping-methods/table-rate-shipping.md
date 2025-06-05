@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Table Rate Shipping
 
 The table rate shipping plugin extends J2Store’s default standard shipping options giving you highly customizable shipping options.
@@ -15,9 +19,9 @@ You can define multiple rates based on the customer’s address, have multiple r
 
 **Requirements**
 
-* PHP version 5.4 and above
-* J2Store 3.2.25 +
-* Joomla 3.x
+* with PHP 8.1.0 +
+* Joomla! 4.x/ Joomla! 5.x +
+* J2Commerce / J2Store 4.x +
 
 **Installation**
 
@@ -61,11 +65,7 @@ You have to create shipping zones and its rules for calculating the shipping cor
 
 **Maximum cost per item** Set a maximum cost to the calculated item. The item calculated could be an individual item or shipping class based on above settings.
 
-&#x20;
-
 ![shippingmethod](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shippingmethod.png)
-
-
 
 **Creating shipping rule** After filling all the fields on shipping method, click save and you will be asking to create shipping rule for the shipping method you created.
 
@@ -93,13 +93,13 @@ Click on Add Rule button to create shipping rule.
 
 **Percentage (%) cost** The percentage of the products total should used to calculate shipping.
 
-&#x20;**Shipping class** Shipping classes are used to restrict shipping by products. For example, you may have a product that weighs very large and needs special shipping price. In this case, you can use shipping class and create a shipping rule for that specific product. Multiple shipping classes can be created here. For example, special, normal, store pickup.
+**Shipping class** Shipping classes are used to restrict shipping by products. For example, you may have a product that weighs very large and needs special shipping price. In this case, you can use shipping class and create a shipping rule for that specific product. Multiple shipping classes can be created here. For example, special, normal, store pickup.
 
 ![createshiprules](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shiprulecreate.png)
 
 You can create tables of rates that apply to different shipping classes. This gives you considerable flexibility when creating shipping methods.
 
-&#x20;After creating shipping class, you will have to associate this shipping class to the product which needs special shipping charge.
+After creating shipping class, you will have to associate this shipping class to the product which needs special shipping charge.
 
 ![shipclass](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shipclass.png)
 
@@ -194,13 +194,13 @@ The shipping cost 2 has been created similar to the shipping cost 1.
 
 **Frontend screenshots:**
 
-Shipping charge applies when adding product A:&#x20;
+Shipping charge applies when adding product A:
 
 ![usecasee](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1e.png)
 
 Shipping charge applies when adding product B
 
-&#x20;When adding both products, the shipping cost calculated by adding both charge:
+When adding both products, the shipping cost calculated by adding both charge:
 
 ![usecasef](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1f.png)
 

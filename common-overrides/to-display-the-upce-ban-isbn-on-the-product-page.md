@@ -1,8 +1,10 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # To display the UPCE/BAN/ISBN on the product page
 
 Navigate to **“/templates/your template/html/com\_j2store/templates/your site’s sub-template/“,** create a file called ”**default\_sku.php**” and paste the following content there:
-
-
 
 ```
 <?php
@@ -31,8 +33,7 @@ defined('_JEXEC') or die;
 <?php endif; ?>
 ```
 
-Create another file called ”**view\_sku.php**” and paste the following content there:\
-
+Create another file called ”**view\_sku.php**” and paste the following content there:\\
 
 ```
 <?php

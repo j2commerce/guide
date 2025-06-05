@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Quickstart guide
 
 Here is the quickstart guide for setting up an online store with Joomla and J2Commerce.

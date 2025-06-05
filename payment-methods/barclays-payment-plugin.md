@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Barclays Payment plugin
 
 This plugin integrates the Barclays ePDQ payment gateway with the J2Store shopping cart.

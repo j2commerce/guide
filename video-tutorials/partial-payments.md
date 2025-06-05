@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Partial Payments
 
 ## Receiving payments in 3 installments
@@ -15,6 +19,3 @@
 ## Exempt a product from the global settings of partial payment
 
 {% embed url="https://youtu.be/mzJ3vGh3fKA" %}
-
-
-

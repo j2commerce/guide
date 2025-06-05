@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Easy checkout
 
 With online shopping moving quickly, convenience is becoming a must for customers. Overcomplicating your check out process can result in lost sales and unsatisfied customers. One would think that fewer steps would make it easier for the customer to check out, but that is not always the case.
@@ -46,15 +50,15 @@ Save.
 
 To enable the New account registration option in Easy checkout,
 
-Go to J2Commerce > Setup > Configuration > Cart tab
+Go to Component > J2Commerce > Setup > Configuration > Cart tab
 
-Set YES to Allow quick new user registration
+Set 'YES' to allow quick new user registration
 
 Save.
 
 <figure><img src="../.gitbook/assets/vat-tax-10 (1).webp" alt=""><figcaption></figcaption></figure>
 
-If new user registration option is enabled, you would see the small checkbox labelled **Create an account for later usage** in the checkbox.
+If the new user registration option is enabled, you would see a small checkbox labelled **Create an account for later usage** in the checkbox.
 
 This checkbox will be checked automatically.
 
@@ -76,9 +80,9 @@ The existing customers can place the order by using the login form. You would se
 
 The SEF is the most important one for all the online stores. Similar to the Normal checkout, the easy checkout also has the menu item type.
 
-By using this menu type, you can have the SEF url for checkout page.
+By using this menu type, you can have the SEF URL for the checkout page.
 
-Go to menus > manage and create the menu item under Main Menu.&#x20;
+Go to Menus > Manage and create the menu item under Main Menu.&#x20;
 
 ![Easy checkout menu](../.gitbook/assets/easy-checkout3.webp)
 
@@ -98,13 +102,13 @@ Name the menu Checkout.&#x20;
 
 **Easy checkout is not showing up:**
 
-Even after installing, enabling and creating a menu for easy checkout, if it is not showing up on the storefront, then this might be a reason.
+Even after installing, enabling, and creating a menu for easy checkout, if it is not showing up on the storefront, then this might be a reason.
 
 Navigate to\*\* Components > Easy checkout > Options\*\*
 
 ![Associating menu with easy checkout](<../.gitbook/assets/easy-checkout2 (1).webp>)
 
-\*\*Select the menu created for easy checkout at the Easy checkout menu option. If Checkout isn't listed in the dropdown menu then it's because you skipped the step above which is creating the menu.
+\*\*Select the menu created for easy checkout at the Easy Checkout menu option. If Checkout isn't listed in the dropdown menu, then it's because you skipped the step above, which is creating the menu.
 
 ![Choose the menu created for easy checkout](../.gitbook/assets/easy-checkout4.webp)
 

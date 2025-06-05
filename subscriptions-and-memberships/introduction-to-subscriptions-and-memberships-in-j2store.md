@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Introduction to subscriptions and memberships in J2Commerce
 
 **Introduction**

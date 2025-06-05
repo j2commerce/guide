@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Mollie payment plugin
 
 This plugin integrates Mollie payment gateway with J2Store Joomla eCommerce solution.

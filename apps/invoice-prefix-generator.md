@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Invoice Prefix Generator
 
 This app allows you to generate a sequential invoice number for orders with **Confirmed** status using the prefix you have entered in the app. You can also add it to All statuses, not just confirmed.&#x20;

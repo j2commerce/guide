@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Group Products
 
 This app allows store owner to combine the products and sell it as one group product. When grouping product, the app will allow only simple, configurable and downloadable product types without options. Product which are having options can’t be added into the group.

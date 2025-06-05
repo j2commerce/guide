@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # EBS Payment Plugin
 
 This plugin adds EBS Payment Gateway integration with J2Store.

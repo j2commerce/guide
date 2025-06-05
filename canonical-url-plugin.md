@@ -1,8 +1,12 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Canonical URL Plugin
 
 This plugin solves the duplicate URL problem in search engines by adding appropriate Canonical tags for J2Store products and Articles.
 
-## Introduction <a id="introduction"></a>
+## Introduction <a href="#introduction" id="introduction"></a>
 
 Let us suppose that we have three products based on tags T shirts, Summer and Winter collection. So a product say Printed Tee falls under all the above three categories.
 
@@ -12,11 +16,11 @@ So to avoid this, the canonical URL plugin is used. When the canonical plugin is
 
 Now that we know the purpose of the plugin, let us see how it has to be configured.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
-The plugin doesn’t have much of options to be configured at the plugin level. The plugin could be found under Extensions-&gt;Plugins. It would be named as **System - J2Store Canonical.**
+The plugin doesn’t have much of options to be configured at the plugin level. The plugin could be found under Extensions->Plugins. It would be named as **System - J2Store Canonical.**
 
-The setting found in the plugin would allow you to choose the canonical tag. There are two options available: \*\*1.\)Menu canonical tag 2.\)Current URL \*\*
+The setting found in the plugin would allow you to choose the canonical tag. There are two options available: \*\*1.)Menu canonical tag 2.)Current URL \*\*
 
 ![Introduction](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/options%20in%20settings.png)
 
@@ -38,11 +42,10 @@ The main tag chosen in the product article is as follows:
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/screenshot-localhost-2018-07-25-18-27-58.png)
 
-Now the tag displayed on the meta tag of the frontend would be as follows: 
+Now the tag displayed on the meta tag of the frontend would be as follows:
 
 ![meta tag](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/Selection_079.png)
 
 When the canonical type is chosen as Current URL on the plugin parameters, a validation would be done if there are any tags associated on the menu parameters. If so, then the tag associated with the menu parameter would take effect. If not, then a check would be done if there is any main tag associated on the product, and if not, the current URL itself would be used.
 
 Thus the canonical plugin helps in eliminating duplicate URL issues while indexing is done by search engines.
-

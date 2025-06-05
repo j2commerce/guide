@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paymate
 
 This plugin integrates J2Store's Joomla eCommerce solution with PayMate payment gateway, allows customers to make purchase securely from your website.

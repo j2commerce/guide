@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Products Tag View
 
 ## Introduction <a href="#introduction" id="introduction"></a>

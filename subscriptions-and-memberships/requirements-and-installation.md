@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Requirements and Installation
 
 ## Requirements <a href="#requirements" id="requirements"></a>

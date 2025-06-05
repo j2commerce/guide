@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Additional fee
 
 ## Requirements <a href="#requirements" id="requirements"></a>

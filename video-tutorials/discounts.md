@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Discounts
 
 ## Coupon for selected product
@@ -23,6 +27,3 @@
 ## Provide discounted prices to wholesale customers
 
 {% embed url="https://youtu.be/ORMEaNKET8o" %}
-
-
-

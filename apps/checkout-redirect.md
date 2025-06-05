@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Checkout Redirect
 
 The app will redirect the customer directly to checkout when they add an item to cart, skipping the cart page.

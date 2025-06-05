@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paybox Payment plugin
 
 This plugin integrates Paybox Payment gateway with J2Store.

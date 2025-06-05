@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paypal Sandbox
 
 Using the PayPal Sandbox is not even half as intuitive as you might think. Since most of our users think that our software is broken because they are not able to use the Sandbox, we have documented every single step you have to take in order to use the Sandbox on your site.
@@ -11,7 +15,7 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 
 **A.1. Create a seller account**
 
-1. Go to the main Sandbox page&#x20;
+1. Go to the main Sandbox page
 2. Click on Create a preconfigured account. Warning: MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!! Choose a country with the same currency as your site. For example United States for transactions in USD.
 3. Set the account type to Seller
 4. Optional: set the login email to “seller”. It will make it easier for you to remember what you’re doing

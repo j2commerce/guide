@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Shipping Methods
 
 ## Flat rate per order
@@ -39,4 +43,3 @@
 ## Adding shipping tracking ID
 
 {% embed url="https://youtu.be/Se17Y3AZGV4" %}
-

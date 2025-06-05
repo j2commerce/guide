@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Sub-templates
 
 Since Version 3, J2Store comes with a sub-templating system that is very similar to the K2 content construction kit’s system.Sub-templates allows store owners to have finer control over their product layouts. They can move the pieces around and have a unique design for their store front.
@@ -60,4 +64,3 @@ You will have to edit these files and organise your layout. These master files i
 **Video Tutorial:**
 
 {% embed url="https://youtu.be/VltGFjvABzE" %}
-

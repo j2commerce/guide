@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Interpay
 
 This plugin implements Interac online web re-director which offers you privacy and security.

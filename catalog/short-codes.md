@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Short codes
 
 Shortcodes are for Joomla article layouts.

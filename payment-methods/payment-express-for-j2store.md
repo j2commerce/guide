@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Payment Express for J2Store
 
 This plugin integrates Payment Express payment gateway with J2Store.

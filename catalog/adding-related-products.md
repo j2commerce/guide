@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Adding related products
 
 Adding related products has never been as easy as it is now. Here is how you could add up-sell and cross-sells products on your store.

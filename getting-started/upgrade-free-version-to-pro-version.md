@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Upgrade from FREE version to PRO version of J2Commerce
 
 You can check which version of J2Commerce you are using. Just Go to J2Commerce > Dashboard where you can find the version of J2Commerce. Please refer the image below.

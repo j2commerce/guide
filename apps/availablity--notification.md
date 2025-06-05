@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Availability-notification
 
 This app allows store owner to notify customer regarding stock availability. If product’s stock goes to “OUT OF STOCK” then Notify Me button will be generated where customer can type his / her Email id and click Notify Me. So when product’s stock becomes available, customer get an email notification.

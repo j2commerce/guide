@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Basic Settings
 
 For renewing subscriptions you should run cron job at least every day.

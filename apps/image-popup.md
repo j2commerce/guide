@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Image Popup
 
 This app allows customer to view the product images (main image and additional image) in popup. The following features are possible with this app

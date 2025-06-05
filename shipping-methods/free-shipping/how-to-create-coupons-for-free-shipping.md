@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # How to create coupons for free shipping
 
 This is J2Commerce PRO exclusive feature

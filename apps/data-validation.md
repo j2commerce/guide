@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Data validation
 
 The data validation app is especially useful in the checkout page. With the data validation app you can create rules so that only valid data from the customer is accepted into the various checkout fields. A checkout field that requires the phone number of the customer can be configured to accept only a number input from the customer. You can also set it to reject special characters and alphabets. This way the customer will be informed to only enter a valid phone number, address or any other details in the checkout field.

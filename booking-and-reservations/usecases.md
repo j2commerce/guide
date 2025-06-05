@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Usecases
 
 In this guide, we are going to get to knowa  few scenarios where the booking extension could be used:

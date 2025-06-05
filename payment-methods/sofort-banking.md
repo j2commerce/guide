@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Sofort Banking
 
 The plugin integrates J2Store with Sofort banking gateway.
@@ -6,7 +10,7 @@ The plugin integrates J2Store with Sofort banking gateway.
 
 **Installation** Install the plugin via the Joomla Extension Manager.
 
-**Configuration** Go to Joomla admin - J2Store - Set up - Payments -&gt; Sofort banking
+**Configuration** Go to Joomla admin - J2Store - Set up - Payments -> Sofort banking
 
 **Payment option title:** A title for the method. This will show up in the checkout steps. Default: Sofort
 
@@ -19,4 +23,3 @@ This is your Live Sofort Account Config Key, which is used in Sofort Account. -R
 **Test Config Key:** If you set Sandbox mode to YES, then you have to enter the Test config key provided by Sofort here.
 
 **Geo Zone:** Set this to ALL if you are not sure of what to do.Advanced users: You can restrict customers from a particular geozone alone to use this gateway by selecting a geozone here.Choose all Geozones to show the payment method to customers of all Geo-regions.
-

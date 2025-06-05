@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Language overrides in Joomla with examples
 
 To change text in core Joomla! Or in an extension (other than installing a new language), it is advised to perform a language override in Joomla!. To do this, you need to go into the admin backend then in the menu under “Extensions” click on “Language Manager”

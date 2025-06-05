@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Email and Invoice Template
 
 ## Working with email templates and order notifications - Quick Start
@@ -10,7 +14,7 @@ The video explains the basics of email templates in J2Store Joomla shopping cart
 
 {% embed url="https://youtu.be/uFyPRGBCVKo" %}
 
-## Email Template - Template file \(Advanced\)
+## Email Template - Template file (Advanced)
 
 {% embed url="https://youtu.be/JgEQkyDwYjA" %}
 
@@ -21,6 +25,3 @@ The video explains the basics of email templates in J2Store Joomla shopping cart
 ## Styling the email template using advanced template
 
 {% embed url="https://youtu.be/CQhtxomct4c" %}
-
-
-

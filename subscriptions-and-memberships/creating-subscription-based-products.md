@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Creating subscription based products
 
 ## Creating simple subscription product <a href="#creating-simple-subscription-product" id="creating-simple-subscription-product"></a>

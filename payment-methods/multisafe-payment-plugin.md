@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # MultiSafe Payment Plugin
 
 The plugin integrates J2Store with the MultisafePay allowing you to accept payments securely.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Tax Utilities
 
 The app provides a one-stop configuration for the tax set up. The tax utilities app is a replacement of the following apps.

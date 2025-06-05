@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Translating Product Options
 
 ## Translating product options <a href="#translating-product-options" id="translating-product-options"></a>

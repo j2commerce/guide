@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # United States postal service Shipping Plugin
 
 This plugin integrates J2Store with USPS Shipping rate API.

@@ -1,5 +1,7 @@
 ---
-description: The plugin integrates POLi payments with J2Store Joomla shopping Cart.
+description: >-
+  The plugin integratesJ2Commerce (formerly known as J2Store) POLi payments with
+  J2Store Joomla shopping Cart.
 ---
 
 # Poli Payment Plugin

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Culqi Payment
 
 This plugin integrates a secure payment gateway Culqi with J2Store. This allows users of the store to pay via Culqi. This payment gateway accept credit and debit cards for payment on your store.

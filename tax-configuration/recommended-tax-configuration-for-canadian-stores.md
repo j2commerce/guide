@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Recommended Tax configuration for Canadian Stores
 
 This is an example setting for stores in Canada. For detailed information on tax, please consult an expert.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Quickstart
 
 Recurring subscription is nothing but auto-renewal. J2Commerce’s Subscriptions and Memberships app allows you to create recurring subscription. If you create recurring subscription, the customers can auto renewal his subscription plan.

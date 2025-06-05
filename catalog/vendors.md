@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Vendors
 
 This is a database of vendors for products available in J2Commerce.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Email Basket Plugin
 
 This plugin allows your customers to email items in the cart to the store owner and to themselves.

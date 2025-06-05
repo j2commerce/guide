@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Installation
 
 To install J2Commerce, you need J2Commerce archive downloaded or purchased from [click here](https://www.j2commerce.com/download).

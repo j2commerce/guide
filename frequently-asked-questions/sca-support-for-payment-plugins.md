@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # SCA support for payment plugins
 
 ## SCA support for payment plugins <a href="#sca-support-for-payment-plugins" id="sca-support-for-payment-plugins"></a>
@@ -18,25 +22,25 @@ This update would be rolled out before September, when the regulations come into
 
 **Are Paypal and Stripe compatible with SCA:**
 
-&#x20;   **1) Paypal Standard:**
+**1) Paypal Standard:**
 
-&#x20;   With the standard version of Paypal, the transactions happen at the payment gateway and not on the Merchant site.
+With the standard version of Paypal, the transactions happen at the payment gateway and not on the Merchant site.
 
-&#x20;   So, Paypal would handle the compliance by itself.
+So, Paypal would handle the compliance by itself.
 
-&#x20;   Store owners need not worry about the compliance since the transaction occurs outside of the store.
+Store owners need not worry about the compliance since the transaction occurs outside of the store.
 
-&#x20;   **2) Paypal PRO:**
+**2) Paypal PRO:**
 
-&#x20;   The latest version of Paypal PRO(2.15) does support SCA regulations.
+The latest version of Paypal PRO(2.15) does support SCA regulations.
 
-&#x20;   **3) Stripe:**
+**3) Stripe:**
 
-&#x20;   As far as Stripe is concerned, the latest version of Stripe the **In-built mode** supports SCA regulations.
+As far as Stripe is concerned, the latest version of Stripe the **In-built mode** supports SCA regulations.
 
-&#x20;   You will have to update Stripe to the latest version(1.53) and set the option **Enable payment intent in in-built form to YES in the plugin settings.**
+You will have to update Stripe to the latest version(1.53) and set the option **Enable payment intent in in-built form to YES in the plugin settings.**
 
-**SCA supported cards for testing:**&#x20;
+**SCA supported cards for testing:**
 
 You might want to use only these cards for testing Stripe SCA compliance:
 
@@ -54,7 +58,7 @@ More info about this can be found here:
 
 [https://docs.j2store.org/payment-methods/stripe/](https://docs.j2store.org/payment-methods/stripe/)
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/13074122822/original/5h\_L1OTa3oFalZ2UR7nbuJv9tAL6LrTiUQ.png?1565934569)
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/13074122822/original/5h_L1OTa3oFalZ2UR7nbuJv9tAL6LrTiUQ.png?1565934569)
 
 **Stripe for subscription products:**
 
@@ -68,6 +72,6 @@ Following are the SCA supported cards for testing:
 
 **4) Other payment gateways:**
 
-&#x20;   If the payment occurs in the payment gateway, then SCA compliance would be handled by the payment gateway itself.
+If the payment occurs in the payment gateway, then SCA compliance would be handled by the payment gateway itself.
 
-&#x20;   If the transactions occur in the merchant site, then please drop us a support request to check the compatibility.
+If the transactions occur in the merchant site, then please drop us a support request to check the compatibility.

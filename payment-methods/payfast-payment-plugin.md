@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Payfast Payment plugin
 
 This plugin integrates PayFast payment gateway with J2Store.
@@ -12,7 +16,7 @@ This plugin integrates PayFast payment gateway with J2Store.
 
 **Merchant Key** The Merchant Key provided by PayFast
 
-**Pass Phrase \(Md5 Secret\)** The secret word set up in your Payfast Merchant Account. To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
+**Pass Phrase (Md5 Secret)** The secret word set up in your Payfast Merchant Account. To set up the secret word please log in to your Payfast account and click the EDIT button under Settings → Salt Pass Pharse.
 
 **Surcharge percentage** This is an optional field. Use this field if you require. Otherwise leave it empty. If you want to charge a percentage of Total Order Value as additional fee to the customers who choose this payment method, then you can enter the fee here. Enter only a numeric value. DO NOT enter % or any other symbols.
 
@@ -36,9 +40,9 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
+J2STORE\_TEXT\_TO\_DISPLAY\_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -46,7 +50,6 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text on cancel payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Support** Still have questions? You can post in our supportforum: [click here](http://j2store.org/forum/index.html)
-

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Vouchers
 
 Vouchers are also like coupons, intended to promote sales. Vouchers are sent to customers by email with offers.

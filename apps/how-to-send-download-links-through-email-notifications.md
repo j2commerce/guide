@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # How to send download links through email notifications
 
 Many times you might want to send the link of your downloadable products to the users through the email notifications they receive on placing the order.

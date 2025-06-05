@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # CECA Payment
 
 This plugin integrates CECA payment gateway with J2Store Joomla eCommerce solution.

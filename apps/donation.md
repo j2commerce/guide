@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Donation
 
 The app adds donation as a product option, allowing the store owners to collect donation in addition to selling their products.

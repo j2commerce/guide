@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Paypal Express Checkout
 
 This feature saves your customer the trouble of entering billing and shipping information again and again. This is how it works.Once the customer saved his API credentials in plugin’s configuration, the paypal express checkout button will be added in the cart pageAfter the adding to cart process two options are presented to him.

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Product display module
 
 The module which helps you to display the products wherever you want in your site. Sometimes you would like to showcase best selling products or featured products in your site on some specific place. In this case, the product display module will do that.
@@ -24,7 +28,7 @@ If you wants to use sef url, then create atleast one menu item with type J2Store
 
 **Display product based on following sort**
 
-You can sort out the arrangement of product by using this option. For example, if you would like to display the products based on SKU, then you can choose either SKU (A_Z) or SKU (Z_A).
+You can sort out the arrangement of product by using this option. For example, if you would like to display the products based on SKU, then you can choose either SKU (A\_Z) or SKU (Z\_A).
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/modules/product-dispaly-module/pdm01.png)
 
@@ -76,6 +80,3 @@ This tab has options to show/hide the several things displaying on module as per
 **Video Tutorial:** To configure the products display module, follow the below video:
 
 {% embed url="https://www.youtube.com/watch?v=Pov6SPpQI_k" %}
-
-
-

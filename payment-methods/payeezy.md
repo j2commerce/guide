@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Payeezy
 
 Payeezy is the payment gateway offering from First Data, a leading payment service provider in the world. The plugin integrates J2Store Joomla shopping cart with the Direct API of the Payeezy, allowing you to accept card transactions.

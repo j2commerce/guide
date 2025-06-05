@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Change Password
 
 This app enables change password feature in J2Commerce's My Profile page. It allows customer to change their account's password in their profile page.

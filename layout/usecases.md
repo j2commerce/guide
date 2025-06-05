@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Usecases
 
 So, what are the uses of the new menu item Product tag view? Here is all what you can achieve with the tag layout of J2Commerce:

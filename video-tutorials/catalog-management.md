@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Catalog Management
 
 ## Creating a simple product with options:
@@ -153,4 +157,3 @@ Learn how to allow your customers to send you a file when purchasing a product i
 ## Creating a flexible variable product
 
 {% embed url="https://youtu.be/yu1JKOjPba8" %}
-

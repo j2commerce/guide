@@ -1,8 +1,12 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Customizing the subscription mail templates
 
 The email templates for the Subscription app can be found at:
 
-/plugins/j2store/app_subscriptionproduct/app_subscriptionproduct/mailtemplates
+/plugins/j2store/app\_subscriptionproduct/app\_subscriptionproduct/mailtemplates
 
 You can customize these templates by writing a template override.
 

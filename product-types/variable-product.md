@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Advanced Variable product
 
 ## Introduction <a href="#introduction" id="introduction"></a>

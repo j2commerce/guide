@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Usecases
 
 ## Receiving payments in 3 installments: <a href="#receiving-payments-in-3-installments" id="receiving-payments-in-3-installments"></a>

@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Re-Order
 
 Allow your customers to re-order with a single click.

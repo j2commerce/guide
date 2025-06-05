@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Product filters
 
 These are used to narrow out the search for a particular product.

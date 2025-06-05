@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Invoice Template (Pro Feature)
 
 You can design how your invoice looks here. You can add a company address, logo, and some additional information to the invoice. You can also show various order information by adding the short tags. The tags will be replaced with relevant information from the order table.

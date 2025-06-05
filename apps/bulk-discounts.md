@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Bulk discounts
 
 Encourage customers to purchase more by providing bulk discounts depending on the ordered quantity and on the specific product.

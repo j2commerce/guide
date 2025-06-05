@@ -1,22 +1,26 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # App for J2store
 
 In the following guide, we are going to cover the following topics related to plugin development:
 
 Introduction App Structure Naming Conventions The Manifest Creating app class App Model Class App controller
 
-## Introduction <a id="introduction"></a>
+## Introduction <a href="#introduction" id="introduction"></a>
 
 Developing a app for J2Store is very simple process if you are good in PHP and the Joomla MVC structure.
 
 J2Store comes with a app library and wrappers that makes creating a app for J2Store.
 
-## App Structure <a id="app-structure"></a>
+## App Structure <a href="#app-structure" id="app-structure"></a>
 
 There is a folder structure and a few naming conventions, that should be followed during the development of a app for J2Store.
 
 A typical app should look like this:
 
-```text
+```
 ├── app_example/
 │   ├── app_example.php
 │   ├── app_example.xml
@@ -31,19 +35,17 @@ A typical app should look like this:
 │   │   │   ├── appexample.php
 ```
 
-## Naming Conventions <a id="naming-conventions"></a>
+## Naming Conventions <a href="#naming-conventions" id="naming-conventions"></a>
 
-The name of the app folder should start with the prefix “app_”. Otherwise, J2Store will not recognise your app. So our example app is named as:app_example
+The name of the app folder should start with the prefix “app\_”. Otherwise, J2Store will not recognise your app. So our example app is named as:app\_example
 
 Make sure that the name of the file and folder is in lower case and there are no spaces or any other characters in the name.
 
-## Manifest <a id="manifest"></a>
+## Manifest <a href="#manifest" id="manifest"></a>
 
 An example manifest should look like this:
 
-
-
-```text
+```
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="j2store" method="upgrade">
 	<name>Example</name>
@@ -75,11 +77,11 @@ An example manifest should look like this:
 </extension>
 ```
 
-## Creating app class <a id="creating-app-class"></a>
+## Creating app class <a href="#creating-app-class" id="creating-app-class"></a>
 
 Make sure the name of the class suffix is same as your app file’s name. And it should extend the J2StoreAppPlugin class.
 
-```text
+````
 defined('_JEXEC') or die('Restricted access');
     require_once(JPATH_ADMINISTRATOR.'/components/com_j2store/library/plugins/app.php');
     class plgJ2StoreApp_Example extends J2StoreAppPlugin
@@ -102,29 +104,28 @@ The above line will call the template layout for the app_example from /app_examp
 **App Model Class**
 
 App's model should have file named with appexample.php and it should be like below
+````
+
+defined(’\_JEXEC’) or die(‘Restricted access’); require\_once (JPATH\_ADMINISTRATOR . ‘/components/com\_j2store/library/appmodel.php’); class J2StoreModelAppExample extends J2StoreAppModel {
+
 ```
-
-defined\(’_JEXEC’\) or die\(‘Restricted access’\); require_once \(JPATH_ADMINISTRATOR . ‘/components/com_j2store/library/appmodel.php’\); class J2StoreModelAppExample extends J2StoreAppModel {
-
-```text
 public $_element = 'app_example';
 ```
 
 }
 
-```text
+```
 **App controller**
 
 Controller.php file should be located in /app_donation/app_donation/controller.php and you must include the J2Store's library appcontroller and it should be written like below
 ```
 
-defined\(’_JEXEC’\) or die\(‘Restricted access’\); require_once\(JPATH_ADMINISTRATOR.’/components/com_j2store/library/appcontroller.php’\);
+defined(’\_JEXEC’) or die(‘Restricted access’); require\_once(JPATH\_ADMINISTRATOR.’/components/com\_j2store/library/appcontroller.php’);
 
 class J2StoreControllerAppexample extends J2StoreAppController{
 
-```text
+```
 var $_element   = 'app_example';
 ```
 
 }
-

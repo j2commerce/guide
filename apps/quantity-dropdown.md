@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Quantity dropdown
 
 This app allows your store to update the price of a product based on quantity in the product page itself. Your product page normally displays the price for a unit quantity of a product. When a customer selects a higher quantity of the product, he can view the total price of the product only in his cart. But with this app he can automatically view the updated price for a higher quantity of the product in the same product page.

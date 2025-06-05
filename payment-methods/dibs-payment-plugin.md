@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # DIBS payment plugin
 
 The DIBS Plugin enables you to receive payments via DIBS Payment Solution, a leading payment solution provider in Nordic countries. [click here](http://www.dibspayment.com/)

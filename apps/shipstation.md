@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Shipstation
 
 The new J2Store integration with Shipstation helps you to integrate your J2Store site with one of the best shipping solution, Shipstation. Now import your orders and manage shipping on the go with the help of this integration. With Shipstation, you need not worry about shipping your orders using different carriers, cause you can manage everything at a one stop place using this integration.
@@ -34,11 +38,9 @@ The below screenshots are for reference:
 
 **Creating an account with Shipstation**
 
- 
-
 ![ss01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/shipstation/shipstation01.png)
 
-**Generating API keys** 
+**Generating API keys**
 
 ![ss02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/shipstation/shipstation02.png)
 
@@ -58,17 +60,15 @@ This has to be done in order to receive notifications of the changes that occur 
 
 Webhook notifications can be set up by following the steps given below:
 
-* The URL for webhook can be fetched from the app’s settings. 
+* The URL for webhook can be fetched from the app’s settings.
 
 ![ss06](https://raw.githubusercontent.com/j2store/doc-images/master/apps/shipstation/shipstation06.png)
 
-
-
 * Now login to your Shipstation account.
-* Go to Settings-&gt;Integrations-&gt;Integration partner-&gt;Webhook.
+* Go to Settings->Integrations->Integration partner->Webhook.
 * Specify the URL in the field Webhook URL and save.
 
- **App settings**
+**App settings**
 
 ![ss07](https://raw.githubusercontent.com/j2store/doc-images/master/apps/shipstation/shipstation07.png)
 
@@ -81,4 +81,3 @@ The following are the parameters that have to be filled for the integration to w
 * **Debug** This option has to be set to Yes if the activity of shipstation has to be logged.
 
 ![ss08](https://raw.githubusercontent.com/j2store/doc-images/master/apps/shipstation/shipstation08.png)
-

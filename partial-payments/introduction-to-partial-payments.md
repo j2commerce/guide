@@ -1,3 +1,7 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Introduction to Partial payments
 
 This app can help you and the users in case of products with higher costs. As the name suggests, partial payments allow users to pay in installments. In this case, to meet your customers’ needs, you might offer them the possibility to leave a deposit and make the full payment later. This kind of feature is now possible with our **Partial Payments** app. There is an added advantage since the users get to choose if they want to pay the full amount or in segments.

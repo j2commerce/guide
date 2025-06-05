@@ -1,10 +1,14 @@
+---
+description: J2Commerce (formerly known as J2Store)
+---
+
 # Simple Subscription Product
 
-## Creating simple subscription product <a id="creating-simple-subscription-product"></a>
+## Creating simple subscription product <a href="#creating-simple-subscription-product" id="creating-simple-subscription-product"></a>
 
 Following are the steps to create a simple subscription product:
 
-Go to Article Manager &gt; create new article &gt; Move to J2Store cart tab
+Go to Article Manager > create new article > Move to J2Store cart tab
 
 Choose YES to Treat as a Product and select Simple Subscription as Product Type and click Save and Continue.
 
@@ -16,11 +20,11 @@ Pricing tab, where you could set your subscription product’s price, customer g
 
 You can set images, shipping, filters to your subscription product.
 
-## How to setup pricing for subscription product ? <a id="how-to-setup-pricing-for-subscription-product-"></a>
+## How to setup pricing for subscription product ? <a href="#how-to-setup-pricing-for-subscription-product" id="how-to-setup-pricing-for-subscription-product"></a>
 
-**Subscription price :** Enter the membership price \(for example,29\) based on either daily or weekly or monthly or yearly basis.For example, if you would like to give subscription price $29 for only 3 months, then enter $29 in the first text box and then choose every 3rd from the dropdown list and then choose month from third dropdown list.
+**Subscription price :** Enter the membership price (for example,29) based on either daily or weekly or monthly or yearly basis.For example, if you would like to give subscription price $29 for only 3 months, then enter $29 in the first text box and then choose every 3rd from the dropdown list and then choose month from third dropdown list.
 
-**Subscription length :** The subscription length duration will be listed based on the recurring period you selected above. For example, if your subscription product’s duration period is only for 3 months, Choose 3 months. So the subscription will end at the end of 3rd month.If you would like to give a life time price for your subscription product \(i.e.\) wants to collect $29 at the end of every 3 months for lifetime, choose Never Expire to Subscription length. So $29 for every 3rd month for lifetime.
+**Subscription length :** The subscription length duration will be listed based on the recurring period you selected above. For example, if your subscription product’s duration period is only for 3 months, Choose 3 months. So the subscription will end at the end of 3rd month.If you would like to give a life time price for your subscription product (i.e.) wants to collect $29 at the end of every 3 months for lifetime, choose Never Expire to Subscription length. So $29 for every 3rd month for lifetime.
 
 **Add / Remove user groups :** Users will be added and removed from the Joomla user groups when their subscription to the level is enabled or disabled.
 
@@ -38,13 +42,11 @@ Watch the video tutorial for creating simple subscription product:
 
 {% embed url="https://youtu.be/mNFXMLHrdjY" %}
 
-
-
-### Frontend Demo <a id="frontend-demo"></a>
+### Frontend Demo <a href="#frontend-demo" id="frontend-demo"></a>
 
 ![subs prods frontend](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/simple-subscription-product/simple-sub-prods.png)
 
-### Example <a id="example"></a>
+### Example <a href="#example" id="example"></a>
 
 Consider, the hosting provider sells the domain names with 6 months subscription plan. His / Her aim is to collect $9.99 at the end of every month for 6 months.
 
@@ -69,4 +71,3 @@ That is, \*\*$9.99 every Month for 6 Months \*\*
 ![sub ex](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/simple-subscription-product/simpe-sub-ex.png)
 
 ![sub ex demo](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/simple-subscription-product/simple-sub-ex-demo.png)
-
