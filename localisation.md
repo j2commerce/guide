@@ -15,6 +15,8 @@ Under the localisation section of J2Commerce dashboard, the following options wo
 * Weights
 * Order statuses
 
+<figure><img src=".gitbook/assets/localization.webp" alt=""><figcaption></figcaption></figure>
+
 ## Introduction <a href="#introduction" id="introduction"></a>
 
 These are basically properties that help you to configure your store to your local/regional needs. Primarily for taxation purposes. You can also add/edit countries, zones, group the countries/zones as geozones, length, and weight measurements. You can also create more custom order statuses
