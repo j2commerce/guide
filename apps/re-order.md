@@ -27,7 +27,7 @@ Instead of going through the process of adding the same products in their next p
 
 Once you have enabled the Re-Order App under J2Commerce > Apps, the app places a button on the My Profile page, allowing users to re-order the items of an existing order in a few clicks.
 
-Now, click on "Open" under J2Commerce > Apps > Re-Order, configure the App.
+Now, click on "Open" under J2Commerce > Apps > Re-Order, and configure the App.
 
 Select the page that the customer should be redirected to post clicking on the Re-Order button displayed next to the order placed by the customer at the My Profile page.
 

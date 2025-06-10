@@ -4,7 +4,7 @@ description: J2Commerce (formerly known as J2Store)
 
 # Image Popup
 
-This app allows customers to view the product images (main image and additional image) in pop-up. The following features are possible with this app
+This app allows customers to view the product images (main image and additional image) in a pop-up. The following features are possible with this app
 
 * Download the product image
 * Share and tweet on social media
@@ -43,7 +43,7 @@ Now it's time to open the app and configure the settings.&#x20;
 
 * Photo Swipe: This method allows you to swipe the image in a pop-up, and you will have the share feature to share or tweet the image on social media.
 * Light Gallery: This type of popup method displays the image in a gallery type and it has the feature of slideshow, zoom in, and zoom out.
-* Fancy Box: This type of popup method displays the image in small fancy box.
+* Fancy Box: This type of popup method displays the image in a small fancy box.
 
 ![ip01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/image-pop-up/image_popup_01.png)
 

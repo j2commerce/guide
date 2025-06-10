@@ -54,17 +54,17 @@ You can set a delay for emptying the cart. The default is 2 seconds.
 
 ### Layout <a href="#layout" id="layout"></a>
 
-If you would like to add / remove the fields in Email form without affecting checkout form fields, it is possible in this section.
+If you would like to add / remove the fields in the Email form without affecting the checkout form fields, it is possible in this section.
 
-In this section, you can create the custom form by adding field shortcode given in the top of the layout tab page and display that field in the form.
+In this section, you can create the custom form by adding the field shortcode given in the top of the layout tab page and display that field in the form.
 
-To add any new fields, go to J2Store > Setup > Custom fields. Click NEW to create new field.
+To add any new fields, go to J2Commerce > Setup > Custom fields. Click 'New' to create a new field.
 
-Enter the label name, field name, choose field type and set the status to **Published**.
+Enter the label name, field name, choose field type, and set the status to **Published**.
 
-If you don’t want to display this new field in checkout and wants to display it only in Email form, then in custom field display settings, set **NO** to all layouts (Checkout billing address layout, Checkout shipping address layout, Checkout payment method layout).
+If you don’t want to display this new field in checkout and want to display it only in the Email form, then in the custom field display settings, set **NO** to all layouts (Checkout billing address layout, Checkout shipping address layout, Checkout payment method layout).
 
-Now, in form layout add the shortcodes of fields you want to display in email form. To add custom field shortcode, copy the field name in J2Store > Setup > Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, \[message].
+Now, in the form layout, add the shortcodes of the fields you want to display in the email form. To add a custom field shortcode, copy the field name in J2Commerce > Setup > Custom fields section and paste it in the form. The field name should be enclosed in square braces. For example, \[message].
 
 ![Custom fields](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-custom-field.png)
 
@@ -74,35 +74,25 @@ Now, in form layout add the shortcodes of fields you want to display in email fo
 
 **Choose Basket modal type :**
 
-Select whether you want a bootstrap model or custom model.
+Select whether you want a Bootstrap model or a custom model.
 
 **Advanced**
 
-**Display box container Inline Style**
+**Display box container Inline Style:** You can add the additional inline style to the box container in the given text box.
 
-You can add the additional inline style to the box container in the given text box.
+**Modal box container extra class:** You can add the additional class names to the modal box container in the given text box.
 
-**Modal box container extra class**
+**Modal Style:** You can add the custom CSS in the given text area.
 
-You can add the additional class names to the modal box container in the given text box.
+**Enable Redirect after send email:** Set this option to Yes if you wish to redirect the users to a page after the order has been placed.
 
-**Modal style**
-
-You can add the custom css in the given text area.
-
-**Enable Redirect after send email**Set this option to Yes if you wish to redirect the users to a page after the order has been placed.
-
-**Redirect customer to this URL**
-
-Enter the URL to which the customer should be redirected on the form submission.
+**Redirect the customer to this URL:** Enter the URL to which the customer should be redirected on the form submission.
 
 ![Advanced settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-advanced-settings.png)
 
 ### Email Configuration <a href="#email-configuration" id="email-configuration"></a>
 
-**Send email to**
-
-Choose the user to whom you wish to send the email.
+**Send email to:** Choose the user to whom you wish to send the email.
 
 ![Email-configuration](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-email-config.png)
 
@@ -126,7 +116,7 @@ Enter the subject of the email here.
 
 In the Email body section, you can use the shortcodes to display the dynamic information such as customer’s name, email, country, cart items, etc..\[first\_name]\[last\\\_name]\[email]\[phone\\\_1]\[phone\_2]\[company]\[tax\_number]\[address\\\_1]\[address\_2]\[city]\[zip]\[country\\\_id]\[zone\_id]\[cart\\\_item]\[user\_name]\[site\\\_name]
 
-To display the custom field information (enterd by the user when filling form) in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. For example, if you are having text area as a custom field in your email form, then copy the field name(you can get it in custom field section J2Store > Setup > Custom fields) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message]. Refer the image below:\\
+To display the custom field information (entered by the user when filling the form) in an email that the customer and admin receive, it is possible by adding the shortcode of the respective custom field in the Email body editor. For example, if you are having a text area as a custom field in your email form, then copy the field name (you can get it in the custom field section J2Commerce > Setup > Custom fields) and paste it in the Email body editor. The custom field shortcode should be enclosed in square braces. For example, \[message]. Refer to the image below:\\
 
 ### Video Tutorial <a href="#video-tutorial" id="video-tutorial"></a>
 

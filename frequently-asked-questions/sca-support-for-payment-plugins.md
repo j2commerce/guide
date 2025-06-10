@@ -6,9 +6,9 @@ description: J2Commerce (formerly known as J2Store)
 
 ## SCA support for payment plugins <a href="#sca-support-for-payment-plugins" id="sca-support-for-payment-plugins"></a>
 
-In the European union, a new regulation for online payments would be rolled out in September 2019. This would require your payment plugins to be compliant to the SCA regulation.
+In the European Union, a new regulation for online payments will be rolled out in September 2019. This would require your payment plugins to be compliant with the SCA regulation.
 
-## What is SCA: <a href="#what-is-sca" id="what-is-sca"></a>
+## What is SCA? <a href="#what-is-sca" id="what-is-sca"></a>
 
 Strong Customer Authentication (SCA) is a new European regulatory requirement to reduce fraud and make online payments more secure. To accept payments once SCA goes into effect, you will need to build additional authentication into your checkout flow.
 
@@ -16,29 +16,29 @@ Strong Customer Authentication (SCA) ([https://stripe.com/docs/strong-customer-a
 
 ## Will I need to update my payment plugins? <a href="#will-i-need-to-update-my-payment-plugins" id="will-i-need-to-update-my-payment-plugins"></a>
 
-Yes, we are in the process of updating our payment plugins to ensure that they support the SCA compliance.
+Yes, we are in the process of updating our payment plugins to ensure that they support SCA compliance.
 
-This update would be rolled out before September, when the regulations come into effect.
+This update will be rolled out before September, when the regulations come into effect.
 
-**Are Paypal and Stripe compatible with SCA:**
+**Are PayPal and Stripe compatible with SCA?**
 
-**1) Paypal Standard:**
+**1) PayPal Standard:**
 
-With the standard version of Paypal, the transactions happen at the payment gateway and not on the Merchant site.
+With the standard version of PayPal, the transactions happen at the payment gateway and not on the Merchant site.
 
-So, Paypal would handle the compliance by itself.
+So, PayPal would handle the compliance by itself.
 
 Store owners need not worry about the compliance since the transaction occurs outside of the store.
 
-**2) Paypal PRO:**
+**2) PayPal PRO:**
 
-The latest version of Paypal PRO(2.15) does support SCA regulations.
+The latest version of PayPal PRO (2.15) does support SCA regulations.
 
 **3) Stripe:**
 
-As far as Stripe is concerned, the latest version of Stripe the **In-built mode** supports SCA regulations.
+As far as Stripe is concerned, the latest version of Stripe, the **built-in mode,** supports SCA regulations.
 
-You will have to update Stripe to the latest version(1.53) and set the option **Enable payment intent in in-built form to YES in the plugin settings.**
+You will have to update Stripe to the latest version (1.53) and set the option **Enable payment intent in the built-in form to 'YES' in the plugin settings.**
 
 **SCA supported cards for testing:**
 
@@ -48,11 +48,11 @@ You might want to use only these cards for testing Stripe SCA compliance:
 
 **Stripe Hosted checkout:**
 
-With the purchase of Stripe integration, there comes another additional plugin called Stripe checkout(Hosted).
+With the purchase of Stripe integration, there comes an additional plugin called Stripe checkout (Hosted).
 
-You could find this plugin at the My Downloads page of the J2Store site.
+You could find this plugin at the My Downloads page of the J2Commerce site.
 
-**PS: With this plugin, you need not worry about SCA compliance since the transactions occur in Stripe gateway.**
+**PS: With this plugin, you need not worry about SCA compliance since the transactions occur in the Stripe gateway.**
 
 More info about this can be found here:
 
@@ -62,16 +62,16 @@ More info about this can be found here:
 
 **Stripe for subscription products:**
 
-We have rolled out an update(version 1.53) starting from which, Stripe would support SCA regulations on recurring payments, which is for subscription products.
+We have rolled out an update(version 1.53) starting from which Stripe will support SCA regulations on recurring payments, which is for subscription products.
 
-Following are the SCA supported cards for testing:
+The following are the SCA-supported cards for testing:
 
 [https://stripe.com/docs/payments/cards/saving-cards](https://stripe.com/docs/payments/cards/saving-cards)
 
-**NOTE: SCA authentication popup would come up only if you use the above SCA supported cards to test.**
+**NOTE: The SCA authentication pop-up would come up only if you use the above SCA-supported cards to test.**
 
 **4) Other payment gateways:**
 
 If the payment occurs in the payment gateway, then SCA compliance would be handled by the payment gateway itself.
 
-If the transactions occur in the merchant site, then please drop us a support request to check the compatibility.
+If the transactions occur on the merchant site, then please drop us a support request to check the compatibility.
