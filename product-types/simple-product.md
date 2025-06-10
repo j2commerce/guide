@@ -305,6 +305,8 @@ Refer the image below:
 
 For example, you can organize shoppers by what they purchased so you can later send those specific shoppers promotional material or pre-sale emails based on what they purchased before.
 
+The 'user group' app allows you to add a user to a specific user group based on the product that they purchased, so each product could essentially give somebody access to a certain area of the site simply by adding the add to user group app and opening up a product in the app section and then selecting the user group you wish them to be added to when the person purchases that product
+
 ![Apps section](<../.gitbook/assets/simple-apps-new (1).webp>)
 
 

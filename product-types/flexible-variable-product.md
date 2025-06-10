@@ -12,23 +12,27 @@ The only different is that this product type does not generate variants automati
 
 Since adding / removing a single variant will be possible with this product type, it will be more easy for you manage variants which are out of stock.
 
-## How to create FlexiVariable Product:
+## How to create a FlexiVariable Product:
 
-Start by creating a 'New' Article. Go to Content > Article > New.
+Start by creating a New' Article. Go to Content > Article > New.
 
-Name your product and then go to the J2Commerce (J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Flexible Variable'.
+Name your product and then go to the J2Commerce (or J2Store Cart) tab. Select 'Yes' to Treat as a Product and in the dropdown menu select 'Flexible Variable'.
+
+<figure><img src="../.gitbook/assets/general2 (1).webp" alt=""><figcaption></figcaption></figure>
 
 ## General <a href="#general" id="general"></a>
 
-![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)
+![Flexivariable product type](../.gitbook/assets/general1.webp)
 
-* Visible in Storefront - First select whether the product is to be displayed in front of the store. If it is, set the option to ‘Yes’
-* Brand or Manufacturer - Select the brand or manufacturer of the product from the available list
-* Vendor - Select the vendor from whom the product is available for purchase - This is J2Store PRO feature
-* Tax Profile - Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
-* Cart button text - It allows you to define the custom text to be displayed in the add to cart button
+* **Visible in Storefront**: First, select whether the product is to be displayed in front of the store. If it is, set the option to ‘Yes’
+* **Brand or Manufacturer:** Select the brand or manufacturer of the product from the available list
+* **Vendor:** Select the vendor from whom the product is available for purchase - This is J2Store PRO feature
+* **Tax Profile:** Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
+* **Cart button text:** It allows you to define the custom text to be displayed in the add to cart button
 
-![Choosing images](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-images.png)
+## Images <a href="#general" id="general"></a>
+
+![Choosing images](../.gitbook/assets/general3.webp)
 
 This feature is available for native Joomla articles and in J2Commerce Product Layouts
 
@@ -71,11 +75,11 @@ Select the size option from the dropdown list and then click on the Add option. 
 
 And then choose the color option and add it to the variant options list in the same way.
 
-![Adding options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-options.png)
+![Adding options](../.gitbook/assets/general4.webp)
 
 After adding size and color, your screen will look like below:
 
-![Options list](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-option-list.png)
+![Options list](../.gitbook/assets/general5.webp)
 
 Now you will get options to add variants to the product. Choose size from the drop-down “All sizes” and then choose the color and click on the **Add variant** button.
 
@@ -105,13 +109,13 @@ Filters are certain attributes that help narrow the search for a particular prod
 
 For e.g., assume that a customer searches for purple t-shirts in the store. Now, the product filter is set as color > Black, to narrow the search. See the image below:
 
-![Filters and specifications](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-specs.png)
+![Filters and specifications](../.gitbook/assets/general6.webp)
 
-Now the cart will display only the Black t-shirts.
+Now the cart will display only the Blue t-shirts.
 
 ## Relations <a href="#relations" id="relations"></a>
 
-![Relations](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-relations.png)
+![Relations](../.gitbook/assets/general7.webp)
 
 * In this tab page, relations are set for Upsells and Cross-sells
 * An upsell is to get the customer to spend more money – buy a more expensive model of the same type of product considered for purchase.
@@ -121,6 +125,10 @@ Now the cart will display only the Black t-shirts.
 ## Apps <a href="#apps" id="apps"></a>
 
 Custom fields / settings from applications will be displayed in this tab.
+
+The 'user group' app allows you to add a user to a specific user group based on the product that they purchased, so each product could essentially give somebody access to a certain area of the site simply by adding the add to user group app and opening up a product in the app section and then selecting the user group you wish them to be added to when the person purchases that product
+
+<figure><img src="../.gitbook/assets/general8 (1).webp" alt=""><figcaption></figcaption></figure>
 
 ## Video Tutorial <a href="#video-tutorial" id="video-tutorial"></a>
 
@@ -177,12 +185,12 @@ Your product is successfully created, and a message will be displayed like this.
 
 Variants are products of the same type and nature but with different attributes. For e.g., consider a T-shirt of a particular Color with certain Size attributes, say
 
-* Color - RED
+* Color - Red
 * Size - Small
 
 This is a variant of the particular Color. Now, the same product with the same Colour, will be another variant with some attributes changed, like
 
-* Color - RED
+* Color - Red
 * Size - Large
 
 For both items, Colour will be the same, but the attributes like Size differ. These are two variants of a particular T-shirt colour.

@@ -8,7 +8,7 @@ description: J2Commerce (formerly known as J2Store)
 
 The following are the known limitations of the booking product:
 
-* Though the booking product allows the store owners to set up fixed or pre-defined bookable time slots in terms of hours and minutes, the product doesn’t support the store owners to allow users to choose the start and end hour(or minutes). That is, customer-defined blocks of hours and customer-defined blocks of minutes are not supported.
+* Though the booking product allows the store owners to set up fixed or pre-defined bookable time slots in terms of hours and minutes, the product doesn’t support the store owners to allow users to choose the start and end hour (or minutes). That is, customer-defined blocks of hours and customer-defined blocks of minutes are not supported.
 
 Screenshot:
 

@@ -28,17 +28,17 @@ First there is a button to select the downloadable files to set for the customer
 
 ![Specifying files](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down-pro-files-spec.png)
 
-VERY IMPORTANT: In configuration -> basic settings, the File attachment path field should point to an existing directory inside your website root.
+VERY IMPORTANT: In configuration > basic settings, the File attachment path field should point to an existing directory inside your website root.
 
 If you specify a directory outside the public root, then you should enter the full file path manually.
 
-\*\* A file has to be associated to a downloadable product. If not, no downloadable link would appear at the My downloads section of the user’s My profile page even if user has bought the product and paid.\*\*
+\*\* A file has to be associated with a downloadable product. If not, no downloadable link would appear in the My downloads section of the user’s My profile page even if the user has bought the product and paid.\*\*
 
 ### Download limit <a href="#download-limit" id="download-limit"></a>
 
 This determines the maximum number of copies allowed to be downloaded by a single customer. Enter a numeric value to set the limit.
 
-\*\*VERY IMPORTANT NOTE: This parameter must have a value. If no value is inserted in this field, the downloadable product wouldn’t appear at the My downloads section even if the user has paid successfully for the order.
+\*\*VERY IMPORTANT NOTE: This parameter must have a value. If no value is inserted in this field, the downloadable product wouldn’t appear in the My downloads section even if the user has paid successfully for the order.
 
 \*\*
 
@@ -52,9 +52,9 @@ All other options are same as simple product.
 
 ## A Step-by-step example to create a downloadable product <a href="#a-step-by-step-example-to-create-a-downloadable-product" id="a-step-by-step-example-to-create-a-downloadable-product"></a>
 
-**J2Commerce** implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is to create an article.
+**J2Commerce** implements an innovative concept in creating products. It uses the Joomla articles as products. So, to create a product is to create an article.
 
-So, lets create an article.
+So, let's create an article.
 
 ### Creating an Article <a href="#creating-an-article" id="creating-an-article"></a>
 

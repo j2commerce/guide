@@ -267,6 +267,8 @@ For a more detailed explanation, refer to the **Relations** section of the **Var
 
 ### Apps <a href="#apps" id="apps"></a>
 
+The 'user group' app allows you to add a user to a specific user group based on the product that they purchased, so each product could essentially give somebody access to a certain area of the site simply by adding the add to user group app and opening up a product in the app section and then selecting the user group you wish them to be added to when the person purchases that product
+
 ![Apps section](<../.gitbook/assets/variable product-app-variants2.webp>)
 
 In this tab, you can add third-party tools or plugins that are available to enhance the J2Store functionality, like adding additional fields, applications, functions, or features.
