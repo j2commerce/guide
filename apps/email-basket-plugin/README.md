@@ -6,7 +6,7 @@ description: J2Commerce (formerly known as J2Store)
 
 This plugin allows your customers to email items in the cart to the store owner and to themselves.
 
-The plugin nicely integrates in the default cart page of J2Store. You can ask the customers to provide their name, address or any other information while emailing the cart.
+The plugin nicely integrates into the default cart page of J2Commerce. You can ask the customers to provide their name, address, or any other information while emailing the cart.
 
 ## Requirements <a href="#requirements" id="requirements"></a>
 
@@ -22,7 +22,7 @@ The plugin nicely integrates in the default cart page of J2Store. You can ask th
 4. Enter the parameters (read the explanation about each parameter given below)
 5. Save and close it.
 
-Now you can see the Email Basket button in the cart page.
+Now you can see the Email Basket button on the cart page.
 
 ## Parameters <a href="#parameters" id="parameters"></a>
 
@@ -30,25 +30,25 @@ Now you can see the Email Basket button in the cart page.
 
 \*\*Disable proceed checkout \*\*
 
-If you set this to YES, the plugin will hide the checkout button in the cart.
+If you set this to 'YES', the plugin will hide the checkout button in the cart.
 
 **Article ID for thank you message**
 
-The Article given will be displayed after the payment is processed and it can include a Thank you message or any kind of text.
+The Article given will be displayed after the payment is processed, and it can include a thank you message or any kind of text.
 
-\*\*Enable show save cart button
+\*\*Enable the show save cart button
 
-**Set \*\*YES** will display the Save cart button(which is used for un-registerd users) in cart page. Clicking on this button will redirect the customer to register. After registering and loggin in, the cart items remains in the basket.
+**Setting 'YES'** will display the Save cart button (which is used for unregistered users) on the cart page. Clicking on this button will redirect the customer to register. After registering and logging in, the cart items remain in the basket.
 
 ![Email basket frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-frontend.png)
 
 **Empty cart after sending email**
 
-If you set this to YES, the plugin will empty the cart after emailing the cart items to store owner.
+If you set this to YES, the plugin will empty the cart after emailing the cart items to the store owner.
 
 **Time delay in milliseconds to empty the cart**
 
-You can set a delay for emptying the cart. Default is 2 seconds.
+You can set a delay for emptying the cart. The default is 2 seconds.
 
 ![Email-basket settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/email-basket/email-basket-settings.png)
 

@@ -4,9 +4,9 @@ description: J2Commerce (formerly known as J2Store)
 
 # Pay later/Pay against invoice
 
-Invoice your customers and allow them to pay for the order online at a later date. There can be a number of situations when you want to send the invoice to the customer, complete the terms and then collect payments.
+Invoice your customers and allow them to pay for the order online at a later date. There can be a number of situations when you want to send the invoice to the customer, complete the terms, and then collect payments.
 
-Invoice first, collect payment online Allow customers to re-try payment for unpaid orders
+Invoice first, and collect payment online. Allow customers to re-try payment for unpaid orders
 
 ## Requirements <a href="#requirements" id="requirements"></a>
 
@@ -20,7 +20,7 @@ Invoice first, collect payment online Allow customers to re-try payment for unpa
 
 **Step 2:** Locate the Add to User Group App > click View Details > Add to cart > Checkout.&#x20;
 
-**Step 3:** Go to your My Download under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
+**Step 3:** Go to your My Downloads under your profile button at the top right corner and search for the app. Click Available Versions > View Files > Download Now
 
 **Step 4:** Use the Joomla! installer to install the app. Go to System > Install > Extensions > Download the app
 
@@ -36,23 +36,23 @@ Now it's time to open the app and configure the settings.&#x20;
 
 ![plpa01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa01.png)
 
-4\. Click Open to get started with app.
+4\. Click Open to get started with the app.
 
 ![plpa02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa02.png)
 
 **Basic settings**
 
-It is very simple and easier to get started with this app. There is no complex settings needs to be configured. You just enter the time interval between which the re-order link should be appeared/disappeared.
+It is very simple and easier to get started with this app. There are no complex settings that need to be configured. You just enter the time interval during which the re-order link should appear/disappear.
 
-**Profile Reorder enable after this time interval(in seconds)** : Enter the time (in seconds) at which the re-order link should appear on customer’s order history page. For example, 60 seconds. Re-order link will appear after 60 seconds from the time when customer abandoned the order.
+**Profile Reorder enabled after this time interval(in seconds)**: Enter the time (in seconds) at which the re-order link should appear on the customer’s order history page. For example, 60 seconds. Re-order link will appear after 60 seconds from the time when the customer abandoned the order.
 
-**Profile Reorder link expired (in days) :** Define when the re-order link should disappear from customer’s order history page. For example, 5. Re-order link will get expired after 5 days.
+**Profile Reorder link expired (in days):** Define when the re-order link should disappear from the customer’s order history page. For example, 5. Re-order link will get expired after 5 days.
 
-**Pay button text :** Text entered here will be displayed in order history page. If you are using multilingual site, enter value as language string.
+**Pay button text:** Text entered here will be displayed in the order history page. If you are using ma ultilingual site, enter the value as a language string.
 
 ![plpa03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa03.png)
 
-**Order status for showing pay now button :** Choose order status for which the Pay button should be displayed.
+**Order status for showing the pay now button:** Choose othe rder status for which the Pay button should be displayed.
 
 **Use cases**
 
@@ -62,13 +62,13 @@ This app can be possible at below two use cases.
 
 In the traditional methods, you would have to ask customers to manually transfer the money to your bank. You can now automate this process.
 
-Just create an order in the backend, send the invoice to the customer and when he is ready, he can just view the order and make the payment online. No hassles in collecting payments.
+Just create an order in the backend, send the invoice to the customer, and when he is ready, he can just view the order and make the payment online. No hassles in collecting payments.
 
-For example, consider you are designing and selling gift cards. You can get quote and gift card details from customer. Once you finished designing gift card and it is ready to sell him, just create an unpaid order from store backend and send the invoice. So customer can view the order and make the payment online.
+For example, consider that you are designing and selling gift cards. You can get the quote and gift card details from the customer. Once you have finished designing the gift card and it is ready to sell, just create an unpaid order from the store backend and send the invoice. So the customer can view the order and make the payment online.
 
-**Use Case 2 :** Allow customers to re-try payment for unpaid orders
+**Use Case 2:** Allow customers to re-try payment for unpaid orders
 
-Sometimes, customers abandon the order and leave your site without making payment. You can now easily close those abandoned orders by allowing customers to re-try the payment from their order history page.
+Sometimes, customers abandon the order and leave your site without making a payment. You can now easily close those abandoned orders by allowing customers to re-try the payment from their order history page.
 
 **Frontend screenshots**
 

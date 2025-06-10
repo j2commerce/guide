@@ -66,42 +66,42 @@ Go to Setup -> Configuration -> Tax
 
 <figure><img src="../.gitbook/assets/tax-config-germany.webp" alt=""><figcaption></figcaption></figure>
 
-Prices Entered with Tax: Yes, I will enter prices with tax
+**Prices Entered with Tax:** Yes, I will enter prices with tax
 
-Calculate tax based on: Shipping address
+**Calculate tax based on:** Shipping address
 
-Default Customer address: Store address
+**Default Customer address:** Store address
 
-Display prices in product pages: Including tax
+**Display prices on product pages:** Including tax
 
-Display prices in cart / checkout : Including tax
+**Display prices in cart / checkout:** Including tax
 
-Apply discounts : After tax
+**Apply discounts:** After tax
 
-Save.
+**Save**.
 
-## Step 5: Create a product and choose the tax profile <a href="#step-5-create-a-product-and-choose-the-tax-profile" id="step-5-create-a-product-and-choose-the-tax-profile"></a>
+## Step 5: Adding the tax profile to a product <a href="#step-5-create-a-product-and-choose-the-tax-profile" id="step-5-create-a-product-and-choose-the-tax-profile"></a>
 
-J2Commerce uses Joomla articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there).
+J2Commerce uses Joomla! articles as products. So, go to Article Manager and create a New Article / Product (If you use any other catalog source like Zoo or Sebold, you should head there).
 
 Product creation steps are explained under the topic Products.
 
-Here let us just see how to choose the tax profile:
+Here, let us just see how to choose the tax profile:
 
-Go to J2Store Cart tab -> General tab
+Go to J2Commerce (or J2Store Cart) tab  > General tab
 
-Tax Profile : Base tax profile
+Tax Profile  Base tax profile
 
 <figure><img src="../.gitbook/assets/j2store-tax-germany.webp" alt=""><figcaption><p>Base Tax Profile</p></figcaption></figure>
 
-IMPORTANT: If you do not choose the tax profile, then tax will not apply in the store front.
+IMPORTANT: If you do not choose the tax profile, then tax will not apply in the storefront.
 
 ## Step 6: Selling in multiple countries with multiple tax rates <a href="#step-6-selling-in-multiple-countries-with-multiple-tax-rates" id="step-6-selling-in-multiple-countries-with-multiple-tax-rates"></a>
 
 If you are selling your products to other countries in Europe, then there are three scenarios
 
 * Charge the same VAT rate for customers from certain countries. In this case, you will just have to open the Base Geozone and add the countries / zones to which you want to charge 19%. Then all customers from all those countries will be charged with the 19% tax rate.
-* Charge different VAT rate for customers from certain countries.  Let us say, you want to charge 12% tax for customers from Switzerland and France. Create a new Geozone and include Switzerland and France. Create a new tax rate and set the tax percent to 12%. Go to Components > J2Commerce > Localization > Tax Profiles > Open Base tax profiles. Under Tax rules, Click add, Choose your New tax rate and associate it to the Shipping address. Save. Now customer from Switzerland and France will be charged with 12 % of tax instead of your base rate of 19%.
+* Charge a different VAT rate for customers from certain countries.  Let us say you want to charge 12% tax for customers from Switzerland and France. Create a new Geozone and include Switzerland and France. Create a new tax rate and set the tax percent to 12%. Go to Components > J2Commerce > Localization > Tax Profiles > Open Base tax profiles. Under Tax rules, click add, choose your New tax rate, and associate it with the Shipping address. Save. Now, customers from Switzerland and France will be charged 12 % of tax instead of your base rate of 19%.
 
 Video Tutorial:
 

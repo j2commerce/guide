@@ -54,7 +54,7 @@ Enabled: Yes
 
 ## Step 4: Create a tax profile and rules <a href="#step-4-create-a-tax-profile-and-rules" id="step-4-create-a-tax-profile-and-rules"></a>
 
-Go to Localization -> Tax Profiles -> New
+Go to Localization  > Tax Profiles  > New
 
 <figure><img src="../.gitbook/assets/tax-profile (1).webp" alt=""><figcaption></figcaption></figure>
 
@@ -80,41 +80,41 @@ Rate: Saskatchewan-PST
 
 ## Step 5: Configure tax settings <a href="#step-5-configure-tax-settings" id="step-5-configure-tax-settings"></a>
 
-Go to Setup -> Configuration -> Tax
+Go to Setup  > Configuration  > Tax
 
 <figure><img src="../.gitbook/assets/tax-config.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/tax-config1.webp" alt=""><figcaption></figcaption></figure>
 
-Prices Entered with Tax: No, I will enter prices EXCLUSIVE of tax
+**Prices Entered with Tax:** No, I will enter prices EXCLUSIVE of tax
 
-Calculate tax based on: Shipping address
+**Calculate tax based on:** Shipping address
 
-Default Customer address: Store address
+**Default Customer address:** Store address
 
-Display prices in product pages: Excluding tax
+**Display prices on product pages:** Excluding tax
 
-Display prices in cart / checkout : Excluding tax
+**Display prices in cart / checkout:** Excluding tax
 
-Apply discounts : Before tax
+**Apply discounts:** Before tax
 
-Save.
+**Save.**
 
-## Step 6: Create a product and choose the tax profile <a href="#step-6-create-a-product-and-choose-the-tax-profile" id="step-6-create-a-product-and-choose-the-tax-profile"></a>
+## Step 6: Adding the tax profile to a product <a href="#step-6-create-a-product-and-choose-the-tax-profile" id="step-6-create-a-product-and-choose-the-tax-profile"></a>
 
-J2Commerce uses Joomla! articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there).
+J2Commerce uses Joomla! articles as products. So go to Article Manager and create a New Article / Product (If you use any other catalog source like Zoo or Sebold, you should head there).
 
 Product creation steps are explained under the topic Products.
 
 Here let us just see how to choose the tax profile
 
-Go to J2Store Cart tab -> General tab
+Go to J2Commerce (or J2Store Cart) tab > General tab
 
-Tax Profile : Canada Tax Class
+Tax Profile: Canada Tax Class
 
 <figure><img src="../.gitbook/assets/j2store-tax.webp" alt=""><figcaption></figcaption></figure>
 
-IMPORTANT If you do not choose the tax profile, then tax will not apply in the store front.
+IMPORTANT If you do not choose the tax profile, then tax will not apply in the storefront.
 
 ## Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 

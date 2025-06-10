@@ -214,7 +214,7 @@
   * [Pay later/Pay against invoice](apps/pay-later-pay-against-invoice.md)
   * [Points and Rewards](apps/points-and-rewards.md)
   * [Re-Order](apps/re-order.md)
-  * [Shipstation](apps/shipstation.md)
+  * [ShipStation](apps/shipstation.md)
   * [Simple CSV import and export tool](apps/simple-csv-import-and-export.md)
   * [Tax Utilities](apps/tax-utilities.md)
   * [Upload file in checkout](apps/upload-file-in-checkout.md)

@@ -64,13 +64,13 @@ Click Add
 
 ## Step 4: Configure tax settings <a href="#step-4-configure-tax-settings" id="step-4-configure-tax-settings"></a>
 
-Go to Components > J2Commerce > Setup -> Configuration -> Tax
+Go to Components > J2Commerce > Setup > Configuration > Tax tab
 
 <figure><img src="../.gitbook/assets/tax2 (1).webp" alt=""><figcaption><p>Tax setup</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/tax3.webp" alt=""><figcaption><p>Tax setup</p></figcaption></figure>
 
-**Pricesentered with tax:** No, I will enter prices EXCLUSIVE of tax
+**Prices entered with tax:** No, I will enter prices EXCLUSIVE of tax
 
 **Calculate tax based on:** Shipping address
 
@@ -86,15 +86,15 @@ Go to Components > J2Commerce > Setup -> Configuration -> Tax
 
 Save.
 
-## Step 5: Create a product and choose the tax profile <a href="#step-5-create-a-product-and-choose-the-tax-profile" id="step-5-create-a-product-and-choose-the-tax-profile"></a>
+## Step 5: Add the tax profile to a product <a href="#step-5-create-a-product-and-choose-the-tax-profile" id="step-5-create-a-product-and-choose-the-tax-profile"></a>
 
-J2Commerce uses Joomla! articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there).
+J2Commerce uses Joomla! articles as products. So go to Article Manager and create a New Article / Product (If you use any other catalog source like Zoo or Sebold, you should head there).
 
 Product creation steps are explained under the topic **Products**.
 
 Here let us just see how to choose the tax profile
 
-Go to J2Store Cart tab  > **General tab**
+Go to J2Commerce (or J2Store Cart) tab  > **General tab**
 
 **Tax Profile :** Default tax class
 
