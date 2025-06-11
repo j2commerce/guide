@@ -41,9 +41,11 @@ The following points reveal the process of an invoice template.
 
 Using the short codes, you can add customer name, order no, order date, payment details, shipping details, product details etc. This can be accomplished by adding suitable tags listed in the extreme right area of the page.
 
-Check the image below for how an invoice template can be designed for our needs. This is for example purposes only, and the user can design his/her own template.
+Check the image below for how an invoice template can be designed for our needs.&#x20;
 
-![invoice](https://raw.githubusercontent.com/j2store/doc-images/master/design/Invoice%20template/invoice%20template.png)
+This is for **example purposes** **only**, and the user can design his/her own template.
+
+![invoice](<../.gitbook/assets/email1 (1).webp>)
 
 Full articles can also be added to the content from other external sources.
 
@@ -63,7 +65,7 @@ Keep in mind the following when you add a custom field to the editor:
 
 Refer to the image below for more clearer understanding
 
-![custom](https://raw.githubusercontent.com/j2store/doc-images/master/design/Invoice%20template/guide-to-add-custom-field.png)
+![custom](<../.gitbook/assets/email2 (1).webp>)
 
 ## How to create a template override for the items table showing in the invoice? <a href="#how-to-create-template-override-for-items-table-showing-in-the-invoice" id="how-to-create-template-override-for-items-table-showing-in-the-invoice"></a>
 
