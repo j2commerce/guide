@@ -8,7 +8,7 @@ description: J2Commerce (formerly known as J2Store)
 
 Perhaps, you might wish to collect the payment from the users based on plans, then you could choose this as the option in the partial payment type.
 
-If you choose this type, you should set up a plan first. For example,if you are going to receive the payment in 3 installments, create a plan called three installments:
+If you choose this type, you should set up a plan first. For example, if you are going to receive the payment in 3 installments, create a plan called three installments:
 
 ![instances1](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/instances/app_partialpaymentplantypeback.png) Then this is how the users will be provided payment options when a plan is chosen as the partial payment type.
 
@@ -24,7 +24,7 @@ Users can choose from the available plans:
 
 ![instances4](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/instances/app_partialpayment2plansfront.png)
 
-## Partial payment type-Percentage: <a href="#partial-payment-type-percentage" id="partial-payment-type-percentage"></a>
+## Partial payment type- Percentage: <a href="#partial-payment-type-percentage" id="partial-payment-type-percentage"></a>
 
 Sometimes, there might be situations where you would like to have a percentage of the total amount as the advance amount and the rest to be paid later.
 
@@ -40,7 +40,7 @@ As the above screenshot suggests, the user would be paying half the total amount
 
 ![instances6](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/instances/app_partialpaymentpercentagefront.png)
 
-## Partial payment-Fixed Price: <a href="#partial-payment-fixed-price" id="partial-payment-fixed-price"></a>
+## Partial payment- Fixed Price: <a href="#partial-payment-fixed-price" id="partial-payment-fixed-price"></a>
 
 If you want to keep it as simple as that, you might select the fixed price option, where the user will be charged a fixed amount as the initial deposit.
 
@@ -50,7 +50,7 @@ If you want to keep it as simple as that, you might select the fixed price optio
 
 ## Backend Orders <a href="#backend-orders" id="backend-orders"></a>
 
-In the back end, the store owner can keep track of the orders and payment dues.The following screenshot pictures how the order will be shown:
+In the back end, the store owner can keep track of the orders and payment dues. The following screenshot pictures how the order will be shown:
 
 ![order1](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/instances/app_partialpaymentorder1.png) Payments that are due can be found like the one shown below:
 

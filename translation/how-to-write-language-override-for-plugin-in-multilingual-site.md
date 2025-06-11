@@ -28,7 +28,9 @@ Before creating the override, set the Filter to ADMINISTRATOR (of the language t
 
 Click NEW button.
 
-![plugin langoverride](https://raw.githubusercontent.com/j2store/doc-images/master/translation/how-to-write-language-override-for-plugin-multilingual-site/plugin_lang_override_04.png) Enter your language constant in the language constant text box and enter the value in the Text box.
+![plugin langoverride](https://raw.githubusercontent.com/j2store/doc-images/master/translation/how-to-write-language-override-for-plugin-multilingual-site/plugin_lang_override_04.png)&#x20;
+
+Enter your language constant in the language constant text box and enter the value in the Text box.
 
 Check both locations and save.
 

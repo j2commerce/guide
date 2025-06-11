@@ -4,7 +4,7 @@ description: J2Commerce (formerly known as J2Store)
 
 # Setting up the store in your Language
 
-There are high chances that you might want to set up your store in your own language. Lets suppose you are trying to set up your site in German Language.
+There is are high chance that you might want to set up your store in your own language. Let's suppose you are trying to set up your site in the German Language.
 
 You could follow these steps to do that:
 
@@ -13,7 +13,7 @@ You could follow these steps to do that:
 
 ## Step-by-Step procedure: <a href="#step-by-step-procedure" id="step-by-step-procedure"></a>
 
-* Install the German language package on your site from Extensions->Languages->Installed->Install languages.
+* Install the German language package on your site from Extensions > Languages > Installed > Install languages.
 * Once the language is installed, you will find that language under the Content languages.
 
 ![lang installed](https://raw.githubusercontent.com/j2store/doc-images/master/translation/setting-up-the-store-in-your-language/langsetinstalledlang.png)
@@ -25,7 +25,7 @@ You could follow these steps to do that:
 
 ![lang settings](https://raw.githubusercontent.com/j2store/doc-images/master/translation/setting-up-the-store-in-your-language/langsetarticles.png) ![langsetarticle](https://raw.githubusercontent.com/j2store/doc-images/master/translation/setting-up-the-store-in-your-language/langsetarticleeng.png)
 
-* Create a product article and menu(For example: T-shirts (Gr). Choose the language as German in the content tab of the article and the details tab of the menu.
+* Create a product article and menu (For example: T-shirts (Gr). Choose the language as German in the content tab of the article and the details tab of the menu.
 
 ![langsetarticleger](https://raw.githubusercontent.com/j2store/doc-images/master/translation/setting-up-the-store-in-your-language/langsetarticleger.png)
 

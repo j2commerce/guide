@@ -10,9 +10,9 @@ If you like to set a plan as the partial payment type, it is necessary to define
 
 To do so, follow the steps given below:
 
-* Click on the Plans tab (Referto  the screenshot attached).
+* Click on the Plans tab (Refer to the screenshot attached).
 * Click on the New button to create a new plan.
-* Give the plan a name, descriptio,n and set up a plan schedule(the installments the payment is to be paid within).
+* Give the plan a name, description, and set up a plan schedule(the installments the payment is to be paid).
 * Click Save.
 * Click Back to Apps to set up partial payments.
 
@@ -22,7 +22,7 @@ To do so, follow the steps given below:
 
 ### Creating plans- an example: <a href="#creating-plans--an-example" id="creating-plans--an-example"></a>
 
-You could wish to receive payment in 2 ,installments for instance ,you could set it up like this:
+You could wish to receive payment in 2 installments. For instance, you could set it up like this:
 
 ![plan setup](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/setting-up-plans-for-partial-payments/app_partialpaymentplansetup.png)
 
@@ -38,9 +38,9 @@ Supposing that your site has hundreds of products and you wish to allow one prod
 
 With product-level partial payment settings, you could allow the users to buy all the products in normal full payment, and a specific product in segments.
 
-* Go to Article Manager> Edit your product
-* Move to J2Store cart tab and navigate to the Apps tab
-* Set YES to enable partial payment
+* Go to Content > Article Manager > Edit your product
+* Move to the J2Commerce (J2Store cart) tab and navigate to the Apps tab
+* Set 'YES' to enable partial payment
 * Choose if the default payment mode is partial or full.
 * Select your partial payment type (Fixed price, percentage, plan)
 * If the plan is chosen as the partial payment mode, the plan that has been created should be selected here.

@@ -4,15 +4,15 @@ description: J2Commerce (formerly known as J2Store)
 
 # Language overrides in Joomla with examples
 
-To change text in core Joomla! Or in an extension (other than installing a new language), it is advised to perform a language override in Joomla!. To do this, you need to go into the admin backend then in the menu under “Extensions” click on “Language Manager”
+To change text in core Joomla! Or in an extension (other than installing a new language), it is advised to perform a language override in Joomla!. To do this, you need to go into the admin backend, then in the menu under “Extensions” click on “Language Manager”
 
 Let us assume that you want to change the First name (in billing address fields) to My Name.
 
-Step 1: Go to Joomla admin > Extensions Manager > Language Manager > Overrides.
+Go to Components > J2Commerce > Extensions Manager > Language Manager > Overrides.
 
 **VERY IMPORTANT:**
 
-Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create the override. Say, your language is German. Then you should select the German (de-DE) Administrator in the filter)
+Before creating the override, set the Filter to ADMINISTRATOR (of the language that you wanted to create the override. Say, your language is German. Then you should select the German (de-DE) Administrator in the filter.
 
 ![location filter](https://raw.githubusercontent.com/j2store/doc-images/master/translation/language-override-in-joomla-with-examples/location_filter.png) Step 2: Click new to create a override
 
@@ -32,7 +32,7 @@ Under the Search text you want to change, enter the following text (as you see o
 
 ## Method 2: Find the constant from the language file <a href="#method-2-find-the-constant-from-the-language-file" id="method-2-find-the-constant-from-the-language-file"></a>
 
-Let us take J2Store as an example. All the language constants of J2Commerce can be found in the following file/administrator/language/en-GB/en-GB.com\_j2store.ini
+Let us take J2Commerce as an example. All the language constants of J2Commerce can be found in the following file/administrator/language/en-GB/en-GB.com\_j2store.ini
 
 **Step 4:** Now you have the constant. Enter the constant in the Language Constant box.
 

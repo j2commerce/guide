@@ -10,7 +10,7 @@ Customers pay either a fixed price or by percentage up front. You could also set
 
 Here are the numerous features that come in handy with this app:
 
-* Store admin can enable partial payment globally or at per per-product level.
+* Store admins can enable partial payment globally or at the per-product level.
 * Three types of partial payment: Fixed price, percentage, and plans.
 * Different types of partial payment plans can be created and added to the products.
 * Force customers to pay the remaining amount after a specific days from the day on which the initial payment was made.

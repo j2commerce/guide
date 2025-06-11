@@ -16,7 +16,7 @@ This can be done efficiently by choosing the partial payment mode as PLANS.
 
 Let's suppose that you have a couch whose price is around 2000 $ and you are planning to get the payment in 4 installments. In that case, you could create a plan with the partial payment app called 4 installments as shown in the screenshot below:
 
-![ppusecase1](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/usecases/app_partialpaymentusecase1.png) For the above setup the users will be allowed to pay for the couch like this:
+![ppusecase1](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/usecases/app_partialpaymentusecase1.png) For the above setup, the users will be allowed to pay for the couch like this:
 
 ![ppusecase front](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/usecases/app_partialpaymentusecase1front.png) So now that the user places the order and completes the first installment, you might wonder how the rest of the payment will be tracked.
 
@@ -32,11 +32,11 @@ In this case, when the due date approaches, the users and the store administrato
 
 ## Receiving percentage of the total amount as a deposit: <a href="#receiving-percentage-of-total-amount-as-deposit" id="receiving-percentage-of-total-amount-as-deposit"></a>
 
-Let's take the same instance of selling a couch to illustrate this feature as well: But this time we are going to get a percentage of the total amount as a deposit, and the remaining amount later. For this, we might make use of the percentage type underthe  partial payment type.
+Let's take the same instance of selling a couch to illustrate this feature as well: But this time we are going to get a percentage of the total amount as a deposit, and the remaining amount later. For this, we might make use of the percentage type under the partial payment type.
 
 ## Percentage <a href="#percentage" id="percentage"></a>
 
-This type is a simpler version of the plan type. It has all the features of a similar plan mode except for setting up the installment duration. Now we are planning to collect 25 % of the total amount as an initial deposit.
+This type is a simpler version of the plan type. It has all the features of a similar plan mode except for setting up the installment duration. Now we are planning to collect 25% of the total amount as an initial deposit.
 
 ![ppusecase 2](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/usecases/app_partialpaymentusecase2.png)
 
@@ -77,6 +77,6 @@ This being the setting, the product cabinet will have a different setting when c
 
 ## Product-level settings: <a href="#product-level-settings" id="product-level-settings"></a>
 
-For the Product-level settings mentioned earlier, this is how the product Cabinet will behave in the front en,d irrespective of the global app settings:
+For the Product-level settings mentioned earlier, this is how the product Cabinet will behave in the frontend, irrespective of the global app settings:
 
 ![ppusecase4 product front](https://raw.githubusercontent.com/j2store/doc-images/master/partial-payments/usecases/app_partialpaymentusecase4productfront.png)
