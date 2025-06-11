@@ -6,11 +6,11 @@ description: J2Commerce (formerly known as J2Store)
 
 Shortcodes are for Joomla article layouts.
 
-The purpose of providing those short codes are because Joomla! layouts are not under J2Commerce’s control. It is developed and maintained by Joomla.
+The purpose of providing those short codes is to support Joomla! The layouts are not under J2Commerce’s control. It is developed and maintained by Joomla.
 
-However product list layout / product pages are meant for displaying product and maintained by J2Commerce. It already has the code (PHP code) in its view files to display products and elements.
+However product list layout / product pages are meant for displaying products and are maintained by J2Commerce. It already has the code (PHP code) in its view files to display products and elements.
 
-However, article layouts / core Joomla! layouts dont. That is why the short code is processed. So the short codes are provided for Joomla layouts. They wont work in J2Commerce’s product layouts.
+However, article layouts / core Joomla! layouts don't. That is why the short code is processed. So the short codes are provided for Joomla layouts. They won't work in J2Commerce’s product layouts.
 
 ```
 Adding more short codes to j2commerce pages (which already processes the products) would result in force processing / invoking j2store again and again resulting in performance issues.
@@ -18,15 +18,15 @@ Adding more short codes to j2commerce pages (which already processes the product
 
 ## Additional short codes <a href="#additional-short-codes" id="additional-short-codes"></a>
 
-In addition to the primary short code, you can also use the following additional codes inside {j2store}{/j2store} . Each code should be separated by a pipe (|) symbol.
+In addition to the primary short code, you can also use the following additional codes inside {j2store}{/j2store}. Each code should be separated by a pipe (|) symbol.
 
-To place this shortcode, first and most important thing is to change the Add to Placement mode.
+To place this shortcode, the first and most important thing is to change the Add to Placement mode.
 
-Go to Components > J2Commerce. In the top section select Setup > Configuration.&#x20;
+Go to Components > J2Commerce. In the top section, select Setup > Configuration.&#x20;
 
 <figure><img src="../.gitbook/assets/cart_button2.webp" alt=""><figcaption></figcaption></figure>
 
-Select the Cart tab. Set the Add to Cart placement to Both or Within article using tag. Save.
+Select the Cart tab. Set the Add to Cart placement to Both or Within the article using the tag. Save.
 
 <figure><img src="../.gitbook/assets/cart_button1.webp" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ These additional short codes will work in all **Add to cart** placement modes. P
 
 List of shortcodes available and their description
 
-**cart** - Full cart with price, options and add to cart button {j2store}XX|cart{/j2store}
+**cart** - Full cart with price, options, and add to cart button {j2store}XX|cart{/j2store}
 
 **Price** - This short code indicates both regular price and selling price {j2store}XX|price{/j2store}
 
@@ -60,7 +60,7 @@ List of shortcodes available and their description
 
 ![Main image](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_main.png)
 
-**Mainadditional** - This is an indication of both main and additional images are added via J2Commerce (J2Store Cart) tab > images tab{j2store}XX|mainadditional{/j2store}
+**Mainadditional** - This is an indication that both main and additional images are added via the J2Commerce (J2Store Cart) tab > images tab{j2store}XX|mainadditional{/j2store}
 
 ![Main additional](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_mainadditional.png)
 

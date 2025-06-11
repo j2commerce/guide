@@ -20,7 +20,7 @@ Copy the following folder
 
 `/templates/<YOUR_TEMPLATE>/html/plugins/j2store/app_subscriptionproduct/mailtemplates`
 
-Now you can edit the each template and add your own custom wordings and styles
+Now you can edit each template and add your own custom wordings and styles
 
 ### Example: <a href="#example" id="example"></a>
 

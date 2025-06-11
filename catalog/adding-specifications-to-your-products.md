@@ -15,8 +15,8 @@ description: J2Commerce (formerly known as J2Store)
 
 <figure><img src="../.gitbook/assets/creating_filter.webp" alt=""><figcaption><p>creating filters</p></figcaption></figure>
 
-* Move to the product’s article page and click on the filters section under JJ2Commerce (J2Store Cart) tab.
-* Type in the name of the filter’s value created and save the article post adding the filter values.&#x20;
+* Move to the product’s article page and click on the filters section under the J2Commerce (J2Store Cart) tab.
+* Type in the name of the filter’s value created and save the article post, adding the filter values.&#x20;
 
 <figure><img src="../.gitbook/assets/flex_filters (2).webp" alt=""><figcaption><p>adding filters to products</p></figcaption></figure>
 

@@ -7,6 +7,9 @@ description: J2Commerce (formerly known as J2Store)
 J2Commerce offers special module positions to place the Joomla’s custom HTML module or any other modules (for example, cart module) in store pages.
 
 * Go to Content > Site Modules > New.
+
+<figure><img src="../.gitbook/assets/site.webp" alt=""><figcaption></figcaption></figure>
+
 * Select any module in the list.&#x20;
 * Enter the title and set the status to Published.
 * Simply copy the module position from the list given below and paste it in the "position" search box on the right and press Enter.
@@ -90,7 +93,7 @@ There is also special module positions available for customizing J2Commerce Cpan
 
 **j2store-module-position-1 j2store-module-position-3 j2store-module-position-4 j2store-module-position-5**
 
-Go to Extensions > Modules Choose **Administrator** section Click New and choose custom module Enter the name of the module and set the position to one of J2Commerce backend special module positions (given above). See the screenshots below,
+Go to Extensions > Modules. Choose the **Administrator** section, click 'New', and choose custom module. Enter the name of the module and set the position to one of J2Commerce backend special module positions (given above). See the screenshots below,
 
 ![Creating a new module](https://raw.githubusercontent.com/j2store/doc-images/master/layout/special-module-positions/spl_mod_pos_create-new-mod.png)
 

@@ -12,9 +12,9 @@ description: J2Commerce (formerly known as J2Store)
 
 ## Download App <a href="#installation" id="installation"></a>
 
-1. Go to J2Commerce website and make sure you are logged in.&#x20;
-2. Click on your profile dropdown in the top right corner and click on My Downloads. In the search bar type in Subscriptions or Membership.&#x20;
-3. When the app is shown, double click on it to open it.
+1. Go to the J2Commerce website and make sure you are logged in.&#x20;
+2. Click on your profile dropdown in the top right corner and click on My Downloads. In the search bar, type in Subscriptions or Membership.&#x20;
+3. When the app is shown, double-click on it to open it.
 4. Click View Files
 5. Click Download Now
 
@@ -35,7 +35,7 @@ description: J2Commerce (formerly known as J2Store)
 
 <figure><img src="../.gitbook/assets/install.webp" alt=""><figcaption><p>Install the app</p></figcaption></figure>
 
-1. After installing the app, go to J2Commerce > Apps and enable Subscription Products app.
+1. After installing the app, go to J2Commerce > Apps and enable the Subscription Products app.
 
 <figure><img src="../.gitbook/assets/app install.webp" alt=""><figcaption><p>Enabling the app</p></figcaption></figure>
 

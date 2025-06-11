@@ -4,11 +4,11 @@ description: J2Commerce (formerly known as J2Store)
 
 # Product Description
 
-By default the Joomla article considers the text as short description. When you use page break or read more, you will see red or grey line in article.
+By default, the Joomla! article considers the text as a short description. When you use a page break or read more, you will see a red or grey line in the article.
 
-Under that whatever text has entered that considered as Long Description.
+Under that, whatever text has entered that considered the Long Description.
 
-If you don't see the Read More button then click on the CMS Content dropdown and then scroll to Read More.  Make sure your curser is in the location of where you want the read more section to be.
+If you don't see the Read More button, then click on the CMS Content dropdown and then scroll to Read More.  Make sure your cursor is in the location where you want the read more section to be.
 
 ![Article readmore](<../.gitbook/assets/read more.png>)
 
@@ -16,13 +16,13 @@ If you don't see the Read More button then click on the CMS Content dropdown and
 
 ## According to J2Commerce <a href="#according-to-j2store" id="according-to-j2store"></a>
 
-J2Commerce takes the intro text column as the short description and full text column as the long description.
+J2Commerce takes the intro text column as the short description and the full text column as the long description.
 
-These two columns are in the joomla’s \_content (article table)
+These two columns are in Joomla’s \_content (article table)
 
 The Article manager divides the text (content) into two and saves it based on the readmore break.
 
-In J2Commerce, you can enable and disable the display of short description and long description in both category view and product view.
+In J2Commerce, you can enable and disable the display of short descriptions and long descriptions in both category view and product view.
 
 ### Support <a href="#support" id="support"></a>
 

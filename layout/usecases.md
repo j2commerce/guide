@@ -4,7 +4,7 @@ description: J2Commerce (formerly known as J2Store)
 
 # Usecases
 
-So, what are the uses of the new menu item Product tag view? Here is all what you can achieve with the tag layout of J2Commerce:
+So, what are the uses of the new menu item, Product tag view? Here is all that you can achieve with the tag layout of J2Commerce:
 
 * Assign a product to multiple categories
 * Display brand-wise products.
@@ -29,8 +29,8 @@ Products like Coffee mugs should be available under two categories- Kitchen appl
 
 * Create two tags: Gifts, Kitchen appliances.
 * Create a product named coffee mugs.
-* Assign both the tags to the product article.
-* Create menu items of the type Product tag view: Kitchen appliances associating the tag kitchen appliances and Gifts associating the tag Gifts.
+* Assign both tags to the product article.
+* Create menu items of the type Product tag view: Kitchen appliances, associating the tag Kitchen appliances, and Gift,s associating the tag Gifts.
 * Now the product coffee mugs will be available in both Kitchen appliances and Gifts.
 
 Likewise, we can assign products to as many categories as we wish.
@@ -71,9 +71,9 @@ Our goal is to list the shirts in the store according to their brand. We have th
 
 **Steps to be done:**
 
-* Create tags of the name Huetrap, Roadster and Adidas.
-* Create corresponding products and link them to the tag Huetap and repeat the similar process for other brands.
-* Create menu items that associate with the brand tags respectively.
+* Create tags of the names Huetrap, Roadster, and Adidas.
+* Create corresponding products and link them to the tag Huetap, and repeat the process for other brands.
+* Create menu items that are associated with the brand tags, respectively.
 
 **Relevant Screenshots**
 

@@ -22,8 +22,8 @@ Products like Coffee mugs should be available under two categories- Kitchen appl
 
 * Create two tags: Gifts, Kitchen appliances
 * Create a product named coffee mugs.
-* Assign both the tags to the product article.
-* Create menu items of the type Product tag view: Kitchen appliances associating the tag kitchen appliancesGifts associating the tag Gifts
+* Assign both tags to the product article.
+* Create menu items of the type Product tag view: Kitchen appliances, associating the tag kitchen appliancesGifts associating the tag Gifts
 * Now the product coffee mugs will be available in both Kitchen appliances and Gifts.
 
 Likewise, we can assign products to as many categories as we wish.

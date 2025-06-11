@@ -4,51 +4,51 @@ description: J2Commerce (formerly known as J2Store)
 
 # Quickstart
 
-Recurring subscription is nothing but auto-renewal. J2Commerce’s Subscriptions and Memberships app allows you to create recurring subscription. If you create recurring subscription, the customers can auto renewal his subscription plan.
+A recurring subscription is nothing but auto-renewal. J2Commerce’s Subscriptions and Memberships app allows you to create recurring subscriptions. If you create a recurring subscription, the customers can auto-renew their subscription plan.
 
 ## Example <a href="#example" id="example"></a>
 
-The example given below, assumes you have a store and selling hosting service and wants to collect $99 at the end of every 6th months.
+The example given below assumes you have a store that sells hosting services and wants to collect $99 at the end of every 6th month.
 
-### Step - 1 Creating product <a href="#step---1-creating-product" id="step---1-creating-product"></a>
+### Step 1: Creating a product <a href="#step---1-creating-product" id="step---1-creating-product"></a>
 
-* Go to Article manager and create a new article
-* Move to J2Store cart tab
-* Select YES to Treat as product
-* Choose product type either Simple Subscription or Variable Subscription.
+* Go to the Article Manager and create a new article
+* Move to the J2Commerce (J2Store cart) tab
+* Select 'YES' to treat asa  product
+* Choose product type, either Simple Subscription or Variable Subscription.
 
 <figure><img src="../.gitbook/assets/simple subscription (1).webp" alt=""><figcaption><p>Simple Subscription Product</p></figcaption></figure>
 
-### Step-2 Setting up price based on recurring <a href="#step-2-setting-up-price-based-on-recurring" id="step-2-setting-up-price-based-on-recurring"></a>
+### Step 2: Setting up the price based on recurring <a href="#step-2-setting-up-price-based-on-recurring" id="step-2-setting-up-price-based-on-recurring"></a>
 
-1. Now navigate to Pricing section
+1. Now navigate to the Pricing section
 2. Enter the price $99 in the price text box.
-3. Next to price text box, you can see two dropdowns. In the first dropdown, choose every 6th and choose month from second dropdown.
+3. Next to the price text box, you can see two drop-downs. In the first dropdown, choose every 6th and choose the month from the second dropdown.
 4. Set Never Expire to Subscription length.
-5. Choose your usergroups and save.
+5. Choose your user groups and save.
 
 ![quick start](<../.gitbook/assets/pricing (1).webp>)
 
-## How to create a non-recurring (one term) subscription plan? <a href="#how-to-create-a-non-recurring-one-term-subscription-plan" id="how-to-create-a-non-recurring-one-term-subscription-plan"></a>
+## How to create a non-recurring (one-term) subscription plan? <a href="#how-to-create-a-non-recurring-one-term-subscription-plan" id="how-to-create-a-non-recurring-one-term-subscription-plan"></a>
 
-Non recurring is a single term subscription in which the subscription will be terminated at the specific period and does not allow for auto renewal. Subscriber will have to subscribe for the plan next time manually.
+Non-recurring is a single-term subscription in which the subscription will be terminated at a specific period and does not allow for auto-renewal. The subscriber will have to subscribe to the plan next time manually.
 
-Lets see an example for single term subscription. For example, consider you are providing service for $129 for one year.
+Let's see an example for a single-term subscription. For example, consider that you are providing service for $129 for one year.
 
-### Step - 1 Creating product <a href="#step---1-creating-product-1" id="step---1-creating-product-1"></a>
+### Step 1: Creating a product <a href="#step---1-creating-product-1" id="step---1-creating-product-1"></a>
 
-1. Go to Article manager and create a new article
-2. Move to J2Store cart tab
-3. Select YES to Treat as product
-4. Choose product type either Simple Subscription or Variable Subscription.
+1. Go to the Article Manager and create a new article
+2. Move to the J2Commerce (J2Store cart) tab
+3. Select 'YES' to treat as a product
+4. Choose product type, either Simple Subscription or Variable Subscription.
 
-### Step - 2 Setting up price based on non - recurring <a href="#step---2-setting-up-price-based-on-non---recurring" id="step---2-setting-up-price-based-on-non---recurring"></a>
+### Step 2: Setting up the price based on non-recurring <a href="#step---2-setting-up-price-based-on-non---recurring" id="step---2-setting-up-price-based-on-non---recurring"></a>
 
-1. Now navigate to Pricing section
+1. Now navigate to the Pricing section
 2. Enter the price $129 in the price text box.
-3. Next to price text box, you can see two dropdowns. In the first dropdown, choose every and choose year from second dropdown.
+3. Next to the price text box, you can see two drop-downs. In the first dropdown, choose every, and choose the year from the second dropdown.
 4. Set 1 Year to Subscription length.
-5. Choose your usergroups and save.
+5. Choose your user groups and save.
 
 ![non recurring](../.gitbook/assets/pricing1.webp)
 
@@ -56,9 +56,9 @@ Watch the video here:
 
 {% embed url="https://youtu.be/D7-7EOzovqM" %}
 
-## Creating 3 months subscription plan <a href="#creating-3-months-subscription-plan" id="creating-3-months-subscription-plan"></a>
+## Creating 3-month subscription plan <a href="#creating-3-months-subscription-plan" id="creating-3-months-subscription-plan"></a>
 
-Refer below screen shots for setting non-recurring 3 months subscription plan
+Refer below screenshots for setting na on-recurring 3-month subscription plan
 
 Choosing duration
 
@@ -72,9 +72,9 @@ Watch the video:
 
 {% embed url="https://youtu.be/RtcGiQg6PG8" %}
 
-## Creating 6 months subscription plan <a href="#creating-6-months-subscription-plan" id="creating-6-months-subscription-plan"></a>
+## Creating 6-month subscription plan <a href="#creating-6-months-subscription-plan" id="creating-6-months-subscription-plan"></a>
 
-Refer below screen shots for setting non-recurring 6 months subscription plan
+Refer below screenshots for setting na on-recurring 6-month subscription plan
 
 Choosing duration
 

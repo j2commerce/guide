@@ -8,21 +8,21 @@ description: J2Commerce (formerly known as J2Store)
 
 If you would like to sell subscription-based products, you could do just that with our [Subscriptions and Membership](https://www.j2commerce.com/extensions/apps) app. This app allows you to sell products and services with recurring payments.
 
-**Important Note:** If you are using PayPal as your payment method for your subscription products, you should enable Reference Transaction on your paypal account.
+**Important Note:** If you are using PayPal as your payment method for your subscription products, you should enable Reference Transaction on your PayPal account.
 
 **Features**
 
 **1. Billing schedules**
 
-Create any type of billing schedules. You can have memberships for days, weeks, months and years. Example: 3 months, 6 months, 1 year
+Create any type of billing schedule. You can have memberships for days, weeks, months, and years. Example: 3 months, 6 months, 1 year
 
 **2. Automatic renewals and payments**
 
-It is very convenient for the customers to have their membership auto-renewed with automatic payments (Current supported in 3 payment gates : PayPal, Stripe, Mollie. More gateway support is coming up)
+It is very convenient for the customers to have their membership auto-renewed with automatic payments (Currently supported in 3 payment gates: PayPal, Stripe, Mollie. More gateway support is coming up)
 
-**3. Sign up Fees**
+**3. Sign-up Fees**
 
-You can now collect one-time sign -up fees or set -up fees along with the subscription. If it is a recurring subscription, the customer will only billing for the membership plan cost in the next billing automatically.
+You can now collect one-time sign-up fees or set-up fees along with the subscription. If it is a recurring subscription, the customer will only be billed for the membership plan cost in the next billing automatically.
 
 **4. Variable subscription**
 
@@ -42,7 +42,7 @@ Customers can purchase any number of subscriptions in the same order / transacti
 
 **8. Notification emails**
 
-Send automatic emails to the customers when the subscription is created, when a renewal payment is processed or when a subscription is canceled or expired. You can customize the email messages as well using language overrides.
+Send automatic emails to the customers when the subscription is created, when a renewal payment is processed, or when a subscription is canceled or expires. You can customize the email messages as well using language overrides.
 
 **9. Free trials**
 
@@ -63,5 +63,5 @@ You could set up renewal discounts for the subscription products. If users apply
 
 **Known limitations**
 
-1. Subscription Products app does not support for guest checkout.
+1. Subscription Products app does not support guest checkout.
 2. Variable subscription product type allows you to add only one option with multiple values.

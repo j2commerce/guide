@@ -8,13 +8,13 @@ description: J2Commerce (formerly known as J2Store)
 
 Starting from the J2Store version 3.2.25, we have presented a new menu item type for creating tags for products.
 
-Normally, with the Product list view we were displaying the products based on categories. With this new feature, we will be able to display products based on the tags.
+Normally, with the Product list view, we were displaying the products based on categories. With this new feature, we will be able to display products based on the tags.
 
-When a tag is added to two or more products in the backend , the products that fall under that particular tags will be displayed in the front end, when the menu is chosen.
+When a tag is added to two or more products in the backend, the products that fall under that particular tag will be displayed in the front end when the menu is chosen.
 
-The difference between the product list layout and the product tag layout is that we use categories for filtering in the former while we use the tags to filter the articles in the latter.
+The difference between the product list layout and the product tag layout is that we use categories for filtering in the former, while we use the tags to filter the articles in the latter.
 
-Tags in Joomla! provide a flexible way of organizing content. Once an item is tagged with a specific tag, browsing to the link for that tag will give a list of all items that have been tagged with that tag.
+Tags in Joomla! Provide a flexible way of organizing content. Once an item is tagged with a specific tag, browsing to the link for that tag will give a list of all items that have been tagged with that tag.
 
 ## Overview <a href="#overview" id="overview"></a>
 
@@ -30,10 +30,10 @@ To create a tag, the steps given below have to be followed:
 
 * Navigate to Components > Tags.
 * Click New to create a new tag.
-* Enter the title of the tag, give a description to the tag and choose the parent tag (if any) as per the requirements.
-* You can also add a note to the tag, refrain the user groups and choose the language for which the tag has to be applied.
+* Enter the title of the tag, give a description to the tag, and choose the parent tag (if any) as per the requirements.
+* You can also add a note to the tag, refer to the user groups, and choose the language for which the tag has to be applied.
 
-The following screenshot is an example for a tag:
+The following screenshot is an example of a tag:
 
 <figure><img src="../.gitbook/assets/creating a tag2 (1) (1).webp" alt=""><figcaption><p>Creating your first tag</p></figcaption></figure>
 

@@ -14,8 +14,8 @@ Sometimes you might want to display the filters in a tree structure. Or achieve 
 4. Add the menu items to the Filters menu.
 5. Navigate to Content > Site Modules > New > Menu Module.
 6. Choose the Filters menu in the option “Select Menu”.
-7. If your filters are displayed on the right then set the position to <mark style="color:red;">j2store-filter-right-top</mark>. If your filters are displayed on the left, then set the position to <mark style="color:red;">j2store-filter-left-top</mark>.
-8. Please note that you have to type this fully at the position field and then hit enter (it won't automatically display in the list of module positions).
+7. If your filters are displayed on the right, then set the position to <mark style="color:red;">j2store-filter-right-top</mark>. If your filters are displayed on the left, then set the position to <mark style="color:red;">j2store-filter-left-top</mark>.
+8. Please note that you have to type this fully in the position field and then hit enter (it won't automatically display in the list of module positions).
 9. If you're unsure where to see the filter positions, [click here](https://docs.j2commerce.com/j2commerce/layout/product-layout#item-view-options-in-category-listings)
    1. The first photo below is where you find the filter position
 
