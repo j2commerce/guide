@@ -16,14 +16,14 @@ The constant’s value has short tags and HTML. You can override the text by wri
 
 ## Creating / Editing Invoice template in PRO version <a href="#creating--editing-invoice-template-in-pro-version" id="creating--editing-invoice-template-in-pro-version"></a>
 
-Like the email template, here too we have two settings pages to be filled up for creating an invoice template. They are
+Like the email template, here too we have two settings pages to fill up for creating an invoice template. They are
 
-* Basic
-* Advanced
+* Simple Editor (recommended)
+* Advanced Template File
 
 The following points reveal the process of an invoice template.
 
-**Basic:** The fundamental requirements of a template. Let us see one by one.
+**Standard:** The fundamental requirements of a template. Let us see one by one.
 
 **Title:** The title of the template. You can have as many templates as you like, and hence it is necessary to give a unique title to each and every template.
 
