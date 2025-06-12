@@ -13,21 +13,21 @@ TAKE A FULL SITE BACKUP BEFORE THESE STEPS TO AVOID ISSUES!
 Copy&#x20;
 
 ```
-/administrator/components/com/_j2store/views/product/tmpl/formdownloadable.php
+/administrator/components/com_j2store/views/product/tmpl/formdownloadable.php
 ```
 
 &#x20;To&#x20;
 
 {% code overflow="wrap" %}
 ```
-/administrator/templates/YOUR-DEFAULT-TEMPLATE/html/com/j2store/product/formdownloadable.php
+/administrator/templates/YOUR-DEFAULT-TEMPLATE/html/com_j2store/product/formdownloadable.php
 ```
 {% endcode %}
 
 **Example:** If you are using the Joomla 4 or 5 'Atum' administrator template, you would replace **YOUR-DEFAULT-TEMPLATE** with 'atum' to give you:
 
 ```
-/administrator/templates/atum/html/com/_j2store/product/formdownloadable.php
+/administrator/templates/atum/html/com_j2store/product/formdownloadable.php
 ```
 
 **Find the line shown below:**
