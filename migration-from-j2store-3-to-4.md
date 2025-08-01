@@ -4,7 +4,7 @@ description: >-
   to J2Store/J2Commerce 4 Joomla 4 and 5 versions.
 ---
 
-# Migrating from J2Store 3 to 4 3 to 4
+# Migrating from J2Store 3 to 4
 
 This article is a guide to help you migrate from J2Store 3 to J2Store / J2Commerce 4 to the latest Joomla 4 or 5.
 
