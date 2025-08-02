@@ -251,6 +251,7 @@
   * [Moving additional image list to the left of the main image in product view page](common-overrides/moving-additional-image-list-to-the-left-of-the-main-image-in-product-view-page.md)
   * [To display the UPCE/BAN/ISBN on the product page](common-overrides/to-display-the-upce-ban-isbn-on-the-product-page.md)
   * [To Display Both the main Image and the additional image in the product view page](common-overrides/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
+  * [Customizing Article Short Codes](common-overrides/customizing-article-short-codes.md)
 * [Video Tutorials](video-tutorials/README.md)
   * [Quick Start](video-tutorials/quick-start.md)
   * [Catalog Management](video-tutorials/catalog-management.md)
