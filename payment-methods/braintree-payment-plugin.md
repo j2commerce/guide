@@ -8,13 +8,13 @@ This plugin integrates the Braintree payment gateway with J2Commerce.
 
 You need an account with Braintree to choose this method. If you have/create one, you will be provided with the Merchant ID, private, and public keys for facilitating payments. You need to enter them in the respective fields. In these payment types, unlike Bank Transfer or Money order methods, the customer has the option to cancel the payment. Also, if any error occurs during the payment process, it will be logged. These will be notified through the additional text boxes provided
 
-**Step 1:**  Purchase:
+**Step 1:** Purchase:
 
-Go to > J2commerce > App > Braintree > Add to Cart.&#x20;
+Go to > J2commerce > App > Braintree > Add to Cart.
 
 <figure><img src="../.gitbook/assets/braintree-purchase.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Download:&#x20;
+**Step 2:** Download:
 
 After you purchase the App, it will be in your “My Downloads” section. Go to your profile icon in the upper right corner > My downloads > Search “Braintree” > Available Versions
 
@@ -24,21 +24,19 @@ Next, go to View Files > Download the latest version > save it in a location you
 
 <figure><img src="../.gitbook/assets/braintree-download.webp" alt=""><figcaption></figcaption></figure>
 
-
-
 **Step 3:** Installation:
 
-Go to System > Install > Extensions > Upload Braintree zip file. &#x20;
+Go to System > Install > Extensions > Upload Braintree zip file.
 
 <figure><img src="../.gitbook/assets/braintree-install (1).webp" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Publish:
 
-Make sure you enable the App.  Go to J2Commerce > Setup > Payment Methods > Find Braintree and click Enable
+Make sure you enable the App. Go to J2Commerce > Setup > Payment Methods > Find Braintree and click Enable
 
 <figure><img src="../.gitbook/assets/braintree-enable.webp" alt=""><figcaption></figcaption></figure>
 
-**Step 5:** Log in to your Braintree account to locate your Braintree Credentials. &#x20;
+**Step 5:** Log in to your Braintree account to locate your Braintree Credentials.
 
 If you already have a Braintree account but are not sure where to find the relevant credentials (Merchant ID, Public Key, Private Key, and Merchant Account ID), follow the steps below.
 
@@ -48,7 +46,7 @@ If you already have a Braintree account but are not sure where to find the relev
 * Click My User under Account.
 * Click View API Keys.
 * Click View under Private Key.
-* Copy the following values:&#x20;
+* Copy the following values:
   * Public Key
   * Private Key
   * Merchant ID
@@ -57,7 +55,7 @@ If you already have a Braintree account but are not sure where to find the relev
   Note: In most cases, there is only one merchant account.
 * Copy the Merchant Account ID (copy the ID only, without "default").
 
-Once you have located your credentials, you can enter them in the backend of your site.&#x20;
+Once you have located your credentials, you can enter them in the backend of your site.
 
 **Configuration:**
 
@@ -141,6 +139,5 @@ Debug Mode: Setting debug mode to yes will allow errors to be logged in case of 
 
 **Support:** Still have questions? You can contact us directly at: [https://www.j2commerce.com/support](https://www.j2commerce.com/support)
 
-Thank you for using our extension.
 
-\
+
