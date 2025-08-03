@@ -113,7 +113,7 @@
   * [Authorize.Net plugin](payment-methods/authorize.net-plugin.md)
   * [Bank Transfer](payment-methods/bank-transfer.md)
   * [Barclays Payment plugin](payment-methods/barclays-payment-plugin.md)
-  * [Braintree payment plugin](payment-methods/braintree-payment-plugin.md)
+  * [Braintree Payment Plugin](payment-methods/braintree-payment-plugin.md)
   * [Cash on Delivery](payment-methods/cash-on-delivery.md)
   * [CardSave Payment plugin](payment-methods/cardsave-payment-plugin.md)
   * [CCAvenue payment plugin](payment-methods/ccavenue-payment-plugin.md)
