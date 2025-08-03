@@ -4,7 +4,7 @@ description: J2Commerce (formerly known as J2Store)
 
 # Royal Mail Shipping
 
-The plugin integrates J2Store with the Royal Mail Shipping Rates API to get shipping price quotes in real time.
+The plugin integrates J2Commerce with the Royal Mail Shipping Rates API to get shipping price quotes in real time.
 
 To use this plugin, your store must use GBP currency and your products needs to be set up with weights and shipping dimensions.
 

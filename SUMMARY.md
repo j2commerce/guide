@@ -219,6 +219,8 @@
   * [Tax Utilities](apps/tax-utilities.md)
   * [Upload file in checkout](apps/upload-file-in-checkout.md)
   * [Quantity dropdown](apps/quantity-dropdown.md)
+* [Plugins](plugins/README.md)
+  * [Klaviyo](plugins/klaviyo.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
   * [Where can i find my sub-template](frequently-asked-questions/where-can-i-find-my-sub-template.md)
   * [Products not aligned properly on list view](frequently-asked-questions/products-are-not-aligned-properly-on-list-view.md)
