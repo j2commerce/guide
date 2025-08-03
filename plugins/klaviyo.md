@@ -62,6 +62,10 @@ Enter the API key you received from the Klaviyo website. In the Category section
 
 <figure><img src="../.gitbook/assets/klaviyo api1 (1).webp" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+&#x20;What this plugin does.
+
+1: It adds the Klaviyo tracking code to the website.
+
+2: Whichever categories you select, Klavio will scan all of the products in those categories and add the products to your Klaviyo account.&#x20;
 
 \
