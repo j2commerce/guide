@@ -6,7 +6,7 @@ description: J2Commerce (formerly known as J2Store)
 
 The plugin integrates J2Commerce with the Royal Mail Shipping Rates API to get shipping price quotes in real time.
 
-To use this plugin, your store must use GBP currency and your products needs to be set up with weights and shipping dimensions.
+To use this plugin, your store must use GBP (Great Britain Pound) currency, and your products need to be set up with weights and shipping dimensions.
 
 > This plugin primarily works with Centimeter(cm) and Gram(g).
 
@@ -18,32 +18,64 @@ To use this plugin, your store must use GBP currency and your products needs to 
 
 **Installation**
 
-1. Download Royalmail shipping plugin from our site and install it using Joomla installer.
-2. After installing the plugin, go to J2Store > Setup > Shipping methods and enable RoyalMail Shipping for J2Store.
-3. Once activated the plugin, open and configure it.
+**Step 1:** Go to Extensions dropdown > Shipping Plugins > Royal Mail > Add to cart.&#x20;
 
-**Setup and Configuration** **Parcel packing method** There are two packing methods with Royal Mail; each affects the parcels you send to the plugin for a quote.
+<figure><img src="../.gitbook/assets/purchase_1.webp" alt=""><figcaption></figcaption></figure>
 
-**Pack items individually** Each item in your cart will be sent to the plugin individually. Quotes for all items will be combined for the final cost.
+**Step 2:** Once you have purchased the plugin, you can find it in your My Downloads section. To find My Downloads, click on your icon in the top right corner > My Downloads > search for Royal Mail.&#x20;
 
-**Box-Packing** The box packer included with this shipping method lets you group items into packages for which you define height, width, length, empty box weight and maximum box weight. The packing is mainly volume based, but does also consider item sizes.
+<figure><img src="../.gitbook/assets/download 1_1.webp" alt=""><figcaption></figcaption></figure>
 
-**Services** This parameter controls the services and rates that you offer for your customers. Choose the services from the list of available services.
+**Step 3:** Download the plugin: Click Available Versions > View Files (choose the more current version ) > Download.
 
-**Weight and Length unit** The weight unit must be Gram (g) and length unit must be Centimeter (cm).
+<figure><img src="../.gitbook/assets/download 2_1.webp" alt=""><figcaption></figcaption></figure>
 
-**Tax Class** If you would like to charge tax for shipping, choose the tax profile here.
+<figure><img src="../.gitbook/assets/download 3_1.webp" alt=""><figcaption></figcaption></figure>
 
-**GeoZone** Choose geo-zone and restrict the availability of this shipping method to the countries/zones in that geo zone. Choose All for making this shipping method available to customers from all regions.
+**Step 4:** Install the plugin:  Go to System > Install > Extensions. Upload the files
 
-**Handling Cost** If you would like to charge additional charge (surcharge) or handling fee, enter your cost of charge in number.
+<figure><img src="../.gitbook/assets/install extension_1.webp" alt=""><figcaption></figcaption></figure>
 
-**Debug** Set YES to enable debug mode. Enabling debug mode will logged the debug messages in a file and saved in cache folder of your Joomla root directory.
+**Step 5:** Enable the plugin: There are two ways to do this. Choose whichever way is easier for you.
 
-DO NOT enable debug mode in live site.
+a) Go to System > Manage > Plugins. Search for the Royal Mail plugin and make sure it has a checkmark next to it.
 
-![settings](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/royal-mail-shipping/royal-shipping-settings.png)
+b) Go to your J2Commerce dashboard > Setup > Shipping Methods and enable RoyalMail Shipping for J2Commerce. (B is shown in the image below)
 
-![product settings](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/royal-mail-shipping/royal-product-settings.png)
+<figure><img src="../.gitbook/assets/plugin enabled_1 (1).webp" alt=""><figcaption></figcaption></figure>
+
+**Step 6:** Click on View to open the plugin and configure it.
+
+<figure><img src="../.gitbook/assets/plugin enabled_2.webp" alt=""><figcaption></figcaption></figure>
+
+
+
+**Setup and Configuration** **Parcel packing method:** There are two packing methods with Royal Mail; each affects the parcels you send to the plugin for a quote.
+
+**Pack items individually:** Each item in your cart will be sent to the plugin individually. Quotes for all items will be combined for the final cost.
+
+**Box-Packing:** The box packer included with this shipping method lets you group items into packages for which you define height, width, length, empty box weight, and maximum box weight. The packing is mainly volume-based, but does also considers item sizes.
+
+**Services:** This parameter controls the services and rates that you offer for your customers. Choose the services from the list of available services.
+
+**Weight and Length unit:** The weight unit must be Gram (g) and the length unit must be Centimeter (cm).
+
+**Tax Class:** If you would like to charge tax for shipping, choose the tax profile here.
+
+**GeoZone:** Choose geo-zone and restrict the availability of this shipping method to the countries/zones in that geo zone. Choose All to make this shipping method available to customers from all regions.
+
+**Handling Cost:** If you would like to charge an additional charge (surcharge) or handling fee, enter your cost of the charge in numbers.
+
+**Debug:** Set YES to enable debug mode. Enabling debug mode will log the debug messages in a file and save them in the cache folder of your Joomla root directory.
+
+DO NOT enable debug mode in the live site.
+
+<figure><img src="../.gitbook/assets/configure_1.webp" alt=""><figcaption></figcaption></figure>
+
+**Step 7:** Once you have configured your plugin, go to your product that you wish to install Royal Mail to.&#x20;
+
+Go to Articles > open the product > J2Commerc (J2Store Cart) tab > Shipping. Now you can enter the shipping parameters for that specific product.
+
+<figure><img src="../.gitbook/assets/shipping_1.webp" alt=""><figcaption></figcaption></figure>
 
 ![shipping rates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/royal-mail-shipping/royal-shipping-rates.png)

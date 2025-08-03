@@ -2,9 +2,9 @@
 description: J2Commerce (formerly known as J2Store)
 ---
 
-# Bring shipping plugin
+# Bring Shipping Plugin
 
-**Introduction** Integrates J2Store with Bring, a popular shipping service in the Nordic area.
+**Introduction:** Integrates J2Store with Bring, a popular shipping service in the Nordic area.
 
 **Requirements**
 
@@ -14,7 +14,7 @@ description: J2Commerce (formerly known as J2Store)
 
 **Installation**
 
-1. Use Joomla installer to install the plugin.
+1. Use Joomla! installer to install the plugin.
 2. At the backend, go to Extension -> Plugin Manager and open the Bring Shipping for J2Store (type=j2store).
 3. Enable plugin.
 4. Enter Plugin Params
