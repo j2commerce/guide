@@ -1,6 +1,8 @@
+![status: archived](https://img.shields.io/badge/status-archived-lightgrey)
+
 **THIS REPOSITORY IS NO LONGER IN USE.**
 
-PLEASE USE THE **DOCUMENTATION** REPOSITORY INSTEAD
+PLEASE USE THE [DOCUMENTATION](https://github.com/j2commerce/documentation) REPOSITORY INSTEAD
 
 ---
 description: J2Commerce (formerly known as J2Store)
