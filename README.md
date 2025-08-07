@@ -1,7 +1,6 @@
-:::danger
-REPOSITORY NO LONGER IN USE.
+**THIS REPOSITORY IS NO LONGER IN USE.**
+
 PLEASE USE THE **DOCUMENTATION** REPOSITORY INSTEAD
-:::
 
 ---
 description: J2Commerce (formerly known as J2Store)
