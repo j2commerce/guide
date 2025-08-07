@@ -1,7 +1,5 @@
 ---
-description: >-
-  How to customize product views when using Joomla article short codes with
-  J2Commerce (formerly known as J2Store).
+description: J2Commerce (formerly known as J2Store)
 ---
 
 # Customizing Article Short Codes
@@ -10,9 +8,7 @@ If you are using the Joomla article category views in your project and wish to h
 
 TAKE A FULL SITE BACKUP BEFORE THESE STEPS TO AVOID ISSUES!
 
-**Front End View**
-
-
+#### Front End View
 
 Create Layout Override Folder
 
@@ -20,19 +16,21 @@ Create Layout Override Folder
 templates/<template>/html/com_j2store/product
 ```
 
-Copy Files From:
+&#x20;Copy Files From:&#x20;
 
 ```
 components/com_j2store/views/product/tmpl
 ```
 
-To
+&#x20;To&#x20;
 
 ```
 templates/<template>/html/com_j2store/product
 ```
 
+
 **Example:** If you wish to have downloadable products display product options (after following the [Add Options to Downloadable Products](to-add-options-to-downloadable-products.md) instructions):
+
 
 ```
 templates/<template>/html/com_j2store/product/item_downloadable.php
@@ -40,11 +38,13 @@ templates/<template>/html/com_j2store/product/item_downloadable.php
 
 **Find the line shown below:**
 
+
 ```php
 <?php echo $this->loadTemplate('cart'); ?>
 ```
 
 **BEFORE that line, insert a new line and with the following:**
+
 
 ```php
 <?php if($this->product->has_options): ?>
@@ -53,6 +53,7 @@ templates/<template>/html/com_j2store/product/item_downloadable.php
 ```
 
 **Final Result:**
+
 
 ```php
 <?php if($this->product->has_options): ?>
@@ -63,11 +64,12 @@ templates/<template>/html/com_j2store/product/item_downloadable.php
 
 **Save File:**
 
-```
 
+```
 templates/<template>/html/com_j2store/product/item_downloadable.php
 ```
 
 If you now look at a Downloadable Product displayed using a Short Code, you should see any options set for that product in the display.
 
-Now the downloadable products should display any options that were added to the product in the frontend Short Code display.
+
+Now the downloadable products should display any options that were added in the frontend Short Code display.
